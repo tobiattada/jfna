@@ -70,6 +70,7 @@ header.page-header {
   line-height: 44px;
   letter-spacing: 0%;
   text-align: center;
+  color: #1E3EAF;
 }
 @media (min-width: 1024px) {
   * h1, .component-class-richtext .rich-text h1, .component-container h1, .container.promo-text h1 {
@@ -111,6 +112,7 @@ header.page-header {
   /* 24px */
   letter-spacing: 0%;
   text-align: center;
+  color: #1E3EAF;
 }
 * h3.hebrew, .component-class-richtext .rich-text h3.hebrew, .component-container h3.hebrew, .container.promo-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -190,12 +192,17 @@ header.page-header {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
+  color: #2A2A2A;
 }
 @media (min-width: 1024px) {
   * p, .component-class-richtext .rich-text p, .component-container p, .container.promo-text p {
     font-size: 18px;
     line-height: 27px;
   }
+}
+* p strong, * p em, * p b, .component-class-richtext .rich-text p strong, .component-class-richtext .rich-text p em, .component-class-richtext .rich-text p b, .component-container p strong, .component-container p em, .component-container p b, .container.promo-text p strong, .container.promo-text p em, .container.promo-text p b {
+  font-weight: 400;
+  color: #1E3EAF;
 }
 * p.hebrew, .component-class-richtext .rich-text p.hebrew, .component-container p.hebrew, .container.promo-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -218,26 +225,6 @@ header.page-header {
   }
 }
 * .caption.hebrew, .component-class-richtext .rich-text .caption.hebrew, .component-container .caption.hebrew, .container.promo-text .caption.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-* p strong, * p em, .component-class-richtext .rich-text p strong, .component-class-richtext .rich-text p em, .component-container p strong, .component-container p em, .container.promo-text p strong, .container.promo-text p em {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  color: #2A2A2A;
-}
-@media (min-width: 1024px) {
-  * p strong, * p em, .component-class-richtext .rich-text p strong, .component-class-richtext .rich-text p em, .component-container p strong, .component-container p em, .container.promo-text p strong, .container.promo-text p em {
-    font-size: 18px;
-    line-height: 27px;
-  }
-}
-* p strong.hebrew, * p em.hebrew, .component-class-richtext .rich-text p strong.hebrew, .component-class-richtext .rich-text p em.hebrew, .component-container p strong.hebrew, .component-container p em.hebrew, .container.promo-text p strong.hebrew, .container.promo-text p em.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -3065,6 +3052,10 @@ div.timeline > div > div img {
 }
 .component-feature.dynamic .home-boxes .box div.image img {
   object-fit: cover;
+}
+.component-feature.dynamic .home-boxes .box .body-item .body {
+  padding: 0px;
+  margin-top: 20px;
 }
 
 div#fed-finder-wrap {
