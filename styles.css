@@ -2786,25 +2786,6 @@ div.timeline > div > div img {
   padding: 0px;
 }
 
-.feature-posts {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .feature-posts {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .feature-posts {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .feature-posts {
-    padding: 50px 60px;
-  }
-}
 .feature-posts .home-boxes {
   display: flex;
   gap: 20px;
