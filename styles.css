@@ -342,11 +342,12 @@ h5.section-header-right {
   margin-left: auto;
 }
 
-.make-a-difference h4.section-header {
+.make-a-difference h4.section-header, .make-a-difference h4.section-header-diff {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
   border-bottom: 6px solid #1c88ed;
+  margin-left: 0;
 }
 
 .bg-navy-blue h4.section-header {
