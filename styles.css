@@ -342,7 +342,7 @@ h5.section-header-right {
   margin-left: auto;
 }
 
-.make-a-difference h4.section-header, .make-a-difference h4.section-header-diff {
+.make-a-difference h4.section-header, h4.section-header-diff {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
