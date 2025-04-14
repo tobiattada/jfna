@@ -2786,6 +2786,25 @@ div.timeline > div > div img {
   padding: 0px;
 }
 
+.feature-posts {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .feature-posts {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .feature-posts {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .feature-posts {
+    padding: 50px 60px;
+  }
+}
 .feature-posts .home-boxes {
   display: flex;
   gap: 20px;
@@ -2796,6 +2815,10 @@ div.timeline > div > div img {
   border: 1px solid #F5F5F5;
   background: white;
   padding: 20px;
+}
+.feature-posts .home-boxes .box .body {
+  padding: 0px;
+  padding-top: 2px;
 }
 .feature-posts .home-boxes .box .image img {
   height: 250px;
@@ -2810,6 +2833,7 @@ div.timeline > div > div img {
   line-height: 26px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-transform: none;
 }
 @media (min-width: 1024px) {
   .feature-posts .home-boxes .box h4.title, .feature-posts .home-boxes .box h4.title a {
