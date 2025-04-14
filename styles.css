@@ -3066,7 +3066,7 @@ div.timeline > div > div img {
   padding: 0px;
   margin-top: 20px;
 }
-.component-feature.dynamic .home-boxes .box .body-item .body h4.title a {
+.component-feature.dynamic .home-boxes .box .body-item .body .title-container h4.title, .component-feature.dynamic .home-boxes .box .body-item .body .title-container h4.title a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -3075,12 +3075,12 @@ div.timeline > div > div img {
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  .component-feature.dynamic .home-boxes .box .body-item .body h4.title a {
+  .component-feature.dynamic .home-boxes .box .body-item .body .title-container h4.title, .component-feature.dynamic .home-boxes .box .body-item .body .title-container h4.title a {
     font-size: 20px;
     line-height: 26px;
   }
 }
-.component-feature.dynamic .home-boxes .box .body-item .body h4.title a.hebrew {
+.component-feature.dynamic .home-boxes .box .body-item .body .title-container h4.title.hebrew, .component-feature.dynamic .home-boxes .box .body-item .body .title-container h4.title a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
