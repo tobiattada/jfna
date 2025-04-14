@@ -2833,7 +2833,7 @@ div.timeline > div > div img {
   line-height: 26px;
   letter-spacing: 0%;
   color: #1E3EAF;
-  text-transform: none;
+  text-transform: none !important;
 }
 @media (min-width: 1024px) {
   .feature-posts .home-boxes .box h4.title, .feature-posts .home-boxes .box h4.title a {
