@@ -2068,7 +2068,7 @@ div.timeline > div > div img {
 @media (min-width: 1024px) {
   .features-4-up .row {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
   }
 }
 
@@ -2102,7 +2102,7 @@ div.timeline > div > div img {
 @media (min-width: 1024px) {
   .features-3-up .row {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
   }
 }
 
@@ -2136,7 +2136,7 @@ div.timeline > div > div img {
 @media (min-width: 1024px) {
   .features-2-up .row {
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
   }
 }
 
