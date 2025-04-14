@@ -3036,6 +3036,37 @@ div.timeline > div > div img {
   line-height: 150%;
 }
 
+.component-class-featuredynamic .component-feature.dynamic {
+  height: 100%;
+}
+.component-class-featuredynamic .component-feature.dynamic .home-boxes {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.component-class-featuredynamic .component-feature.dynamic .home-boxes .box {
+  flex: 1;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 24px;
+  border: 1px solid #F5F5F5;
+  background-color: white;
+}
+.component-class-featuredynamic .component-feature.dynamic .home-boxes .box div.image {
+  height: 250px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.component-class-featuredynamic .component-feature.dynamic .home-boxes .box div.image img {
+  object-fit: cover;
+}
+
 div#fed-finder-wrap {
   display: flex;
 }
