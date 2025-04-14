@@ -3036,10 +3036,10 @@ div.timeline > div > div img {
   line-height: 150%;
 }
 
-.component-class-featuredynamic .component-feature.dynamic {
+.component-feature.dynamic {
   height: 100%;
 }
-.component-class-featuredynamic .component-feature.dynamic .home-boxes {
+.component-feature.dynamic .home-boxes {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -3048,7 +3048,7 @@ div.timeline > div > div img {
   flex-direction: row;
   gap: 20px;
 }
-.component-class-featuredynamic .component-feature.dynamic .home-boxes .box {
+.component-feature.dynamic .home-boxes .box {
   flex: 1;
   margin: 0px;
   width: 100%;
@@ -3058,12 +3058,12 @@ div.timeline > div > div img {
   border: 1px solid #F5F5F5;
   background-color: white;
 }
-.component-class-featuredynamic .component-feature.dynamic .home-boxes .box div.image {
+.component-feature.dynamic .home-boxes .box div.image {
   height: 250px;
   border-radius: 24px;
   overflow: hidden;
 }
-.component-class-featuredynamic .component-feature.dynamic .home-boxes .box div.image img {
+.component-feature.dynamic .home-boxes .box div.image img {
   object-fit: cover;
 }
 
