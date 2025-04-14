@@ -2805,48 +2805,48 @@ div.timeline > div > div img {
     padding: 50px 60px;
   }
 }
-.feature-posts .home-boxes {
+.feature-posts .component-feature .home-boxes {
   display: flex;
   gap: 20px;
 }
-.feature-posts .home-boxes .box {
+.feature-posts .component-feature .home-boxes .box {
   flex: 1;
   border-radius: 24px;
   border: 1px solid #F5F5F5;
   background: white;
   padding: 20px;
 }
-.feature-posts .home-boxes .box .image img {
+.feature-posts .component-feature .home-boxes .box .image img {
   height: 250px;
   border-radius: 24px;
   overflow: hidden;
   object-fit: cover;
 }
-.feature-posts .home-boxes .box .body-item .body {
-  padding: 0px;
+.feature-posts .component-feature .home-boxes .box .body-item .body {
+  padding: 0px !important;
   margin-top: 20px;
 }
-.feature-posts .home-boxes .box .body-item .body .title-container h4.title, .feature-posts .home-boxes .box .body-item .body .title-container h4.title a {
+.feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title, .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title a {
   font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 130%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
   letter-spacing: 0%;
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  .feature-posts .home-boxes .box .body-item .body .title-container h4.title, .feature-posts .home-boxes .box .body-item .body .title-container h4.title a {
-    font-size: 20px;
-    line-height: 26px;
+  .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title, .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title a {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
-.feature-posts .home-boxes .box .body-item .body .title-container h4.title.hebrew, .feature-posts .home-boxes .box .body-item .body .title-container h4.title a.hebrew {
+.feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title.hebrew, .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.feature-posts .home-boxes .box .body-item .body .text p {
+.feature-posts .component-feature .home-boxes .box .body-item .body .text p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2855,16 +2855,16 @@ div.timeline > div > div img {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  .feature-posts .home-boxes .box .body-item .body .text p {
+  .feature-posts .component-feature .home-boxes .box .body-item .body .text p {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.feature-posts .home-boxes .box .body-item .body .text p strong, .feature-posts .home-boxes .box .body-item .body .text p em, .feature-posts .home-boxes .box .body-item .body .text p b {
+.feature-posts .component-feature .home-boxes .box .body-item .body .text p strong, .feature-posts .component-feature .home-boxes .box .body-item .body .text p em, .feature-posts .component-feature .home-boxes .box .body-item .body .text p b {
   font-weight: 400;
   color: #1E3EAF;
 }
-.feature-posts .home-boxes .box .body-item .body .text p.hebrew {
+.feature-posts .component-feature .home-boxes .box .body-item .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
