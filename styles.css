@@ -63,7 +63,7 @@ header.page-header {
   margin-top: 0px;
 }
 
-* h1, .component-class-richtext .rich-text h1, .component-container h1, .container.promo-text h1 {
+h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -73,18 +73,19 @@ header.page-header {
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  * h1, .component-class-richtext .rich-text h1, .component-container h1, .container.promo-text h1 {
+  h1 {
     font-size: 70px;
     line-height: 91px;
   }
 }
-* h1.hebrew, .component-class-richtext .rich-text h1.hebrew, .component-container h1.hebrew, .container.promo-text h1.hebrew {
+h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* h2, .component-class-richtext .rich-text h2, .component-container h2, .container.promo-text h2 {
+
+h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -93,18 +94,19 @@ header.page-header {
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  * h2, .component-class-richtext .rich-text h2, .component-container h2, .container.promo-text h2 {
+  h2 {
     font-size: 60px;
     line-height: 78px;
   }
 }
-* h2.hebrew, .component-class-richtext .rich-text h2.hebrew, .component-container h2.hebrew, .container.promo-text h2.hebrew {
+h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* h3, .component-class-richtext .rich-text h3, .component-container h3, .container.promo-text h3 {
+
+h3 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -114,19 +116,20 @@ header.page-header {
   text-align: center;
   color: #1E3EAF;
 }
-* h3.hebrew, .component-class-richtext .rich-text h3.hebrew, .component-container h3.hebrew, .container.promo-text h3.hebrew {
+h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
 @media (min-width: 1024px) {
-  * h3, .component-class-richtext .rich-text h3, .component-container h3, .container.promo-text h3 {
+  h3 {
     font-size: 45px;
     line-height: 58.5px;
   }
 }
-* h4, .component-class-richtext .rich-text h4, .component-container h4, .container.promo-text h4 {
+
+h4 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 22px;
@@ -135,18 +138,19 @@ header.page-header {
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  * h4, .component-class-richtext .rich-text h4, .component-container h4, .container.promo-text h4 {
+  h4 {
     font-size: 32px;
     line-height: 42px;
   }
 }
-* h4.hebrew, .component-class-richtext .rich-text h4.hebrew, .component-container h4.hebrew, .container.promo-text h4.hebrew {
+h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* h5, .component-class-richtext .rich-text h5, .component-container h5, .container.promo-text h5 {
+
+h5 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -155,18 +159,19 @@ header.page-header {
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  * h5, .component-class-richtext .rich-text h5, .component-container h5, .container.promo-text h5 {
+  h5 {
     font-size: 24px;
     line-height: 32px;
   }
 }
-* h5.hebrew, .component-class-richtext .rich-text h5.hebrew, .component-container h5.hebrew, .container.promo-text h5.hebrew {
+h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* h6, .component-class-richtext .rich-text h6, .component-container h6, .container.promo-text h6 {
+
+h6 {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -175,18 +180,19 @@ header.page-header {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  * h6, .component-class-richtext .rich-text h6, .component-container h6, .container.promo-text h6 {
+  h6 {
     font-size: 20px;
     line-height: 26px;
   }
 }
-* h6.hebrew, .component-class-richtext .rich-text h6.hebrew, .component-container h6.hebrew, .container.promo-text h6.hebrew {
+h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* p, .component-class-richtext .rich-text p, .component-container p, .container.promo-text p {
+
+p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -195,22 +201,23 @@ header.page-header {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  * p, .component-class-richtext .rich-text p, .component-container p, .container.promo-text p {
+  p {
     font-size: 18px;
     line-height: 27px;
   }
 }
-* p strong, * p em, * p b, .component-class-richtext .rich-text p strong, .component-class-richtext .rich-text p em, .component-class-richtext .rich-text p b, .component-container p strong, .component-container p em, .component-container p b, .container.promo-text p strong, .container.promo-text p em, .container.promo-text p b {
+p strong, p em, p b {
   font-weight: 400;
   color: #1E3EAF;
 }
-* p.hebrew, .component-class-richtext .rich-text p.hebrew, .component-container p.hebrew, .container.promo-text p.hebrew {
+p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* .caption, .component-class-richtext .rich-text .caption, .component-container .caption, .container.promo-text .caption {
+
+.caption {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -219,22 +226,23 @@ header.page-header {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  * .caption, .component-class-richtext .rich-text .caption, .component-container .caption, .container.promo-text .caption {
+  .caption {
     font-size: 15px;
     line-height: 19px;
   }
 }
-* .caption.hebrew, .component-class-richtext .rich-text .caption.hebrew, .component-container .caption.hebrew, .container.promo-text .caption.hebrew {
+.caption.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* a.button, .component-class-richtext .rich-text a.button, .component-container a.button, .container.promo-text a.button {
+
+a.button {
   padding: 12px 24px;
   border-radius: 30px;
 }
-* a.button span, .component-class-richtext .rich-text a.button span, .component-container a.button span, .container.promo-text a.button span {
+a.button span {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -242,23 +250,24 @@ header.page-header {
   letter-spacing: 0%;
   text-align: center;
 }
-* a.button.hebrew, .component-class-richtext .rich-text a.button.hebrew, .component-container a.button.hebrew, .container.promo-text a.button.hebrew {
+a.button.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-* p a, .component-class-richtext .rich-text p a, .component-container p a, .container.promo-text p a {
+
+p a {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0%;
 }
-* p a:hover, .component-class-richtext .rich-text p a:hover, .component-container p a:hover, .container.promo-text p a:hover {
+p a:hover {
   text-decoration: none;
 }
-* p a.hebrew, .component-class-richtext .rich-text p a.hebrew, .component-container p a.hebrew, .container.promo-text p a.hebrew {
+p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -3056,6 +3065,50 @@ div.timeline > div > div img {
 .component-feature.dynamic .home-boxes .box .body-item .body {
   padding: 0px;
   margin-top: 20px;
+}
+.component-feature.dynamic .home-boxes .box .body-item .body h4.title a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .component-feature.dynamic .home-boxes .box .body-item .body h4.title a {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.component-feature.dynamic .home-boxes .box .body-item .body h4.title a.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.component-feature.dynamic .home-boxes .box .body-item .body .text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .component-feature.dynamic .home-boxes .box .body-item .body .text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.component-feature.dynamic .home-boxes .box .body-item .body .text p strong, .component-feature.dynamic .home-boxes .box .body-item .body .text p em, .component-feature.dynamic .home-boxes .box .body-item .body .text p b {
+  font-weight: 400;
+  color: #1E3EAF;
+}
+.component-feature.dynamic .home-boxes .box .body-item .body .text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 
 div#fed-finder-wrap {
