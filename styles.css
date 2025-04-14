@@ -2805,28 +2805,24 @@ div.timeline > div > div img {
     padding: 50px 60px;
   }
 }
-.feature-posts .component-feature .home-boxes {
+.feature-posts .home-boxes {
   display: flex;
   gap: 20px;
 }
-.feature-posts .component-feature .home-boxes .box {
+.feature-posts .home-boxes .box {
   flex: 1;
   border-radius: 24px;
   border: 1px solid #F5F5F5;
   background: white;
   padding: 20px;
 }
-.feature-posts .component-feature .home-boxes .box .image img {
+.feature-posts .home-boxes .box .image img {
   height: 250px;
   border-radius: 24px;
   overflow: hidden;
   object-fit: cover;
 }
-.feature-posts .component-feature .home-boxes .box .body-item .body {
-  padding: 0px !important;
-  margin-top: 20px;
-}
-.feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title, .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title a {
+.feature-posts .home-boxes .box h4.title, .feature-posts .home-boxes .box h4.title a {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -2835,18 +2831,18 @@ div.timeline > div > div img {
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title, .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title a {
+  .feature-posts .home-boxes .box h4.title, .feature-posts .home-boxes .box h4.title a {
     font-size: 24px;
     line-height: 32px;
   }
 }
-.feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title.hebrew, .feature-posts .component-feature .home-boxes .box .body-item .body .title-container h4.title a.hebrew {
+.feature-posts .home-boxes .box h4.title.hebrew, .feature-posts .home-boxes .box h4.title a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.feature-posts .component-feature .home-boxes .box .body-item .body .text p {
+.feature-posts .home-boxes .box p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2855,16 +2851,41 @@ div.timeline > div > div img {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  .feature-posts .component-feature .home-boxes .box .body-item .body .text p {
+  .feature-posts .home-boxes .box p {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.feature-posts .component-feature .home-boxes .box .body-item .body .text p strong, .feature-posts .component-feature .home-boxes .box .body-item .body .text p em, .feature-posts .component-feature .home-boxes .box .body-item .body .text p b {
+.feature-posts .home-boxes .box p strong, .feature-posts .home-boxes .box p em, .feature-posts .home-boxes .box p b {
   font-weight: 400;
   color: #1E3EAF;
 }
-.feature-posts .component-feature .home-boxes .box .body-item .body .text p.hebrew {
+.feature-posts .home-boxes .box p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
+.component-feature .box .body .text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .component-feature .box .body .text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.component-feature .box .body .text p strong, .component-feature .box .body .text p em, .component-feature .box .body .text p b {
+  font-weight: 400;
+  color: #1E3EAF;
+}
+.component-feature .box .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
