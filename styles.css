@@ -2811,6 +2811,12 @@ div.timeline > div > div img {
 .feature-posts .home-boxes {
   display: flex;
   gap: 20px;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .feature-posts .home-boxes {
+    flex-direction: row;
+  }
 }
 .feature-posts .home-boxes .box {
   flex: 1;
