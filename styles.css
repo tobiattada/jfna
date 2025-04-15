@@ -2900,7 +2900,7 @@ div.timeline > div > div img {
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
-  color: #27277C;
+  color: #F5F5F5;
   text-transform: none !important;
 }
 @media (min-width: 1024px) {
@@ -2921,7 +2921,7 @@ div.timeline > div > div img {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #2A2A2A;
+  color: #F5F5F5;
 }
 @media (min-width: 1024px) {
   .bg-navy-blue.feature-posts .home-boxes .box p {
