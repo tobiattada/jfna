@@ -2720,6 +2720,9 @@ div.timeline > div > div img {
   grid-area: rightfeature;
 }
 
+.view-more-bar {
+  padding-bottom: 0px !important;
+}
 .view-more-bar .row {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -2781,6 +2784,9 @@ div.timeline > div > div img {
 .view-more-bar .row .col-12 .component-button .button.btn-black span {
   padding: 0px;
 }
+.view-more-bar.bg-light {
+  padding-bottom: 0px !important;
+}
 .view-more-bar.bg-light .row {
   padding: 0px;
 }
@@ -2821,7 +2827,7 @@ div.timeline > div > div img {
 .feature-posts .home-boxes .box {
   flex: 1;
   border-radius: 24px;
-  border: 1px solid #F5F5F5;
+  border: 1px solid #c9c9c9;
   background: white;
   padding: 20px;
 }
