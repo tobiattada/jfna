@@ -2787,6 +2787,10 @@ div.timeline > div > div img {
   padding: 0px;
 }
 
+.col-12 .component-feature.-alignment-side-by-side .box {
+  margin-left: 0px;
+}
+
 .feature-posts {
   box-sizing: border-box;
   padding: 30px 20px;
