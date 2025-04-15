@@ -5197,6 +5197,26 @@ ul.stats-main li p.hebrew {
   padding: 0 20px;
 }
 
+.basic-header .row-has-richtext {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .basic-header .row-has-richtext {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic-header .row-has-richtext {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic-header .row-has-richtext {
+    padding: 50px 60px;
+  }
+}
+
 div#fed-finder-wrap {
   display: flex;
 }
