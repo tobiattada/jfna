@@ -3256,22 +3256,22 @@ div.timeline > div > div img {
   width: 100%;
 }
 
-.bg-navy-blue.feature-posts .home-boxes {
+.bg-navy-blue.feature-posts .component-feature .home-boxes {
   display: flex;
   gap: 20px;
 }
-.bg-navy-blue.feature-posts .home-boxes .box {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box {
   flex: 1;
   border-radius: 24px;
   border: 0px solid #F5F5F5;
   background: #27277C;
   padding: 20px;
 }
-.bg-navy-blue.feature-posts .home-boxes .box .body {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body {
   padding: 0px;
   padding-top: 2px;
 }
-.bg-navy-blue.feature-posts .home-boxes .box .body h4.title, .bg-navy-blue.feature-posts .home-boxes .box .body h4.title a {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title a {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -3281,18 +3281,18 @@ div.timeline > div > div img {
   text-transform: none !important;
 }
 @media (min-width: 1024px) {
-  .bg-navy-blue.feature-posts .home-boxes .box .body h4.title, .bg-navy-blue.feature-posts .home-boxes .box .body h4.title a {
+  .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title a {
     font-size: 24px;
     line-height: 32px;
   }
 }
-.bg-navy-blue.feature-posts .home-boxes .box .body h4.title.hebrew, .bg-navy-blue.feature-posts .home-boxes .box .body h4.title a.hebrew {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title.hebrew, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.bg-navy-blue.feature-posts .home-boxes .box .body .text p {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -3301,22 +3301,22 @@ div.timeline > div > div img {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .bg-navy-blue.feature-posts .home-boxes .box .body .text p {
+  .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.bg-navy-blue.feature-posts .home-boxes .box .body .text p strong, .bg-navy-blue.feature-posts .home-boxes .box .body .text p em, .bg-navy-blue.feature-posts .home-boxes .box .body .text p b {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p b {
   font-weight: 400;
   color: #F5F5F5;
 }
-.bg-navy-blue.feature-posts .home-boxes .box .body .text p.hebrew {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.bg-navy-blue.feature-posts .home-boxes .box .image img {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .image img {
   height: 250px;
   border-radius: 24px;
   overflow: hidden;
