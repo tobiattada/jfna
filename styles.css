@@ -807,20 +807,18 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     display: flex;
   }
 }
-.row-has-promo .item-count-1 .component-class-promo {
+#home-hero .row-has-promo .item-count-1 .component-class-promo {
   height: 50vh;
 }
 @media (min-width: 1024px) {
-  .row-has-promo .item-count-1 .component-class-promo {
+  #home-hero .row-has-promo .item-count-1 .component-class-promo {
     height: 100%;
   }
 }
-
-.component-promo:not(.btn-anchored).overlay-horizontal-position-middle.overlay-vertical-position-middle .bg-type-image {
+#home-hero .component-promo:not(.btn-anchored).overlay-horizontal-position-middle.overlay-vertical-position-middle .bg-type-image {
   top: 40%;
 }
-
-.component-promo .mobile-image {
+#home-hero .component-promo .mobile-image {
   height: 100%;
   width: auto;
 }
