@@ -2624,7 +2624,7 @@ div.timeline > div > div img {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  height: 100%;
+  height: 300px;
 }
 .component-class-featuremanual .home-boxes::after {
   content: "";
