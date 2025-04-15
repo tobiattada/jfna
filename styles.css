@@ -3180,7 +3180,7 @@ div.timeline > div > div img {
     text-align: left;
     color: #F5F5F5;
   }
-  .component-class-code .inspo-block.reverse s .image-side {
+  .component-class-code .inspo-block.reverse .image-side {
     margin: 0 -15% 0 60px;
     z-index: 2;
   }
