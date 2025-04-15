@@ -1461,6 +1461,7 @@ div.timeline > div > div img {
   box-sizing: border-box;
   padding: 30px 20px;
   padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 @media (min-width: 768px) {
   .our-focus-item .row {
