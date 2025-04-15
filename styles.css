@@ -5671,6 +5671,23 @@ ul.stats-main li p.hebrew {
     max-width: 77%;
   }
 }
+.basic ul.stats-wide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  list-style: none;
+}
+div.two-videos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  div.two-videos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 div#fed-finder-wrap {
   display: flex;
 }
