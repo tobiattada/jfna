@@ -5680,7 +5680,7 @@ ul.stats-main li p.hebrew {
 div.two-videos {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 30px;
 }
 @media (min-width: 768px) {
   div.two-videos {
