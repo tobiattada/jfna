@@ -3039,6 +3039,63 @@ div.timeline > div > div img {
   direction: rtl;
 }
 
+.feature-cards {
+  padding-top: 0px;
+}
+.feature-cards .col-12 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 1024px) {
+  .feature-cards .col-12 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.feature-cards .col-12 .rich-text {
+  flex: 1;
+  border-radius: 24px;
+  border: 1px solid #c9c9c9;
+  background: white;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.feature-cards .col-12 .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .feature-cards .col-12 .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.feature-cards .col-12 .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.feature-cards .col-12 .rich-text figure:first-child {
+  height: 220px;
+  max-height: 220px;
+  border-radius: 24px;
+  overflow: hidden;
+  width: 100%;
+  max-width: none;
+}
+.feature-cards .col-12 .rich-text figure:first-child img {
+  object-fit: cover;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+}
+
 .bg-navy-blue.feature-posts .home-boxes {
   display: flex;
   gap: 20px;
@@ -3100,6 +3157,72 @@ div.timeline > div > div img {
   color: #F5F5F5;
 }
 .bg-navy-blue.feature-posts .home-boxes .box p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
+.feature-posts .row {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .feature-posts .row {
+    flex-direction: row;
+  }
+}
+.feature-posts .row .col-4 {
+  flex: 1;
+}
+.feature-posts .row .col-4 .component-image img {
+  height: 250px;
+  border-radius: 24px;
+  overflow: hidden;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.feature-posts .row .col-4 h5, .feature-posts .row .col-4 h5 a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+  text-transform: none !important;
+}
+@media (min-width: 1024px) {
+  .feature-posts .row .col-4 h5, .feature-posts .row .col-4 h5 a {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.feature-posts .row .col-4 h5.hebrew, .feature-posts .row .col-4 h5 a.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.feature-posts .row .col-4 p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .feature-posts .row .col-4 p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.feature-posts .row .col-4 p strong, .feature-posts .row .col-4 p em, .feature-posts .row .col-4 p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.feature-posts .row .col-4 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
