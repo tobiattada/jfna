@@ -5217,6 +5217,460 @@ ul.stats-main li p.hebrew {
   }
 }
 
+.basic {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .basic {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic {
+    padding: 50px 60px;
+  }
+}
+.basic.gray-card {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .basic.gray-card {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.gray-card {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.gray-card {
+    padding: 50px 60px;
+  }
+}
+.basic.gray-card .row {
+  box-shadow: 0px 6px 20px 5px #0000000f;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 24px;
+  box-sizing: border-box;
+  background: #FDFDFD;
+  width: auto;
+}
+.basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+.basic.gray-card .row .rich-text * {
+  color: #1E3EAF;
+}
+.basic.gray-card.overlap .row {
+  margin-top: -120px;
+}
+.basic.gray-card .row {
+  box-shadow: none;
+}
+.basic.gray-card .row .rich-text {
+  margin-bottom: 0px;
+}
+.basic.light-card {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .basic.light-card {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.light-card {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.light-card {
+    padding: 50px 60px;
+  }
+}
+.basic.light-card .row {
+  box-shadow: 0px 6px 20px 5px #0000000f;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 24px;
+  box-sizing: border-box;
+  background: #F5F5F5;
+  width: auto;
+}
+.basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+.basic.light-card.overlap .row {
+  margin-top: -120px;
+}
+.basic.light-card .row {
+  box-shadow: none;
+}
+.basic.light-card .row .rich-text {
+  margin-bottom: 0px;
+}
+.basic p.large {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+.basic p.large strong, .basic p.large em, .basic p.large b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic p.large {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic p.large.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+.basic .row {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .basic .row {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic .row {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic .row {
+    padding: 50px 60px;
+  }
+}
+.basic .row .col-1, .basic .row .col-6, .basic .row .col-12 {
+  width: 100%;
+}
+.basic .row .col-6 {
+  padding-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .basic .row {
+    flex-direction: row;
+  }
+  .basic .row .col-6:first-child {
+    padding-right: 60px;
+  }
+  .basic .row .col-6:last-child {
+    padding-right: 60px;
+  }
+}
+.basic .component-image {
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+.basic .component-image .has-ratio-image {
+  border-radius: 24px;
+}
+.basic .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.basic .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.basic .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.basic .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.basic .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.basic .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.basic .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.basic .rich-text p strong, .basic .rich-text p em, .basic .rich-text p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.basic .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text p.large {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+.basic .rich-text p.large strong, .basic .rich-text p.large em, .basic .rich-text p.large b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text p.large {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic .rich-text p.large.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+.basic.gray-card .row .component-icon-row {
+  padding: 0px !important;
+}
+.basic.gray-card .row .component-icon-row .flex-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 20px;
+}
+@media (min-width: 1024px) {
+  .basic.gray-card .row .component-icon-row .flex-container {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+.basic.gray-card .row .component-icon-row .icon-row-item {
+  padding: 0px;
+  background: #F5F5F5;
+  padding: 25px 16px;
+  border-radius: 24px;
+  flex: 1;
+}
+@media (min-width: 1024px) {
+  .basic.gray-card .row .component-icon-row .icon-row-item {
+    padding: 25px 16px;
+  }
+}
+.basic.gray-card .row .component-icon-row .icon-row-item .text * {
+  text-align: left;
+}
+.basic.gray-card .row .component-icon-row .icon-row-item .text i {
+  color: #27277C;
+  position: relative;
+}
+.basic.gray-card .row .component-icon-row .icon-row-item .text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic.gray-card .row .component-icon-row .icon-row-item .text h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.basic.gray-card .row .component-icon-row .icon-row-item .text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.gray-card .row .component-icon-row .icon-row-item .text p {
+  color: #2A2A2A;
+  font-weight: 300;
+}
+@media (min-width: 1024px) {
+  .basic.gray-card .row .component-icon-row .icon-row-item .text {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rich-text p.align-center, .rich-text h4.align-center, .rich-text h5.align-center, .rich-text h6.align-center {
+    max-width: 82%;
+  }
+}
+@media (min-width: 1300px) {
+  .rich-text p.align-center, .rich-text h4.align-center, .rich-text h5.align-center, .rich-text h6.align-center {
+    max-width: 77%;
+  }
+}
 div#fed-finder-wrap {
   display: flex;
 }
