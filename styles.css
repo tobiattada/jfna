@@ -3150,41 +3150,6 @@ div.timeline > div > div img {
     margin: 0 60px 0 -15%;
   }
 }
-.component-class-code .inspo-block.reverse {
-  margin-left: 16px;
-  margin-right: 0px;
-}
-.component-class-code .inspo-block.reverse .text-side {
-  border-radius: 24px 0px 0px 24px;
-  gap: 10px;
-  padding: 20px 20px 90px;
-}
-.component-class-code .inspo-block.reverse .text-side * {
-  text-align: left;
-  color: #F5F5F5;
-}
-.component-class-code .inspo-block.reverse .image-side {
-  z-index: 2;
-  margin: -90px 10px 0px;
-}
-@media (min-width: 1024px) {
-  .component-class-code .inspo-block.reverse {
-    margin: 30px 0;
-  }
-  .component-class-code .inspo-block.reverse .text-side {
-    border-radius: 24px 0px 0px 24px;
-    padding: 0 60px 0 18%;
-    gap: 10px;
-  }
-  .component-class-code .inspo-block.reverse .text-side * {
-    text-align: left;
-    color: #F5F5F5;
-  }
-  .component-class-code .inspo-block.reverse .image-side {
-    margin: 0 -15% 0 60px;
-    z-index: 2;
-  }
-}
 .component-class-code .inspo-block.gray .text-side {
   background-color: #ECECEC;
 }
@@ -3195,6 +3160,42 @@ div.timeline > div > div img {
   color: #2A2A2A;
   font-size: 24px;
   line-height: 150%;
+}
+
+.inspo-block.reverse {
+  margin-left: 16px;
+  margin-right: 0px;
+}
+.inspo-block.reverse .text-side {
+  border-radius: 24px 0px 0px 24px;
+  gap: 10px;
+  padding: 20px 20px 90px;
+}
+.inspo-block.reverse .text-side * {
+  text-align: left;
+  color: #F5F5F5;
+}
+.inspo-block.reverse .image-side {
+  z-index: 2;
+  margin: -90px 10px 0px;
+}
+@media (min-width: 1024px) {
+  .inspo-block.reverse {
+    margin: 30px 0;
+  }
+  .inspo-block.reverse .text-side {
+    border-radius: 24px 0px 0px 24px;
+    padding: 0 60px 0 18%;
+    gap: 10px;
+  }
+  .inspo-block.reverse .text-side * {
+    text-align: left;
+    color: #F5F5F5;
+  }
+  .inspo-block.reverse .image-side {
+    margin: 0 -15% 0 60px;
+    z-index: 2;
+  }
 }
 
 .donor-quote {
@@ -3403,7 +3404,7 @@ div#finder-sidebar .fedfinder-search-form label {
 div#finder-sidebar .finder-message {
   margin-top: auto;
   margin-bottom: auto;
-} 
+}
 div#finder-sidebar ul.finder-results {
   list-style: none;
 }
