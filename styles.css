@@ -208,7 +208,7 @@ p {
 }
 p strong, p em, p b {
   font-weight: 400;
-  color: #1E3EAF;
+  color: #2A2A2A;
 }
 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -703,7 +703,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item a.button p strong, .nav-menu .nav-item a.button p em, .nav-menu .nav-item a.button p b {
   font-weight: 600;
-  color: #1E3EAF;
+  color: #F5F5F5;
 }
 .nav-menu .nav-item a.button p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2902,7 +2902,7 @@ div.timeline > div > div img {
 }
 .feature-posts .home-boxes .box p strong, .feature-posts .home-boxes .box p em, .feature-posts .home-boxes .box p b {
   font-weight: 400;
-  color: #1E3EAF;
+  color: #2A2A2A;
 }
 .feature-posts .home-boxes .box p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2969,7 +2969,7 @@ div.timeline > div > div img {
 }
 .bg-navy-blue.feature-posts .home-boxes .box p strong, .bg-navy-blue.feature-posts .home-boxes .box p em, .bg-navy-blue.feature-posts .home-boxes .box p b {
   font-weight: 400;
-  color: #1E3EAF;
+  color: #F5F5F5;
 }
 .bg-navy-blue.feature-posts .home-boxes .box p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2994,7 +2994,7 @@ div.timeline > div > div img {
 }
 .component-feature .box .body .text p strong, .component-feature .box .body .text p em, .component-feature .box .body .text p b {
   font-weight: 400;
-  color: #1E3EAF;
+  color: #2A2A2A;
 }
 .component-feature .box .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
