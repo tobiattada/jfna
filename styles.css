@@ -360,6 +360,30 @@ p.hebrew {
   text-align: right;
   direction: rtl;
 }
+.rich-text ul li, .rich-text ul li a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .rich-text ul li, .rich-text ul li a {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .rich-text ul li a strong, .rich-text ul li a em, .rich-text ul li a b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.rich-text ul li.hebrew, .rich-text ul li a.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 
 a.button {
   padding: 12px 24px;
@@ -1729,6 +1753,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button, a.button {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1761,6 +1786,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-primary {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1793,6 +1819,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-secondary {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1825,6 +1852,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-primary-outline {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1857,6 +1885,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-white {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1889,6 +1918,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-white-outline {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1921,6 +1951,7 @@ ul.stats-main li p.hebrew {
 }
 
 .component-button .button.btn-blue {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -3569,281 +3600,6 @@ ul.stats-main li p.hebrew {
   }
 }
 
-.basic {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .basic {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic {
-    padding: 50px 60px;
-  }
-}
-.basic.gray-card {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  margin: 0px;
-}
-@media (min-width: 768px) {
-  .basic.gray-card {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.gray-card {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.gray-card {
-    padding: 50px 60px;
-  }
-}
-.basic.gray-card .row {
-  box-shadow: 0px 6px 20px 5px #0000000f;
-  position: relative;
-  margin: 0 auto;
-  border-radius: 24px;
-  box-sizing: border-box;
-  background: #FDFDFD;
-  width: auto;
-}
-.basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-.basic.gray-card .row .rich-text * {
-  color: #1E3EAF;
-}
-.basic.gray-card.overlap .row {
-  margin-top: -120px;
-}
-.basic.gray-card .row {
-  box-shadow: none;
-}
-.basic.gray-card .row .rich-text {
-  margin-bottom: 0px;
-}
-.basic.light-card {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  margin: 0px;
-}
-@media (min-width: 768px) {
-  .basic.light-card {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.light-card {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.light-card {
-    padding: 50px 60px;
-  }
-}
-.basic.light-card .row {
-  box-shadow: 0px 6px 20px 5px #0000000f;
-  position: relative;
-  margin: 0 auto;
-  border-radius: 24px;
-  box-sizing: border-box;
-  background: #F5F5F5;
-  width: auto;
-}
-.basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-.basic.light-card.overlap .row {
-  margin-top: -120px;
-}
-.basic.light-card .row {
-  box-shadow: none;
-}
-.basic.light-card .row .rich-text {
-  margin-bottom: 0px;
-}
-.basic p.large {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #2A2A2A;
-}
-.basic p.large strong, .basic p.large em, .basic p.large b {
-  font-weight: 600;
-  color: #1E3EAF;
-}
-@media (min-width: 1024px) {
-  .basic p.large {
-    font-size: 24px;
-    line-height: 150%;
-  }
-}
-.basic p.large.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 400;
-  text-align: right;
-  direction: rtl;
-}
-.basic .row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (min-width: 768px) {
-  .basic .row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
-}
-.basic .row .col-1, .basic .row .col-6, .basic .row .col-12 {
-  width: 100%;
-}
-.basic .row .col-6 {
-  padding-bottom: 20px;
-}
-@media (min-width: 1024px) {
-  .basic .row {
-    flex-direction: row;
-  }
-  .basic .row .col-6:first-child {
-    padding-right: 60px;
-  }
-  .basic .row .col-6:last-child {
-    padding-right: 60px;
-  }
-}
-.basic .component-image {
-  max-height: 400px;
-  overflow: hidden;
-  border-radius: 24px;
-  display: flex;
-  align-items: center;
-}
-.basic .component-image .has-ratio-image {
-  border-radius: 24px;
-}
-.basic.gray-card .row .component-icon-row {
-  padding: 0px !important;
-}
-.basic.gray-card .row .component-icon-row .flex-container {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  padding: 20px;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .flex-container {
-    flex-direction: row;
-    gap: 20px;
-  }
-}
-.basic.gray-card .row .component-icon-row .icon-row-item {
-  padding: 0px;
-  background: #F5F5F5;
-  padding: 25px 16px;
-  border-radius: 24px;
-  flex: 1;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .icon-row-item {
-    padding: 25px 16px;
-  }
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text * {
-  text-align: left;
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text i {
-  color: #27277C;
-  position: relative;
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text h4 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #27277C;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .icon-row-item .text h4 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text h4.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text p {
-  color: #2A2A2A;
-  font-weight: 300;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .icon-row-item .text {
-    gap: 20px;
-  }
-}
-
 @media (min-width: 1024px) {
   .rich-text p.align-center, .rich-text h4.align-center, .rich-text h5.align-center, .rich-text h6.align-center {
     max-width: 82%;
@@ -5389,22 +5145,23 @@ ul.stats-main li p.hebrew {
   }
 }
 
-.basic-header .row-has-richtext {
+.basic-header .rich-text {
   box-sizing: border-box;
   padding: 30px 20px;
+  max-width: 70%;
 }
 @media (min-width: 768px) {
-  .basic-header .row-has-richtext {
+  .basic-header .rich-text {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .basic-header .row-has-richtext {
+  .basic-header .rich-text {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .basic-header .row-has-richtext {
+  .basic-header .rich-text {
     padding: 50px 60px;
   }
 }
@@ -5427,6 +5184,33 @@ ul.stats-main li p.hebrew {
   .basic {
     padding: 50px 60px;
   }
+}
+.basic ul li {
+  margin-bottom: 10px;
+}
+.basic ul li:last-child {
+  margin-bottom: 0px;
+}
+.basic .rich-text h6 {
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h6 {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+.basic .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 .basic.gray-card {
   box-sizing: border-box;
@@ -5488,6 +5272,165 @@ ul.stats-main li p.hebrew {
 .basic.gray-card .row .rich-text {
   margin-bottom: 0px;
 }
+.basic.navy-card {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .basic.navy-card {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.navy-card {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.navy-card {
+    padding: 50px 60px;
+  }
+}
+.basic.navy-card .row {
+  box-shadow: 0px 6px 20px 5px #0000000f;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 24px;
+  box-sizing: border-box;
+  background: #27277C;
+  width: auto;
+}
+.basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+.basic.navy-card.overlap .row {
+  margin-top: -120px;
+}
+.basic.navy-card h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .basic.navy-card h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic.navy-card h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .row {
+  gap: 40px;
+  align-items: stretch;
+}
+.basic.cards .row .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic.cards .row .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic.cards .row .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .row .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.cards .row .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.basic.cards .row .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .col-8 {
+  background: #F5F5F5;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  flex: 2;
+}
+@media (min-width: 768px) {
+  .basic.cards .col-8 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.cards .col-8 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.cards .col-8 {
+    padding: 50px 60px;
+  }
+}
+.basic.cards .col-4 {
+  background: #ECECEC;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .basic.cards .col-4 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.cards .col-4 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.cards .col-4 {
+    padding: 50px 60px;
+  }
+}
 .basic.light-card {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -5545,6 +5488,32 @@ ul.stats-main li p.hebrew {
 .basic.light-card .row .rich-text {
   margin-bottom: 0px;
 }
+.basic.light-card .row .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.basic.light-card .row .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .basic.light-card .row .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.basic.light-card.left-title .col-12 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
 .basic p.large {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -5570,28 +5539,9 @@ ul.stats-main li p.hebrew {
   direction: rtl;
 }
 .basic .row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media (min-width: 768px) {
-  .basic .row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
 }
 .basic .row .col-1, .basic .row .col-6, .basic .row .col-12 {
   width: 100%;
