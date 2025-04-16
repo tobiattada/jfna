@@ -70,6 +70,7 @@ h1 {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   h1 {
@@ -222,6 +223,7 @@ p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .rich-text h1, .page.page-main h1 {
@@ -2178,6 +2180,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-primary-blue .rich-text h1 {
@@ -2344,6 +2347,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-medium-blue .rich-text h1 {
@@ -2510,6 +2514,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-navy-blue .rich-text h1 {
@@ -2676,6 +2681,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-light-blue .rich-text h1 {
@@ -2842,6 +2848,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-light .rich-text h1 {
@@ -3008,6 +3015,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-white .rich-text h1 {
@@ -3174,6 +3182,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-gray .rich-text h1 {
@@ -4458,6 +4467,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .callout .rich-text h1 {
@@ -4736,6 +4746,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .callout.dark .rich-text h1 {
@@ -5641,6 +5652,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .basic.cards .rich-text h1 {
