@@ -215,7 +215,7 @@ p.hebrew {
   direction: rtl;
 }
 
-.rich-text h1 {
+.rich-text h1, .page.page-main h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -224,18 +224,18 @@ p.hebrew {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .rich-text h1 {
+  .rich-text h1, .page.page-main h1 {
     font-size: 70px;
     line-height: 91px;
   }
 }
-.rich-text h1.hebrew {
+.rich-text h1.hebrew, .page.page-main h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.rich-text h2 {
+.rich-text h2, .page.page-main h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -244,18 +244,18 @@ p.hebrew {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .rich-text h2 {
+  .rich-text h2, .page.page-main h2 {
     font-size: 60px;
     line-height: 78px;
   }
 }
-.rich-text h2.hebrew {
+.rich-text h2.hebrew, .page.page-main h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.rich-text h3 {
+.rich-text h3, .page.page-main h3 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -264,19 +264,19 @@ p.hebrew {
   letter-spacing: 0%;
   color: #D2E9FF;
 }
-.rich-text h3.hebrew {
+.rich-text h3.hebrew, .page.page-main h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
 @media (min-width: 1024px) {
-  .rich-text h3 {
+  .rich-text h3, .page.page-main h3 {
     font-size: 45px;
     line-height: 58.5px;
   }
 }
-.rich-text h4 {
+.rich-text h4, .page.page-main h4 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 22px;
@@ -285,18 +285,18 @@ p.hebrew {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .rich-text h4 {
+  .rich-text h4, .page.page-main h4 {
     font-size: 32px;
     line-height: 42px;
   }
 }
-.rich-text h4.hebrew {
+.rich-text h4.hebrew, .page.page-main h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.rich-text h5 {
+.rich-text h5, .page.page-main h5 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -305,18 +305,18 @@ p.hebrew {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .rich-text h5 {
+  .rich-text h5, .page.page-main h5 {
     font-size: 24px;
     line-height: 32px;
   }
 }
-.rich-text h5.hebrew {
+.rich-text h5.hebrew, .page.page-main h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.rich-text h6 {
+.rich-text h6, .page.page-main h6 {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -325,18 +325,18 @@ p.hebrew {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .rich-text h6 {
+  .rich-text h6, .page.page-main h6 {
     font-size: 20px;
     line-height: 26px;
   }
 }
-.rich-text h6.hebrew {
+.rich-text h6.hebrew, .page.page-main h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.rich-text p {
+.rich-text p, .page.page-main p {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -345,22 +345,22 @@ p.hebrew {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .rich-text p {
+  .rich-text p, .page.page-main p {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.rich-text p strong, .rich-text p em, .rich-text p b {
+.rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
   font-weight: 400;
   color: #F5F5F5;
 }
-.rich-text p.hebrew {
+.rich-text p.hebrew, .page.page-main p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-.rich-text ul li, .rich-text ul li a {
+.rich-text ul li, .rich-text ul li a, .page.page-main ul li, .page.page-main ul li a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -369,16 +369,16 @@ p.hebrew {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  .rich-text ul li, .rich-text ul li a {
+  .rich-text ul li, .rich-text ul li a, .page.page-main ul li, .page.page-main ul li a {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .rich-text ul li a strong, .rich-text ul li a em, .rich-text ul li a b {
+.rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .rich-text ul li a strong, .rich-text ul li a em, .rich-text ul li a b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b, .page.page-main ul li a strong, .page.page-main ul li a em, .page.page-main ul li a b {
   font-weight: 400;
   color: #2A2A2A;
 }
-.rich-text ul li.hebrew, .rich-text ul li a.hebrew {
+.rich-text ul li.hebrew, .rich-text ul li a.hebrew, .page.page-main ul li.hebrew, .page.page-main ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
