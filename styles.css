@@ -5891,6 +5891,7 @@ div.two-videos {
 .accordion-widget {
   background: #E9ECF7;
   margin-left: 100px;
+  border-radius: 24px 0 0 24px;
   box-sizing: border-box;
   padding: 30px 20px;
 }
@@ -5931,20 +5932,17 @@ div.two-videos {
 }
 .accordion-widget #acc {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 .accordion-widget #accWrap {
-  max-width: 800px;
+  max-width: auto;
   margin: 1em auto;
 }
 .accordion-widget .accBox {
   width: 100%;
   float: left;
-  font-size: 0.875em;
-  font-weight: 700;
-  padding: 0.875em 0;
-  text-indent: 2.5%;
-  border-top: 1px dotted #ccc;
+  padding: 20px 0;
 }
 .accordion-widget .accBox h5 {
   font-family: "Outfit", sans-serif;
@@ -5971,10 +5969,9 @@ div.two-videos {
   cursor: pointer;
 }
 .accordion-widget .accContent {
-  width: 96%;
+  width: 100%;
   float: left;
-  padding: 2%;
-  border-top: 1px dotted #ccc;
+  padding: 20px 0px;
 }
 .accordion-widget .accContent p {
   font-family: "Outfit", sans-serif;
@@ -6005,6 +6002,7 @@ div.two-videos {
   border-radius: 24px;
   height: 100%;
   width: 100%;
+  background-image: url("https://cdn.fedweb.org/fed-42/2/Image-%25289%2529.jpg");
 }
 
 div#fed-finder-wrap {
