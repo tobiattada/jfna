@@ -243,7 +243,7 @@ p.hebrew {
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
-  color: #F5F5F5;
+  color: #1E3EAF;
 }
 @media (min-width: 1024px) {
   .rich-text h2, .page.page-main h2 {
@@ -284,7 +284,7 @@ p.hebrew {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
-  color: #F5F5F5;
+  color: #1E3EAF;
 }
 @media (min-width: 1024px) {
   .rich-text h4, .page.page-main h4 {
@@ -304,7 +304,7 @@ p.hebrew {
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
-  color: #F5F5F5;
+  color: #27277C;
 }
 @media (min-width: 1024px) {
   .rich-text h5, .page.page-main h5 {
@@ -324,7 +324,7 @@ p.hebrew {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: 0%;
-  color: #F5F5F5;
+  color: #2A2A2A;
 }
 @media (min-width: 1024px) {
   .rich-text h6, .page.page-main h6 {
@@ -344,7 +344,7 @@ p.hebrew {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #F5F5F5;
+  color: #2A2A2A;
 }
 @media (min-width: 1024px) {
   .rich-text p, .page.page-main p {
@@ -354,9 +354,33 @@ p.hebrew {
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
   font-weight: 400;
-  color: #F5F5F5;
+  color: #2A2A2A;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
+  font-weight: 600;
+  color: #2A2A2A;
+}
+.rich-text p b.hebrew, .rich-text p strong.hebrew, .page.page-main p b.hebrew, .page.page-main p strong.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
