@@ -5846,7 +5846,23 @@ div.two-videos {
 .accordion-widget {
   background: #E9ECF7;
   margin-left: 100px;
-  padding: 30px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .accordion-widget {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .accordion-widget {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .accordion-widget {
+    padding: 50px 60px;
+  }
 }
 .accordion-widget h4 {
   font-family: "Outfit", sans-serif;
@@ -5867,6 +5883,10 @@ div.two-videos {
   font-weight: 600;
   text-align: right;
   direction: rtl;
+}
+.accordion-widget #acc {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 .accordion-widget #accWrap {
   max-width: 800px;
@@ -5935,7 +5955,7 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
-.accordion-widget .accWrapImage {
+.accordion-widget #accWrapImage {
   background: black;
   border-radius: 24px;
   height: 100%;
