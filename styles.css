@@ -70,6 +70,7 @@ h1 {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   h1 {
@@ -215,6 +216,201 @@ p.hebrew {
   direction: rtl;
 }
 
+.rich-text h1, .page.page-main h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .rich-text h1, .page.page-main h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.rich-text h1.hebrew, .page.page-main h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text h2, .page.page-main h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .rich-text h2, .page.page-main h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.rich-text h2.hebrew, .page.page-main h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text h3, .page.page-main h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #D2E9FF;
+}
+.rich-text h3.hebrew, .page.page-main h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .rich-text h3, .page.page-main h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.rich-text h4, .page.page-main h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .rich-text h4, .page.page-main h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.rich-text h4.hebrew, .page.page-main h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text h5, .page.page-main h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .rich-text h5, .page.page-main h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.rich-text h5.hebrew, .page.page-main h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text h6, .page.page-main h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .rich-text h6, .page.page-main h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.rich-text h6.hebrew, .page.page-main h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text p, .page.page-main p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .rich-text p, .page.page-main p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.rich-text p.hebrew, .page.page-main p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
+  font-weight: 600;
+  color: #2A2A2A;
+}
+.rich-text p b.hebrew, .rich-text p strong.hebrew, .page.page-main p b.hebrew, .page.page-main p strong.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.rich-text ul li, .page.page-main ul li {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .rich-text ul li, .page.page-main ul li {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.rich-text ul li.hebrew, .page.page-main ul li.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
 a.button {
   padding: 12px 24px;
   border-radius: 30px;
@@ -351,12 +547,34 @@ p.section-header, p.eyebrow {
 }
 
 p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
   border-bottom: 4px solid #1c88ed;
   margin-right: auto;
   margin-left: 0px;
+}
+@media (min-width: 1024px) {
+  p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+p.eyebrow strong, p.eyebrow em, p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 
 mark {
@@ -662,7 +880,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item a.button p {
   font-family: "Outfit", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -729,6 +947,36 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     break-inside: avoid;
     margin-bottom: 20px;
   }
+  .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #2A2A2A;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b strong, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b em, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b b {
+    font-weight: 600;
+    color: #2A2A2A;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b.hebrew {
+    font-family: "Noto Sans Hebrew", sans-serif !important;
+    font-weight: 600;
+    text-align: right;
+    direction: rtl;
+  }
+}
+@media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a p b span {
     color: #1E3EAF;
   }
@@ -763,6 +1011,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     font-size: 18px;
     line-height: 27px;
   }
+}
+.nav-menu .nav-item.has-dropdown .dropdown ul li a strong, .nav-menu .nav-item.has-dropdown .dropdown ul li a em, .nav-menu .nav-item.has-dropdown .dropdown ul li a b {
+  font-weight: 400;
+  color: #2A2A2A;
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -1482,9 +1734,17 @@ div.timeline > div > div img {
   align-items: flex-end;
   justify-content: center;
 }
+.our-focus-item .row .col-12 .arrow-btn a:hover::after {
+  background: #1E3EAF;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+}
 .our-focus-item .row .col-12 .arrow-btn a::after {
   background: #1E3EAF;
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+}
+.our-focus-item .row .col-12 .arrow-btn a:hover::after {
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
+  background: #D2E9FF;
 }
 .our-focus-item .row .col-12 .rich-text {
   border-bottom: 2px solid #ECECEC;
@@ -1583,6 +1843,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button, a.button {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1615,6 +1876,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-primary {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1646,7 +1908,41 @@ ul.stats-main li p.hebrew {
   background: #18328c;
 }
 
+.button-secondary {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #D2E9FF;
+  color: #1E3EAF;
+  border: none;
+}
+.button-secondary span, .button-secondary p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+.button-secondary:hover {
+  background: #a9d5ff;
+}
+
 .button-primary-outline {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1679,6 +1975,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-white {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1711,6 +2008,7 @@ ul.stats-main li p.hebrew {
 }
 
 .button-white-outline {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1743,6 +2041,7 @@ ul.stats-main li p.hebrew {
 }
 
 .component-button .button.btn-blue {
+  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   font-family: "Outfit", sans-serif;
@@ -1969,6 +2268,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-primary-blue .rich-text h1 {
@@ -2135,6 +2435,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-medium-blue .rich-text h1 {
@@ -2301,6 +2602,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-navy-blue .rich-text h1 {
@@ -2467,6 +2769,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-light-blue .rich-text h1 {
@@ -2633,6 +2936,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-light .rich-text h1 {
@@ -2771,6 +3075,30 @@ ul.stats-main li p.hebrew {
   text-align: right;
   direction: rtl;
 }
+.bg-light .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-light .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-light .rich-text p.eyebrow strong, .bg-light .rich-text p.eyebrow em, .bg-light .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-light .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 
 .bg-white {
   box-sizing: border-box;
@@ -2799,6 +3127,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-white .rich-text h1 {
@@ -2937,6 +3266,30 @@ ul.stats-main li p.hebrew {
   text-align: right;
   direction: rtl;
 }
+.bg-white .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-white .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-white .rich-text p.eyebrow strong, .bg-white .rich-text p.eyebrow em, .bg-white .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-white .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 
 .bg-gray {
   box-sizing: border-box;
@@ -2965,6 +3318,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .bg-gray .rich-text h1 {
@@ -3098,6 +3452,30 @@ ul.stats-main li p.hebrew {
   color: #2A2A2A;
 }
 .bg-gray .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-gray .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-gray .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-gray .rich-text p.eyebrow strong, .bg-gray .rich-text p.eyebrow em, .bg-gray .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-gray .rich-text p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -3391,281 +3769,6 @@ ul.stats-main li p.hebrew {
   }
 }
 
-.basic {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .basic {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic {
-    padding: 50px 60px;
-  }
-}
-.basic.gray-card {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  margin: 0px;
-}
-@media (min-width: 768px) {
-  .basic.gray-card {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.gray-card {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.gray-card {
-    padding: 50px 60px;
-  }
-}
-.basic.gray-card .row {
-  box-shadow: 0px 6px 20px 5px #0000000f;
-  position: relative;
-  margin: 0 auto;
-  border-radius: 24px;
-  box-sizing: border-box;
-  background: #FDFDFD;
-  width: auto;
-}
-.basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-.basic.gray-card .row .rich-text * {
-  color: #1E3EAF;
-}
-.basic.gray-card.overlap .row {
-  margin-top: -120px;
-}
-.basic.gray-card .row {
-  box-shadow: none;
-}
-.basic.gray-card .row .rich-text {
-  margin-bottom: 0px;
-}
-.basic.light-card {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  margin: 0px;
-}
-@media (min-width: 768px) {
-  .basic.light-card {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.light-card {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.light-card {
-    padding: 50px 60px;
-  }
-}
-.basic.light-card .row {
-  box-shadow: 0px 6px 20px 5px #0000000f;
-  position: relative;
-  margin: 0 auto;
-  border-radius: 24px;
-  box-sizing: border-box;
-  background: #F5F5F5;
-  width: auto;
-}
-.basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-}
-@media (min-width: 768px) {
-  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
-    padding: 50px 60px;
-  }
-}
-.basic.light-card.overlap .row {
-  margin-top: -120px;
-}
-.basic.light-card .row {
-  box-shadow: none;
-}
-.basic.light-card .row .rich-text {
-  margin-bottom: 0px;
-}
-.basic p.large {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #2A2A2A;
-}
-.basic p.large strong, .basic p.large em, .basic p.large b {
-  font-weight: 600;
-  color: #1E3EAF;
-}
-@media (min-width: 1024px) {
-  .basic p.large {
-    font-size: 24px;
-    line-height: 150%;
-  }
-}
-.basic p.large.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 400;
-  text-align: right;
-  direction: rtl;
-}
-.basic .row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (min-width: 768px) {
-  .basic .row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
-}
-.basic .row .col-1, .basic .row .col-6, .basic .row .col-12 {
-  width: 100%;
-}
-.basic .row .col-6 {
-  padding-bottom: 20px;
-}
-@media (min-width: 1024px) {
-  .basic .row {
-    flex-direction: row;
-  }
-  .basic .row .col-6:first-child {
-    padding-right: 60px;
-  }
-  .basic .row .col-6:last-child {
-    padding-right: 60px;
-  }
-}
-.basic .component-image {
-  max-height: 400px;
-  overflow: hidden;
-  border-radius: 24px;
-  display: flex;
-  align-items: center;
-}
-.basic .component-image .has-ratio-image {
-  border-radius: 24px;
-}
-.basic.gray-card .row .component-icon-row {
-  padding: 0px !important;
-}
-.basic.gray-card .row .component-icon-row .flex-container {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  padding: 20px;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .flex-container {
-    flex-direction: row;
-    gap: 20px;
-  }
-}
-.basic.gray-card .row .component-icon-row .icon-row-item {
-  padding: 0px;
-  background: #F5F5F5;
-  padding: 25px 16px;
-  border-radius: 24px;
-  flex: 1;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .icon-row-item {
-    padding: 25px 16px;
-  }
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text * {
-  text-align: left;
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text i {
-  color: #27277C;
-  position: relative;
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text h4 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #27277C;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .icon-row-item .text h4 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text h4.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic.gray-card .row .component-icon-row .icon-row-item .text p {
-  color: #2A2A2A;
-  font-weight: 300;
-}
-@media (min-width: 1024px) {
-  .basic.gray-card .row .component-icon-row .icon-row-item .text {
-    gap: 20px;
-  }
-}
-
 @media (min-width: 1024px) {
   .rich-text p.align-center, .rich-text h4.align-center, .rich-text h5.align-center, .rich-text h6.align-center {
     max-width: 82%;
@@ -3720,8 +3823,53 @@ ul.stats-main li p.hebrew {
   translate: -50% -50%;
   z-index: -1;
 }
-.about-us-header .component-promo .promo-title p strong {
+.about-us-header .component-promo .promo-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
   color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .about-us-header .component-promo .promo-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.about-us-header .component-promo .promo-text p strong, .about-us-header .component-promo .promo-text p em, .about-us-header .component-promo .promo-text p b {
+  font-weight: 600;
+  color: #F5F5F5;
+}
+.about-us-header .component-promo .promo-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.about-us-header .component-promo .promo-title p strong {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .about-us-header .component-promo .promo-title p strong {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.about-us-header .component-promo .promo-title p strong strong, .about-us-header .component-promo .promo-title p strong em, .about-us-header .component-promo .promo-title p strong b {
+  font-weight: 600;
+  color: #F5F5F5;
+}
+.about-us-header .component-promo .promo-title p strong.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 .about-us-header .component-promo::after {
   content: "";
@@ -3756,6 +3904,10 @@ ul.stats-main li p.hebrew {
   align-items: flex-end;
   justify-content: center;
 }
+.arrow-btn a:hover::after {
+  background: #1E3EAF;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+}
 .arrow-btn a::after {
   background: #D2E9FF;
 }
@@ -3781,9 +3933,17 @@ ul.stats-main li p.hebrew {
   align-items: flex-end;
   justify-content: center;
 }
+.arrow-btn.align-center a:hover::after {
+  background: #1E3EAF;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+}
 .arrow-btn.align-center a::after {
   background: #1E3EAF;
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+}
+.arrow-btn.align-center a:hover::after {
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
+  background: #D2E9FF;
 }
 .arrow-btn.align-center a {
   justify-content: center;
@@ -3923,6 +4083,8 @@ ul.stats-main li p.hebrew {
   border-radius: 10px;
   overflow: hidden;
   height: 300px;
+  transition: 0.3s;
+  top: 0px;
 }
 .component-class-featuremanual .home-boxes::after {
   content: "";
@@ -3933,6 +4095,34 @@ ul.stats-main li p.hebrew {
   height: 100%;
   background: linear-gradient(180deg, rgba(9, 14, 32, 0) 17.76%, rgba(9, 14, 32, 0.18) 34.21%, rgba(9, 14, 32, 0.6) 54.77%, rgba(9, 14, 32, 0.8) 100%);
   pointer-events: none;
+}
+.component-class-featuremanual .home-boxes:hover {
+  box-shadow: 0px 6px 20px 5px #00000012;
+  transition: 0.3s;
+  top: -5px;
+}
+.component-class-featuremanual .home-boxes:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(9, 14, 32, 0) 17.76%, rgba(9, 14, 32, 0.18) 34.21%, rgba(9, 14, 32, 0.6) 54.77%, rgba(9, 14, 32, 0.8) 100%);
+  pointer-events: none;
+}
+.component-class-featuremanual .home-boxes:hover .box .body-item .body::after {
+  position: relative;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
+  height: 40px;
+  width: 40px;
+  background: #1E3EAF;
+  border-radius: 100%;
+  left: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 10px;
 }
 .component-class-featuremanual .home-boxes .box {
   margin: 0px;
@@ -3986,6 +4176,23 @@ ul.stats-main li p.hebrew {
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .text {
   display: block !important;
+  min-height: 60px;
+  width: 80%;
+}
+.component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  box-sizing: border-box;
+  z-index: 2000;
+}
+.component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button span {
+  display: none;
 }
 
 .white-card.features.features-2 .row .page-column {
@@ -4524,6 +4731,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .callout .rich-text h1 {
@@ -4802,6 +5010,7 @@ ul.stats-main li p.hebrew {
   line-height: 44px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .callout.dark .rich-text h1 {
@@ -5197,22 +5406,37 @@ ul.stats-main li p.hebrew {
   padding: 0 20px;
 }
 
-.basic-header .row-has-richtext {
+@media (min-width: 1024px) {
+  .donor-quote.reverse .row .col-12 {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+.donor-quote.reverse .row .col-12 div:first-child {
+  order: 2;
+}
+@media (min-width: 1024px) {
+  .donor-quote.reverse .row .col-12 div:first-child {
+    order: inherit;
+  }
+}
+
+.basic-header .rich-text {
   box-sizing: border-box;
   padding: 30px 20px;
+  max-width: 70%;
 }
 @media (min-width: 768px) {
-  .basic-header .row-has-richtext {
+  .basic-header .rich-text {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .basic-header .row-has-richtext {
+  .basic-header .rich-text {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .basic-header .row-has-richtext {
+  .basic-header .rich-text {
     padding: 50px 60px;
   }
 }
@@ -5235,6 +5459,33 @@ ul.stats-main li p.hebrew {
   .basic {
     padding: 50px 60px;
   }
+}
+.basic ul li {
+  margin-bottom: 10px;
+}
+.basic ul li:last-child {
+  margin-bottom: 0px;
+}
+.basic .rich-text h6 {
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text h6 {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+.basic .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 .basic.gray-card {
   box-sizing: border-box;
@@ -5296,6 +5547,165 @@ ul.stats-main li p.hebrew {
 .basic.gray-card .row .rich-text {
   margin-bottom: 0px;
 }
+.basic.navy-card {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .basic.navy-card {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.navy-card {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.navy-card {
+    padding: 50px 60px;
+  }
+}
+.basic.navy-card .row {
+  box-shadow: 0px 6px 20px 5px #0000000f;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 24px;
+  box-sizing: border-box;
+  background: #27277C;
+  width: auto;
+}
+.basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
+    padding: 50px 60px;
+  }
+}
+.basic.navy-card.overlap .row {
+  margin-top: -120px;
+}
+.basic.navy-card h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .basic.navy-card h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic.navy-card h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .row {
+  gap: 40px;
+  align-items: stretch;
+}
+.basic.cards .row .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic.cards .row .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic.cards .row .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .row .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.cards .row .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.basic.cards .row .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .col-8 {
+  background: #F5F5F5;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  flex: 2;
+}
+@media (min-width: 768px) {
+  .basic.cards .col-8 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.cards .col-8 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.cards .col-8 {
+    padding: 50px 60px;
+  }
+}
+.basic.cards .col-4 {
+  background: #ECECEC;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .basic.cards .col-4 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .basic.cards .col-4 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .basic.cards .col-4 {
+    padding: 50px 60px;
+  }
+}
 .basic.light-card {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -5353,6 +5763,32 @@ ul.stats-main li p.hebrew {
 .basic.light-card .row .rich-text {
   margin-bottom: 0px;
 }
+.basic.light-card .row .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.basic.light-card .row .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .basic.light-card .row .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.basic.light-card.left-title .col-12 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
 .basic p.large {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -5378,28 +5814,9 @@ ul.stats-main li p.hebrew {
   direction: rtl;
 }
 .basic .row {
-  box-sizing: border-box;
-  padding: 30px 20px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media (min-width: 768px) {
-  .basic .row {
-    padding: 30px 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic .row {
-    padding: 50px 60px;
-  }
 }
 .basic .row .col-1, .basic .row .col-6, .basic .row .col-12 {
   width: 100%;
@@ -5427,175 +5844,6 @@ ul.stats-main li p.hebrew {
 }
 .basic .component-image .has-ratio-image {
   border-radius: 24px;
-}
-.basic .rich-text h1 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 44px;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text h1 {
-    font-size: 70px;
-    line-height: 91px;
-  }
-}
-.basic .rich-text h1.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic .rich-text h2 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 42px;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text h2 {
-    font-size: 60px;
-    line-height: 78px;
-  }
-}
-.basic .rich-text h2.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic .rich-text h3 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 150%;
-  /* 24px */
-  letter-spacing: 0%;
-  color: #1E3EAF;
-}
-.basic .rich-text h3.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text h3 {
-    font-size: 45px;
-    line-height: 58.5px;
-  }
-}
-.basic .rich-text h4 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text h4 {
-    font-size: 32px;
-    line-height: 42px;
-  }
-}
-.basic .rich-text h4.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic .rich-text h5 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #27277C;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text h5 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-.basic .rich-text h5.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic .rich-text h6 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: 0%;
-  color: #27277C;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text h6 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-}
-.basic .rich-text h6.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic .rich-text p {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  color: #2A2A2A;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text p {
-    font-size: 18px;
-    line-height: 27px;
-  }
-}
-.basic .rich-text p strong, .basic .rich-text p em, .basic .rich-text p b {
-  font-weight: 400;
-  color: #2A2A2A;
-}
-.basic .rich-text p.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.basic .rich-text p.large {
-  font-family: "Outfit", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #2A2A2A;
-}
-.basic .rich-text p.large strong, .basic .rich-text p.large em, .basic .rich-text p.large b {
-  font-weight: 600;
-  color: #1E3EAF;
-}
-@media (min-width: 1024px) {
-  .basic .rich-text p.large {
-    font-size: 24px;
-    line-height: 150%;
-  }
-}
-.basic .rich-text p.large.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 400;
-  text-align: right;
-  direction: rtl;
 }
 .basic.gray-card .row .component-icon-row {
   padding: 0px !important;
@@ -5661,6 +5909,177 @@ ul.stats-main li p.hebrew {
   }
 }
 
+.basic.cards .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.basic.cards .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.basic.cards .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.basic.cards .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.basic.cards .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic.cards .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.basic.cards .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.basic.cards .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.basic.cards .rich-text p strong, .basic.cards .rich-text p em, .basic.cards .rich-text p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.basic.cards .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.basic.cards .rich-text p.large {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+.basic.cards .rich-text p.large strong, .basic.cards .rich-text p.large em, .basic.cards .rich-text p.large b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.cards .rich-text p.large {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic.cards .rich-text p.large.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+
 @media (min-width: 1024px) {
   .rich-text p.align-center, .rich-text h4.align-center, .rich-text h5.align-center, .rich-text h6.align-center {
     max-width: 82%;
@@ -5680,12 +6099,129 @@ ul.stats-main li p.hebrew {
 div.two-videos {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 30px;
 }
 @media (min-width: 768px) {
   div.two-videos {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.accordion-widget {
+  background: #E9ECF7;
+  margin-left: 100px;
+  border-radius: 24px 0 0 24px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .accordion-widget {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .accordion-widget {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .accordion-widget {
+    padding: 50px 60px;
+  }
+}
+.accordion-widget h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .accordion-widget h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.accordion-widget h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.accordion-widget #acc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.accordion-widget #accWrap {
+  max-width: auto;
+  margin: 1em auto;
+}
+.accordion-widget .accBox {
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+}
+.accordion-widget .accBox h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .accordion-widget .accBox h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.accordion-widget .accBox h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.accordion-widget .accBox:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.accordion-widget .accContent {
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+}
+.accordion-widget .accContent p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .accordion-widget .accContent p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.accordion-widget .accContent p strong, .accordion-widget .accContent p em, .accordion-widget .accContent p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.accordion-widget .accContent p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.accordion-widget #accWrapImage {
+  background: black;
+  border-radius: 24px;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://cdn.fedweb.org/fed-42/2/Image-%25289%2529.jpg");
 }
 
 div#fed-finder-wrap {
