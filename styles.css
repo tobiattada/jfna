@@ -4021,7 +4021,7 @@ ul.stats-main li p.hebrew {
 .component-class-featuremanual .home-boxes .box .body-item .body .text {
   display: block !important;
 }
-.component-class-featuremanual .home-boxes .box .body-item .body .button-container a {
+.component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button {
   position: absolute;
   top: 0;
   left: 0;
@@ -4031,7 +4031,7 @@ ul.stats-main li p.hebrew {
   width: 100%;
   background: transparent;
 }
-.component-class-featuremanual .home-boxes .box .body-item .body .button-container a span {
+.component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button span {
   display: none;
 }
 
