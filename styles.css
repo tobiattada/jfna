@@ -386,7 +386,7 @@ p.hebrew {
   text-align: right;
   direction: rtl;
 }
-.rich-text ul li, .rich-text ul li a, .page.page-main ul li, .page.page-main ul li a {
+.rich-text ul li, .page.page-main ul li {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -395,16 +395,16 @@ p.hebrew {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  .rich-text ul li, .rich-text ul li a, .page.page-main ul li, .page.page-main ul li a {
+  .rich-text ul li, .page.page-main ul li {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .rich-text ul li a strong, .rich-text ul li a em, .rich-text ul li a b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b, .page.page-main ul li a strong, .page.page-main ul li a em, .page.page-main ul li a b {
+.rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
   font-weight: 400;
   color: #2A2A2A;
 }
-.rich-text ul li.hebrew, .rich-text ul li a.hebrew, .page.page-main ul li.hebrew, .page.page-main ul li a.hebrew {
+.rich-text ul li.hebrew, .page.page-main ul li.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -3033,6 +3033,30 @@ ul.stats-main li p.hebrew {
   text-align: right;
   direction: rtl;
 }
+.bg-light .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-light .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-light .rich-text p.eyebrow strong, .bg-light .rich-text p.eyebrow em, .bg-light .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-light .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 
 .bg-white {
   box-sizing: border-box;
@@ -3200,6 +3224,30 @@ ul.stats-main li p.hebrew {
   text-align: right;
   direction: rtl;
 }
+.bg-white .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-white .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-white .rich-text p.eyebrow strong, .bg-white .rich-text p.eyebrow em, .bg-white .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-white .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 
 .bg-gray {
   box-sizing: border-box;
@@ -3362,6 +3410,30 @@ ul.stats-main li p.hebrew {
   color: #2A2A2A;
 }
 .bg-gray .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-gray .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-gray .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-gray .rich-text p.eyebrow strong, .bg-gray .rich-text p.eyebrow em, .bg-gray .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-gray .rich-text p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -4020,6 +4092,8 @@ ul.stats-main li p.hebrew {
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .text {
   display: block !important;
+  min-height: 60px;
+  width: 80%;
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button {
   position: absolute;
@@ -4030,6 +4104,8 @@ ul.stats-main li p.hebrew {
   height: 100%;
   width: 100%;
   background: transparent;
+  box-sizing: border-box;
+  z-index: 2000;
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button span {
   display: none;
