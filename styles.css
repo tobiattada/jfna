@@ -18,10 +18,7 @@
 .shell {
   max-width: none !important;
   padding: 0;
-}
-
-.rich-text a {
-  color: inherit;
+  width: 100%;
 }
 
 .shell.full-width-shell {
@@ -653,7 +650,7 @@ mark {
 }
 .arrow-btn a:hover::after {
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
-  background: #1E3EAF;
+  background: #1c88ed;
 }
 .arrow-btn.align-center {
   margin-top: 30px;
@@ -824,7 +821,7 @@ mark {
 }
 .rich-text .arrow-btn a:hover::after {
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
-  background: #1E3EAF;
+  background: #1c88ed;
 }
 .rich-text .arrow-btn.align-center {
   margin-top: 30px;
@@ -988,12 +985,19 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #FDFDFD;
+  transition: 0.3s;
 }
-.button a, a.button a {
+.button span:hover, .button p:hover, a.button span:hover, a.button p:hover {
+  transition: 0.3s;
+}
+.button a, .button span, a.button a, a.button span {
   color: #FDFDFD !important;
 }
 .button:hover, a.button:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.button:hover a, .button:hover span, a.button:hover a, a.button:hover span {
   color: #F5F5F5 !important;
 }
 
@@ -1027,12 +1031,19 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #FDFDFD;
+  transition: 0.3s;
 }
-.button-primary a {
+.button-primary span:hover, .button-primary p:hover {
+  transition: 0.3s;
+}
+.button-primary a, .button-primary span {
   color: #FDFDFD !important;
 }
 .button-primary:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.button-primary:hover a, .button-primary:hover span {
   color: #F5F5F5 !important;
 }
 
@@ -1066,13 +1077,20 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.button-primary-outline a {
+.button-primary-outline span:hover, .button-primary-outline p:hover {
+  transition: 0.3s;
+}
+.button-primary-outline a, .button-primary-outline span {
   color: #1E3EAF !important;
 }
 .button-primary-outline:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
+}
+.button-primary-outline:hover a, .button-primary-outline:hover span {
+  color: #1c88ed !important;
 }
 
 .button-secondary {
@@ -1105,12 +1123,19 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.button-secondary a {
+.button-secondary span:hover, .button-secondary p:hover {
+  transition: 0.3s;
+}
+.button-secondary a, .button-secondary span {
   color: #1E3EAF !important;
 }
 .button-secondary:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.button-secondary:hover a, .button-secondary:hover span {
   color: #F5F5F5 !important;
 }
 
@@ -1144,13 +1169,20 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #D2E9FF;
+  transition: 0.3s;
 }
-.button-secondary-outline a {
+.button-secondary-outline span:hover, .button-secondary-outline p:hover {
+  transition: 0.3s;
+}
+.button-secondary-outline a, .button-secondary-outline span {
   color: #D2E9FF !important;
 }
 .button-secondary-outline:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
+}
+.button-secondary-outline:hover a, .button-secondary-outline:hover span {
+  color: #1c88ed !important;
 }
 
 .button-white {
@@ -1183,12 +1215,19 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.button-white a {
+.button-white span:hover, .button-white p:hover {
+  transition: 0.3s;
+}
+.button-white a, .button-white span {
   color: #1E3EAF !important;
 }
 .button-white:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.button-white:hover a, .button-white:hover span {
   color: #F5F5F5 !important;
 }
 
@@ -1222,13 +1261,20 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #FDFDFD;
+  transition: 0.3s;
 }
-.button-white-outline a {
+.button-white-outline span:hover, .button-white-outline p:hover {
+  transition: 0.3s;
+}
+.button-white-outline a, .button-white-outline span {
   color: #FDFDFD !important;
 }
 .button-white-outline:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
+}
+.button-white-outline:hover a, .button-white-outline:hover span {
+  color: #1c88ed !important;
 }
 
 .component-promo .button-container .button.btn-blue, .component-button .button-container .button.btn-blue {
@@ -1265,12 +1311,19 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #FDFDFD;
+  transition: 0.3s;
 }
-.component-promo .button-container .button.btn-blue a, .component-button .button-container .button.btn-blue a {
+.component-promo .button-container .button.btn-blue span:hover, .component-promo .button-container .button.btn-blue p:hover, .component-button .button-container .button.btn-blue span:hover, .component-button .button-container .button.btn-blue p:hover {
+  transition: 0.3s;
+}
+.component-promo .button-container .button.btn-blue a, .component-promo .button-container .button.btn-blue span, .component-button .button-container .button.btn-blue a, .component-button .button-container .button.btn-blue span {
   color: #FDFDFD !important;
 }
 .component-promo .button-container .button.btn-blue:hover, .component-button .button-container .button.btn-blue:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.component-promo .button-container .button.btn-blue:hover a, .component-promo .button-container .button.btn-blue:hover span, .component-button .button-container .button.btn-blue:hover a, .component-button .button-container .button.btn-blue:hover span {
   color: #F5F5F5 !important;
 }
 
@@ -1308,13 +1361,20 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.component-promo .button-container .button.btn-black a, .component-button .button-container .button.btn-black a {
+.component-promo .button-container .button.btn-black span:hover, .component-promo .button-container .button.btn-black p:hover, .component-button .button-container .button.btn-black span:hover, .component-button .button-container .button.btn-black p:hover {
+  transition: 0.3s;
+}
+.component-promo .button-container .button.btn-black a, .component-promo .button-container .button.btn-black span, .component-button .button-container .button.btn-black a, .component-button .button-container .button.btn-black span {
   color: #1E3EAF !important;
 }
 .component-promo .button-container .button.btn-black:hover, .component-button .button-container .button.btn-black:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
+}
+.component-promo .button-container .button.btn-black:hover a, .component-promo .button-container .button.btn-black:hover span, .component-button .button-container .button.btn-black:hover a, .component-button .button-container .button.btn-black:hover span {
+  color: #1c88ed !important;
 }
 .component-promo .button-container .button.btn-black:hover, .component-button .button-container .button.btn-black:hover {
   padding: 12px 24px;
@@ -1345,13 +1405,20 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #1c88ed;
+  transition: 0.3s;
 }
-.component-promo .button-container .button.btn-black:hover a, .component-button .button-container .button.btn-black:hover a {
+.component-promo .button-container .button.btn-black:hover span:hover, .component-promo .button-container .button.btn-black:hover p:hover, .component-button .button-container .button.btn-black:hover span:hover, .component-button .button-container .button.btn-black:hover p:hover {
+  transition: 0.3s;
+}
+.component-promo .button-container .button.btn-black:hover a, .component-promo .button-container .button.btn-black:hover span, .component-button .button-container .button.btn-black:hover a, .component-button .button-container .button.btn-black:hover span {
   color: #1c88ed !important;
 }
 .component-promo .button-container .button.btn-black:hover:hover, .component-button .button-container .button.btn-black:hover:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
+}
+.component-promo .button-container .button.btn-black:hover:hover a, .component-promo .button-container .button.btn-black:hover:hover span, .component-button .button-container .button.btn-black:hover:hover a, .component-button .button-container .button.btn-black:hover:hover span {
+  color: #1c88ed !important;
 }
 
 .component-promo .button-container .button.btn-red, .component-button .button-container .button.btn-red {
@@ -1388,13 +1455,20 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #F5F5F5;
+  transition: 0.3s;
 }
-.component-promo .button-container .button.btn-red a, .component-button .button-container .button.btn-red a {
+.component-promo .button-container .button.btn-red span:hover, .component-promo .button-container .button.btn-red p:hover, .component-button .button-container .button.btn-red span:hover, .component-button .button-container .button.btn-red p:hover {
+  transition: 0.3s;
+}
+.component-promo .button-container .button.btn-red a, .component-promo .button-container .button.btn-red span, .component-button .button-container .button.btn-red a, .component-button .button-container .button.btn-red span {
   color: #F5F5F5 !important;
 }
 .component-promo .button-container .button.btn-red:hover, .component-button .button-container .button.btn-red:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
+}
+.component-promo .button-container .button.btn-red:hover a, .component-promo .button-container .button.btn-red:hover span, .component-button .button-container .button.btn-red:hover a, .component-button .button-container .button.btn-red:hover span {
+  color: #1c88ed !important;
 }
 
 .component-promo .button-container .button.btn-green, .component-button .button-container .button.btn-green {
@@ -1431,12 +1505,19 @@ mark {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.component-promo .button-container .button.btn-green a, .component-button .button-container .button.btn-green a {
+.component-promo .button-container .button.btn-green span:hover, .component-promo .button-container .button.btn-green p:hover, .component-button .button-container .button.btn-green span:hover, .component-button .button-container .button.btn-green p:hover {
+  transition: 0.3s;
+}
+.component-promo .button-container .button.btn-green a, .component-promo .button-container .button.btn-green span, .component-button .button-container .button.btn-green a, .component-button .button-container .button.btn-green span {
   color: #1E3EAF !important;
 }
 .component-promo .button-container .button.btn-green:hover, .component-button .button-container .button.btn-green:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.component-promo .button-container .button.btn-green:hover a, .component-promo .button-container .button.btn-green:hover span, .component-button .button-container .button.btn-green:hover a, .component-button .button-container .button.btn-green:hover span {
   color: #F5F5F5 !important;
 }
 
@@ -1580,12 +1661,19 @@ footer.page-footer .footer-wrapper form#footer-signup-form button span, footer.p
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button a {
+footer.page-footer .footer-wrapper form#footer-signup-form button span:hover, footer.page-footer .footer-wrapper form#footer-signup-form button p:hover {
+  transition: 0.3s;
+}
+footer.page-footer .footer-wrapper form#footer-signup-form button a, footer.page-footer .footer-wrapper form#footer-signup-form button span {
   color: #1E3EAF !important;
 }
 footer.page-footer .footer-wrapper form#footer-signup-form button:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+footer.page-footer .footer-wrapper form#footer-signup-form button:hover a, footer.page-footer .footer-wrapper form#footer-signup-form button:hover span {
   color: #F5F5F5 !important;
 }
 footer.page-footer .footer-wrapper .footer-navigation .flex-container {
@@ -1816,12 +1904,19 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   line-height: 27px;
   text-align: center;
   color: #FDFDFD;
+  transition: 0.3s;
 }
-.nav-menu .nav-item a.button a {
+.nav-menu .nav-item a.button span:hover, .nav-menu .nav-item a.button p:hover {
+  transition: 0.3s;
+}
+.nav-menu .nav-item a.button a, .nav-menu .nav-item a.button span {
   color: #FDFDFD !important;
 }
 .nav-menu .nav-item a.button:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.nav-menu .nav-item a.button:hover a, .nav-menu .nav-item a.button:hover span {
   color: #F5F5F5 !important;
 }
 .nav-menu .nav-item a.button p {
@@ -2071,10 +2166,17 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   display: inline;
   position: relative;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.05);
+  height: 310px;
+}
+@media (min-width: 1024px) {
+  .home-areas .focus-area-home {
+    height: auto;
+  }
 }
 .home-areas .focus-area-home img {
   max-width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
   position: relative;
 }
@@ -2094,11 +2196,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .home-areas .focus-area-home .area-overlay h4 {
   transition: 0.3s;
-  padding-left: 0px;
-  padding-bottom: 10px;
 }
 @media (min-width: 1024px) {
   .home-areas .focus-area-home .area-overlay h4 {
+    padding-bottom: 10px;
     padding-left: 10px;
   }
 }
@@ -2112,10 +2213,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
-  min-height: 120px;
 }
 @media (min-width: 1024px) {
   .home-areas .focus-area-home .show-hide {
+    min-height: 120px;
     margin-bottom: -40%;
     opacity: 0;
     transition: opacity 0.5s ease-out, margin-bottom 0.5s ease-in-out;
@@ -2178,10 +2279,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .featured-posts .row {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 60px;
-}
-.featured-posts .row .col-4 {
-  width: 100%;
+  gap: 0px;
 }
 .featured-posts .row img {
   border-radius: 24px;
@@ -2204,7 +2302,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 
-div.timeline > div {
+.page.page-main div.timeline > div {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -2212,7 +2310,7 @@ div.timeline > div {
   flex-direction: column;
   gap: 10px;
 }
-div.timeline > div h4 {
+.page.page-main div.timeline > div h4 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 22px;
@@ -2222,21 +2320,21 @@ div.timeline > div h4 {
   text-align: center;
 }
 @media (min-width: 1024px) {
-  div.timeline > div h4 {
+  .page.page-main div.timeline > div h4 {
     font-size: 32px;
     line-height: 42px;
   }
 }
-div.timeline > div h4.hebrew {
+.page.page-main div.timeline > div h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-div.timeline > div p {
+.page.page-main div.timeline > div p {
   text-align: center;
 }
-div.timeline > div > div {
+.page.page-main div.timeline > div > div {
   height: 135px;
   overflow: hidden;
   display: flex;
@@ -2244,36 +2342,36 @@ div.timeline > div > div {
   justify-content: center;
   border-radius: 24px;
 }
-div.timeline > div > div img {
+.page.page-main div.timeline > div > div img {
   border-radius: 24px;
   width: 100%;
 }
 @media (min-width: 1024px) {
-  div.timeline > div > div {
+  .page.page-main div.timeline > div > div {
     height: 220px;
   }
 }
 @media (min-width: 1024px) {
-  div.timeline > div {
+  .page.page-main div.timeline > div {
     width: 50%;
   }
-  div.timeline > div h4, div.timeline > div p {
+  .page.page-main div.timeline > div h4, .page.page-main div.timeline > div p {
     text-align: left;
   }
 }
 @media (min-width: 1024px) {
-  div.timeline > div:nth-child(odd) {
+  .page.page-main div.timeline > div:nth-child(odd) {
     border-right: 2px solid #1E3EAF;
     margin-right: auto;
     right: -1px;
     position: relative;
   }
-  div.timeline > div:nth-child(odd):not(:first-child):nth-child(odd) {
+  .page.page-main div.timeline > div:nth-child(odd):not(:first-child):nth-child(odd) {
     margin-top: -13%;
   }
 }
 @media (min-width: 1024px) {
-  div.timeline > div:nth-child(even) {
+  .page.page-main div.timeline > div:nth-child(even) {
     border-left: 2px solid #1E3EAF;
     margin-left: auto;
     margin-top: -13%;
@@ -4519,7 +4617,7 @@ ul.stats-main.col2 li {
 .features-3-up .row .col-4 {
   width: 100%;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .features-3-up .row {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -4553,7 +4651,7 @@ ul.stats-main.col2 li {
 .features-2-up .row .col-6 {
   width: 100%;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .features-2-up .row {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -4857,6 +4955,7 @@ ul.stats-main.col2 li {
 }
 .component-class-featuremanual .home-boxes .box .body-item .body::after:hover {
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23D2E9FF"/></g></svg>');
+  background: #1c88ed;
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .text {
   display: block !important;
@@ -4909,6 +5008,7 @@ ul.stats-main.col2 li {
 }
 .component-class-featuremanual .home-boxes:hover .box .body-item .body::after:hover {
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23D2E9FF"/></g></svg>');
+  background: #1c88ed;
 }
 
 .white-card.features.features-2 .row .page-column {
@@ -5025,21 +5125,28 @@ ul.stats-main.col2 li {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.view-more-bar .row .col-12 .component-button .button.btn-black a {
+.view-more-bar .row .col-12 .component-button .button.btn-black span:hover, .view-more-bar .row .col-12 .component-button .button.btn-black p:hover {
+  transition: 0.3s;
+}
+.view-more-bar .row .col-12 .component-button .button.btn-black a, .view-more-bar .row .col-12 .component-button .button.btn-black span {
   color: #1E3EAF !important;
 }
 .view-more-bar .row .col-12 .component-button .button.btn-black:hover {
   color: #1c88ed !important;
   border: 3px solid #1c88ed;
 }
+.view-more-bar .row .col-12 .component-button .button.btn-black:hover a, .view-more-bar .row .col-12 .component-button .button.btn-black:hover span {
+  color: #1c88ed !important;
+}
 .view-more-bar .row .col-12 .component-button .button.btn-black span {
   padding: 0px;
 }
-.view-more-bar.bg-light {
+.view-more-bar.bg-light, .view-more-bar.bg-navy-blue {
   padding-bottom: 0px !important;
 }
-.view-more-bar.bg-light .row {
+.view-more-bar.bg-light .row, .view-more-bar.bg-navy-blue .row {
   padding: 0px;
 }
 .view-more-bar.extra-padding .row {
@@ -5256,7 +5363,7 @@ ul.stats-main.col2 li {
   gap: 20px;
   flex-direction: column;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .feature-posts .row {
     flex-direction: row;
   }
@@ -5341,7 +5448,7 @@ ul.stats-main.col2 li {
   gap: 20px;
   flex-direction: column;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .feature-posts .home-boxes {
     flex-direction: row;
   }
@@ -5377,6 +5484,7 @@ ul.stats-main.col2 li {
 }
 .feature-posts .home-boxes .box .body:after:hover {
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23D2E9FF"/></g></svg>');
+  background: #1c88ed;
 }
 .feature-posts .home-boxes .box .body .button-container {
   margin-top: 0px;
@@ -5467,14 +5575,10 @@ ul.stats-main.col2 li {
 }
 .feature-posts .home-boxes .box:hover .body:after:hover {
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23D2E9FF"/></g></svg>');
+  background: #1c88ed;
 }
 
-.bg-navy-blue.feature-posts .component-feature .home-boxes {
-  display: flex;
-  gap: 20px;
-}
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box {
-  flex: 1;
   border-radius: 24px;
   border: 0px solid #F5F5F5;
   background: #27277C;
@@ -5907,12 +6011,19 @@ div.two-videos {
   line-height: 27px;
   text-align: center;
   color: #1E3EAF;
+  transition: 0.3s;
 }
-.callout .rich-text .button a {
+.callout .rich-text .button span:hover, .callout .rich-text .button p:hover {
+  transition: 0.3s;
+}
+.callout .rich-text .button a, .callout .rich-text .button span {
   color: #1E3EAF !important;
 }
 .callout .rich-text .button:hover {
   background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.callout .rich-text .button:hover a, .callout .rich-text .button:hover span {
   color: #F5F5F5 !important;
 }
 .callout .rich-text .button span {
@@ -6489,7 +6600,7 @@ div.two-videos {
   transition: 0.3s;
 }
 .basic-header p.back a:hover {
-  padding-left: 15px;
+  padding-left: 20px;
   opacity: 0.9;
   transition: 0.3s;
 }
@@ -7526,7 +7637,7 @@ div.two-videos {
   }
 }
 .basic.light-card.narrow .row .rich-text {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
 }
 .basic.light-card.left-title .col-12 {
