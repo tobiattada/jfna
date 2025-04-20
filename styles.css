@@ -1197,7 +1197,7 @@ mark {
   border: 3px solid #1c88ed;
 }
 
-.component-button .button-container .button.btn-blue {
+.component-promo .button-container .button.btn-blue, .component-button .button-container .button.btn-blue {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1224,19 +1224,19 @@ mark {
   min-height: 10px;
   line-height: inherit;
 }
-.component-button .button-container .button.btn-blue span, .component-button .button-container .button.btn-blue p {
+.component-promo .button-container .button.btn-blue span, .component-promo .button-container .button.btn-blue p, .component-button .button-container .button.btn-blue span, .component-button .button-container .button.btn-blue p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
-.component-button .button-container .button.btn-blue:hover {
+.component-promo .button-container .button.btn-blue:hover, .component-button .button-container .button.btn-blue:hover {
   background: #1c88ed;
   color: #F5F5F5;
 }
 
-.component-button .button-container .button.btn-black {
+.component-promo .button-container .button.btn-black, .component-button .button-container .button.btn-black {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1263,18 +1263,18 @@ mark {
   min-height: 10px;
   line-height: inherit;
 }
-.component-button .button-container .button.btn-black span, .component-button .button-container .button.btn-black p {
+.component-promo .button-container .button.btn-black span, .component-promo .button-container .button.btn-black p, .component-button .button-container .button.btn-black span, .component-button .button-container .button.btn-black p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
-.component-button .button-container .button.btn-black:hover {
+.component-promo .button-container .button.btn-black:hover, .component-button .button-container .button.btn-black:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
 }
-.component-button .button-container .button.btn-black:hover {
+.component-promo .button-container .button.btn-black:hover, .component-button .button-container .button.btn-black:hover {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1296,19 +1296,19 @@ mark {
   color: #1c88ed;
   border: 3px solid #1c88ed;
 }
-.component-button .button-container .button.btn-black:hover span, .component-button .button-container .button.btn-black:hover p {
+.component-promo .button-container .button.btn-black:hover span, .component-promo .button-container .button.btn-black:hover p, .component-button .button-container .button.btn-black:hover span, .component-button .button-container .button.btn-black:hover p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
-.component-button .button-container .button.btn-black:hover:hover {
+.component-promo .button-container .button.btn-black:hover:hover, .component-button .button-container .button.btn-black:hover:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
 }
 
-.component-button .button-container .button.btn-red {
+.component-promo .button-container .button.btn-red, .component-button .button-container .button.btn-red {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1335,19 +1335,19 @@ mark {
   min-height: 10px;
   line-height: inherit;
 }
-.component-button .button-container .button.btn-red span, .component-button .button-container .button.btn-red p {
+.component-promo .button-container .button.btn-red span, .component-promo .button-container .button.btn-red p, .component-button .button-container .button.btn-red span, .component-button .button-container .button.btn-red p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
-.component-button .button-container .button.btn-red:hover {
+.component-promo .button-container .button.btn-red:hover, .component-button .button-container .button.btn-red:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
 }
 
-.component-button .button-container .button.btn-green {
+.component-promo .button-container .button.btn-green, .component-button .button-container .button.btn-green {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1374,14 +1374,14 @@ mark {
   min-height: 10px;
   line-height: inherit;
 }
-.component-button .button-container .button.btn-green span, .component-button .button-container .button.btn-green p {
+.component-promo .button-container .button.btn-green span, .component-promo .button-container .button.btn-green p, .component-button .button-container .button.btn-green span, .component-button .button-container .button.btn-green p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   text-align: center;
 }
-.component-button .button-container .button.btn-green:hover {
+.component-promo .button-container .button.btn-green:hover, .component-button .button-container .button.btn-green:hover {
   background: #1c88ed;
   color: #F5F5F5;
 }
@@ -6731,10 +6731,6 @@ div.two-videos {
 .basic ul li:last-child {
   margin-bottom: 0px;
 }
-.basic .rich-text {
-  display: grid;
-  gap: 20px;
-}
 .basic .rich-text h6 {
   margin-top: 20px;
   font-family: "Outfit", sans-serif;
@@ -6816,6 +6812,8 @@ div.two-videos {
 .basic.gray-card .row .rich-text {
   max-width: 85%;
   margin: 0 auto;
+  display: grid;
+  gap: 20px;
 }
 .basic.gray-card .row .rich-text p {
   font-family: "Outfit", sans-serif;
@@ -6981,6 +6979,8 @@ div.two-videos {
 .basic.navy-card .row .rich-text {
   max-width: 85%;
   margin: 0 auto;
+  display: grid;
+  gap: 20px;
 }
 .basic.light-card {
   box-sizing: border-box;
@@ -7038,6 +7038,8 @@ div.two-videos {
 }
 .basic.light-card .row .rich-text {
   margin-bottom: 0px;
+  display: grid;
+  gap: 20px;
 }
 .basic.light-card .row .rich-text h3 {
   font-family: "Outfit", sans-serif;
