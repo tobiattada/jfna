@@ -20,6 +20,10 @@
   padding: 0;
 }
 
+.rich-text a {
+  color: inherit;
+}
+
 .shell.full-width-shell {
   width: 100%;
 }
@@ -955,7 +959,6 @@ mark {
 }
 
 .button, a.button {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -976,6 +979,7 @@ mark {
   background: #1E3EAF;
   color: #FDFDFD;
   border: none;
+  display: inline-block;
 }
 .button span, .button p, a.button span, a.button p {
   font-family: "Outfit", sans-serif;
@@ -984,13 +988,15 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.button a, a.button a {
+  color: #FDFDFD !important;
+}
 .button:hover, a.button:hover {
   background: #1c88ed;
   color: #F5F5F5;
 }
 
 .button-primary {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1011,6 +1017,7 @@ mark {
   background: #1E3EAF;
   color: #FDFDFD;
   border: none;
+  display: inline-block;
 }
 .button-primary span, .button-primary p {
   font-family: "Outfit", sans-serif;
@@ -1019,13 +1026,15 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.button-primary a {
+  color: #FDFDFD !important;
+}
 .button-primary:hover {
   background: #1c88ed;
   color: #F5F5F5;
 }
 
 .button-primary-outline {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1046,6 +1055,7 @@ mark {
   background: transparent;
   color: #1E3EAF;
   border: 3px solid #1E3EAF;
+  display: inline-block;
 }
 .button-primary-outline span, .button-primary-outline p {
   font-family: "Outfit", sans-serif;
@@ -1054,13 +1064,15 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.button-primary-outline a {
+  color: #1E3EAF !important;
+}
 .button-primary-outline:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
 }
 
 .button-secondary {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1081,6 +1093,7 @@ mark {
   background: #D2E9FF;
   color: #1E3EAF;
   border: none;
+  display: inline-block;
 }
 .button-secondary span, .button-secondary p {
   font-family: "Outfit", sans-serif;
@@ -1089,13 +1102,15 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.button-secondary a {
+  color: #1E3EAF !important;
+}
 .button-secondary:hover {
   background: #1c88ed;
   color: #F5F5F5;
 }
 
 .button-secondary-outline {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1116,6 +1131,7 @@ mark {
   background: transparent;
   color: #D2E9FF;
   border: 3px solid #D2E9FF;
+  display: inline-block;
 }
 .button-secondary-outline span, .button-secondary-outline p {
   font-family: "Outfit", sans-serif;
@@ -1124,13 +1140,15 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.button-secondary-outline a {
+  color: #D2E9FF !important;
+}
 .button-secondary-outline:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
 }
 
 .button-white {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1151,6 +1169,7 @@ mark {
   background: #FDFDFD;
   color: #1E3EAF;
   border: none;
+  display: inline-block;
 }
 .button-white span, .button-white p {
   font-family: "Outfit", sans-serif;
@@ -1159,13 +1178,15 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.button-white a {
+  color: #1E3EAF !important;
+}
 .button-white:hover {
   background: #1c88ed;
   color: #F5F5F5;
 }
 
 .button-white-outline {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1186,6 +1207,7 @@ mark {
   background: transparent;
   color: #FDFDFD;
   border: 3px solid #FDFDFD;
+  display: inline-block;
 }
 .button-white-outline span, .button-white-outline p {
   font-family: "Outfit", sans-serif;
@@ -1193,6 +1215,9 @@ mark {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+.button-white-outline a {
+  color: #FDFDFD !important;
 }
 .button-white-outline:hover {
   color: #1c88ed;
@@ -1233,6 +1258,9 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.component-promo .button-container .button.btn-blue a, .component-button .button-container .button.btn-blue a {
+  color: #FDFDFD !important;
+}
 .component-promo .button-container .button.btn-blue:hover, .component-button .button-container .button.btn-blue:hover {
   background: #1c88ed;
   color: #F5F5F5;
@@ -1272,6 +1300,9 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.component-promo .button-container .button.btn-black a, .component-button .button-container .button.btn-black a {
+  color: #1E3EAF !important;
+}
 .component-promo .button-container .button.btn-black:hover, .component-button .button-container .button.btn-black:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
@@ -1304,6 +1335,9 @@ mark {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+.component-promo .button-container .button.btn-black:hover a, .component-button .button-container .button.btn-black:hover a {
+  color: #1c88ed !important;
 }
 .component-promo .button-container .button.btn-black:hover:hover, .component-button .button-container .button.btn-black:hover:hover {
   color: #1c88ed;
@@ -1344,6 +1378,9 @@ mark {
   line-height: 27px;
   text-align: center;
 }
+.component-promo .button-container .button.btn-red a, .component-button .button-container .button.btn-red a {
+  color: #F5F5F5 !important;
+}
 .component-promo .button-container .button.btn-red:hover, .component-button .button-container .button.btn-red:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
@@ -1382,6 +1419,9 @@ mark {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+.component-promo .button-container .button.btn-green a, .component-button .button-container .button.btn-green a {
+  color: #1E3EAF !important;
 }
 .component-promo .button-container .button.btn-green:hover, .component-button .button-container .button.btn-green:hover {
   background: #1c88ed;
@@ -1527,6 +1567,9 @@ footer.page-footer .footer-wrapper form#footer-signup-form button span, footer.p
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+footer.page-footer .footer-wrapper form#footer-signup-form button a {
+  color: #1E3EAF !important;
 }
 footer.page-footer .footer-wrapper form#footer-signup-form button:hover {
   background: #1c88ed;
@@ -1759,6 +1802,9 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+.nav-menu .nav-item a.button a {
+  color: #FDFDFD !important;
 }
 .nav-menu .nav-item a.button:hover {
   background: #1c88ed;
@@ -4948,6 +4994,9 @@ ul.stats-main li p.large.hebrew {
   line-height: 27px;
   text-align: center;
 }
+.view-more-bar .row .col-12 .component-button .button.btn-black a {
+  color: #1E3EAF !important;
+}
 .view-more-bar .row .col-12 .component-button .button.btn-black:hover {
   color: #1c88ed;
   border: 3px solid #1c88ed;
@@ -5825,6 +5874,9 @@ div.two-videos {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+.callout .rich-text .button a {
+  color: #1E3EAF !important;
 }
 .callout .rich-text .button:hover {
   background: #1c88ed;
@@ -7300,8 +7352,6 @@ div.two-videos {
 .basic.navy-card .row .rich-text {
   max-width: 85%;
   margin: 0 auto;
-  display: grid;
-  gap: 20px;
 }
 .basic.light-card {
   box-sizing: border-box;
