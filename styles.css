@@ -750,6 +750,12 @@ mark {
 .download-btn a:hover::after {
   background: #E9ECF7;
 }
+.download-btn.align-center {
+  margin-top: 30px;
+}
+.download-btn.align-center a {
+  justify-content: center;
+}
 
 .rich-text .arrow-btn span {
   display: none;
@@ -911,6 +917,12 @@ mark {
 }
 .rich-text .download-btn a:hover::after {
   background: #E9ECF7;
+}
+.rich-text .download-btn.align-center {
+  margin-top: 30px;
+}
+.rich-text .download-btn.align-center a {
+  justify-content: center;
 }
 
 .button, a.button {
@@ -2719,6 +2731,10 @@ ul.stats-main li p.hebrew {
   }
 }
 
+.spacer {
+  padding-bottom: 0px !important;
+}
+
 .bg-primary-blue {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -3960,6 +3976,197 @@ ul.stats-main li p.hebrew {
   direction: rtl;
 }
 
+.bg-light-gray {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background-color: #ECECEC;
+}
+@media (min-width: 768px) {
+  .bg-light-gray {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .bg-light-gray {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .bg-light-gray {
+    padding: 50px 60px;
+  }
+}
+.bg-light-gray .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.bg-light-gray .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-light-gray .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.bg-light-gray .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-light-gray .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.bg-light-gray .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.bg-light-gray .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.bg-light-gray .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-light-gray .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.bg-light-gray .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-light-gray .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.bg-light-gray .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-light-gray .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-light-gray .rich-text p strong, .bg-light-gray .rich-text p em, .bg-light-gray .rich-text p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.bg-light-gray .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-light-gray .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-light-gray .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-light-gray .rich-text p.eyebrow strong, .bg-light-gray .rich-text p.eyebrow em, .bg-light-gray .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-light-gray .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
 .white-card {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -4725,6 +4932,25 @@ ul.stats-main li p.hebrew {
 .view-more-bar.bg-light .row {
   padding: 0px;
 }
+.view-more-bar.extra-padding .row {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .view-more-bar.extra-padding .row {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .view-more-bar.extra-padding .row {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .view-more-bar.extra-padding .row {
+    padding: 50px 60px;
+  }
+}
 
 .col-12 .component-feature.-alignment-side-by-side .box {
   margin-left: 0px;
@@ -4801,14 +5027,15 @@ ul.stats-main li p.hebrew {
   max-height: 220px;
   border-radius: 24px;
   overflow: hidden;
-  width: 100%;
-  max-width: none;
+  width: 100% !important;
+  max-width: none !important;
 }
 .feature-cards .col-12 .rich-text figure:first-child img {
   object-fit: cover;
   max-width: none;
   height: 100%;
-  width: 100%;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 .feature-cards .col-12 .rich-text:hover {
   box-shadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.08), 0px 0.326px 1.059px 0px rgba(0, 0, 0, 0.04);
@@ -5699,6 +5926,8 @@ ul.stats-main li p.hebrew {
 .inspo-block .image-side img {
   max-width: 100%;
   border-radius: 24px;
+  height: 100%;
+  object-fit: cover;
 }
 @media (min-width: 1024px) {
   .inspo-block .image-side {
@@ -5733,7 +5962,7 @@ ul.stats-main li p.hebrew {
   }
 }
 .inspo-block.gray .text-side {
-  background-color: #ECECEC;
+  background-color: #F5F5F5;
   padding: 20px 20px 90px;
 }
 @media (min-width: 1024px) {
@@ -5747,7 +5976,7 @@ ul.stats-main li p.hebrew {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
-  color: #27277C;
+  color: #1E3EAF;
 }
 @media (min-width: 1024px) {
   .inspo-block.gray .text-side h4 {
@@ -5782,26 +6011,61 @@ ul.stats-main li p.hebrew {
   direction: rtl;
 }
 .inspo-block.gray .text-side p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
   color: #2A2A2A;
-  font-size: 24px;
-  line-height: 150%;
+}
+@media (min-width: 1024px) {
+  .inspo-block.gray .text-side p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.inspo-block.gray .text-side p strong, .inspo-block.gray .text-side p em, .inspo-block.gray .text-side p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.inspo-block.gray .text-side p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.inspo-block.gray .text-side p.large {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+.inspo-block.gray .text-side p.large strong, .inspo-block.gray .text-side p.large em, .inspo-block.gray .text-side p.large b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .inspo-block.gray .text-side p.large {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.inspo-block.gray .text-side p.large.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
 }
 .inspo-block.gray.reverse .text-side {
-  background-color: #ECECEC;
+  background-color: #F5F5F5;
   padding: 90px 20px 20px;
 }
 @media (min-width: 1024px) {
   .inspo-block.gray.reverse .text-side {
     padding: 50px 150px 50px 18%;
   }
-}
-.inspo-block.gray.reverse .text-side h4 {
-  color: #27277C;
-}
-.inspo-block.gray.reverse .text-side p {
-  color: #2A2A2A;
-  font-size: 24px;
-  line-height: 150%;
 }
 
 .donor-quote {
@@ -5995,6 +6259,9 @@ ul.stats-main li p.hebrew {
     padding: 50px 60px;
   }
 }
+.basic .component-image {
+  max-height: none !important;
+}
 .basic ul li {
   margin-bottom: 10px;
 }
@@ -6163,7 +6430,7 @@ ul.stats-main li p.hebrew {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
-  color: #27277C;
+  color: #1E3EAF;
 }
 @media (min-width: 1024px) {
   .basic.cards .row .rich-text h4 {
@@ -6183,7 +6450,7 @@ ul.stats-main li p.hebrew {
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
-  color: #1E3EAF;
+  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic.cards .row .rich-text h5 {
@@ -6198,7 +6465,7 @@ ul.stats-main li p.hebrew {
   direction: rtl;
 }
 .basic.cards .col-8 {
-  background: #F5F5F5;
+  background: #FDFDFD;
   border-radius: 24px;
   box-sizing: border-box;
   padding: 30px 20px;
@@ -6222,24 +6489,13 @@ ul.stats-main li p.hebrew {
 .basic.cards .col-4 {
   background: #ECECEC;
   border-radius: 24px;
-  box-sizing: border-box;
-  padding: 30px 20px;
   flex: 1;
 }
-@media (min-width: 768px) {
-  .basic.cards .col-4 {
-    padding: 30px 20px;
-  }
+.basic.cards .col-4 * {
+  height: 100%;
 }
-@media (min-width: 1024px) {
-  .basic.cards .col-4 {
-    padding: 50px 60px;
-  }
-}
-@media (min-width: 1300px) {
-  .basic.cards .col-4 {
-    padding: 50px 60px;
-  }
+.basic.cards .col-4 img {
+  object-fit: cover;
 }
 .basic.light-card {
   box-sizing: border-box;
