@@ -69,7 +69,7 @@ a {
 
 h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -84,14 +84,14 @@ h1 {
 }
 h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 
 h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -105,14 +105,14 @@ h2 {
 }
 h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 
 h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -121,7 +121,7 @@ h3 {
 }
 h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -134,7 +134,7 @@ h3.hebrew {
 
 h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -148,14 +148,14 @@ h4 {
 }
 h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 
 h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -169,7 +169,7 @@ h5 {
 }
 h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -190,7 +190,7 @@ h6 {
 }
 h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -215,14 +215,14 @@ p strong, p em, p b {
 }
 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 
 .rich-text h1, .page.page-main h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -237,13 +237,13 @@ p.hebrew {
 }
 .rich-text h1.hebrew, .page.page-main h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .rich-text h2, .page.page-main h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -257,13 +257,13 @@ p.hebrew {
 }
 .rich-text h2.hebrew, .page.page-main h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .rich-text h3, .page.page-main h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -272,7 +272,7 @@ p.hebrew {
 }
 .rich-text h3.hebrew, .page.page-main h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -284,7 +284,7 @@ p.hebrew {
 }
 .rich-text h4, .page.page-main h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -298,13 +298,13 @@ p.hebrew {
 }
 .rich-text h4.hebrew, .page.page-main h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .rich-text h5, .page.page-main h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -318,7 +318,7 @@ p.hebrew {
 }
 .rich-text h5.hebrew, .page.page-main h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -338,7 +338,7 @@ p.hebrew {
 }
 .rich-text h6.hebrew, .page.page-main h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -362,13 +362,13 @@ p.hebrew {
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -381,12 +381,12 @@ p.hebrew {
   }
 }
 .rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
-  font-weight: 600;
+  font-weight: 500;
   color: #2A2A2A;
 }
 .rich-text p b.hebrew, .rich-text p strong.hebrew, .page.page-main p b.hebrew, .page.page-main p strong.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -410,7 +410,7 @@ p.hebrew {
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -421,7 +421,7 @@ a.button {
 }
 a.button span {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0%;
@@ -429,14 +429,14 @@ a.button span {
 }
 a.button.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 
 p a {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0%;
@@ -446,7 +446,7 @@ p a:hover {
 }
 p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -461,7 +461,7 @@ h4.section-header {
 
 h4.section-header-white {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -469,7 +469,7 @@ h4.section-header-white {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
-  border-bottom: 8px solid #FDFDFD;
+  border-bottom: 8px solid #D2E9FF;
   margin: 0 auto;
   color: #FDFDFD;
 }
@@ -481,7 +481,7 @@ h4.section-header-white {
 }
 h4.section-header-white.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -554,12 +554,14 @@ h5.section-header-right {
   margin-left: 0;
 }
 
-.bg-navy-blue h4.section-header {
+.bg-navy-blue h4.section-header-center {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
-  border-bottom: 6px solid #D2E9FF;
-  color: #D2E9FF !important;
+  border-bottom: 8px solid #D2E9FF;
+  margin: 0 auto;
+  color: #FDFDFD;
+  color: #FDFDFD !important;
 }
 
 h5.section-header {
@@ -579,7 +581,7 @@ p.section-header, p.eyebrow {
 
 p.eyebrow {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -598,12 +600,12 @@ p.eyebrow {
   }
 }
 p.eyebrow strong, p.eyebrow em, p.eyebrow b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -1764,7 +1766,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item a.button p {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -1777,12 +1779,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .nav-menu .nav-item a.button p strong, .nav-menu .nav-item a.button p em, .nav-menu .nav-item a.button p b {
-  font-weight: 600;
+  font-weight: 500;
   color: #F5F5F5;
 }
 .nav-menu .nav-item a.button p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -1836,7 +1838,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b {
     font-family: "Outfit", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
@@ -1851,14 +1853,14 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b strong, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b em, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b b {
-    font-weight: 600;
+    font-weight: 500;
     color: #2A2A2A;
   }
 }
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b.hebrew {
     font-family: "Noto Sans Hebrew", sans-serif !important;
-    font-weight: 600;
+    font-weight: 500;
     text-align: right;
     direction: rtl;
   }
@@ -1905,7 +1907,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2152,7 +2154,7 @@ div.timeline > div {
 }
 div.timeline > div h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -2167,7 +2169,7 @@ div.timeline > div h4 {
 }
 div.timeline > div h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2688,11 +2690,11 @@ ul.stats-main {
 ul.stats-main li {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 ul.stats-main li h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -2701,7 +2703,7 @@ ul.stats-main li h3 {
 }
 ul.stats-main li h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2711,27 +2713,27 @@ ul.stats-main li h3.hebrew {
     line-height: 58.5px;
   }
 }
-ul.stats-main li p {
+ul.stats-main li p.large {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 26px;
   letter-spacing: 0%;
-  color: #F5F5F5;
+  color: #FDFDFD;
+}
+ul.stats-main li p.large strong, ul.stats-main li p.large em, ul.stats-main li p.large b {
+  font-weight: 500;
+  color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  ul.stats-main li p {
-    font-size: 18px;
-    line-height: 27px;
+  ul.stats-main li p.large {
+    font-size: 24px;
+    line-height: 150%;
   }
 }
-ul.stats-main li p strong, ul.stats-main li p em, ul.stats-main li p b {
-  font-weight: 400;
-  color: #F5F5F5;
-}
-ul.stats-main li p.hebrew {
+ul.stats-main li p.large.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 400;
   text-align: right;
   direction: rtl;
 }
@@ -2784,7 +2786,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -2799,13 +2801,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-primary-blue .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -2819,13 +2821,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-primary-blue .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -2834,7 +2836,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2846,7 +2848,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -2860,13 +2862,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-primary-blue .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -2880,7 +2882,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2900,7 +2902,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2924,7 +2926,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-primary-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -2951,7 +2953,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -2966,13 +2968,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-medium-blue .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -2986,13 +2988,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-medium-blue .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -3001,7 +3003,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3013,7 +3015,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -3027,13 +3029,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-medium-blue .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -3047,7 +3049,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3067,7 +3069,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3091,7 +3093,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-medium-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3118,7 +3120,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -3133,13 +3135,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-navy-blue .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -3153,13 +3155,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-navy-blue .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -3168,7 +3170,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3180,7 +3182,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -3194,13 +3196,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-navy-blue .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -3214,7 +3216,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3234,7 +3236,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3258,7 +3260,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3285,7 +3287,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -3300,13 +3302,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light-blue .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -3320,13 +3322,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light-blue .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -3335,7 +3337,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3347,7 +3349,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -3361,13 +3363,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light-blue .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -3381,7 +3383,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3401,7 +3403,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3425,7 +3427,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3452,7 +3454,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -3467,13 +3469,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -3487,13 +3489,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -3502,7 +3504,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3514,7 +3516,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -3528,13 +3530,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -3548,7 +3550,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3568,7 +3570,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3592,7 +3594,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3611,12 +3613,12 @@ ul.stats-main li p.hebrew {
   }
 }
 .bg-light .rich-text p.eyebrow strong, .bg-light .rich-text p.eyebrow em, .bg-light .rich-text p.eyebrow b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 .bg-light .rich-text p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3643,7 +3645,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -3658,13 +3660,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-white .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -3678,13 +3680,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-white .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -3693,7 +3695,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3705,7 +3707,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -3719,13 +3721,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-white .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -3739,7 +3741,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3759,7 +3761,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3783,7 +3785,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-white .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3802,12 +3804,12 @@ ul.stats-main li p.hebrew {
   }
 }
 .bg-white .rich-text p.eyebrow strong, .bg-white .rich-text p.eyebrow em, .bg-white .rich-text p.eyebrow b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 .bg-white .rich-text p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3834,7 +3836,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -3849,13 +3851,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-gray .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -3869,13 +3871,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-gray .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -3884,7 +3886,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3896,7 +3898,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -3910,13 +3912,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-gray .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -3930,7 +3932,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3950,7 +3952,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3974,7 +3976,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-gray .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -3993,12 +3995,12 @@ ul.stats-main li p.hebrew {
   }
 }
 .bg-gray .rich-text p.eyebrow strong, .bg-gray .rich-text p.eyebrow em, .bg-gray .rich-text p.eyebrow b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 .bg-gray .rich-text p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4025,7 +4027,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -4040,13 +4042,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light-gray .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -4060,13 +4062,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light-gray .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -4075,7 +4077,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4087,7 +4089,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -4101,13 +4103,13 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .bg-light-gray .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -4121,7 +4123,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4141,7 +4143,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4165,7 +4167,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-light-gray .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4184,12 +4186,12 @@ ul.stats-main li p.hebrew {
   }
 }
 .bg-light-gray .rich-text p.eyebrow strong, .bg-light-gray .rich-text p.eyebrow em, .bg-light-gray .rich-text p.eyebrow b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 .bg-light-gray .rich-text p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4550,12 +4552,12 @@ ul.stats-main li p.hebrew {
   }
 }
 .about-us-header .component-promo .promo-text p strong, .about-us-header .component-promo .promo-text p em, .about-us-header .component-promo .promo-text p b {
-  font-weight: 600;
+  font-weight: 500;
   color: #F5F5F5;
 }
 .about-us-header .component-promo .promo-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -4574,12 +4576,12 @@ ul.stats-main li p.hebrew {
   }
 }
 .about-us-header .component-promo .promo-title p strong strong, .about-us-header .component-promo .promo-title p strong em, .about-us-header .component-promo .promo-title p strong b {
-  font-weight: 600;
+  font-weight: 500;
   color: #F5F5F5;
 }
 .about-us-header .component-promo .promo-title p strong.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5007,7 +5009,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-cards .col-12 .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5021,7 +5023,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-cards .col-12 .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5045,7 +5047,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-cards .col-12 .rich-text p.hebrew, .feature-cards .col-12 .rich-text p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5092,14 +5094,14 @@ ul.stats-main li p.hebrew {
 }
 .component-feature .box .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 
 .news-list, .upcoming.tidy h4 a {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5114,7 +5116,7 @@ ul.stats-main li p.hebrew {
 }
 .news-list.hebrew, .upcoming.tidy h4 a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5124,7 +5126,7 @@ ul.stats-main li p.hebrew {
 
 .upcoming.tidy .entry.news-entry p.title {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5138,7 +5140,7 @@ ul.stats-main li p.hebrew {
 }
 .upcoming.tidy .entry.news-entry p.title.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5163,7 +5165,7 @@ ul.stats-main li p.hebrew {
 }
 .upcoming.tidy .entry.news-entry p.meta.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5190,7 +5192,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-posts .row .col-4 h5, .feature-posts .row .col-4 h5 a {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5205,7 +5207,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-posts .row .col-4 h5.hebrew, .feature-posts .row .col-4 h5 a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5229,7 +5231,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-posts .row .col-4 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5321,7 +5323,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-posts .home-boxes .box h4.title, .feature-posts .home-boxes .box h4.title a {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5336,7 +5338,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-posts .home-boxes .box h4.title.hebrew, .feature-posts .home-boxes .box h4.title a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5360,7 +5362,7 @@ ul.stats-main li p.hebrew {
 }
 .feature-posts .home-boxes .box p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5403,7 +5405,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title a {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5418,7 +5420,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title.hebrew, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body h4.title a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5442,7 +5444,7 @@ ul.stats-main li p.hebrew {
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5572,7 +5574,7 @@ div.two-videos {
 }
 .callout .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -5587,13 +5589,13 @@ div.two-videos {
 }
 .callout .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .callout .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -5607,13 +5609,13 @@ div.two-videos {
 }
 .callout .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .callout .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -5622,7 +5624,7 @@ div.two-videos {
 }
 .callout .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5634,7 +5636,7 @@ div.two-videos {
 }
 .callout .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -5648,13 +5650,13 @@ div.two-videos {
 }
 .callout .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .callout .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5668,7 +5670,7 @@ div.two-videos {
 }
 .callout .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5688,7 +5690,7 @@ div.two-videos {
 }
 .callout .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5712,7 +5714,7 @@ div.two-videos {
 }
 .callout .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5752,7 +5754,7 @@ div.two-videos {
 }
 .callout .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -5761,7 +5763,7 @@ div.two-videos {
 }
 .callout .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5791,7 +5793,7 @@ div.two-videos {
 }
 .callout .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5853,7 +5855,7 @@ div.two-videos {
 }
 .callout.dark .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -5868,13 +5870,13 @@ div.two-videos {
 }
 .callout.dark .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .callout.dark .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -5888,13 +5890,13 @@ div.two-videos {
 }
 .callout.dark .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .callout.dark .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -5903,7 +5905,7 @@ div.two-videos {
 }
 .callout.dark .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5915,7 +5917,7 @@ div.two-videos {
 }
 .callout.dark .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -5929,13 +5931,13 @@ div.two-videos {
 }
 .callout.dark .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .callout.dark .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -5949,7 +5951,7 @@ div.two-videos {
 }
 .callout.dark .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5969,7 +5971,7 @@ div.two-videos {
 }
 .callout.dark .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -5993,7 +5995,7 @@ div.two-videos {
 }
 .callout.dark .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6095,7 +6097,7 @@ div.two-videos {
 }
 .inspo-block.gray .text-side h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -6109,13 +6111,13 @@ div.two-videos {
 }
 .inspo-block.gray .text-side h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .inspo-block.gray .text-side h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -6129,7 +6131,7 @@ div.two-videos {
 }
 .inspo-block.gray .text-side h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6153,7 +6155,7 @@ div.two-videos {
 }
 .inspo-block.gray .text-side p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6166,7 +6168,7 @@ div.two-videos {
   color: #2A2A2A;
 }
 .inspo-block.gray .text-side p.large strong, .inspo-block.gray .text-side p.large em, .inspo-block.gray .text-side p.large b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
@@ -6384,12 +6386,13 @@ div.two-videos {
 }
 .basic h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
   color: #1E3EAF;
   text-align: center;
+  margin-bottom: 30px;
 }
 @media (min-width: 1024px) {
   .basic h1 {
@@ -6399,17 +6402,18 @@ div.two-videos {
 }
 .basic h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
   color: #1E3EAF;
+  margin-bottom: 30px;
 }
 @media (min-width: 1024px) {
   .basic h2 {
@@ -6419,13 +6423,13 @@ div.two-videos {
 }
 .basic h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -6434,7 +6438,7 @@ div.two-videos {
 }
 .basic h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6446,7 +6450,7 @@ div.two-videos {
 }
 .basic h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -6460,13 +6464,13 @@ div.two-videos {
 }
 .basic h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -6480,7 +6484,7 @@ div.two-videos {
 }
 .basic h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6500,7 +6504,7 @@ div.two-videos {
 }
 .basic h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6524,7 +6528,31 @@ div.two-videos {
 }
 .basic p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic p b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic p b {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.basic p b strong, .basic p b em, .basic p b b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+.basic p b.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6537,7 +6565,7 @@ div.two-videos {
   color: #2A2A2A;
 }
 .basic p.large strong, .basic p.large em, .basic p.large b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
@@ -6552,9 +6580,34 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
+.basic p.large b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  font-weight: 600;
+}
+.basic p.large b strong, .basic p.large b em, .basic p.large b b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic p.large b {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic p.large b.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
 .basic .rich-text h1 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -6569,13 +6622,13 @@ div.two-videos {
 }
 .basic .rich-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic .rich-text h2 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0%;
@@ -6589,13 +6642,13 @@ div.two-videos {
 }
 .basic .rich-text h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -6604,7 +6657,7 @@ div.two-videos {
 }
 .basic .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6616,7 +6669,7 @@ div.two-videos {
 }
 .basic .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -6630,13 +6683,13 @@ div.two-videos {
 }
 .basic .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -6650,7 +6703,7 @@ div.two-videos {
 }
 .basic .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6670,7 +6723,7 @@ div.two-videos {
 }
 .basic .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6694,7 +6747,31 @@ div.two-videos {
 }
 .basic .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text p b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text p b {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.basic .rich-text p b strong, .basic .rich-text p b em, .basic .rich-text p b b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+.basic .rich-text p b.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6707,7 +6784,7 @@ div.two-videos {
   color: #2A2A2A;
 }
 .basic .rich-text p.large strong, .basic .rich-text p.large em, .basic .rich-text p.large b {
-  font-weight: 600;
+  font-weight: 500;
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
@@ -6717,6 +6794,31 @@ div.two-videos {
   }
 }
 .basic .rich-text p.large.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+.basic .rich-text p.large b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  font-weight: 600;
+}
+.basic .rich-text p.large b strong, .basic .rich-text p.large b em, .basic .rich-text p.large b b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic .rich-text p.large b {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic .rich-text p.large b.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 400;
   text-align: right;
@@ -6748,7 +6850,226 @@ div.two-videos {
 }
 .basic .rich-text h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.basic.bg-primary-blue h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.basic.bg-primary-blue h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #D2E9FF;
+}
+.basic.bg-primary-blue h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+.basic.bg-primary-blue h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #D2E9FF;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.basic.bg-primary-blue h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.basic.bg-primary-blue h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.basic.bg-primary-blue h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.basic.bg-primary-blue p strong, .basic.bg-primary-blue p em, .basic.bg-primary-blue p b {
+  font-weight: 400;
+  color: #FDFDFD;
+}
+.basic.bg-primary-blue p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue p b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue p b {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.basic.bg-primary-blue p b strong, .basic.bg-primary-blue p b em, .basic.bg-primary-blue p b b {
+  font-weight: 500;
+  color: #FDFDFD;
+}
+.basic.bg-primary-blue p b.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue p.large {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+.basic.bg-primary-blue p.large strong, .basic.bg-primary-blue p.large em, .basic.bg-primary-blue p.large b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue p.large {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic.bg-primary-blue p.large.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+.basic.bg-primary-blue p.large b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+  font-weight: 500;
+}
+.basic.bg-primary-blue p.large b strong, .basic.bg-primary-blue p.large b em, .basic.bg-primary-blue p.large b b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .basic.bg-primary-blue p.large b {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+.basic.bg-primary-blue p.large b.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
   text-align: right;
   direction: rtl;
 }
@@ -6835,7 +7156,7 @@ div.two-videos {
 }
 .basic.gray-card .row .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -6955,7 +7276,7 @@ div.two-videos {
 }
 .basic.navy-card h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -6969,7 +7290,7 @@ div.two-videos {
 }
 .basic.navy-card h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -7038,12 +7359,10 @@ div.two-videos {
 }
 .basic.light-card .row .rich-text {
   margin-bottom: 0px;
-  display: grid;
-  gap: 20px;
 }
 .basic.light-card .row .rich-text h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 150%;
   /* 24px */
@@ -7052,7 +7371,7 @@ div.two-videos {
 }
 .basic.light-card .row .rich-text h3.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -7061,6 +7380,10 @@ div.two-videos {
     font-size: 45px;
     line-height: 58.5px;
   }
+}
+.basic.light-card.narrow .row .rich-text {
+  width: 75%;
+  margin: 0 auto;
 }
 .basic.light-card.left-title .col-12 {
   display: grid;
@@ -7073,7 +7396,7 @@ div.two-videos {
 }
 .basic.cards .row .rich-text h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -7087,13 +7410,13 @@ div.two-videos {
 }
 .basic.cards .row .rich-text h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
 .basic.cards .row .rich-text h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -7107,7 +7430,7 @@ div.two-videos {
 }
 .basic.cards .row .rich-text h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -7220,7 +7543,7 @@ div.two-videos {
 }
 .accordion-widget h4 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
@@ -7234,7 +7557,7 @@ div.two-videos {
 }
 .accordion-widget h4.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -7286,7 +7609,7 @@ div.two-videos {
 }
 .accordion-widget .accBox h5 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
@@ -7304,7 +7627,7 @@ div.two-videos {
 }
 .accordion-widget .accBox h5.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -7351,7 +7674,7 @@ div.two-videos {
 }
 .accordion-widget .accContent p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
+  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
