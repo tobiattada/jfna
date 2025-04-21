@@ -173,7 +173,7 @@ h5 {
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
-  color: #1E3EAF;
+  color: #27277C;
 }
 @media (min-width: 1024px) {
   h5 {
@@ -4718,6 +4718,28 @@ ul.stats-main.col2 li {
   color: #F5F5F5;
 }
 .about-us-header .component-promo .promo-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.about-us-header .component-promo .promo-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+  text-align: center;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  .about-us-header .component-promo .promo-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.about-us-header .component-promo .promo-text h1.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
