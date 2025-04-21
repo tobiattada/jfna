@@ -11,6 +11,10 @@
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .col-12 {
   width: 100%;
 }
