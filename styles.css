@@ -5051,6 +5051,124 @@ div.two-videos {
   }
 }
 
+.page-main .israel-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "one" "two" "three" "four";
+  gap: 10px;
+}
+.page-main .israel-stats div h2 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1c88ed;
+}
+@media (min-width: 1024px) {
+  .page-main .israel-stats div h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.page-main .israel-stats div h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.page-main .israel-stats div h5 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .page-main .israel-stats div h5 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.page-main .israel-stats div h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.page-main .israel-stats div h4 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .page-main .israel-stats div h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.page-main .israel-stats div h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.page-main .israel-stats div h4 span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1c88ed;
+}
+@media (min-width: 1024px) {
+  .page-main .israel-stats div h4 span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.page-main .israel-stats div h4 span.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.page-main .israel-stats div:nth-child(1) {
+  grid-area: one;
+}
+.page-main .israel-stats div:nth-child(2) {
+  grid-area: two;
+}
+.page-main .israel-stats div:nth-child(3) {
+  grid-area: three;
+}
+.page-main .israel-stats div:nth-child(4) {
+  grid-area: four;
+}
+.page-main .israel-stats div {
+  background: #27277C;
+  border-radius: 24px;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .page-main .israel-stats {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "one two three" "four four four";
+  }
+}
+@media (min-width: 1024px) {
+  .page-main .israel-stats {
+    gap: 20px;
+  }
+}
+
 .features-4-up {
   box-sizing: border-box;
   padding: 30px 20px;
