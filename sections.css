@@ -735,6 +735,12 @@ mark {
   transition: 0.3s;
   background: #1c88ed;
 }
+.external-btn.align-center {
+  margin-top: 30px;
+}
+.external-btn.align-center a {
+  justify-content: center;
+}
 
 .email-btn span {
   display: none;
@@ -763,6 +769,12 @@ mark {
 .email-btn a:hover::after {
   transition: 0.3s;
   background: #1c88ed;
+}
+.email-btn.align-center {
+  margin-top: 30px;
+}
+.email-btn.align-center a {
+  justify-content: center;
 }
 
 .scroll-btn span {
@@ -1065,6 +1077,9 @@ mark {
 .button:hover a, .button:hover span, a.button:hover a, a.button:hover span {
   color: #F5F5F5 !important;
 }
+.button:active, a.button:active {
+  background: #27277C;
+}
 
 .button-primary {
   padding: 12px 24px;
@@ -1110,6 +1125,9 @@ mark {
 }
 .button-primary:hover a, .button-primary:hover span {
   color: #F5F5F5 !important;
+}
+.button-primary:active {
+  background: #27277C;
 }
 
 .button-primary-outline {
@@ -1157,6 +1175,9 @@ mark {
 .button-primary-outline:hover a, .button-primary-outline:hover span {
   color: #1c88ed !important;
 }
+.button-primary-outline:active {
+  background: #27277C;
+}
 
 .button-secondary {
   padding: 12px 24px;
@@ -1202,6 +1223,9 @@ mark {
 }
 .button-secondary:hover a, .button-secondary:hover span {
   color: #F5F5F5 !important;
+}
+.button-secondary:active {
+  background: #27277C;
 }
 
 .button-secondary-outline {
@@ -1249,6 +1273,9 @@ mark {
 .button-secondary-outline:hover a, .button-secondary-outline:hover span {
   color: #1c88ed !important;
 }
+.button-secondary-outline:active {
+  background: #27277C;
+}
 
 .button-white {
   padding: 12px 24px;
@@ -1295,6 +1322,9 @@ mark {
 .button-white:hover a, .button-white:hover span {
   color: #F5F5F5 !important;
 }
+.button-white:active {
+  background: #27277C;
+}
 
 .button-white-outline {
   padding: 12px 24px;
@@ -1340,6 +1370,9 @@ mark {
 }
 .button-white-outline:hover a, .button-white-outline:hover span {
   color: #1c88ed !important;
+}
+.button-white-outline:active {
+  background: #27277C;
 }
 
 .component-promo .button-container .button.btn-blue, .component-button .button-container .button.btn-blue {
@@ -1391,6 +1424,9 @@ mark {
 .component-promo .button-container .button.btn-blue:hover a, .component-promo .button-container .button.btn-blue:hover span, .component-button .button-container .button.btn-blue:hover a, .component-button .button-container .button.btn-blue:hover span {
   color: #F5F5F5 !important;
 }
+.component-promo .button-container .button.btn-blue:active, .component-button .button-container .button.btn-blue:active {
+  background: #27277C;
+}
 
 .component-promo .button-container .button.btn-black, .component-button .button-container .button.btn-black {
   padding: 12px 24px;
@@ -1441,6 +1477,9 @@ mark {
 .component-promo .button-container .button.btn-black:hover a, .component-promo .button-container .button.btn-black:hover span, .component-button .button-container .button.btn-black:hover a, .component-button .button-container .button.btn-black:hover span {
   color: #1c88ed !important;
 }
+.component-promo .button-container .button.btn-black:active, .component-button .button-container .button.btn-black:active {
+  background: #27277C;
+}
 .component-promo .button-container .button.btn-black:hover, .component-button .button-container .button.btn-black:hover {
   padding: 12px 24px;
   border-radius: 30px;
@@ -1484,6 +1523,9 @@ mark {
 }
 .component-promo .button-container .button.btn-black:hover:hover a, .component-promo .button-container .button.btn-black:hover:hover span, .component-button .button-container .button.btn-black:hover:hover a, .component-button .button-container .button.btn-black:hover:hover span {
   color: #1c88ed !important;
+}
+.component-promo .button-container .button.btn-black:hover:active, .component-button .button-container .button.btn-black:hover:active {
+  background: #27277C;
 }
 
 .component-promo .button-container .button.btn-red, .component-button .button-container .button.btn-red {
@@ -1535,6 +1577,9 @@ mark {
 .component-promo .button-container .button.btn-red:hover a, .component-promo .button-container .button.btn-red:hover span, .component-button .button-container .button.btn-red:hover a, .component-button .button-container .button.btn-red:hover span {
   color: #1c88ed !important;
 }
+.component-promo .button-container .button.btn-red:active, .component-button .button-container .button.btn-red:active {
+  background: #27277C;
+}
 
 .component-promo .button-container .button.btn-green, .component-button .button-container .button.btn-green {
   padding: 12px 24px;
@@ -1584,6 +1629,9 @@ mark {
 }
 .component-promo .button-container .button.btn-green:hover a, .component-promo .button-container .button.btn-green:hover span, .component-button .button-container .button.btn-green:hover a, .component-button .button-container .button.btn-green:hover span {
   color: #F5F5F5 !important;
+}
+.component-promo .button-container .button.btn-green:active, .component-button .button-container .button.btn-green:active {
+  background: #27277C;
 }
 
 footer.page-footer .rich-text *, footer.page-footer * {
@@ -1638,7 +1686,7 @@ footer.page-footer .footer-wrapper {
 }
 @media (min-width: 1300px) {
   footer.page-footer .footer-wrapper {
-    padding: 50px 60px;
+    padding: 60px 80px;
   }
 }
 footer.page-footer .footer-wrapper .footer-row {
@@ -1740,6 +1788,9 @@ footer.page-footer .footer-wrapper form#subForm button:hover {
 }
 footer.page-footer .footer-wrapper form#subForm button:hover a, footer.page-footer .footer-wrapper form#subForm button:hover span {
   color: #F5F5F5 !important;
+}
+footer.page-footer .footer-wrapper form#subForm button:active {
+  background: #27277C;
 }
 footer.page-footer .footer-wrapper .footer-navigation .flex-container {
   gap: 20px;
@@ -1984,6 +2035,9 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .nav-menu .nav-item a.button:hover a, .nav-menu .nav-item a.button:hover span {
   color: #F5F5F5 !important;
 }
+.nav-menu .nav-item a.button:active {
+  background: #27277C;
+}
 .nav-menu .nav-item a.button p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -2032,6 +2086,9 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   z-index: 1000;
   padding: 50px 30px 40px;
   width: 225px;
+}
+.nav-menu .nav-item.has-dropdown .dropdown a:hover {
+  background: #ECECEC;
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega {
   width: 900px;
@@ -2088,6 +2145,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a p b span {
     color: #1E3EAF;
+  }
+}
+@media (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a:hover {
+    background: #ECECEC;
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul {
@@ -2192,7 +2254,7 @@ section.page-main .col-7 {
 }
 @media (min-width: 1300px) {
   section.page-main .col-7 {
-    padding: 50px 60px;
+    padding: 60px 80px;
   }
 }
 section.page-main .news .entry .row .meta {
