@@ -1667,18 +1667,18 @@ footer.page-footer .footer-wrapper ul.social-links li img {
   margin: 0px;
   height: auto;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form {
+footer.page-footer .footer-wrapper form#subForm {
   display: flex;
   gap: 20px;
   margin-top: 20px;
   flex-direction: column;
 }
 @media (min-width: 1024px) {
-  footer.page-footer .footer-wrapper form#footer-signup-form {
+  footer.page-footer .footer-wrapper form#subForm {
     flex-direction: row;
   }
 }
-footer.page-footer .footer-wrapper form#footer-signup-form input {
+footer.page-footer .footer-wrapper form#subForm input {
   padding: 9px 16px;
   border-radius: 10px;
   border: 2px solid #c9c9c9;
@@ -1692,12 +1692,12 @@ footer.page-footer .footer-wrapper form#footer-signup-form input {
   box-sizing: border-box;
 }
 @media (min-width: 1024px) {
-  footer.page-footer .footer-wrapper form#footer-signup-form input {
+  footer.page-footer .footer-wrapper form#subForm input {
     min-width: 280px;
     max-width: 280px;
   }
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button {
+footer.page-footer .footer-wrapper form#subForm button {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -1719,7 +1719,7 @@ footer.page-footer .footer-wrapper form#footer-signup-form button {
   color: #1E3EAF !important;
   border: none;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button span, footer.page-footer .footer-wrapper form#footer-signup-form button p {
+footer.page-footer .footer-wrapper form#subForm button span, footer.page-footer .footer-wrapper form#subForm button p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -1728,17 +1728,17 @@ footer.page-footer .footer-wrapper form#footer-signup-form button span, footer.p
   color: #1E3EAF;
   transition: 0.3s;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button span:hover, footer.page-footer .footer-wrapper form#footer-signup-form button p:hover {
+footer.page-footer .footer-wrapper form#subForm button span:hover, footer.page-footer .footer-wrapper form#subForm button p:hover {
   transition: 0.3s;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button a, footer.page-footer .footer-wrapper form#footer-signup-form button span {
+footer.page-footer .footer-wrapper form#subForm button a, footer.page-footer .footer-wrapper form#subForm button span {
   color: #1E3EAF !important;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button:hover {
+footer.page-footer .footer-wrapper form#subForm button:hover {
   background: #1c88ed;
   color: #F5F5F5 !important;
 }
-footer.page-footer .footer-wrapper form#footer-signup-form button:hover a, footer.page-footer .footer-wrapper form#footer-signup-form button:hover span {
+footer.page-footer .footer-wrapper form#subForm button:hover a, footer.page-footer .footer-wrapper form#subForm button:hover span {
   color: #F5F5F5 !important;
 }
 footer.page-footer .footer-wrapper .footer-navigation .flex-container {
