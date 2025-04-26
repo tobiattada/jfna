@@ -2800,12 +2800,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 @media (min-width: 1024px) {
   .our-work-intro .row .rich-text p.align-center, .our-work-intro .row .rich-text h4.align-center, .our-work-intro .row .rich-text h5.align-center, .our-work-intro .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .our-work-intro .row .rich-text p.align-center, .our-work-intro .row .rich-text h4.align-center, .our-work-intro .row .rich-text h5.align-center, .our-work-intro .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .our-work-intro .row .rich-text, .our-work-intro .row .component-icon-row {
@@ -4568,12 +4568,12 @@ ul.stats-main.col2 li {
 }
 @media (min-width: 1024px) {
   .white-card .row .rich-text p.align-center, .white-card .row .rich-text h4.align-center, .white-card .row .rich-text h5.align-center, .white-card .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .white-card .row .rich-text p.align-center, .white-card .row .rich-text h4.align-center, .white-card .row .rich-text h5.align-center, .white-card .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .white-card .row .rich-text, .white-card .row .component-icon-row {
@@ -4639,12 +4639,12 @@ ul.stats-main.col2 li {
 }
 @media (min-width: 1024px) {
   .blue-card .row .rich-text p.align-center, .blue-card .row .rich-text h4.align-center, .blue-card .row .rich-text h5.align-center, .blue-card .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .blue-card .row .rich-text p.align-center, .blue-card .row .rich-text h4.align-center, .blue-card .row .rich-text h5.align-center, .blue-card .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .blue-card .row .rich-text, .blue-card .row .component-icon-row {
@@ -4707,12 +4707,12 @@ ul.stats-main.col2 li {
 }
 @media (min-width: 1024px) {
   .gray-card .row .rich-text p.align-center, .gray-card .row .rich-text h4.align-center, .gray-card .row .rich-text h5.align-center, .gray-card .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .gray-card .row .rich-text p.align-center, .gray-card .row .rich-text h4.align-center, .gray-card .row .rich-text h5.align-center, .gray-card .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .gray-card .row .rich-text, .gray-card .row .component-icon-row {
@@ -6886,12 +6886,12 @@ div.two-videos {
 }
 @media (min-width: 768px) and (min-width: 1024px) {
   .donor-quote .row .rich-text p.align-center, .donor-quote .row .rich-text h4.align-center, .donor-quote .row .rich-text h5.align-center, .donor-quote .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 768px) and (min-width: 1300px) {
   .donor-quote .row .rich-text p.align-center, .donor-quote .row .rich-text h4.align-center, .donor-quote .row .rich-text h5.align-center, .donor-quote .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 @media (min-width: 768px) {
@@ -7842,12 +7842,12 @@ div.two-videos {
 }
 @media (min-width: 1024px) {
   .basic.gray-card .row .rich-text p.align-center, .basic.gray-card .row .rich-text h4.align-center, .basic.gray-card .row .rich-text h5.align-center, .basic.gray-card .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .basic.gray-card .row .rich-text p.align-center, .basic.gray-card .row .rich-text h4.align-center, .basic.gray-card .row .rich-text h5.align-center, .basic.gray-card .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .basic.gray-card .row .rich-text, .basic.gray-card .row .component-icon-row {
@@ -8002,12 +8002,12 @@ div.two-videos {
 }
 @media (min-width: 1024px) {
   .basic.navy-card .row .rich-text p.align-center, .basic.navy-card .row .rich-text h4.align-center, .basic.navy-card .row .rich-text h5.align-center, .basic.navy-card .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .basic.navy-card .row .rich-text p.align-center, .basic.navy-card .row .rich-text h4.align-center, .basic.navy-card .row .rich-text h5.align-center, .basic.navy-card .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .basic.navy-card .row .rich-text, .basic.navy-card .row .component-icon-row {
@@ -8090,12 +8090,12 @@ div.two-videos {
 }
 @media (min-width: 1024px) {
   .basic.light-card .row .rich-text p.align-center, .basic.light-card .row .rich-text h4.align-center, .basic.light-card .row .rich-text h5.align-center, .basic.light-card .row .rich-text h6.align-center {
-    max-width: 82%;
+    max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
   .basic.light-card .row .rich-text p.align-center, .basic.light-card .row .rich-text h4.align-center, .basic.light-card .row .rich-text h5.align-center, .basic.light-card .row .rich-text h6.align-center {
-    max-width: 77%;
+    max-width: 85%;
   }
 }
 .basic.light-card .row .rich-text, .basic.light-card .row .component-icon-row {
