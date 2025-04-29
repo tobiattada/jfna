@@ -5087,6 +5087,27 @@ ul.stats-main.col2 li {
 .component-icon-row .icon-row-item .text p {
   font-weight: 300;
 }
+.component-icon-row .icon-row-item .text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+.component-icon-row .icon-row-item .text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .component-icon-row .icon-row-item .text h4 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
 @media (min-width: 1024px) {
   .component-icon-row .icon-row-item .text {
     gap: 20px;
