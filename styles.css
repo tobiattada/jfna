@@ -7126,7 +7126,7 @@ div.two-videos {
 @media (min-width: 1024px) {
   .donor-quote .row .col-12 {
     padding: 0 85px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
   }
 }
 .donor-quote .row .col-12 div:first-child {
@@ -7231,7 +7231,7 @@ div.two-videos {
 @media (min-width: 1024px) {
   .donor-quote.reverse .row .col-12 {
     padding: 0 85px;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
   }
 }
 @media (min-width: 768px) {
