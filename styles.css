@@ -2751,12 +2751,15 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 @media (min-width: 1024px) {
   .modals.one-modals .row {
     gap: 0px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
   }
   .modals.one-modals .row .col-3 {
     display: flex;
     gap: 20px;
     align-items: center;
+  }
+  .modals.one-modals .row .col-3 > {
+    flex: 1;
   }
 }
 .modals .col-3 {
