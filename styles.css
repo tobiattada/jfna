@@ -5881,8 +5881,6 @@ div.two-videos {
   overflow: hidden;
   width: 100% !important;
   max-width: none !important;
-  position: absolute;
-  bottom: 15px;
 }
 @media (min-width: 768px) {
   .feature-cards .col-12 .rich-text figure:first-child {
