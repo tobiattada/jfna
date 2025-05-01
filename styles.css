@@ -2750,15 +2750,15 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 @media (min-width: 1024px) {
   .modals.one-modals .row {
-    gap: 0px;
-    grid-template-columns: 3fr 2fr;
+    gap: 68px;
+    grid-template-columns: 6fr 1fr 1fr 0fr;
   }
   .modals.one-modals .row .col-3 {
     display: flex;
     gap: 20px;
     align-items: center;
   }
-  .modals.one-modals .row .col-3 > {
+  .modals.one-modals .row .col-3 > div {
     flex: 1;
   }
 }
