@@ -2444,6 +2444,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     z-index: 4000;
     padding: 60px 20px;
     box-sizing: border-box;
+    justify-content: space-between;
   }
 
   .nav-menu .nav-item.open .dropdown {
@@ -2457,6 +2458,41 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     width: 100%;
     padding: 60px 20px;
     box-sizing: border-box;
+  }
+
+  .quick-links-nav {
+    width: 100%;
+    gap: 10px;
+    display: grid;
+  }
+  .quick-links-nav div.flex-item a {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #2A2A2A;
+    text-decoration: none;
+  }
+}
+@media (max-width: 768px) and (min-width: 1024px) {
+  .quick-links-nav div.flex-item a {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 768px) {
+  .quick-links-nav div.flex-item a strong, .quick-links-nav div.flex-item a em, .quick-links-nav div.flex-item a b {
+    font-weight: 600;
+    color: #2A2A2A;
+  }
+}
+@media (max-width: 768px) {
+  .quick-links-nav div.flex-item a.hebrew {
+    font-family: "Noto Sans Hebrew", sans-serif !important;
+    font-weight: 600;
+    text-align: right;
+    direction: rtl;
   }
 }
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
