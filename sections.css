@@ -2395,6 +2395,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     direction: rtl;
   }
 }
+@media (min-width: 1024px) {
+  .back-button {
+    display: none;
+  }
+}
 /* Responsive styles */
 @media (max-width: 768px) {
   .navbar__toggle {
