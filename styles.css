@@ -624,6 +624,7 @@ h5.section-header {
   margin-left: 0;
   border-bottom: 8px solid #1E3EAF;
   margin: 0 auto;
+  color: #1E3EAF !important;
 }
 
 h5.section-header-center {
@@ -5587,6 +5588,102 @@ div.two-videos {
   .page-main .israel-stats {
     gap: 20px;
   }
+}
+
+.jotform-form ul {
+  list-style: none;
+}
+.jotform-form .form-line {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .jotform-form .form-line {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .jotform-form .form-line {
+    margin-top: 50px;
+  }
+}
+.jotform-form #cid_3 > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .jotform-form #cid_3 > div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.jotform-form span.form-required {
+  color: #AC1E15;
+}
+.jotform-form label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+.jotform-form input, .jotform-form textarea {
+  padding: 9px 16px;
+  border-radius: 10px;
+  border: 2px solid #c9c9c9;
+  background: #FDFDFD;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: #2A2A2A;
+  width: 100% !important;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.jotform-form button {
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #1E3EAF;
+  color: #F5F5F5 !important;
+  border: none;
+}
+.jotform-form button span, .jotform-form button p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #F5F5F5;
+  transition: 0.3s;
+}
+.jotform-form button span:hover, .jotform-form button p:hover {
+  transition: 0.3s;
+}
+.jotform-form button a, .jotform-form button span {
+  color: #F5F5F5 !important;
+}
+.jotform-form button:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.jotform-form button:hover a, .jotform-form button:hover span {
+  color: #F5F5F5 !important;
+}
+.jotform-form button:active {
+  background: #27277C;
 }
 
 .features-4-up {
