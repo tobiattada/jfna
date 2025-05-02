@@ -2244,9 +2244,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   background: #ECECEC !important;
   transition: 0.3s;
 }
-.nav-menu .nav-item.has-dropdown .dropdown.mega {
-  width: 900px;
-  left: -270%;
+@media (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown .dropdown.mega {
+    width: 900px;
+    left: -270%;
+  }
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega > :first-child {
   margin-bottom: 20px;
@@ -2397,6 +2399,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 @media (min-width: 1024px) {
   .back-button {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .quick-links-nav {
     display: none;
   }
 }
