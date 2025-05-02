@@ -2364,36 +2364,42 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   display: block;
 }
 
-.nav-item a.active {
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  border-bottom: 8px solid #1E3EAF;
-}
 @media (min-width: 1024px) {
+  .nav-item a.active {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #1E3EAF;
+    border-bottom: 8px solid #1E3EAF;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1024px) {
   .nav-item a.active {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.nav-item a.active strong, .nav-item a.active em, .nav-item a.active b {
-  font-weight: 600;
-  color: #1E3EAF;
+@media (min-width: 1024px) {
+  .nav-item a.active strong, .nav-item a.active em, .nav-item a.active b {
+    font-weight: 600;
+    color: #1E3EAF;
+  }
 }
-.nav-item a.active.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
+@media (min-width: 1024px) {
+  .nav-item a.active.hebrew {
+    font-family: "Noto Sans Hebrew", sans-serif !important;
+    font-weight: 600;
+    text-align: right;
+    direction: rtl;
+  }
 }
-
 /* Responsive styles */
 @media (max-width: 768px) {
   .navbar__toggle {
     display: block;
+    z-index: 5000;
   }
 
   .nav-menu {
@@ -2417,6 +2423,28 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 
   .nav-menu.open {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 4000;
+    padding: 60px 20px;
+    box-sizing: border-box;
+  }
+
+  .nav-menu .nav-item.open .dropdown {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 4001;
+    width: 100%;
+    padding: 60px 20px;
+    box-sizing: border-box;
   }
 }
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
