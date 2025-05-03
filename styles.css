@@ -5197,12 +5197,12 @@ ul.stats-main.col2 li {
   background: linear-gradient(180deg, rgba(9, 14, 32, 0) 17.76%, rgba(9, 14, 32, 0.18) 34.21%, rgba(9, 14, 32, 0.6) 54.77%, rgba(9, 14, 32, 0.8) 100%);
   pointer-events: none;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .about-us-header.pushdown .component-promo img {
-    translate: -50% -33%;
+    translate: -50% -45%;
   }
   .about-us-header.pushup .component-promo img {
-    translate: -50% -73%;
+    translate: -50% -65%;
   }
 }
 
