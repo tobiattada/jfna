@@ -6233,7 +6233,7 @@ div.two-videos {
 .component-entry-list .news-list .entry {
   padding: 30px 0px;
 }
-.component-entry-list .component-entry-list .upcoming {
+.component-entry-list .jobs .entry:first-of-type, .component-entry-list .upcoming .entry:first-of-type, .component-entry-list .news-list .entry:first-of-type {
   border-top: 0px solid #ffffff !important;
 }
 .component-entry-list .news-list .entry p.meta a {
