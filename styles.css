@@ -2599,6 +2599,29 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .home-areas .focus-area-home .area-overlay h4, .home-areas .focus-area-home .area-overlay p, .home-areas .focus-area-home .area-overlay p a {
   color: #F5F5F5;
 }
+.home-areas .focus-area-home .area-overlay P.arrow-btn {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.home-areas .focus-area-home .area-overlay P.arrow-btn::after {
+  position: relative;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
+  height: 40px;
+  width: 40px;
+  background: #D2E9FF;
+  border-radius: 100%;
+  left: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: 0.3s;
+}
+.home-areas .focus-area-home .area-overlay P.arrow-btn::after:hover {
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23D2E9FF"/></g></svg>');
+  background: #1c88ed;
+}
 .home-areas .focus-area-home .show-hide {
   position: relative;
   gap: 12px;
@@ -2609,7 +2632,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 @media (min-width: 1024px) {
   .home-areas .focus-area-home .show-hide {
-    min-height: 120px;
+    min-height: 100px;
     margin-bottom: -40%;
     opacity: 0;
     transition: opacity 0.5s ease-out, margin-bottom 0.5s ease-in-out;
@@ -2630,6 +2653,26 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     transform: translateY(0);
     opacity: 1;
     margin-bottom: 0%;
+  }
+  .home-areas .focus-area-home:hover .area-overlay P.arrow-btn::after {
+    transition-delay: 1s;
+    transition: 0.3s;
+    position: relative;
+    content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
+    height: 40px;
+    width: 40px;
+    background: #1c88ed;
+    border-radius: 100%;
+    left: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 0.3s;
+    content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+  }
+  .home-areas .focus-area-home:hover .area-overlay P.arrow-btn::after:hover {
+    content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23D2E9FF"/></g></svg>');
+    background: #1c88ed;
   }
 }
 @keyframes slideUpFadeIn {
