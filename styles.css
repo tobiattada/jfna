@@ -5199,10 +5199,10 @@ ul.stats-main.col2 li {
 }
 @media (min-width: 768px) {
   .about-us-header.pushdown .component-promo img {
-    translate: -50% -45%;
+    translate: -50% -42%;
   }
   .about-us-header.pushup .component-promo img {
-    translate: -50% -65%;
+    translate: -50% -62%;
   }
 }
 
@@ -5924,7 +5924,7 @@ div.two-videos {
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .text {
   display: block !important;
-  min-height: 40px;
+  min-height: 55px;
   width: 100%;
 }
 .component-class-featuremanual .home-boxes .box .body-item .body .button-container a.button {
@@ -6624,7 +6624,12 @@ div.two-videos {
   margin-bottom: 10px;
 }
 .section-type-calendar .date-box {
-  width: 70px;
+  width: 40px;
+}
+@media (min-width: 1024px) {
+  .section-type-calendar .date-box {
+    width: 70px;
+  }
 }
 .section-type-calendar .date-box .month {
   border: 0px;
@@ -6656,6 +6661,7 @@ div.two-videos {
   background: #F5F5F5;
   border: 0px;
   border-radius: 0px 0px 10px 10px;
+  padding: 5px 0px;
 }
 .section-type-calendar .date-box p span.day {
   font-family: "Outfit", sans-serif;
