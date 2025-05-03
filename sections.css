@@ -642,6 +642,7 @@ h5.section-header-left {
   margin-left: 0;
   border-bottom: 8px solid #1E3EAF;
   margin-left: 0;
+  color: #1E3EAF !important;
 }
 
 h5.section-header-right {
