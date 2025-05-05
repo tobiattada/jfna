@@ -5788,6 +5788,99 @@ div.two-videos {
   background: #27277C;
 }
 
+div.ff-form form div.inputs {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  div.ff-form form div.inputs {
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+div.ff-form form .input-group {
+  display: grid;
+  gap: 10px;
+}
+div.ff-form form label {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  div.ff-form form label {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+div.ff-form form input {
+  padding: 9px 16px;
+  border-radius: 10px;
+  border: 2px solid #c9c9c9;
+  background: #ECECEC;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: #2A2A2A;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+div.ff-form form button {
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #D2E9FF;
+  color: #1E3EAF !important;
+  border: none;
+}
+div.ff-form form button span, div.ff-form form button p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #1E3EAF;
+  transition: 0.3s;
+}
+div.ff-form form button span:hover, div.ff-form form button p:hover {
+  transition: 0.3s;
+}
+div.ff-form form button a, div.ff-form form button span {
+  color: #1E3EAF !important;
+}
+div.ff-form form button:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+div.ff-form form button:hover a, div.ff-form form button:hover span {
+  color: #F5F5F5 !important;
+}
+div.ff-form form button:active {
+  background: #27277C;
+}
+
 .features-4-up {
   box-sizing: border-box;
   padding: 30px 20px;
