@@ -9301,13 +9301,20 @@ div.two-videos {
   z-index: 1000;
   list-style: none;
   display: flex;
-  gap: 35px;
+  gap: 0px;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  flex-direction: column;
 }
 .sticky-nav p a {
   color: #8F8F8F;
+}
+@media (min-width: 1024px) {
+  .sticky-nav {
+    gap: 35px;
+    flex-direction: row;
+  }
 }
 
 .sticky-nav.fixed {
@@ -9317,15 +9324,19 @@ div.two-videos {
   right: 0;
   z-index: 1000;
   margin-top: 0px;
-  height: 85px;
+  height: 150px;
   background: #F5F5F5;
 }
-.sticky-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  padding: 1rem;
-  margin: 0;
+.sticky-nav.fixed li.nav-link:not(.active) p a {
+  font-size: 80%;
+}
+@media (min-width: 1024px) {
+  .sticky-nav.fixed {
+    height: 85px;
+  }
+  .sticky-nav.fixed li.nav-link:not(.active) p a {
+    font-size: 100%;
+  }
 }
 
 .sticky-nav a {
@@ -9340,7 +9351,11 @@ div.two-videos {
 
 .sticky-nav li.nav-link.active a {
   color: #27277C;
-  border-bottom: 6px solid #27277C;
+}
+@media (min-width: 1024px) {
+  .sticky-nav li.nav-link.active a {
+    border-bottom: 6px solid #27277C;
+  }
 }
 
 #communal-infrastructure .row-has-promo {
