@@ -5565,6 +5565,7 @@ div.two-videos {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
+  margin-top: 20px;
 }
 @media (min-width: 768px) {
   div.two-videos {
@@ -9052,8 +9053,8 @@ div.two-videos {
   box-shadow: none;
 }
 .basic.navy-card .row .rich-text {
+  max-width: 90%;
   margin: 0 auto;
-  padding: 0px;
 }
 .basic.light-card {
   box-sizing: border-box;
