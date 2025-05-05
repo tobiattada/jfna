@@ -6149,7 +6149,6 @@ div.two-videos {
   padding: 15px;
   height: 100%;
   box-sizing: border-box;
-  position: relative;
 }
 @media (min-width: 1024px) {
   .feature-cards .col-12 .rich-text {
@@ -6207,8 +6206,6 @@ div.two-videos {
   overflow: hidden;
   width: 100% !important;
   max-width: none !important;
-  position: absolute;
-  bottom: 20px;
 }
 @media (min-width: 768px) {
   .feature-cards .col-12 .rich-text figure:first-child {
