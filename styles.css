@@ -7,6 +7,10 @@
     opacity: 1;
   }
 }
+* {
+  font-variant-ligatures: none;
+}
+
 .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
   margin: 0px;
 }
@@ -9793,7 +9797,6 @@ div#finder-sidebar .finder-message {
   margin-bottom: auto;
 }
 div#finder-sidebar ul.finder-results {
-  border-bottom: 1px solid #c9c9c9;
   list-style: none;
 }
 div#finder-sidebar ul.finder-results > li {
