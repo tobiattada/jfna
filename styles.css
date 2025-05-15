@@ -3456,6 +3456,10 @@ ul.stats-main.col2 li {
   padding-bottom: 0px !important;
 }
 
+.no-top-pad {
+  padding-top: 0px !important;
+}
+
 .bg-primary-blue {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -6204,6 +6208,30 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
+.feature-cards .col-12 .rich-text p b {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .feature-cards .col-12 .rich-text p b {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.feature-cards .col-12 .rich-text p b strong, .feature-cards .col-12 .rich-text p b em, .feature-cards .col-12 .rich-text p b b {
+  font-weight: 600;
+  color: #2A2A2A;
+}
+.feature-cards .col-12 .rich-text p b.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 .feature-cards .col-12 .rich-text figure:first-child {
   height: 130px;
   max-height: 130px;
@@ -6658,6 +6686,33 @@ div.two-videos {
   color: #2A2A2A;
 }
 .feature-posts .home-boxes .box p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.feature-posts .home-boxes .box .text-container .text br {
+  display: none;
+}
+.feature-posts .home-boxes .box .text-container .text p a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .feature-posts .home-boxes .box .text-container .text p a {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.feature-posts .home-boxes .box .text-container .text p a strong, .feature-posts .home-boxes .box .text-container .text p a em, .feature-posts .home-boxes .box .text-container .text p a b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.feature-posts .home-boxes .box .text-container .text p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
