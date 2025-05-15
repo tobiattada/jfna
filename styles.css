@@ -61,11 +61,7 @@ html {
   padding: 0px;
 }
 
-header.page-header {
-  display: none;
-}
-
-.header-wrap {
+.header-wrap, .navs, div.navs nav {
   display: none;
 }
 
