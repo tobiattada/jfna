@@ -7,10 +7,6 @@
     opacity: 1;
   }
 }
-* {
-  font-variant-ligatures: none;
-}
-
 h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -125,6 +121,7 @@ h6 {
   line-height: 130%;
   letter-spacing: 0%;
   color: #2A2A2A;
+  margin-top: 10px;
 }
 @media (min-width: 1024px) {
   h6 {
@@ -320,6 +317,7 @@ p.caption.hebrew {
   line-height: 130%;
   letter-spacing: 0%;
   color: #2A2A2A;
+  margin-top: 10px;
 }
 @media (min-width: 1024px) {
   .rich-text h6, .page.page-main h6 {
