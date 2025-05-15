@@ -6711,6 +6711,9 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
+.feature-posts .home-boxes .box .text-container .text br {
+  display: none;
+}
 .feature-posts .home-boxes .box .text-container .text p a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;

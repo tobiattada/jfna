@@ -1339,6 +1339,9 @@ section.tabs ul.inner-nav.right li:first-child a .ico-grid, section.tabs ul.inne
   width: 11px;
   background-size: cover;
 }
+section.tabs ul.inner-nav.right li:first-child a.active, section.tabs ul.inner-nav.right li:first-child a:hover, section.tabs ul.inner-nav.right li:nth-child(2) a.active, section.tabs ul.inner-nav.right li:nth-child(2) a:hover {
+  background: #D2E9FF;
+}
 section.tabs ul.inner-nav.right li:first-child a {
   border-radius: 10px 0px 0px 10px;
 }
