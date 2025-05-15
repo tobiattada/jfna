@@ -6184,6 +6184,26 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
+.feature-cards .col-12 .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .feature-cards .col-12 .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.feature-cards .col-12 .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 .feature-cards .col-12 .rich-text p, .feature-cards .col-12 .rich-text p a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
