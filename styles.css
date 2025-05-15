@@ -1966,7 +1966,6 @@ footer.page-footer .footer-wrapper form#subForm input {
 }
 @media (min-width: 1024px) {
   footer.page-footer .footer-wrapper form#subForm input {
-    min-width: 280px;
     max-width: 280px;
   }
 }
