@@ -1870,9 +1870,6 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
-section.page-main .shell > .row:nth-child(2) {
-  padding-top: 0px !important;
-}
 section.page-main .shell > .row:nth-child(2) .col-8 {
   width: 100%;
   display: grid;
@@ -1946,6 +1943,53 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper {
   display: inline-block;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button {
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #1E3EAF;
+  color: #FDFDFD !important;
+  border: none;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FDFDFD;
+  transition: 0.3s;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span:hover, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button p:hover {
+  transition: 0.3s;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button a, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span {
+  color: #FDFDFD !important;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:hover a, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:hover span {
+  color: #F5F5F5 !important;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:active {
+  background: #27277C;
 }
 section.page-main .shell > .row:nth-child(2) .col-3 {
   order: 1;
@@ -2193,6 +2237,7 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
 .positions .entry {
   display: flex;
   flex-direction: column;
+  border-top: 0px;
 }
 .positions .entry p {
   font-family: "Outfit", sans-serif;
@@ -2217,6 +2262,49 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
   font-weight: 600;
   text-align: right;
   direction: rtl;
+}
+.positions .entry h3 {
+  order: 1;
+}
+.positions .entry p.arrow-btn {
+  order: 4;
+}
+.positions .entry p.arrow-btn a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #1E3EAF;
+  transition: 0.3s;
+  color: #27277C;
+}
+.positions .entry p.arrow-btn a::after {
+  position: relative;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
+  height: 40px;
+  width: 40px;
+  background: #1E3EAF;
+  border-radius: 100%;
+  left: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: 0.3s;
+}
+.positions .entry p.arrow-btn a:hover::after {
+  transition: 0.3s;
+  background: #D2E9FF;
+}
+.positions .entry p.arrow-btn a::after {
+  background: #1E3EAF;
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+}
+.positions .entry p.arrow-btn a:hover::after {
+  content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%23f5f5f5"/></g></svg>');
+  background: #1c88ed;
+}
+.positions .entry p.place {
+  order: 2;
 }
 .positions .entry span.label {
   order: 3;
