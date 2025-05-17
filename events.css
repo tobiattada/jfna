@@ -1180,7 +1180,7 @@ section.page-main nav.paging ul.right li a.prev::before {
 section.tabs {
   box-sizing: border-box;
   padding: 30px 20px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 @media (min-width: 768px) {
   section.tabs {
@@ -1220,7 +1220,7 @@ section.tabs .date-slider .flexslider .flex-direction-nav li .flex-next {
 section.tabs .date-slider .date-inline {
   border: 0px;
   background: none;
-  display: flex;
+  overflow: visible;
 }
 section.tabs .date-slider .date-inline .month-year {
   white-space: nowrap;
@@ -1429,6 +1429,66 @@ section.tabs-content .events-list, section.tabs-content .events-list .special-ev
   margin-top: 0px;
   border: 0px;
 }
+section.tabs-content .events-list .event .entry .row, section.tabs-content .events-list .special-event .entry .row, section.tabs-content .events-list .special-events-list .event .entry .row, section.tabs-content .events-list .special-events-list .special-event .entry .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.tabs-content .events-list .event .entry .row p.time, section.tabs-content .events-list .special-event .entry .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row p.time {
+  background: transparent;
+  padding-left: 0px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .entry .row p.time, section.tabs-content .events-list .special-event .entry .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row p.time {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+section.tabs-content .events-list .event .entry .row p.time.hebrew, section.tabs-content .events-list .special-event .entry .row p.time.hebrew, section.tabs-content .events-list .special-events-list .event .entry .row p.time.hebrew, section.tabs-content .events-list .special-events-list .special-event .entry .row p.time.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .events-list .event .entry .row .col-4, section.tabs-content .events-list .special-event .entry .row .col-4, section.tabs-content .events-list .special-events-list .event .entry .row .col-4, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 {
+  width: 100%;
+}
+section.tabs-content .events-list .event .entry .row .col-4 .row, section.tabs-content .events-list .special-event .entry .row .col-4 .row, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row {
+  flex-direction: row;
+  align-items: flex-start;
+}
+section.tabs-content .events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row p.time {
+  background: transparent;
+  padding-left: 0px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row p.time {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+section.tabs-content .events-list .event .entry .row .col-4 .row p.time.hebrew, section.tabs-content .events-list .special-event .entry .row .col-4 .row p.time.hebrew, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row p.time.hebrew, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row p.time.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .events-list .event .entry .row .col-3, section.tabs-content .events-list .special-event .entry .row .col-3, section.tabs-content .events-list .special-events-list .event .entry .row .col-3, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-3 {
+  width: 100%;
+  display: none;
+}
 section.tabs-content .events-list .event > .row, section.tabs-content .events-list .special-event > .row, section.tabs-content .events-list .special-events-list .event > .row, section.tabs-content .events-list .special-events-list .special-event > .row {
   background: #FDFDFD;
   border-bottom: 1px solid #c9c9c9;
@@ -1436,7 +1496,7 @@ section.tabs-content .events-list .event > .row, section.tabs-content .events-li
   display: flex;
 }
 section.tabs-content .events-list .event > .row .col-2, section.tabs-content .events-list .special-event > .row .col-2, section.tabs-content .events-list .special-events-list .event > .row .col-2, section.tabs-content .events-list .special-events-list .special-event > .row .col-2 {
-  flex: 1;
+  flex: 1.5;
 }
 section.tabs-content .events-list .event > .row .col-10, section.tabs-content .events-list .special-event > .row .col-10, section.tabs-content .events-list .special-events-list .event > .row .col-10, section.tabs-content .events-list .special-events-list .special-event > .row .col-10 {
   flex: 4;
