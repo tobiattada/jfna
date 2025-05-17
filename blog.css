@@ -1170,7 +1170,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 {
 section.page-main .shell > .row:nth-child(2) .col-8 article.article {
   margin: 0 auto;
   display: grid;
-  gap: 20px;
+  gap: 50px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy {
   max-width: 650px;
@@ -1359,4 +1359,8 @@ article p a:hover {
 
 nav.post-nav {
   display: none;
+}
+
+.back-btn {
+  margin: 50px 0;
 }
