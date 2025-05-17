@@ -6037,6 +6037,9 @@ div.two-videos {
   color: #D2E9FF;
 }
 
+.livesecure-features.features-2-up .home-boxes .box .body-item .body .text {
+  min-height: 0px;
+}
 .livesecure-features .component-class-featuremanual .home-boxes .box .body-item .body::after {
   height: 38px;
   width: 40px;
