@@ -660,7 +660,7 @@ section.page-main h6.eyebrow {
   letter-spacing: 0%;
   color: #1c88ed;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 @media (min-width: 1024px) {
   section.page-main h6.eyebrow {
@@ -673,6 +673,11 @@ section.page-main h6.eyebrow.hebrew {
   font-weight: 600;
   text-align: right;
   direction: rtl;
+}
+@media (min-width: 1024px) {
+  section.page-main h6.eyebrow {
+    margin-bottom: 30px;
+  }
 }
 section.page-main .row header.page-title {
   margin-bottom: 0px;
@@ -1161,6 +1166,7 @@ section.page-main .shell > .row {
 section.page-main .shell > .row:nth-child(2) {
   display: grid;
   grid-template-columns: 1fr;
+  padding-top: 0px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 {
   order: 2;
@@ -1245,14 +1251,19 @@ section.page-main .shell > .row:nth-child(2) .col-3 {
     padding: 60px 80px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget:last-child {
-  display: none;
-}
 section.page-main .shell > .row:nth-child(2) .col-3 .widget {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   border-bottom: 1px solid #ECECEC;
+  padding-bottom: 50px;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  section.page-main .shell > .row:nth-child(2) .col-3 .widget {
+    flex-direction: row;
+  }
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .buttons {
   display: none;
@@ -1295,6 +1306,7 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
   line-height: 150%;
   letter-spacing: 0%;
   color: #2A2A2A;
+  transition: 0.3s;
 }
 @media (min-width: 1024px) {
   section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
@@ -1304,6 +1316,10 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
   display: none;
+}
+section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a:hover {
+  background: #ECECEC;
+  transition: 0.3s;
 }
 
 .entry-thumbnail .entry-thumbnail {
@@ -1322,6 +1338,7 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
   padding: 0px;
   margin-top: 0px;
   border-radius: 24px;
+  border: 1px solid #ECECEC;
 }
 
 article p {
