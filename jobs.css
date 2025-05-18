@@ -2592,6 +2592,28 @@ section.career-center-listing .post-heading h6.eyebrow.hebrew {
     margin-bottom: 30px;
   }
 }
+section.career-center-listing .post-heading h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  max-width: 83%;
+}
+section.career-center-listing .post-heading h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .post-heading h2 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
 section.career-center-listing .col-8 {
   width: 100%;
   grid-area: post;
@@ -2860,7 +2882,8 @@ section.career-center-listing .post-heading span.label {
   letter-spacing: 0%;
   color: #2A2A2A;
   text-align: left;
-  margin: 0px;
+  box-sizing: border-box;
+  padding: 30px 20px;
 }
 @media (min-width: 1024px) {
   section.career-center-listing .post-heading span.label {
@@ -2877,6 +2900,21 @@ section.career-center-listing .post-heading span.label.hebrew {
   font-weight: 600;
   text-align: right;
   direction: rtl;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .post-heading span.label {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .post-heading span.label {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .post-heading span.label {
+    padding: 60px 80px;
+  }
 }
 section.career-center-listing .post-heading .place span {
   background: none;
