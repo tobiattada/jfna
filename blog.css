@@ -2054,7 +2054,7 @@ section.page-main .news .entry .row .col-5, section.page-main .news .entry .row 
     display: grid;
     grid-template-areas: "image tags" "image title" "image date" "image text" "image link";
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto min-content min-content min-content;
+    grid-template-rows: auto auto auto auto;
     align-items: center;
     column-gap: 40px;
     width: 100%;
