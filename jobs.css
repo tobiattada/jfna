@@ -1890,6 +1890,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 {
   grid-template-columns: 1fr !important;
+  gap: 10px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button {
   padding: 12px 24px;
@@ -1941,8 +1942,66 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 {
   grid-column: auto;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper {
-  display: inline-block;
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 .select-wrapper {
+  display: block;
+  height: auto !important;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 .chzn-container-active .chzn-drop {
+  position: relative;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #c9c9c9;
+  position: relative;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single::after {
+  position: relative;
+  content: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%206L6%200L12%206L10.6%207.4L6%202.8L1.4%207.4L0%206Z%22%20fill%3D%22black%22/%3E%3C/svg%3E");
+  width: auto;
+  height: auto;
+  transform: rotate(180deg);
+  transition: 0.3s;
+  transform-origin: center center;
+  /* Default */
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop {
+  background: transparent;
+  box-shadow: none;
+  border: 0px;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist {
+  height: 200px;
+  overflow: scroll;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist-field .button.small input {
+  background: transparent;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist-field .button.small input {
+    font-size: 16px;
+    line-height: 150%;
+  }
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button {
   padding: 12px 24px;
