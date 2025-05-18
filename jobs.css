@@ -2552,6 +2552,215 @@ section.career-center-listing .navbar {
 }
 section.career-center-listing .shell .row {
   display: grid;
+  padding: 0px !important;
+  grid-template-areas: "heading" "post" "sidebar";
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .shell .row {
+    grid-template-areas: "heading heading" "post sidebar";
+    grid-template-columns: 3fr 1fr;
+  }
+}
+section.career-center-listing .post-heading {
+  grid-area: heading;
+}
+section.career-center-listing .post-heading h6.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1c88ed;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .post-heading h6.eyebrow {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+section.career-center-listing .post-heading h6.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .post-heading h6.eyebrow {
+    margin-bottom: 30px;
+  }
+}
+section.career-center-listing .col-8 {
+  width: 100%;
+  grid-area: post;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-8 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .col-8 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .col-8 {
+    padding: 60px 80px;
+  }
+}
+section.career-center-listing .col-8 .post {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border-top: 0px;
+  padding-top: 0px;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-8 .post {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .col-8 .post {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .col-8 .post {
+    padding: 60px 80px;
+  }
+}
+section.career-center-listing .col-8 .utility {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border-top: 0px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-8 .utility {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .col-8 .utility {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .col-8 .utility {
+    padding: 60px 80px;
+  }
+}
+section.career-center-listing .col-8 .section-template-items {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border-top: 0px;
+  padding-bottom: 0px !important;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-8 .section-template-items {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .col-8 .section-template-items {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .col-8 .section-template-items {
+    padding: 60px 80px;
+  }
+}
+section.career-center-listing .col-3 {
+  grid-area: sidebar;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-3 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .col-3 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .col-3 {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-3 {
+    padding-left: 0px !important;
+  }
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue {
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #1E3EAF;
+  color: #FDFDFD !important;
+  border: none;
+  display: inline-block;
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue span, section.career-center-listing .col-3 .widget .cta-btn.blue p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FDFDFD;
+  transition: 0.3s;
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue span:hover, section.career-center-listing .col-3 .widget .cta-btn.blue p:hover {
+  transition: 0.3s;
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue a, section.career-center-listing .col-3 .widget .cta-btn.blue span {
+  color: #FDFDFD !important;
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue:hover a, section.career-center-listing .col-3 .widget .cta-btn.blue:hover span {
+  color: #F5F5F5 !important;
+}
+section.career-center-listing .col-3 .widget .cta-btn.blue:active {
+  background: #27277C;
+}
+section.career-center-listing .col-3 .widget {
+  padding-top: 20px;
+  border-top: 1px solid #c9c9c9;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .col-3 .widget {
+    padding-top: 0px;
+    border-left: 1px solid #c9c9c9;
+    padding-left: 40px !important;
+  }
 }
 section.career-center-listing .post-heading h3 {
   font-family: "Outfit", sans-serif;
@@ -2576,6 +2785,45 @@ section.career-center-listing .post-heading h3.hebrew {
 section.career-center-listing .post-heading {
   display: flex;
   flex-direction: column;
+  background: #ECECEC;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .post-heading {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .post-heading {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .post-heading {
+    padding: 60px 80px;
+  }
+}
+section.career-center-listing .post-heading > * {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+@media (min-width: 768px) {
+  section.career-center-listing .post-heading > * {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.career-center-listing .post-heading > * {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.career-center-listing .post-heading > * {
+    padding: 60px 80px;
+  }
 }
 section.career-center-listing .post-heading p {
   font-family: "Outfit", sans-serif;
@@ -2611,7 +2859,6 @@ section.career-center-listing .post-heading span.label {
   letter-spacing: 0%;
   color: #2A2A2A;
   text-align: left;
-  padding: 0px;
   margin: 0px;
 }
 @media (min-width: 1024px) {
