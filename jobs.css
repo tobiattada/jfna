@@ -2030,8 +2030,11 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chz
   border: 0px;
   padding: 10px 0px;
 }
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .buttons {
+  display: none;
+}
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist {
-  height: 200px;
+  max-height: 200px;
   overflow: scroll;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist .custom-checkbox {
