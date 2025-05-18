@@ -1870,6 +1870,13 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
+section.page-main .shell > .row:nth-child(2) form.career-center {
+  width: 100%;
+  border-right: 1px solid #c9c9c9;
+  padding-right: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
 section.page-main .shell > .row:nth-child(2) .col-8 {
   width: 100%;
   display: grid;
@@ -1887,10 +1894,11 @@ section.page-main .shell > .row:nth-child(2) .col-8 nav.paging ul.right {
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
   grid-area: filter;
+  margin-right: 40px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 {
   grid-template-columns: 1fr !important;
-  gap: 10px;
+  gap: 20px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button {
   padding: 12px 24px;
@@ -1939,8 +1947,42 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:active {
   background: #27277C;
 }
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .grid input[name=keyword] {
+  padding: 10px 20px 10px 40px;
+  border-radius: 24px;
+  border: 2px solid #c9c9c9;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+  margin-bottom: 40px;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .grid input[name=keyword] {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .grid input[name=keyword].hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  z-index: 20;
+}
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 {
   grid-column: auto;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2:first-child {
+  border-bottom: 1px solid #c9c9c9;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 .select-wrapper {
   display: block;
@@ -1954,6 +1996,21 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sel
   box-shadow: none;
   border-bottom: 1px solid #c9c9c9;
   position: relative;
+  padding: 0px;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single span {
+    font-size: 16px;
+    line-height: 150%;
+  }
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single::after {
   position: absolute;
@@ -1971,10 +2028,14 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chz
   background: transparent;
   box-shadow: none;
   border: 0px;
+  padding: 10px 0px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist {
   height: 200px;
   overflow: scroll;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist .custom-checkbox {
+  border-radius: 100%;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
   font-family: "Outfit", sans-serif;
@@ -2005,6 +2066,24 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chz
     line-height: 150%;
   }
 }
+section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .reset-search {
+  margin-left: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .reset-search {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button {
   padding: 12px 24px;
   border-radius: 30px;
@@ -2026,6 +2105,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sub
   background: #1E3EAF;
   color: #FDFDFD !important;
   border: none;
+  margin-right: 20px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button p {
   font-family: "Outfit", sans-serif;
