@@ -2774,6 +2774,7 @@ section.page-main.calendar-event .section-template-rows .row .navbar {
 }
 section.page-main.calendar-event .shell .row:first-of-type {
   background: #1E3EAF;
+  margin-top: 70px;
 }
 section.page-main.calendar-event .shell .row:first-of-type > section.col-12 {
   padding: 0px;
@@ -2863,6 +2864,9 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
   letter-spacing: 0%;
   color: #FDFDFD;
   background: none;
+  text-transform: none;
+  font-weight: 600;
+  padding-right: 6px;
 }
 @media (min-width: 1024px) {
   section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year {
@@ -2901,6 +2905,12 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
 }
 section.page-main.calendar-event .shell .row:nth-child(2) {
   display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  section.page-main.calendar-event .shell .row:nth-child(2) {
+    flex-direction: row;
+  }
 }
 section.page-main.calendar-event .shell .row:nth-child(2) .col-8 {
   flex: 3;
@@ -2913,8 +2923,33 @@ section.page-main.calendar-event .shell .row:nth-child(2) .col-8 .section-templa
 }
 section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
   flex: 1;
-  border-left: 1px solid #c9c9c9;
-  padding: 0px 0px 0px 40px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top: 1px solid #c9c9c9;
+}
+@media (min-width: 768px) {
+  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 768px) {
+  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+    border-top: 0px;
+    border-left: 1px solid #c9c9c9;
+    padding-left: 40px !important;
+  }
 }
 section.page-main.calendar-event .shell .row:nth-child(2) article.post {
   border-top: 0px;
@@ -2933,8 +2968,10 @@ section.page-main.calendar-event .shell .row:nth-child(2) .event-info {
   border-top: 0px;
   padding-top: 0px;
 }
+section.page-main.calendar-event .shell .row:nth-child(2) .event-info .time {
+  width: auto;
+}
 section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue {
-  display: inline-block;
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -2955,6 +2992,7 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue 
   background: #1E3EAF;
   color: #FDFDFD !important;
   border: none;
+  display: inline-block;
 }
 section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue span, section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue p {
   font-family: "Outfit", sans-serif;
