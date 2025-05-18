@@ -2345,7 +2345,6 @@ section.page-main .shell > .row {
 section.page-main .shell > .row:nth-child(2) {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 0px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 {
   order: 2;
