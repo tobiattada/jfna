@@ -2044,7 +2044,7 @@ section.page-main .news .entry .row ul.tags a .num {
 }
 section.page-main .news .entry .row .col-5, section.page-main .news .entry .row .col-6-mobile {
   display: grid;
-  grid-template-areas: "image" "tags" "title" "date" "text";
+  grid-template-areas: "image" "tags" "title" "date" "text" "link";
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
   width: 100%;
@@ -2052,7 +2052,7 @@ section.page-main .news .entry .row .col-5, section.page-main .news .entry .row 
 @media (min-width: 768px) {
   section.page-main .news .entry .row .col-5, section.page-main .news .entry .row .col-6-mobile {
     display: grid;
-    grid-template-areas: "image tags" "image title" "image date" "image text";
+    grid-template-areas: "image tags" "image title" "image date" "image text" "image link";
     grid-template-columns: auto 1fr;
     grid-template-rows: auto min-content min-content min-content;
     align-items: center;
@@ -2106,6 +2106,13 @@ section.page-main .news .entry .row .col-5 > p:nth-of-type(2), section.page-main
   grid-area: text;
   margin-bottom: 0px;
   align-self: start;
+}
+section.page-main .news .entry .row .col-5 > p:nth-of-type(3), section.page-main .news .entry .row .col-5 > p:nth-of-type(4), section.page-main .news .entry .row .col-6-mobile > p:nth-of-type(3), section.page-main .news .entry .row .col-6-mobile > p:nth-of-type(4) {
+  display: none;
+}
+section.page-main .news .entry .row .col-5 > p:last-child, section.page-main .news .entry .row .col-6-mobile > p:last-child {
+  display: block;
+  grid-area: link;
 }
 section.page-main .news .entry .row .col-5 br, section.page-main .news .entry .row .col-6-mobile br {
   display: none;
@@ -2280,6 +2287,9 @@ section.page-main .row header.page-title {
   margin-bottom: 30px;
   padding-bottom: 0px !important;
   padding-top: 0px !important;
+}
+section.page-main .row header.page-title .byline {
+  margin-top: 10px;
 }
 section.page-main .row header.page-title .byline .author, section.page-main .row header.page-title .byline a {
   font-family: "Outfit", sans-serif;
