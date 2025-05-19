@@ -1837,6 +1837,11 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main .shell > .row {
+    padding: 60px 10%;
+  }
+}
 section.page-main .shell > .row section, section.page-main .shell > .row aside {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -1856,6 +1861,11 @@ section.page-main .shell > .row section, section.page-main .shell > .row aside {
 @media (min-width: 1300px) {
   section.page-main .shell > .row section, section.page-main .shell > .row aside {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main .shell > .row section, section.page-main .shell > .row aside {
+    padding: 60px 10%;
   }
 }
 section.page-main .shell > .row:nth-child(3) {
@@ -2343,6 +2353,11 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main .shell > .row {
+    padding: 60px 10%;
+  }
+}
 section.page-main .shell > .row:nth-child(2) {
   display: grid;
   grid-template-columns: 1fr;
@@ -2408,6 +2423,11 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+    padding: 60px 10%;
+  }
+}
 section.page-main .shell > .row:nth-child(2) .col-3 {
   order: 1;
   box-sizing: border-box;
@@ -2429,6 +2449,11 @@ section.page-main .shell > .row:nth-child(2) .col-3 {
 @media (min-width: 1300px) {
   section.page-main .shell > .row:nth-child(2) .col-3 {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main .shell > .row:nth-child(2) .col-3 {
+    padding: 60px 10%;
   }
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget {

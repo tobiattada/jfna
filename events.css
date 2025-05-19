@@ -1810,6 +1810,11 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main .shell > .row {
+    padding: 60px 10%;
+  }
+}
 section.page-main .shell > .row section, section.page-main .shell > .row aside {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -1829,6 +1834,11 @@ section.page-main .shell > .row section, section.page-main .shell > .row aside {
 @media (min-width: 1300px) {
   section.page-main .shell > .row section, section.page-main .shell > .row aside {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main .shell > .row section, section.page-main .shell > .row aside {
+    padding: 60px 10%;
   }
 }
 section.page-main .shell > .row:nth-child(3) {
@@ -2182,6 +2192,11 @@ section.page-main nav.paging ul.right li a.prev::before {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  .shell.calendar-top .section-template-rows .component-container .bg-overlay {
+    padding: 60px 10%;
+  }
+}
 .shell.calendar-top .section-template-rows .component-container .component-promo {
   position: relative;
   display: inline-block;
@@ -2327,6 +2342,11 @@ section.tabs {
 @media (min-width: 1300px) {
   section.tabs {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.tabs {
+    padding: 60px 10%;
   }
 }
 section.tabs .inner-tabs-nav {
@@ -2800,6 +2820,11 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main.calendar-event .shell .row:first-of-type header.page-title {
+    padding: 60px 10%;
+  }
+}
 section.page-main.calendar-event .shell .row:first-of-type header.page-title h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -2942,6 +2967,11 @@ section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
 @media (min-width: 1300px) {
   section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+    padding: 60px 10%;
   }
 }
 @media (min-width: 768px) {

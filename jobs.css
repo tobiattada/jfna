@@ -1822,6 +1822,11 @@ section.page-main .row header.page-title {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main .row header.page-title {
+    padding: 60px 10%;
+  }
+}
 section.page-main .row header.page-title .byline .author, section.page-main .row header.page-title .byline a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -1868,6 +1873,11 @@ section.page-main .shell > .row {
 @media (min-width: 1300px) {
   section.page-main .shell > .row {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main .shell > .row {
+    padding: 60px 10%;
   }
 }
 section.page-main .shell > .row:nth-child(2) form.career-center {
@@ -2189,6 +2199,11 @@ section.page-main .shell > .row:nth-child(2) .col-3 {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main .shell > .row:nth-child(2) .col-3 {
+    padding: 60px 10%;
+  }
+}
 section.page-main .shell > .row:nth-child(2) .col-3 .widget:last-child {
   display: none;
 }
@@ -2265,6 +2280,11 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
 @media (min-width: 1300px) {
   .section-template-rows .component-container .bg-overlay {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  .section-template-rows .component-container .bg-overlay {
+    padding: 60px 10%;
   }
 }
 .section-template-rows .component-container .component-promo {
@@ -2635,6 +2655,11 @@ section.career-center-listing .col-8 {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.career-center-listing .col-8 {
+    padding: 60px 10%;
+  }
+}
 section.career-center-listing .col-8 .post {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -2654,6 +2679,11 @@ section.career-center-listing .col-8 .post {
 @media (min-width: 1300px) {
   section.career-center-listing .col-8 .post {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.career-center-listing .col-8 .post {
+    padding: 60px 10%;
   }
 }
 section.career-center-listing .col-8 .utility {
@@ -2678,6 +2708,11 @@ section.career-center-listing .col-8 .utility {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.career-center-listing .col-8 .utility {
+    padding: 60px 10%;
+  }
+}
 section.career-center-listing .col-8 .section-template-items {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -2699,6 +2734,11 @@ section.career-center-listing .col-8 .section-template-items {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.career-center-listing .col-8 .section-template-items {
+    padding: 60px 10%;
+  }
+}
 section.career-center-listing .col-3 {
   grid-area: sidebar;
   width: 100%;
@@ -2718,6 +2758,11 @@ section.career-center-listing .col-3 {
 @media (min-width: 1300px) {
   section.career-center-listing .col-3 {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.career-center-listing .col-3 {
+    padding: 60px 10%;
   }
 }
 @media (min-width: 768px) {
@@ -2827,6 +2872,11 @@ section.career-center-listing .post-heading {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.career-center-listing .post-heading {
+    padding: 60px 10%;
+  }
+}
 section.career-center-listing .post-heading > * {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -2846,6 +2896,11 @@ section.career-center-listing .post-heading > * {
 @media (min-width: 1300px) {
   section.career-center-listing .post-heading > * {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.career-center-listing .post-heading > * {
+    padding: 60px 10%;
   }
 }
 section.career-center-listing .post-heading p {
@@ -2914,6 +2969,11 @@ section.career-center-listing .post-heading span.label.hebrew {
 @media (min-width: 1300px) {
   section.career-center-listing .post-heading span.label {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.career-center-listing .post-heading span.label {
+    padding: 60px 10%;
   }
 }
 section.career-center-listing .post-heading .place span {
@@ -2990,6 +3050,11 @@ section.page-main.career-center-listing .row header.page-title {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main.career-center-listing .row header.page-title {
+    padding: 60px 10%;
+  }
+}
 section.page-main.career-center-listing .row header.page-title .byline .author, section.page-main.career-center-listing .row header.page-title .byline a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -3036,6 +3101,11 @@ section.page-main.career-center-listing .shell > .row {
 @media (min-width: 1300px) {
   section.page-main.career-center-listing .shell > .row {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main.career-center-listing .shell > .row {
+    padding: 60px 10%;
   }
 }
 section.page-main.career-center-listing .shell > .row:nth-child(2) {
@@ -3100,6 +3170,11 @@ section.page-main.career-center-listing .shell > .row:nth-child(2) .col-8 .secti
 @media (min-width: 1300px) {
   section.page-main.career-center-listing .shell > .row:nth-child(2) .col-8 .section-template-items {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  section.page-main.career-center-listing .shell > .row:nth-child(2) .col-8 .section-template-items {
+    padding: 60px 10%;
   }
 }
 section.page-main.career-center-listing .shell > .row:nth-child(2) .col-8 .positions {
@@ -3190,6 +3265,11 @@ section.page-main.career-center-listing .shell > .row:nth-child(2) .col-3 {
     padding: 60px 80px;
   }
 }
+@media (min-width: 1400px) {
+  section.page-main.career-center-listing .shell > .row:nth-child(2) .col-3 {
+    padding: 60px 10%;
+  }
+}
 section.page-main.career-center-listing .shell > .row:nth-child(2) .col-3 .widget:last-child {
   display: none;
 }
@@ -3266,6 +3346,11 @@ section.page-main.career-center-listing .shell > .row:nth-child(2) .col-3 .widge
 @media (min-width: 1300px) {
   .section-template-rows .component-container .bg-overlay {
     padding: 60px 80px;
+  }
+}
+@media (min-width: 1400px) {
+  .section-template-rows .component-container .bg-overlay {
+    padding: 60px 10%;
   }
 }
 .section-template-rows .component-container .component-promo {
