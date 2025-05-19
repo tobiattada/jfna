@@ -2291,7 +2291,7 @@ section.page-main .row header.page-title {
 section.page-main .row header.page-title .byline {
   margin-top: 10px;
 }
-section.page-main .row header.page-title .byline .author, section.page-main .row header.page-title .byline a {
+section.page-main .row header.page-title .byline .author, section.page-main .row header.page-title .byline a, section.page-main .row header.page-title .byline address.author {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2299,18 +2299,19 @@ section.page-main .row header.page-title .byline .author, section.page-main .row
   letter-spacing: 0%;
   color: #2A2A2A;
   font-style: normal;
+  font-weight: 300;
 }
 @media (min-width: 1024px) {
-  section.page-main .row header.page-title .byline .author, section.page-main .row header.page-title .byline a {
+  section.page-main .row header.page-title .byline .author, section.page-main .row header.page-title .byline a, section.page-main .row header.page-title .byline address.author {
     font-size: 18px;
     line-height: 27px;
   }
 }
-section.page-main .row header.page-title .byline .author strong, section.page-main .row header.page-title .byline .author em, section.page-main .row header.page-title .byline .author b, section.page-main .row header.page-title .byline a strong, section.page-main .row header.page-title .byline a em, section.page-main .row header.page-title .byline a b {
+section.page-main .row header.page-title .byline .author strong, section.page-main .row header.page-title .byline .author em, section.page-main .row header.page-title .byline .author b, section.page-main .row header.page-title .byline a strong, section.page-main .row header.page-title .byline a em, section.page-main .row header.page-title .byline a b, section.page-main .row header.page-title .byline address.author strong, section.page-main .row header.page-title .byline address.author em, section.page-main .row header.page-title .byline address.author b {
   font-weight: 400;
   color: #2A2A2A;
 }
-section.page-main .row header.page-title .byline .author.hebrew, section.page-main .row header.page-title .byline a.hebrew {
+section.page-main .row header.page-title .byline .author.hebrew, section.page-main .row header.page-title .byline a.hebrew, section.page-main .row header.page-title .byline address.author.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -2345,6 +2346,7 @@ section.page-main .shell > .row {
 section.page-main .shell > .row:nth-child(2) {
   display: grid;
   grid-template-columns: 1fr;
+  padding-top: 0px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 {
   order: 2;
@@ -2441,6 +2443,7 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget {
 @media (min-width: 768px) {
   section.page-main .shell > .row:nth-child(2) .col-3 .widget {
     flex-direction: row;
+    align-items: flex-end;
   }
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .buttons {
@@ -2448,6 +2451,9 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget .buttons {
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers {
   margin-bottom: 0px;
+}
+section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li {
+  margin-bottom: 10px;
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
   font-family: "Outfit", sans-serif;
@@ -2472,6 +2478,35 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a.hebrew
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a i {
   display: none;
+}
+section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline {
+  margin-top: 10px;
+}
+section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+  font-style: normal;
+  font-weight: 300;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author b, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a b, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author.hebrew, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a.hebrew, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
   background: #F5F5F5;
