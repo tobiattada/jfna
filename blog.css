@@ -1837,7 +1837,7 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   section.page-main .shell > .row {
     padding: 60px 10%;
   }
@@ -1863,7 +1863,7 @@ section.page-main .shell > .row section, section.page-main .shell > .row aside {
     padding: 60px 80px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   section.page-main .shell > .row section, section.page-main .shell > .row aside {
     padding: 60px 10%;
   }
@@ -2353,7 +2353,7 @@ section.page-main .shell > .row {
     padding: 60px 80px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   section.page-main .shell > .row {
     padding: 60px 10%;
   }
@@ -2423,7 +2423,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
     padding: 60px 80px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
     padding: 60px 10%;
   }
@@ -2451,7 +2451,7 @@ section.page-main .shell > .row:nth-child(2) .col-3 {
     padding: 60px 80px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   section.page-main .shell > .row:nth-child(2) .col-3 {
     padding: 60px 10%;
   }
