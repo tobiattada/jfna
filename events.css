@@ -2525,7 +2525,7 @@ section.tabs-content .calendar table th::first-letter {
 }
 section.tabs-content .calendar table .event {
   background: #1E3EAF;
-  width: 96%;
+  width: auto;
   transition: 0.3s;
 }
 section.tabs-content .calendar table .event p {
