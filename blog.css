@@ -54,8 +54,7 @@ h3 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 150%;
-  /* 24px */
+  line-height: 130%;
   letter-spacing: 0%;
   color: #1E3EAF;
 }
@@ -69,6 +68,11 @@ h3.hebrew {
   h3 {
     font-size: 45px;
     line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  h3 {
+    line-height: 150%;
   }
 }
 
@@ -252,8 +256,7 @@ p.caption.hebrew {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 150%;
-  /* 24px */
+  line-height: 130%;
   letter-spacing: 0%;
   color: #D2E9FF;
 }
@@ -267,6 +270,11 @@ p.caption.hebrew {
   .rich-text h3, .page.page-main h3 {
     font-size: 45px;
     line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .rich-text h3, .page.page-main h3 {
+    line-height: 150%;
   }
 }
 .rich-text h4, .page.page-main h4 {
