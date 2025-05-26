@@ -9942,7 +9942,7 @@ div.two-videos {
 
 .sticky-nav {
   background: light;
-  z-index: 1000;
+  z-index: 50000;
   list-style: none;
   display: flex;
   gap: 0px;

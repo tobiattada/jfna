@@ -2619,3 +2619,113 @@ nav.post-nav {
 .back-btn {
   margin: 50px 0;
 }
+
+.tag-page .page-title h3 {
+  display: none;
+}
+.tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+    padding: 60px 10%;
+  }
+}
+.tag-page .list .entry {
+  background: transparent !important;
+}
+.tag-page .news .entry h3 a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .tag-page .news .entry h3 a {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.tag-page .news .entry h3 a.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.tag-page .news .entry h3 a:hover {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1c88ed;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .tag-page .news .entry h3 a:hover {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.tag-page .news .entry h3 a:hover.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.tag-page .list .entry .meta {
+  padding-left: 0px;
+}
+.tag-page .news .entry p a.date {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+  padding-left: 0px;
+}
+@media (min-width: 1024px) {
+  .tag-page .news .entry p a.date {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.tag-page .news .entry p a.date strong, .tag-page .news .entry p a.date em, .tag-page .news .entry p a.date b {
+  font-weight: 600;
+  color: #2A2A2A;
+}
+.tag-page .news .entry p a.date.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.tag-page .news .entry .row {
+  flex-direction: column;
+  gap: 10px;
+}
+.tag-page .news .entry .row .col-5 {
+  display: inline-block !important;
+}
+.tag-page .news .entry .row .col-5 .arrow-btn {
+  margin-top: 20px;
+}
