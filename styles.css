@@ -8213,18 +8213,21 @@ div.two-videos {
 }
 .donor-quote .row .col-12 .rich-text p.caption {
   font-family: "Outfit", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0%;
   color: #F5F5F5;
-  margin-top: 3px;
 }
 @media (min-width: 1024px) {
   .donor-quote .row .col-12 .rich-text p.caption {
-    font-size: 15px;
-    line-height: 150%;
+    font-size: 18px;
+    line-height: 27px;
   }
+}
+.donor-quote .row .col-12 .rich-text p.caption strong, .donor-quote .row .col-12 .rich-text p.caption em, .donor-quote .row .col-12 .rich-text p.caption b {
+  font-weight: 400;
+  color: #F5F5F5;
 }
 .donor-quote .row .col-12 .rich-text p.caption.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
