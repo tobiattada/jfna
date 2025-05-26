@@ -1882,6 +1882,7 @@ section.page-main aside {
   width: 100%;
 }
 section.page-main aside div.widget:first-child {
+  position: relative;
   /* Hide the dropdown initially */
   /* Show it when expanded */
   /* Make <h4> clickable and styled */
@@ -1934,6 +1935,9 @@ section.page-main aside div.widget:first-child #list_tags.expanded {
   padding: 15px;
   gap: 5px;
   box-shadow: 0px 0px 15px 9px rgba(0, 0, 0, 0.08), 0px 0.326px 1.059px 0px rgba(0, 0, 0, 0.04);
+  top: 60px;
+  height: 300px;
+  overflow: scroll;
 }
 section.page-main aside div.widget:first-child h4 {
   position: relative;
