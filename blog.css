@@ -2620,6 +2620,15 @@ nav.post-nav {
   margin: 50px 0;
 }
 
+.tag-page .page-main.shell {
+  margin-top: 50px;
+}
+.tag-page .navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
 .tag-page .page-title h3 {
   display: none;
 }
