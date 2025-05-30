@@ -9879,7 +9879,7 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
-.accordion-widget #acc {
+.accordion-widget .acc {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -9887,12 +9887,12 @@ div.two-videos {
   margin-top: 50px;
 }
 @media (min-width: 1024px) {
-  .accordion-widget #acc {
+  .accordion-widget .acc {
     gap: 100px;
     grid-template-columns: 1fr 1fr;
   }
 }
-.accordion-widget #acc::after {
+.accordion-widget .acc::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -9902,7 +9902,7 @@ div.two-videos {
   background: linear-gradient(to bottom, #e9ecf700 0%, #E9ECF7 50%, #E9ECF7 100%);
   pointer-events: none;
 }
-.accordion-widget #accWrap {
+.accordion-widget .accWrap {
   order: 2;
   margin: 1em auto;
   overflow-y: scroll;
@@ -9914,18 +9914,18 @@ div.two-videos {
   scrollbar-color: #B9C3E6 #B9C3E6;
 }
 @media (min-width: 1024px) {
-  .accordion-widget #accWrap {
+  .accordion-widget .accWrap {
     order: 0;
   }
 }
-.accordion-widget #accWrap::-webkit-scrollbar {
+.accordion-widget .accWrap::-webkit-scrollbar {
   width: 10px;
   display: block;
 }
-.accordion-widget #accWrap::-webkit-scrollbar-track {
+.accordion-widget .accWrap::-webkit-scrollbar-track {
   background: #B9C3E6;
 }
-.accordion-widget #accWrap::-webkit-scrollbar-thumb {
+.accordion-widget .accWrap::-webkit-scrollbar-thumb {
   background-color: #B9C3E6;
 }
 .accordion-widget .accBox {
@@ -10008,7 +10008,7 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
-.accordion-widget #accWrapImage {
+.accordion-widget #accWrapImage, .accordion-widget #accWrapImageOne, .accordion-widget #accWrapImageTwo, .accordion-widget #accWrapImageThree, .accordion-widget #accWrapImageFour {
   background: black;
   border-radius: 24px;
   height: 100%;
