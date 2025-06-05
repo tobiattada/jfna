@@ -5031,32 +5031,407 @@ ul.stats-main.col2 li {
   direction: rtl;
 }
 
-.white-card {
+.bg-footer-gray {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background-color: #2A2A2A;
+}
+@media (min-width: 768px) {
+  .bg-footer-gray {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .bg-footer-gray {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .bg-footer-gray {
+    padding: 60px 10%;
+  }
+}
+.bg-footer-gray .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.bg-footer-gray .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-footer-gray .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.bg-footer-gray .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-footer-gray .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.bg-footer-gray .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .bg-footer-gray .rich-text h3 {
+    line-height: 150%;
+  }
+}
+.bg-footer-gray .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.bg-footer-gray .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-footer-gray .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.bg-footer-gray .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-footer-gray .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.bg-footer-gray .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-footer-gray .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-footer-gray .rich-text p strong, .bg-footer-gray .rich-text p em, .bg-footer-gray .rich-text p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.bg-footer-gray .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-footer-gray .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-footer-gray .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-footer-gray .rich-text p.eyebrow strong, .bg-footer-gray .rich-text p.eyebrow em, .bg-footer-gray .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-footer-gray .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
+.bg-navy-blue.gray-card .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-navy-blue.gray-card .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-navy-blue.gray-card .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.bg-navy-blue.gray-card .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .bg-navy-blue.gray-card .rich-text h3 {
+    line-height: 150%;
+  }
+}
+.bg-navy-blue.gray-card .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-navy-blue.gray-card .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-navy-blue.gray-card .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-navy-blue.gray-card .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text p strong, .bg-navy-blue.gray-card .rich-text p em, .bg-navy-blue.gray-card .rich-text p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.bg-navy-blue.gray-card .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.bg-navy-blue.gray-card .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .bg-navy-blue.gray-card .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.bg-navy-blue.gray-card .rich-text p.eyebrow strong, .bg-navy-blue.gray-card .rich-text p.eyebrow em, .bg-navy-blue.gray-card .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.bg-navy-blue.gray-card .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
+.white-card, .bg-navy-blue .white-card {
   box-sizing: border-box;
   padding: 30px 20px;
   margin: 0px;
 }
 @media (min-width: 768px) {
-  .white-card {
+  .white-card, .bg-navy-blue .white-card {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .white-card {
+  .white-card, .bg-navy-blue .white-card {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .white-card {
+  .white-card, .bg-navy-blue .white-card {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  .white-card {
+  .white-card, .bg-navy-blue .white-card {
     padding: 60px 10%;
   }
 }
-.white-card .row {
+.white-card .row, .bg-navy-blue .white-card .row {
   box-shadow: 0px 6px 20px 5px #0000000f;
   position: relative;
   margin: 0 auto;
@@ -5066,46 +5441,46 @@ ul.stats-main.col2 li {
   width: auto;
 }
 @media (min-width: 1024px) {
-  .white-card .row .rich-text p.align-center, .white-card .row .rich-text h4.align-center, .white-card .row .rich-text h5.align-center, .white-card .row .rich-text h6.align-center {
+  .white-card .row .rich-text p.align-center, .white-card .row .rich-text h4.align-center, .white-card .row .rich-text h5.align-center, .white-card .row .rich-text h6.align-center, .bg-navy-blue .white-card .row .rich-text p.align-center, .bg-navy-blue .white-card .row .rich-text h4.align-center, .bg-navy-blue .white-card .row .rich-text h5.align-center, .bg-navy-blue .white-card .row .rich-text h6.align-center {
     max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
-  .white-card .row .rich-text p.align-center, .white-card .row .rich-text h4.align-center, .white-card .row .rich-text h5.align-center, .white-card .row .rich-text h6.align-center {
+  .white-card .row .rich-text p.align-center, .white-card .row .rich-text h4.align-center, .white-card .row .rich-text h5.align-center, .white-card .row .rich-text h6.align-center, .bg-navy-blue .white-card .row .rich-text p.align-center, .bg-navy-blue .white-card .row .rich-text h4.align-center, .bg-navy-blue .white-card .row .rich-text h5.align-center, .bg-navy-blue .white-card .row .rich-text h6.align-center {
     max-width: 85%;
   }
 }
-.white-card .row .rich-text, .white-card .row .component-icon-row {
+.white-card .row .rich-text, .white-card .row .component-icon-row, .bg-navy-blue .white-card .row .rich-text, .bg-navy-blue .white-card .row .component-icon-row {
   box-sizing: border-box;
   padding: 30px 20px;
 }
 @media (min-width: 768px) {
-  .white-card .row .rich-text, .white-card .row .component-icon-row {
+  .white-card .row .rich-text, .white-card .row .component-icon-row, .bg-navy-blue .white-card .row .rich-text, .bg-navy-blue .white-card .row .component-icon-row {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .white-card .row .rich-text, .white-card .row .component-icon-row {
+  .white-card .row .rich-text, .white-card .row .component-icon-row, .bg-navy-blue .white-card .row .rich-text, .bg-navy-blue .white-card .row .component-icon-row {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .white-card .row .rich-text, .white-card .row .component-icon-row {
+  .white-card .row .rich-text, .white-card .row .component-icon-row, .bg-navy-blue .white-card .row .rich-text, .bg-navy-blue .white-card .row .component-icon-row {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  .white-card .row .rich-text, .white-card .row .component-icon-row {
+  .white-card .row .rich-text, .white-card .row .component-icon-row, .bg-navy-blue .white-card .row .rich-text, .bg-navy-blue .white-card .row .component-icon-row {
     padding: 60px 10%;
   }
 }
-.white-card.overlap .row {
+.white-card.overlap .row, .bg-navy-blue .white-card.overlap .row {
   margin-top: -120px;
 }
-.white-card .row .rich-text {
+.white-card .row .rich-text, .bg-navy-blue .white-card .row .rich-text {
   margin-bottom: 0px;
 }
-.white-card.features .rich-text {
+.white-card.features .rich-text, .bg-navy-blue .white-card.features .rich-text {
   padding: 0px;
 }
 
@@ -5187,32 +5562,32 @@ ul.stats-main.col2 li {
   margin-bottom: 0px;
 }
 
-.gray-card {
+.gray-card, .bg-navy-blue .gray-card {
   box-sizing: border-box;
   padding: 30px 20px;
   margin: 0px;
 }
 @media (min-width: 768px) {
-  .gray-card {
+  .gray-card, .bg-navy-blue .gray-card {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .gray-card {
+  .gray-card, .bg-navy-blue .gray-card {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .gray-card {
+  .gray-card, .bg-navy-blue .gray-card {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  .gray-card {
+  .gray-card, .bg-navy-blue .gray-card {
     padding: 60px 10%;
   }
 }
-.gray-card .row {
+.gray-card .row, .bg-navy-blue .gray-card .row {
   box-shadow: 0px 6px 20px 5px #0000000f;
   position: relative;
   margin: 0 auto;
@@ -5222,43 +5597,43 @@ ul.stats-main.col2 li {
   width: auto;
 }
 @media (min-width: 1024px) {
-  .gray-card .row .rich-text p.align-center, .gray-card .row .rich-text h4.align-center, .gray-card .row .rich-text h5.align-center, .gray-card .row .rich-text h6.align-center {
+  .gray-card .row .rich-text p.align-center, .gray-card .row .rich-text h4.align-center, .gray-card .row .rich-text h5.align-center, .gray-card .row .rich-text h6.align-center, .bg-navy-blue .gray-card .row .rich-text p.align-center, .bg-navy-blue .gray-card .row .rich-text h4.align-center, .bg-navy-blue .gray-card .row .rich-text h5.align-center, .bg-navy-blue .gray-card .row .rich-text h6.align-center {
     max-width: 87%;
   }
 }
 @media (min-width: 1300px) {
-  .gray-card .row .rich-text p.align-center, .gray-card .row .rich-text h4.align-center, .gray-card .row .rich-text h5.align-center, .gray-card .row .rich-text h6.align-center {
+  .gray-card .row .rich-text p.align-center, .gray-card .row .rich-text h4.align-center, .gray-card .row .rich-text h5.align-center, .gray-card .row .rich-text h6.align-center, .bg-navy-blue .gray-card .row .rich-text p.align-center, .bg-navy-blue .gray-card .row .rich-text h4.align-center, .bg-navy-blue .gray-card .row .rich-text h5.align-center, .bg-navy-blue .gray-card .row .rich-text h6.align-center {
     max-width: 85%;
   }
 }
-.gray-card .row .rich-text, .gray-card .row .component-icon-row {
+.gray-card .row .rich-text, .gray-card .row .component-icon-row, .bg-navy-blue .gray-card .row .rich-text, .bg-navy-blue .gray-card .row .component-icon-row {
   box-sizing: border-box;
   padding: 30px 20px;
 }
 @media (min-width: 768px) {
-  .gray-card .row .rich-text, .gray-card .row .component-icon-row {
+  .gray-card .row .rich-text, .gray-card .row .component-icon-row, .bg-navy-blue .gray-card .row .rich-text, .bg-navy-blue .gray-card .row .component-icon-row {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .gray-card .row .rich-text, .gray-card .row .component-icon-row {
+  .gray-card .row .rich-text, .gray-card .row .component-icon-row, .bg-navy-blue .gray-card .row .rich-text, .bg-navy-blue .gray-card .row .component-icon-row {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .gray-card .row .rich-text, .gray-card .row .component-icon-row {
+  .gray-card .row .rich-text, .gray-card .row .component-icon-row, .bg-navy-blue .gray-card .row .rich-text, .bg-navy-blue .gray-card .row .component-icon-row {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  .gray-card .row .rich-text, .gray-card .row .component-icon-row {
+  .gray-card .row .rich-text, .gray-card .row .component-icon-row, .bg-navy-blue .gray-card .row .rich-text, .bg-navy-blue .gray-card .row .component-icon-row {
     padding: 60px 10%;
   }
 }
-.gray-card.overlap .row {
+.gray-card.overlap .row, .bg-navy-blue .gray-card.overlap .row {
   margin-top: -120px;
 }
-.gray-card .row .rich-text {
+.gray-card .row .rich-text, .bg-navy-blue .gray-card .row .rich-text {
   margin-bottom: 0px;
 }
 
