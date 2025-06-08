@@ -2414,6 +2414,30 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   text-align: right;
   direction: rtl;
 }
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child {
+    font-size: 24px;
+    line-height: 150%;
+  }
+}
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
 section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
   max-width: 800px;
   margin: 0 auto;
