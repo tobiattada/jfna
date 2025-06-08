@@ -705,6 +705,7 @@ mark {
   align-items: flex-end;
   justify-content: center;
   transition: 0.3s;
+  flex: none;
 }
 .arrow-btn a:hover::after {
   transition: 0.3s;
@@ -741,6 +742,7 @@ mark {
   align-items: flex-end;
   justify-content: center;
   transition: 0.3s;
+  flex: none;
 }
 .arrow-btn.align-center a:hover::after {
   transition: 0.3s;
@@ -783,6 +785,7 @@ mark {
   justify-content: center;
   transition: 0.3s;
   transform: rotate(180deg);
+  flex: none;
 }
 .back-btn a:hover::before {
   transition: 0.3s;
@@ -821,6 +824,7 @@ mark {
   justify-content: center;
   transition: 0.3s;
   padding-bottom: 2px;
+  flex: none;
 }
 .external-btn a:hover::after {
   transition: 0.3s;
@@ -856,6 +860,7 @@ mark {
   align-items: flex-end;
   justify-content: center;
   transition: 0.3s;
+  flex: none;
 }
 .email-btn a:hover::after {
   transition: 0.3s;
@@ -892,6 +897,7 @@ mark {
   justify-content: center;
   transition: 0.3s;
   transform: rotate(90deg);
+  flex: none;
 }
 .scroll-btn a:hover::after {
   transition: 0.3s;
@@ -958,6 +964,7 @@ mark {
   left: 12px;
   background: #1E3EAF;
   border-radius: 100%;
+  flex: none;
 }
 .download-btn.circle a:hover {
   transition: 0.3s;
@@ -990,6 +997,7 @@ mark {
   align-items: flex-end;
   justify-content: center;
   transition: 0.3s;
+  flex: none;
 }
 .rich-text .arrow-btn a:hover::after {
   transition: 0.3s;
@@ -1026,6 +1034,7 @@ mark {
   align-items: flex-end;
   justify-content: center;
   transition: 0.3s;
+  flex: none;
 }
 .rich-text .arrow-btn.align-center a:hover::after {
   transition: 0.3s;
@@ -1080,6 +1089,7 @@ mark {
   justify-content: center;
   transition: 0.3s;
   padding-bottom: 2px;
+  flex: none;
 }
 .rich-text .external-btn a:hover::after {
   transition: 0.3s;
@@ -1114,6 +1124,7 @@ mark {
   align-items: flex-end;
   justify-content: center;
   transition: 0.3s;
+  flex: none;
 }
 .rich-text .email-btn a:hover::after {
   transition: 0.3s;
@@ -1179,6 +1190,7 @@ mark {
   left: 12px;
   background: #1E3EAF;
   border-radius: 100%;
+  flex: none;
 }
 .rich-text .download-btn.circle a:hover {
   transition: 0.3s;
