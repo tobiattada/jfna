@@ -2333,6 +2333,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     z-index: 1000;
     padding: 50px 30px 40px;
     width: 225px;
+    height: auto;
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown a:hover, .nav-menu .nav-item.has-dropdown .dropdown a:hover p {
