@@ -2534,11 +2534,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   transition: 0.3s;
 }
 
-.nav-menu .nav-item.has-dropdown:hover .dropdown {
-  display: block;
-}
+@media (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown:hover .dropdown {
+    display: block;
+  }
 
-@media (min-width: 768px) {
   .quick-links-nav {
     display: none;
   }
@@ -2572,11 +2572,6 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     font-weight: 600;
     text-align: right;
     direction: rtl;
-  }
-}
-@media (min-width: 1024px) {
-  .quick-links-nav {
-    display: none;
   }
 }
 /* Responsive styles */
