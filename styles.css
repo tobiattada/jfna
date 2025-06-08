@@ -2192,6 +2192,16 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   align-items: center;
   gap: 10px;
 }
+@media (min-width: 1024px) {
+  .nav-menu {
+    gap: 15px;
+  }
+}
+@media (min-width: 1300px) {
+  .nav-menu {
+    gap: 10px;
+  }
+}
 .nav-menu .nav-item {
   position: relative;
 }
@@ -2208,7 +2218,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   letter-spacing: 0%;
   color: #2A2A2A;
 }
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .nav-menu .nav-item a {
     padding: 20px;
   }
@@ -2253,6 +2263,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   color: #FDFDFD !important;
   border: none;
   border-radius: 40px;
+  padding: 12px 15px;
 }
 .nav-menu .nav-item a.button span, .nav-menu .nav-item a.button p {
   font-family: "Outfit", sans-serif;
@@ -2278,6 +2289,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item a.button:active {
   background: #27277C;
+}
+@media (min-width: 1300px) {
+  .nav-menu .nav-item a.button {
+    padding: 12px 24px;
+  }
 }
 .nav-menu .nav-item a.button p {
   font-family: "Outfit", sans-serif;
