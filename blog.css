@@ -2498,12 +2498,11 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote {
   background: #ECECEC;
-  border-left: 0px solid #fff;
+  border-left: 5px solid #c9c9c9;
   display: block;
-  margin: 20px 0px 20px 0px;
-  padding: 0px;
-  border-radius: 24px;
-  padding: 25px;
+  margin: 25px 0px 25px 0px;
+  border-radius: 0px;
+  padding: 15px 21px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span {
   font-family: "Outfit", sans-serif;
