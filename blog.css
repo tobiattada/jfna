@@ -2339,6 +2339,9 @@ section.page-main .row header.page-title .byline .author.hebrew, section.page-ma
   text-align: right;
   direction: rtl;
 }
+section.page-main .row header.page-title h2 {
+  max-width: 85%;
+}
 section.page-main .col-7 {
   width: 100%;
 }

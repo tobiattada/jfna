@@ -2567,6 +2567,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 #home-hero .component-promo .mobile-image {
   height: 100%;
   width: auto;
+  left: -50%;
 }
 
 .home-areas {
