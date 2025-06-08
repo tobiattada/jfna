@@ -2119,10 +2119,14 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .navbar__toggle .back-button {
   position: absolute;
   display: none;
-  top: 25px;
+  left: 15px;
+  top: 29px;
 }
 .navbar__toggle .back-button svg path {
   fill: #27277C;
+}
+.navbar__toggle .back-button.visible {
+  display: block;
 }
 
 .navbar__toggle .hamburger {
@@ -2168,15 +2172,6 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   transform: rotate(-45deg);
   top: 0px;
   transition: 0.3s;
-}
-.navbar__toggle.open-menu .back-button {
-  position: absolute;
-  display: block;
-  left: 20px;
-  top: 29px;
-}
-.navbar__toggle.open-menu .back-button svg path {
-  fill: #27277C;
 }
 
 .nav-menu {
@@ -2593,7 +2588,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     bottom: 0;
     background: white;
     z-index: 4000;
-    padding: 60px 20px;
+    padding: 80px 20px;
     box-sizing: border-box;
     justify-content: space-between;
   }
