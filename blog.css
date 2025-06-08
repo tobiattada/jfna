@@ -2414,6 +2414,9 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   text-align: right;
   direction: rtl;
 }
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul {
+  margin-left: 0px;
+}
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -2435,6 +2438,38 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote {
+  background: transparent;
+  border-left: 0px solid #fff;
+  display: block;
+  margin: 20px 10px 20px 30px;
+  padding: 0px;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span {
+  line-height: 180%;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
