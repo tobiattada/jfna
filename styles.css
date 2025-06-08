@@ -3264,6 +3264,14 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   display: flex;
   align-items: center;
 }
+.our-work-header .row .page-column.col-12 {
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .our-work-header .row .page-column.col-12 {
+    height: auto;
+  }
+}
 
 .our-work-intro {
   box-sizing: border-box;
