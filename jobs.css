@@ -2718,7 +2718,7 @@ section.career-center-listing .col-8 .post {
 section.career-center-listing .col-8 .post .editor-copy br {
   display: none;
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span, section.career-center-listing .col-8 .post .editor-copy p, section.career-center-listing .col-8 .post .editor-copy ul li {
+section.career-center-listing .col-8 .post .editor-copy ul li span, section.career-center-listing .col-8 .post .editor-copy p, section.career-center-listing .col-8 .post .editor-copy ul li, section.career-center-listing .col-8 .post .editor-copy div {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2728,22 +2728,22 @@ section.career-center-listing .col-8 .post .editor-copy ul li span, section.care
   text-align: left !important;
 }
 @media (min-width: 1024px) {
-  section.career-center-listing .col-8 .post .editor-copy ul li span, section.career-center-listing .col-8 .post .editor-copy p, section.career-center-listing .col-8 .post .editor-copy ul li {
+  section.career-center-listing .col-8 .post .editor-copy ul li span, section.career-center-listing .col-8 .post .editor-copy p, section.career-center-listing .col-8 .post .editor-copy ul li, section.career-center-listing .col-8 .post .editor-copy div {
     font-size: 18px;
     line-height: 27px;
   }
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span strong, section.career-center-listing .col-8 .post .editor-copy ul li span em, section.career-center-listing .col-8 .post .editor-copy ul li span b, section.career-center-listing .col-8 .post .editor-copy p strong, section.career-center-listing .col-8 .post .editor-copy p em, section.career-center-listing .col-8 .post .editor-copy p b, section.career-center-listing .col-8 .post .editor-copy ul li strong, section.career-center-listing .col-8 .post .editor-copy ul li em, section.career-center-listing .col-8 .post .editor-copy ul li b {
+section.career-center-listing .col-8 .post .editor-copy ul li span strong, section.career-center-listing .col-8 .post .editor-copy ul li span em, section.career-center-listing .col-8 .post .editor-copy ul li span b, section.career-center-listing .col-8 .post .editor-copy p strong, section.career-center-listing .col-8 .post .editor-copy p em, section.career-center-listing .col-8 .post .editor-copy p b, section.career-center-listing .col-8 .post .editor-copy ul li strong, section.career-center-listing .col-8 .post .editor-copy ul li em, section.career-center-listing .col-8 .post .editor-copy ul li b, section.career-center-listing .col-8 .post .editor-copy div strong, section.career-center-listing .col-8 .post .editor-copy div em, section.career-center-listing .col-8 .post .editor-copy div b {
   font-weight: 400;
   color: #2A2A2A;
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span.hebrew, section.career-center-listing .col-8 .post .editor-copy p.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li.hebrew {
+section.career-center-listing .col-8 .post .editor-copy ul li span.hebrew, section.career-center-listing .col-8 .post .editor-copy p.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li.hebrew, section.career-center-listing .col-8 .post .editor-copy div.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span a, section.career-center-listing .col-8 .post .editor-copy p a, section.career-center-listing .col-8 .post .editor-copy ul li a {
+section.career-center-listing .col-8 .post .editor-copy ul li span a, section.career-center-listing .col-8 .post .editor-copy p a, section.career-center-listing .col-8 .post .editor-copy ul li a, section.career-center-listing .col-8 .post .editor-copy div a {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -2752,22 +2752,22 @@ section.career-center-listing .col-8 .post .editor-copy ul li span a, section.ca
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  section.career-center-listing .col-8 .post .editor-copy ul li span a, section.career-center-listing .col-8 .post .editor-copy p a, section.career-center-listing .col-8 .post .editor-copy ul li a {
+  section.career-center-listing .col-8 .post .editor-copy ul li span a, section.career-center-listing .col-8 .post .editor-copy p a, section.career-center-listing .col-8 .post .editor-copy ul li a, section.career-center-listing .col-8 .post .editor-copy div a {
     font-size: 18px;
     line-height: 27px;
   }
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span a strong, section.career-center-listing .col-8 .post .editor-copy ul li span a em, section.career-center-listing .col-8 .post .editor-copy ul li span a b, section.career-center-listing .col-8 .post .editor-copy p a strong, section.career-center-listing .col-8 .post .editor-copy p a em, section.career-center-listing .col-8 .post .editor-copy p a b, section.career-center-listing .col-8 .post .editor-copy ul li a strong, section.career-center-listing .col-8 .post .editor-copy ul li a em, section.career-center-listing .col-8 .post .editor-copy ul li a b {
+section.career-center-listing .col-8 .post .editor-copy ul li span a strong, section.career-center-listing .col-8 .post .editor-copy ul li span a em, section.career-center-listing .col-8 .post .editor-copy ul li span a b, section.career-center-listing .col-8 .post .editor-copy p a strong, section.career-center-listing .col-8 .post .editor-copy p a em, section.career-center-listing .col-8 .post .editor-copy p a b, section.career-center-listing .col-8 .post .editor-copy ul li a strong, section.career-center-listing .col-8 .post .editor-copy ul li a em, section.career-center-listing .col-8 .post .editor-copy ul li a b, section.career-center-listing .col-8 .post .editor-copy div a strong, section.career-center-listing .col-8 .post .editor-copy div a em, section.career-center-listing .col-8 .post .editor-copy div a b {
   font-weight: 600;
   color: #1E3EAF;
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span a.hebrew, section.career-center-listing .col-8 .post .editor-copy p a.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li a.hebrew {
+section.career-center-listing .col-8 .post .editor-copy ul li span a.hebrew, section.career-center-listing .col-8 .post .editor-copy p a.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li a.hebrew, section.career-center-listing .col-8 .post .editor-copy div a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span a:hover, section.career-center-listing .col-8 .post .editor-copy p a:hover, section.career-center-listing .col-8 .post .editor-copy ul li a:hover {
+section.career-center-listing .col-8 .post .editor-copy ul li span a:hover, section.career-center-listing .col-8 .post .editor-copy p a:hover, section.career-center-listing .col-8 .post .editor-copy ul li a:hover, section.career-center-listing .col-8 .post .editor-copy div a:hover {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -2777,16 +2777,16 @@ section.career-center-listing .col-8 .post .editor-copy ul li span a:hover, sect
   text-decoration: none;
 }
 @media (min-width: 1024px) {
-  section.career-center-listing .col-8 .post .editor-copy ul li span a:hover, section.career-center-listing .col-8 .post .editor-copy p a:hover, section.career-center-listing .col-8 .post .editor-copy ul li a:hover {
+  section.career-center-listing .col-8 .post .editor-copy ul li span a:hover, section.career-center-listing .col-8 .post .editor-copy p a:hover, section.career-center-listing .col-8 .post .editor-copy ul li a:hover, section.career-center-listing .col-8 .post .editor-copy div a:hover {
     font-size: 18px;
     line-height: 27px;
   }
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span a:hover strong, section.career-center-listing .col-8 .post .editor-copy ul li span a:hover em, section.career-center-listing .col-8 .post .editor-copy ul li span a:hover b, section.career-center-listing .col-8 .post .editor-copy p a:hover strong, section.career-center-listing .col-8 .post .editor-copy p a:hover em, section.career-center-listing .col-8 .post .editor-copy p a:hover b, section.career-center-listing .col-8 .post .editor-copy ul li a:hover strong, section.career-center-listing .col-8 .post .editor-copy ul li a:hover em, section.career-center-listing .col-8 .post .editor-copy ul li a:hover b {
+section.career-center-listing .col-8 .post .editor-copy ul li span a:hover strong, section.career-center-listing .col-8 .post .editor-copy ul li span a:hover em, section.career-center-listing .col-8 .post .editor-copy ul li span a:hover b, section.career-center-listing .col-8 .post .editor-copy p a:hover strong, section.career-center-listing .col-8 .post .editor-copy p a:hover em, section.career-center-listing .col-8 .post .editor-copy p a:hover b, section.career-center-listing .col-8 .post .editor-copy ul li a:hover strong, section.career-center-listing .col-8 .post .editor-copy ul li a:hover em, section.career-center-listing .col-8 .post .editor-copy ul li a:hover b, section.career-center-listing .col-8 .post .editor-copy div a:hover strong, section.career-center-listing .col-8 .post .editor-copy div a:hover em, section.career-center-listing .col-8 .post .editor-copy div a:hover b {
   font-weight: 600;
   color: #27277C;
 }
-section.career-center-listing .col-8 .post .editor-copy ul li span a:hover.hebrew, section.career-center-listing .col-8 .post .editor-copy p a:hover.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li a:hover.hebrew {
+section.career-center-listing .col-8 .post .editor-copy ul li span a:hover.hebrew, section.career-center-listing .col-8 .post .editor-copy p a:hover.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li a:hover.hebrew, section.career-center-listing .col-8 .post .editor-copy div a:hover.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
