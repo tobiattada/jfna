@@ -2380,7 +2380,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown.mega {
     width: 900px;
-    left: -270%;
+    left: -500%;
     overflow: visible;
   }
 }
@@ -2397,6 +2397,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   .nav-menu .nav-item.has-dropdown .dropdown.mega > p {
     margin-top: 0px;
     line-height: inherit;
+  }
+}
+@media (min-width: 1300px) {
+  .nav-menu .nav-item.has-dropdown .dropdown.mega {
+    left: -270%;
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul {

@@ -2044,6 +2044,7 @@ section.page-main .news .entry .row .col-2 .meta p {
 }
 section.page-main .news .entry .row ul.tags {
   margin-top: 0;
+  display: none;
 }
 section.page-main .news .entry .row ul.tags li {
   background: transparent;
