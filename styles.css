@@ -3675,6 +3675,10 @@ ul.stats-main.col2 li {
   padding-bottom: 0px !important;
 }
 
+.spacer-row > .row {
+  padding-bottom: 0px !important;
+}
+
 .no-top-pad {
   padding-top: 0px !important;
 }
