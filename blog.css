@@ -2042,6 +2042,9 @@ section.page-main .news .entry .row .col-2 .meta p a.date.hebrew {
 section.page-main .news .entry .row .col-2 .meta p {
   margin-bottom: 0px;
 }
+section.page-main .news .entry .row .col-2 .meta .tags {
+  display: none;
+}
 section.page-main .news .entry .row ul.tags {
   margin-top: 0;
   display: none;
@@ -2489,7 +2492,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li::marker {
   font-size: 10px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child {
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -2497,17 +2500,17 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   letter-spacing: 0%;
   color: #2A2A2A;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child b {
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child b {
   font-weight: 600;
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child {
+  section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child {
     font-size: 24px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p:first-child.hebrew {
+section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 400;
   text-align: right;
@@ -2517,13 +2520,13 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   background: #ECECEC;
   border-left: 5px solid #c9c9c9;
   display: block;
-  margin: 25px 0px 25px 0px;
+  margin: 5px 0px 5px 0px;
   border-radius: 0px;
   padding: 15px 21px;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span {
   font-family: "Outfit", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -2537,7 +2540,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   }
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span.hebrew {
