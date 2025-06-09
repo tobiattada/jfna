@@ -2715,6 +2715,9 @@ section.career-center-listing .col-8 .post {
     padding: 60px 10%;
   }
 }
+section.career-center-listing .col-8 .post .editor-copy br {
+  display: none;
+}
 section.career-center-listing .col-8 .post .editor-copy ul li span, section.career-center-listing .col-8 .post .editor-copy p, section.career-center-listing .col-8 .post .editor-copy ul li {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -2722,6 +2725,7 @@ section.career-center-listing .col-8 .post .editor-copy ul li span, section.care
   line-height: 24px;
   letter-spacing: 0%;
   color: #2A2A2A;
+  text-align: left !important;
 }
 @media (min-width: 1024px) {
   section.career-center-listing .col-8 .post .editor-copy ul li span, section.career-center-listing .col-8 .post .editor-copy p, section.career-center-listing .col-8 .post .editor-copy ul li {
