@@ -6373,6 +6373,8 @@ div.two-videos {
   line-height: 26px;
   letter-spacing: 0%;
   color: #F5F5F5;
+  width: 90%;
+  margin: 0 auto;
 }
 @media (min-width: 1024px) {
   .page-main .israel-stats div h5 {
@@ -6421,7 +6423,7 @@ div.two-videos {
 .page-main .israel-stats div {
   background: #27277C;
   border-radius: 24px;
-  padding: 20px;
+  padding: 25px;
 }
 @media (min-width: 768px) {
   .page-main .israel-stats {
