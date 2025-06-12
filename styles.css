@@ -6326,18 +6326,39 @@ div.two-videos {
   text-align: center;
   font-family: "Outfit", sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 32px;
+  line-height: 42px;
   letter-spacing: 0%;
   color: #1c88ed;
 }
 @media (min-width: 1024px) {
   .page-main .israel-stats div h2 {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 60px;
+    line-height: 78px;
   }
 }
 .page-main .israel-stats div h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.page-main .israel-stats div h6 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .page-main .israel-stats div h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.page-main .israel-stats div h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
@@ -6347,15 +6368,15 @@ div.two-videos {
   text-align: center;
   font-family: "Outfit", sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 26px;
   letter-spacing: 0%;
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
   .page-main .israel-stats div h5 {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 .page-main .israel-stats div h5.hebrew {
@@ -6364,28 +6385,7 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
-.page-main .israel-stats div h4 {
-  text-align: center;
-  font-family: "Outfit", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: #F5F5F5;
-}
-@media (min-width: 1024px) {
-  .page-main .israel-stats div h4 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-.page-main .israel-stats div h4.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-.page-main .israel-stats div h4 span {
+.page-main .israel-stats div h5 span {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -6394,12 +6394,12 @@ div.two-videos {
   color: #1c88ed;
 }
 @media (min-width: 1024px) {
-  .page-main .israel-stats div h4 span {
+  .page-main .israel-stats div h5 span {
     font-size: 24px;
     line-height: 32px;
   }
 }
-.page-main .israel-stats div h4 span.hebrew {
+.page-main .israel-stats div h5 span.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
