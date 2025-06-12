@@ -6351,6 +6351,7 @@ div.two-videos {
   line-height: 130%;
   letter-spacing: 0%;
   color: #F5F5F5;
+  font-weight: 500;
 }
 @media (min-width: 1024px) {
   .page-main .israel-stats div h6 {
