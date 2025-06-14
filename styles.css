@@ -10817,6 +10817,30 @@ div#finder-sidebar ul.finder-results > li div.fed-card ul {
 div#finder-sidebar ul.finder-results > li div.fed-card ul li:first-child {
   color: #8F8F8F;
 }
+div#finder-sidebar ul.finder-results > li div.fed-card ul li a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  div#finder-sidebar ul.finder-results > li div.fed-card ul li a {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+div#finder-sidebar ul.finder-results > li div.fed-card ul li a strong, div#finder-sidebar ul.finder-results > li div.fed-card ul li a em, div#finder-sidebar ul.finder-results > li div.fed-card ul li a b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+div#finder-sidebar ul.finder-results > li div.fed-card ul li a.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
 
 div#finder-map {
   flex: 1;
