@@ -10847,6 +10847,7 @@ div#finder-sidebar ul.finder-results > li div.fed-card ul li a:hover {
 div#finder-sidebar ul.finder-results .proximity-note {
   border-left: 0px solid #ECECEC !important;
   border-radius: 10px;
+  padding: 10px 15px !important;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -10854,7 +10855,7 @@ div#finder-sidebar ul.finder-results .proximity-note {
   letter-spacing: 0%;
   color: #2A2A2A;
   margin-top: 3px;
-  background-color: #ECECEC;
+  background-color: #ECECEC !important;
 }
 @media (min-width: 1024px) {
   div#finder-sidebar ul.finder-results .proximity-note {
