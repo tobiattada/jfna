@@ -6847,6 +6847,7 @@ div.two-videos {
 @media (min-width: 768px) {
   .white-card.features.features-3 .row .page-column {
     width: 100%;
+    box-sizing: border-box;
   }
 }
 @media (min-width: 1024px) {
