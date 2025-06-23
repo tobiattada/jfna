@@ -1826,6 +1826,14 @@ section.page-main h6.eyebrow.hebrew {
   text-align: right;
   direction: rtl;
 }
+section.page-main h6.eyebrow a {
+  color: #1c88ed;
+  text-decoration: none;
+}
+section.page-main h6.eyebrow a:hover {
+  text-decoration: none;
+  color: #1E3EAF;
+}
 @media (min-width: 1024px) {
   section.page-main h6.eyebrow {
     margin-bottom: 30px;
@@ -2323,9 +2331,32 @@ section.page-main .section-template-rows .feature-posts {
   background: #ECECEC;
 }
 section.page-main .row header.page-title {
+  box-sizing: border-box;
+  padding: 30px 20px;
   margin-bottom: 30px;
   padding-bottom: 0px !important;
-  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+@media (min-width: 768px) {
+  section.page-main .row header.page-title {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  section.page-main .row header.page-title {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  section.page-main .row header.page-title {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  section.page-main .row header.page-title {
+    padding: 60px 10%;
+  }
 }
 section.page-main .row header.page-title .byline {
   margin-top: 10px;
