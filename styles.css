@@ -10527,6 +10527,7 @@ div.two-videos {
   line-height: 24px;
   letter-spacing: 0%;
   color: #2A2A2A;
+  margin-bottom: 10px;
 }
 @media (min-width: 1024px) {
   .accordion-widget .accContent p {
