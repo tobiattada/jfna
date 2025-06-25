@@ -6587,6 +6587,11 @@ div.two-videos {
   background: #27277C;
 }
 
+.bg-light.inspo {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 .features-4-up {
   box-sizing: border-box;
   padding: 30px 20px;
