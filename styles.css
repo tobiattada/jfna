@@ -2710,6 +2710,41 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     direction: rtl;
   }
 }
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 6px;
+}
+
+.search-input {
+  width: 0;
+  opacity: 0;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: 2px solid #1E3EAF;
+  border-radius: 40px;
+  position: absolute;
+  left: 0;
+  top: -6px;
+  line-height: 27px;
+  transition: width 0.3s ease, opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 20001;
+}
+
+.search-container.active .search-input {
+  width: auto;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
   height: 50vh;
 }
