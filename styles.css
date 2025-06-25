@@ -3247,15 +3247,19 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 150%;
+  line-height: 120%;
   /* 24px */
   letter-spacing: 0%;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 10px;
 }
 @media (min-width: 1024px) {
   .modal-content #modal-body .component-class-richtext .rich-text h5 {
     font-size: 45px;
+    line-height: 150%;
+    /* 24px */
     line-height: 58.5px;
+    margin-bottom: 0px;
   }
 }
 .modal-content #modal-body .component-class-richtext .rich-text p {
