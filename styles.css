@@ -851,6 +851,12 @@ mark {
 }
 .arrow-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .arrow-btn.align-center a {
+    flex-direction: row;
+  }
 }
 
 .back-btn span {
@@ -928,6 +934,12 @@ mark {
 }
 .external-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .external-btn.align-center a {
+    flex-direction: row;
+  }
 }
 
 .email-btn span {
@@ -964,6 +976,12 @@ mark {
 }
 .email-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .email-btn.align-center a {
+    flex-direction: row;
+  }
 }
 
 .scroll-btn span {
@@ -1001,6 +1019,12 @@ mark {
 }
 .scroll-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .scroll-btn.align-center a {
+    flex-direction: row;
+  }
 }
 
 .download-btn span {
@@ -1037,6 +1061,12 @@ mark {
 }
 .download-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .download-btn.align-center a {
+    flex-direction: row;
+  }
 }
 .download-btn.circle a {
   position: relative;
@@ -1193,6 +1223,12 @@ mark {
 }
 .rich-text .external-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .rich-text .external-btn.align-center a {
+    flex-direction: row;
+  }
 }
 .rich-text .email-btn span {
   display: none;
@@ -1228,6 +1264,12 @@ mark {
 }
 .rich-text .email-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .rich-text .email-btn.align-center a {
+    flex-direction: row;
+  }
 }
 .rich-text .download-btn span {
   display: none;
@@ -1263,6 +1305,12 @@ mark {
 }
 .rich-text .download-btn.align-center a {
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .rich-text .download-btn.align-center a {
+    flex-direction: row;
+  }
 }
 .rich-text .download-btn.circle a {
   position: relative;
