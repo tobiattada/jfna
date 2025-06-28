@@ -92,12 +92,12 @@ a {
 }
 @media (min-width: 768px) {
   .mobile-hide-btn .row .col-12 .component-button .button.btn-black {
-    display: block;
+    display: block !important;
   }
 }
 
 .mobile-only .row .col-12 .component-button .button.btn-black {
-  padding-top: 0px;
+  margin-top: 0px;
 }
 
 h1 {
