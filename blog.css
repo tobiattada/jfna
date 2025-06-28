@@ -2435,6 +2435,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article {
   margin: 0 auto;
   display: grid;
   gap: 50px;
+  width: 65%;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy {
   max-width: 650px;
