@@ -1225,9 +1225,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.rich-text .external-btn.align-center a::after {
+  left: 0;
+}
 @media (min-width: 768px) {
   .rich-text .external-btn.align-center a {
     flex-direction: row;
+  }
+  .rich-text .external-btn.align-center a::after {
+    left: 12px;
   }
 }
 .rich-text .email-btn span {
@@ -1266,9 +1272,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.rich-text .email-btn.align-center a::after {
+  left: 0;
+}
 @media (min-width: 768px) {
   .rich-text .email-btn.align-center a {
     flex-direction: row;
+  }
+  .rich-text .email-btn.align-center a::after {
+    left: 12px;
   }
 }
 .rich-text .download-btn span {
@@ -1307,9 +1319,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.rich-text .download-btn.align-center a::after {
+  left: 0;
+}
 @media (min-width: 768px) {
   .rich-text .download-btn.align-center a {
     flex-direction: row;
+  }
+  .rich-text .download-btn.align-center a::after {
+    left: 12px;
   }
 }
 .rich-text .download-btn.circle a {
