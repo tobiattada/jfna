@@ -3555,6 +3555,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   align-items: center;
   gap: 12px;
 }
+@media (min-width: 768px) {
+  .our-focus-item .row .col-12 {
+    grid-template-columns: 2fr 3fr;
+    gap: 30px;
+  }
+}
 @media (min-width: 1024px) {
   .our-focus-item .row .col-12 {
     grid-template-columns: 2fr 3fr;
