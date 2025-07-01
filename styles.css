@@ -2838,6 +2838,18 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   opacity: 1;
   pointer-events: auto;
 }
+.search-container.active .top-search {
+  display: block;
+  margin: 0;
+  padding: 0 10px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 300px;
+}
+.search-container.active .top-search .submit-button {
+  display: none;
+}
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
   height: 50vh;
