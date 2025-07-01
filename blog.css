@@ -760,9 +760,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.arrow-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .arrow-btn.align-center a {
     flex-direction: row;
+  }
+  .arrow-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -843,9 +849,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.external-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .external-btn.align-center a {
     flex-direction: row;
+  }
+  .external-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -885,9 +897,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.email-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .email-btn.align-center a {
     flex-direction: row;
+  }
+  .email-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -928,9 +946,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.scroll-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .scroll-btn.align-center a {
     flex-direction: row;
+  }
+  .scroll-btn.align-center a::after {
+    left: 12px;
   }
 }
 

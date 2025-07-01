@@ -853,9 +853,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.arrow-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .arrow-btn.align-center a {
     flex-direction: row;
+  }
+  .arrow-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -936,9 +942,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.external-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .external-btn.align-center a {
     flex-direction: row;
+  }
+  .external-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -978,9 +990,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.email-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .email-btn.align-center a {
     flex-direction: row;
+  }
+  .email-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -1021,9 +1039,15 @@ mark {
   justify-content: center;
   flex-direction: column;
 }
+.scroll-btn.align-center a::after {
+  left: 0px;
+}
 @media (min-width: 768px) {
   .scroll-btn.align-center a {
     flex-direction: row;
+  }
+  .scroll-btn.align-center a::after {
+    left: 12px;
   }
 }
 
@@ -3772,6 +3796,56 @@ ul.stats-main.col2 li {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.page-main.error-page {
+  height: 45vh;
+}
+.page-main.error-page h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .page-main.error-page h2 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.page-main.error-page h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.page-main.error-page p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+.page-main.error-page p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .page-main.error-page p {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .page-main.error-page p {
+    line-height: 150%;
+  }
 }
 
 .extra-padding .row {
