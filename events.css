@@ -2989,11 +2989,13 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title h6.
 }
 section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date {
   position: relative;
+  display: flex;
 }
 section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .date-box, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .date-box p {
   display: flex;
   background: none;
   padding: 0px;
+  width: auto;
 }
 section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year {
   font-family: "Outfit", sans-serif;
@@ -3041,6 +3043,28 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
 }
 section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date.-multi-day {
   display: flex;
+}
+section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date > span {
+  color: #FDFDFD;
+  margin: 0 10px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date > span {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date > span.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 section.page-main.calendar-event .shell .row:nth-child(2) {
   display: flex;
