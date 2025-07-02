@@ -2832,7 +2832,6 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   padding: 5px 10px;
   position: absolute;
   top: -12px;
-  transition: width 0.3s ease;
   width: 300px;
   z-index: 30000;
   height: 100%;
@@ -9268,6 +9267,31 @@ div.two-videos {
   transition: 0.3s;
 }
 
+.page-title p.back {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+.page-title p.back a {
+  color: #2A2A2A;
+  transition: 0.3s;
+}
+.page-title p.back::before {
+  position: absolute;
+  content: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%206L6%200L12%206L10.6%207.4L6%202.8L1.4%207.4L0%206Z%22%20fill%3D%22black%22/%3E%3C/svg%3E");
+  width: auto;
+  height: auto;
+  left: 0px;
+  transform: rotate(270deg);
+  transition: 0.3s;
+}
+.page-title p.back a:hover {
+  padding-left: 20px;
+  opacity: 0.9;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 .basic {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -10985,12 +11009,215 @@ div.two-videos {
   gap: 15px;
 }
 
-div#fed-finder-wrap {
+/* Base styles - scoped to FedFinder */
+#fed-finder-wrap {
+  --primary-color: #1c88ed;
+  --secondary-color: #1E3EAF;
+  --border-color: #c9c9c9;
+  --light-bg: #F5F5F5;
+  --text-color: #555;
+  --light-text: #868686;
   display: flex;
+  /* Sidebar styles */
+  /* Search form styles */
+  /* Search results styles */
+  /* Map container */
+  /* Search UI */
+  /* Loading spinner */
+  /* Download button */
+}
+#fed-finder-wrap #finder-sidebar {
+  box-sizing: border-box;
+  padding: 1.875rem 1.25rem;
+  /* 30px 20px */
+  background: var(--light-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5625rem;
+  /* 25px */
+  overflow-y: auto;
+  height: 50rem;
+  /* 800px */
+}
+#fed-finder-wrap #finder-sidebar h3, #fed-finder-wrap #finder-sidebar h4 {
+  text-align: left;
+}
+#fed-finder-wrap #finder-sidebar h3 {
+  color: var(--primary-color);
+  margin-bottom: 1.25rem;
+  /* 20px */
+  font-size: 2.8125rem;
+  /* 45px */
+  line-height: 3.66rem;
+  /* 58.5px */
+}
+#fed-finder-wrap #finder-sidebar h5 {
+  font-size: 1.5rem;
+  /* 24px */
+  line-height: 2rem;
+  /* 32px */
+}
+@media (min-width: 1024px) {
+  #fed-finder-wrap #finder-sidebar {
+    padding: 2.5rem 3.75rem;
+    /* 40px 60px */
+  }
+}
+#fed-finder-wrap .fedfinder-search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  /* 20px */
+}
+#fed-finder-wrap .fedfinder-search-form input#fedfinder-search {
+  padding: 0.75rem 1rem 0.75rem 2.7rem !important;
+  /* 12px 16px 12px 43px */
+  border-radius: 1.5625rem;
+  /* 25px */
+  position: relative;
+  border: 2px solid var(--border-color);
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  /* 20px */
+  width: 100%;
+  box-sizing: border-box;
+}
+#fed-finder-wrap .fedfinder-search-form label {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  /* 16px */
+  line-height: 1.5;
+}
+#fed-finder-wrap .finder-message {
+  margin: auto 0;
+}
+#fed-finder-wrap .finder-message.loading h3, #fed-finder-wrap .finder-message.loading h5 {
+  text-align: center;
+}
+#fed-finder-wrap .finder-results {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  /* Proximity note for search results */
+}
+#fed-finder-wrap .finder-results .result {
+  padding: 0 0 1.875rem 0;
+  /* 0 0 30px 0 */
+  margin-bottom: 1.875rem;
+  /* 30px */
+  border-bottom: 1px solid var(--border-color);
+}
+#fed-finder-wrap .finder-results .result:last-child, #fed-finder-wrap .finder-results .result:only-of-type {
+  border-bottom: none;
+}
+#fed-finder-wrap .finder-results h5 {
+  margin-bottom: 0.625rem;
+  /* 10px */
+}
+#fed-finder-wrap .finder-results p {
+  font-weight: 500;
+}
+#fed-finder-wrap .finder-results .proximity-note {
+  background-color: #f8f9fa;
+  border-left: 4px solid var(--secondary-color);
+  padding: 0.625rem 0.9375rem;
+  /* 10px 15px */
+  margin-bottom: 1.25rem;
+  /* 20px */
+  font-size: 0.875rem;
+  /* 14px */
+  color: var(--text-color);
+}
+#fed-finder-wrap .finder-results .fed-card {
+  margin-top: 0.625rem;
+  /* 10px */
+  display: grid;
+  grid-gap: 0.625rem;
+  /* 10px */
+}
+#fed-finder-wrap .finder-results .fed-card ul {
+  list-style: none;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr;
+}
+#fed-finder-wrap .finder-results .fed-card ul li:first-child p {
+  color: var(--light-text);
+}
+#fed-finder-wrap .finder-results a.button {
+  height: auto;
+  font-size: 0.875rem;
+  /* 14px */
+  padding: 0.625rem 1.25rem;
+  /* 10px 20px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  /* 10px */
+}
+#fed-finder-wrap #finder-map {
+  flex: 1;
+  width: 100%;
+}
+#fed-finder-wrap .search-wrap {
+  position: relative;
+}
+#fed-finder-wrap .search-wrap .search-icon {
+  position: absolute;
+  left: 0.9375rem;
+  /* 15px */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+#fed-finder-wrap .loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin: 1.25rem 0;
+  /* 20px 0 */
+}
+#fed-finder-wrap .loading-spinner .spinner {
+  width: 3.125rem;
+  /* 50px */
+  height: 3.125rem;
+  /* 50px */
+  border: 0.3125rem solid rgba(0, 0, 0, 0.1);
+  /* 5px */
+  border-radius: 50%;
+  border-top-color: var(--primary-color);
+  animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+#fed-finder-wrap .button-download::after {
+  position: relative;
+  content: url(data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M8%2011.575C7.86667%2011.575%207.74167%2011.5542%207.625%2011.5125C7.50833%2011.4708%207.4%2011.4%207.3%2011.3L3.7%207.7C3.5%207.5%203.40417%207.26667%203.4125%207C3.42083%206.73333%203.51667%206.5%203.7%206.3C3.9%206.1%204.1375%205.99583%204.4125%205.9875C4.6875%205.97917%204.925%206.075%205.125%206.275L7%208.15V1C7%200.716667%207.09583%200.479167%207.2875%200.2875C7.47917%200.0958333%207.71667%200%208%200C8.28333%200%208.52083%200.0958333%208.7125%200.2875C8.90417%200.479167%209%200.716667%209%201V8.15L10.875%206.275C11.075%206.075%2011.3125%205.97917%2011.5875%205.9875C11.8625%205.99583%2012.1%206.1%2012.3%206.3C12.4833%206.5%2012.5792%206.73333%2012.5875%207C12.5958%207.26667%2012.5%207.5%2012.3%207.7L8.7%2011.3C8.6%2011.4%208.49167%2011.4708%208.375%2011.5125C8.25833%2011.5542%208.13333%2011.575%208%2011.575ZM2%2016C1.45%2016%200.979167%2015.8042%200.5875%2015.4125C0.195833%2015.0208%200%2014.55%200%2014V12C0%2011.7167%200.0958333%2011.4792%200.2875%2011.2875C0.479167%2011.0958%200.716667%2011%201%2011C1.28333%2011%201.52083%2011.0958%201.7125%2011.2875C1.90417%2011.4792%202%2011.7167%202%2012V14H14V12C14%2011.7167%2014.0958%2011.4792%2014.2875%2011.2875C14.4792%2011.0958%2014.7167%2011%2015%2011C15.2833%2011%2015.5208%2011.0958%2015.7125%2011.2875C15.9042%2011.4792%2016%2011.7167%2016%2012V14C16%2014.55%2015.8042%2015.0208%2015.4125%2015.4125C15.0208%2015.8042%2014.55%2016%2014%2016H2Z%22%20fill%3D%22%231E3EAF%22/%3E%3C/svg%3E);
+  height: 2.5rem;
+  /* 40px */
+  width: 2.5rem;
+  /* 40px */
+  left: 0.75rem;
+  /* 12px */
+}
+
+div#fed-finder-wrap {
+  display: grid;
+}
+@media (min-width: 768px) {
+  div#fed-finder-wrap {
+    display: flex;
+  }
 }
 
 div#finder-sidebar {
-  width: 608px !important;
+  max-width: 608px !important;
   box-sizing: border-box;
   padding: 30px 20px;
   background: #F5F5F5;
@@ -11001,6 +11228,7 @@ div#finder-sidebar {
   overflow: hidden;
   overflow-y: scroll;
   height: 800px;
+  order: 1;
 }
 @media (min-width: 768px) {
   div#finder-sidebar {
@@ -11020,6 +11248,11 @@ div#finder-sidebar {
 @media (min-width: 1500px) {
   div#finder-sidebar {
     padding: 60px 10%;
+  }
+}
+@media (min-width: 768px) {
+  div#finder-sidebar {
+    order: 0;
   }
 }
 div#finder-sidebar h3, div#finder-sidebar h4 {
@@ -11141,6 +11374,13 @@ div#finder-sidebar ul.finder-results .proximity-note.hebrew {
 div#finder-map {
   flex: 1;
   width: 100%;
+  height: 400px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  div#finder-map {
+    height: auto;
+  }
 }
 
 div.ff-form form div.inputs {
