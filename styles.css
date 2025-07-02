@@ -2806,49 +2806,24 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .search-container {
   position: relative;
-  display: inline-block;
-}
-
-.search-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-  padding: 6px;
+  display: flex;
+  align-items: center;
 }
 
 .search-input {
   width: 0;
   opacity: 0;
-  padding: 12px 24px;
-  font-size: 18px;
-  border: 2px solid #1E3EAF;
-  border-radius: 40px;
-  position: absolute;
-  left: 0;
-  top: -6px;
-  line-height: 27px;
-  transition: width 0.3s ease, opacity 0.3s ease;
-  pointer-events: none;
-  z-index: 20001;
+  padding: 0;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .search-container.active .search-input {
-  width: auto;
+  width: 100%;
   opacity: 1;
-  pointer-events: auto;
-}
-.search-container.active .top-search {
-  display: block;
-  margin: 0;
-  padding: 0 10px;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 300px;
-}
-.search-container.active .top-search .submit-button {
-  display: none;
+  padding: 5px 10px;
 }
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
