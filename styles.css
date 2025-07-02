@@ -2809,11 +2809,19 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   display: flex;
   align-items: center;
 }
+.search-container .submit-button {
+  display: none;
+}
+.search-container button.search-toggle {
+  background: none;
+  border: none;
+}
 
 .search-input {
   width: 0;
   opacity: 0;
   padding: 0;
+  transition: width 0.3s;
   margin-left: 10px;
   transition: all 0.3s ease;
   border: 1px solid #ccc;
@@ -2821,9 +2829,17 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 
 .search-container.active .search-input {
-  width: 100%;
   opacity: 1;
   padding: 5px 10px;
+  position: absolute;
+  top: -12px;
+  transition: width 0.3s;
+  width: 300px;
+  z-index: 30000;
+  height: 100%;
+  padding: 11px;
+  border-radius: 100px;
+  border: 1px solid #1E3EAF;
 }
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
