@@ -11217,7 +11217,6 @@ div#fed-finder-wrap {
 }
 
 div#finder-sidebar {
-  max-width: 608px !important;
   box-sizing: border-box;
   padding: 30px 20px;
   background: #F5F5F5;
@@ -11253,6 +11252,12 @@ div#finder-sidebar {
 @media (min-width: 768px) {
   div#finder-sidebar {
     order: 0;
+    max-width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  div#finder-sidebar {
+    max-width: 608px !important;
   }
 }
 div#finder-sidebar h3, div#finder-sidebar h4 {
