@@ -2996,6 +2996,7 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
   background: none;
   padding: 0px;
   width: auto;
+  border: 0px solid white;
 }
 section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year {
   font-family: "Outfit", sans-serif;
