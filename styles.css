@@ -2818,12 +2818,11 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 
 .search-input {
-  width: 0;
+  width: 0px;
   opacity: 0;
   padding: 0;
-  transition: width 0.3s;
   margin-left: 10px;
-  transition: all 0.3s ease;
+  transition: width 0.3s ease;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -2833,13 +2832,35 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   padding: 5px 10px;
   position: absolute;
   top: -12px;
-  transition: width 0.3s;
+  transition: width 0.3s ease;
   width: 300px;
   z-index: 30000;
   height: 100%;
   padding: 11px;
   border-radius: 100px;
-  border: 1px solid #1E3EAF;
+  border: 2px solid #1E3EAF;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .search-container.active .search-input {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.search-container.active .search-input strong, .search-container.active .search-input em, .search-container.active .search-input b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.search-container.active .search-input.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
