@@ -2207,6 +2207,7 @@ section.page-main .news .entry .row .col-5 h2, section.page-main .news .entry .r
   letter-spacing: 0%;
   color: #27277C;
   transition: 0.3s;
+  margin-bottom: 0px;
 }
 @media (min-width: 1024px) {
   section.page-main .news .entry .row .col-5 h2, section.page-main .news .entry .row .col-5 h2 a, section.page-main .news .entry .row .col-6-mobile h2, section.page-main .news .entry .row .col-6-mobile h2 a {
