@@ -2923,12 +2923,17 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   background: linear-gradient(90deg, #490e0a 0%, #9c1b13 71%);
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   box-sizing: border-box;
   padding: 30px 20px;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
+}
+@media (min-width: 768px) {
+  #emergency-bar {
+    grid-template-columns: 1fr 5fr;
+  }
 }
 @media (min-width: 768px) {
   #emergency-bar {
