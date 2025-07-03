@@ -2808,6 +2808,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   position: relative;
   display: flex;
   align-items: center;
+  margin: 10px 0px;
+}
+@media (min-width: 1024px) {
+  .search-container {
+    margin: 0px 0px;
+  }
 }
 .search-container .submit-button {
   display: none;
@@ -2819,7 +2825,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   left: 7px;
   z-index: 300000;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .search-container button.search-toggle {
     left: 0px;
   }
@@ -2860,7 +2866,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   text-align: right;
   direction: rtl;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .search-input {
     width: 0;
     opacity: 0;
