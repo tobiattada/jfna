@@ -2922,8 +2922,9 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   background: #490E0A;
   background: linear-gradient(90deg, #490e0a 0%, #9c1b13 71%);
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 5fr;
-  gap: 10px;
+  gap: 20px;
   box-sizing: border-box;
   padding: 30px 20px;
   padding-top: 5px !important;
@@ -2996,6 +2997,54 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 #emergency-bar div img {
   max-width: 100%;
   border-radius: 20px;
+}
+#emergency-bar a.button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #FDFDFD;
+  color: #490E0A !important;
+  border: none;
+}
+#emergency-bar a.button span, #emergency-bar a.button p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #490E0A;
+  transition: 0.3s;
+}
+#emergency-bar a.button span:hover, #emergency-bar a.button p:hover {
+  transition: 0.3s;
+}
+#emergency-bar a.button a, #emergency-bar a.button span {
+  color: #490E0A !important;
+}
+#emergency-bar a.button:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+#emergency-bar a.button:hover a, #emergency-bar a.button:hover span {
+  color: #F5F5F5 !important;
+}
+#emergency-bar a.button:active {
+  background: #27277C;
 }
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
