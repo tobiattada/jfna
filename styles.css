@@ -3046,6 +3046,15 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 #emergency-bar a.button:active {
   background: #27277C;
 }
+#emergency-bar .close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 1.2em;
+  cursor: pointer;
+}
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
   height: 50vh;
