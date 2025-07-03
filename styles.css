@@ -8908,6 +8908,12 @@ div.two-videos {
   max-height: 130px;
   border-radius: 24px;
 }
+.inspo-block.gray .image-side.push-down {
+  align-items: flex-start;
+}
+.inspo-block.gray .image-side.push-up {
+  align-items: flex-end;
+}
 .inspo-block.gray .image-side img {
   max-width: 100%;
   border-radius: 24px;
@@ -8943,6 +8949,12 @@ div.two-videos {
     padding: 50px 150px 50px 18%;
     border-radius: 24px 0px 0px 24px;
   }
+}
+.inspo-block.gray.reverse .image-side.push-down {
+  align-items: flex-start;
+}
+.inspo-block.gray.reverse .image-side.push-up {
+  align-items: flex-end;
 }
 @media (min-width: 1024px) {
   .inspo-block.gray.reverse {
