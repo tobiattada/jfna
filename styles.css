@@ -2923,6 +2923,74 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   background: linear-gradient(90deg, #490e0a 0%, #9c1b13 71%);
   display: grid;
   grid-template-columns: 1fr 5fr;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+@media (min-width: 768px) {
+  #emergency-bar {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  #emergency-bar {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  #emergency-bar {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  #emergency-bar {
+    padding: 60px 10%;
+  }
+}
+#emergency-bar h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  #emergency-bar h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+#emergency-bar h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+#emergency-bar p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+}
+@media (min-width: 1024px) {
+  #emergency-bar p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+#emergency-bar p strong, #emergency-bar p em, #emergency-bar p b {
+  font-weight: 400;
+  color: #FDFDFD;
+}
+#emergency-bar p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
 }
 #emergency-bar div img {
   max-width: 75px;
