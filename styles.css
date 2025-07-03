@@ -2815,27 +2815,33 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .search-container button.search-toggle {
   background: none;
   border: none;
+  z-index: 300000;
 }
 
 .search-input {
-  width: 0px;
+  width: 0;
   opacity: 0;
-  padding: 0;
-  margin-left: 10px;
+  padding: 5px 10px;
   transition: width 0.3s ease;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-radius: 4px;
+  z-index: 10000;
+  position: absolute;
+  top: -12px;
+  left: -20px;
 }
 
 .search-container.active .search-input {
   opacity: 1;
   padding: 5px 10px;
+  transition: width 0.3s ease;
   position: absolute;
   top: -12px;
-  width: 300px;
+  left: -13px;
+  width: 320px;
   z-index: 30000;
   height: 100%;
-  padding: 11px;
+  padding: 10px 10px 10px 40px;
   border-radius: 100px;
   border: 2px solid #1E3EAF;
   font-family: "Outfit", sans-serif;
