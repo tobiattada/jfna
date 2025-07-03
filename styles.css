@@ -8099,7 +8099,7 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
-.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -8108,16 +8108,16 @@ div.two-videos {
   color: #F5F5F5;
 }
 @media (min-width: 1024px) {
-  .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p {
+  .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a {
     font-size: 18px;
     line-height: 27px;
   }
 }
-.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p b {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p b, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a b {
   font-weight: 400;
   color: #F5F5F5;
 }
-.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p.hebrew {
+.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p.hebrew, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
