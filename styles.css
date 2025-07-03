@@ -2923,6 +2923,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   background: linear-gradient(90deg, #490e0a 0%, #9c1b13 71%);
   display: grid;
   grid-template-columns: 1fr 5fr;
+  gap: 10px;
   box-sizing: border-box;
   padding: 30px 20px;
   padding-top: 5px !important;
@@ -2993,7 +2994,8 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   direction: rtl;
 }
 #emergency-bar div img {
-  max-width: 75px;
+  max-width: 100%;
+  border-radius: 20px;
 }
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
