@@ -2920,7 +2920,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 
 #emergency-bar {
   background: #490E0A;
-  background: linear-gradient(90deg, #490e0a 0%, #9c1b13 71%);
+  background: linear-gradient(90deg, #490e0a 0%, #9c1b13 50%);
   display: grid;
   align-items: center;
   grid-template-columns: 1fr;
