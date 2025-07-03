@@ -2290,6 +2290,7 @@ section.page-main .news .entry .row .col-5 p.arrow-btn a:hover::after, section.p
 }
 section.page-main .news .entry .row .col-5 p, section.page-main .news .entry .row .col-6-mobile p {
   margin-bottom: 0px;
+  margin: 10px 0px;
 }
 section.page-main .news .entry .row .col-5 p a, section.page-main .news .entry .row .col-6-mobile p a {
   font-family: "Outfit", sans-serif;
