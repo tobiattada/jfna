@@ -2927,13 +2927,8 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   gap: 20px;
   box-sizing: border-box;
   padding: 30px 20px;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-}
-@media (min-width: 768px) {
-  #emergency-bar {
-    grid-template-columns: 1fr 5fr;
-  }
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 @media (min-width: 768px) {
   #emergency-bar {
@@ -2953,6 +2948,13 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 @media (min-width: 1500px) {
   #emergency-bar {
     padding: 60px 10%;
+  }
+}
+@media (min-width: 768px) {
+  #emergency-bar {
+    grid-template-columns: 1fr 5fr;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
 }
 #emergency-bar h6 {
