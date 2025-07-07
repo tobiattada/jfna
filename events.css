@@ -2893,6 +2893,424 @@ section.tabs-content .events-list .event .event-date .date-box p span.year {
   color: #2A2A2A;
 }
 
+.col-12 .page-title + .events-list {
+  padding: 0px !important;
+  border-radius: 0px;
+  margin-top: 0px;
+  border: 0px;
+}
+.col-12 .page-title + .events-list .event .row, .col-12 .page-title + .events-list .special-event .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .col-12 .page-title + .events-list .event .row, .col-12 .page-title + .events-list .special-event .row {
+    flex-direction: row;
+  }
+}
+.col-12 .page-title + .events-list .event .row p.time, .col-12 .page-title + .events-list .special-event .row p.time {
+  background: transparent;
+  padding-left: 0px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .row p.time, .col-12 .page-title + .events-list .special-event .row p.time {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.col-12 .page-title + .events-list .event .row p.time.hebrew, .col-12 .page-title + .events-list .special-event .row p.time.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event .row .col-2, .col-12 .page-title + .events-list .special-event .row .col-2 {
+  width: 100%;
+}
+.col-12 .page-title + .events-list .event .row .col-2 .row, .col-12 .page-title + .events-list .special-event .row .col-2 .row {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.col-12 .page-title + .events-list .event .row .col-2 .row p.time, .col-12 .page-title + .events-list .special-event .row .col-2 .row p.time {
+  background: transparent;
+  padding-left: 0px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .row .col-2 .row p.time, .col-12 .page-title + .events-list .special-event .row .col-2 .row p.time {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.col-12 .page-title + .events-list .event .row .col-2 .row p.time.hebrew, .col-12 .page-title + .events-list .special-event .row .col-2 .row p.time.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event > .row, .col-12 .page-title + .events-list .special-event > .row {
+  border-bottom: 1px solid #c9c9c9;
+  padding: 30px 0px 20px;
+  display: flex;
+}
+.col-12 .page-title + .events-list .event > .row .col-2, .col-12 .page-title + .events-list .special-event > .row .col-2 {
+  flex: 1.5;
+}
+.col-12 .page-title + .events-list .event > .row .col-10, .col-12 .page-title + .events-list .special-event > .row .col-10 {
+  flex: 4;
+}
+.col-12 .page-title + .events-list .event > .row .col-10 .col-4 + .col-3, .col-12 .page-title + .events-list .special-event > .row .col-10 .col-4 + .col-3 {
+  display: none;
+}
+.col-12 .page-title + .events-list .event > .row .col-10 .entry .row, .col-12 .page-title + .events-list .special-event > .row .col-10 .entry .row {
+  flex-direction: column;
+}
+.col-12 .page-title + .events-list .event > .row .col-10 .entry .row .col-3, .col-12 .page-title + .events-list .event > .row .col-10 .entry .row .col-4, .col-12 .page-title + .events-list .special-event > .row .col-10 .entry .row .col-3, .col-12 .page-title + .events-list .special-event > .row .col-10 .entry .row .col-4 {
+  width: 100%;
+}
+.col-12 .page-title + .events-list .event .event-date, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date {
+  text-align: left;
+}
+.col-12 .page-title + .events-list .event .event-date span, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .event-date span, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.col-12 .page-title + .events-list .event .event-date span.hebrew, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date span.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event .event-date span.title, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date span.title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .event-date span.title, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date span.title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.col-12 .page-title + .events-list .event .event-date span.title.hebrew, .col-12 .page-title + .events-list .special-events-list .event.special-event .event-date span.title.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event .entry .title, .col-12 .page-title + .events-list .special-events-list .event.special-event .entry .title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .entry .title, .col-12 .page-title + .events-list .special-events-list .event.special-event .entry .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.col-12 .page-title + .events-list .event .entry .title.hebrew, .col-12 .page-title + .events-list .special-events-list .event.special-event .entry .title.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event .event-date .date-box {
+  width: 70px;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .event-date .date-box {
+    width: 70px;
+  }
+}
+.col-12 .page-title + .events-list .event .event-date .date-box .month {
+  border: 0px;
+  background: #D2E9FF;
+  text-transform: capitalize;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  font-weight: 600;
+  padding: 3px;
+  border-radius: 10px 10px 0px 0px;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .event-date .date-box .month {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.col-12 .page-title + .events-list .event .event-date .date-box .month.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event .event-date .date-box p {
+  background: #FDFDFD;
+  border: 0px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px 0px;
+}
+.col-12 .page-title + .events-list .event .event-date .date-box p span.day {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .col-12 .page-title + .events-list .event .event-date .date-box p span.day {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.col-12 .page-title + .events-list .event .event-date .date-box p span.day.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.col-12 .page-title + .events-list .event .event-date .date-box p span.year {
+  font-size: 12px;
+  line-height: 14px;
+  color: #2A2A2A;
+}
+.col-12 .page-title + .events-list .event .event-date .event-date.-multi-day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.tabs-content {
+  padding: 20px;
+  background: #FDFDFD;
+  border-radius: 24px;
+}
+section.tabs-content .calendar table th {
+  text-transform: lowercase;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .calendar table th {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+section.tabs-content .calendar table th::first-letter {
+  text-transform: uppercase;
+}
+section.tabs-content .calendar table .event {
+  background: #1E3EAF;
+  width: auto;
+  transition: 0.3s;
+}
+section.tabs-content .calendar table .event p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+  margin-top: 3px;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .calendar table .event p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+}
+section.tabs-content .calendar table .event p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .calendar table a.event:hover {
+  text-decoration: none !important;
+  transition: 0.3s;
+  background: #1c88ed;
+}
+section.tabs-content .calendar table a.event:hover p {
+  text-decoration: none !important;
+}
+section.tabs-content .events-list, section.tabs-content .events-list .special-events-list {
+  margin-top: 0px;
+  border: 0px;
+}
+section.tabs-content .events-list .event .entry .row, section.tabs-content .events-list .special-event .entry .row, section.tabs-content .events-list .special-events-list .event .entry .row, section.tabs-content .events-list .special-events-list .special-event .entry .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.tabs-content .events-list .event .entry .row p.time, section.tabs-content .events-list .special-event .entry .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row p.time {
+  background: transparent;
+  padding-left: 0px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .entry .row p.time, section.tabs-content .events-list .special-event .entry .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row p.time {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+section.tabs-content .events-list .event .entry .row p.time.hebrew, section.tabs-content .events-list .special-event .entry .row p.time.hebrew, section.tabs-content .events-list .special-events-list .event .entry .row p.time.hebrew, section.tabs-content .events-list .special-events-list .special-event .entry .row p.time.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .events-list .event .entry .row .col-4, section.tabs-content .events-list .special-event .entry .row .col-4, section.tabs-content .events-list .special-events-list .event .entry .row .col-4, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 {
+  width: 100%;
+}
+section.tabs-content .events-list .event .entry .row .col-4 .row, section.tabs-content .events-list .special-event .entry .row .col-4 .row, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row {
+  flex-direction: row;
+  align-items: flex-start;
+}
+section.tabs-content .events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row p.time {
+  background: transparent;
+  padding-left: 0px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row p.time, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row p.time {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+section.tabs-content .events-list .event .entry .row .col-4 .row p.time.hebrew, section.tabs-content .events-list .special-event .entry .row .col-4 .row p.time.hebrew, section.tabs-content .events-list .special-events-list .event .entry .row .col-4 .row p.time.hebrew, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-4 .row p.time.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .events-list .event .entry .row .col-3, section.tabs-content .events-list .special-event .entry .row .col-3, section.tabs-content .events-list .special-events-list .event .entry .row .col-3, section.tabs-content .events-list .special-events-list .special-event .entry .row .col-3 {
+  width: 100%;
+  display: none;
+}
+section.tabs-content .events-list .event > .row, section.tabs-content .events-list .special-event > .row, section.tabs-content .events-list .special-events-list .event > .row, section.tabs-content .events-list .special-events-list .special-event > .row {
+  background: #FDFDFD;
+  border-bottom: 1px solid #c9c9c9;
+  padding: 30px 0px 20px;
+  display: flex;
+}
+section.tabs-content .events-list .event > .row .col-2, section.tabs-content .events-list .special-event > .row .col-2, section.tabs-content .events-list .special-events-list .event > .row .col-2, section.tabs-content .events-list .special-events-list .special-event > .row .col-2 {
+  flex: 1.5;
+}
+section.tabs-content .events-list .event > .row .col-10, section.tabs-content .events-list .special-event > .row .col-10, section.tabs-content .events-list .special-events-list .event > .row .col-10, section.tabs-content .events-list .special-events-list .special-event > .row .col-10 {
+  flex: 4;
+}
+section.tabs-content .events-list .event .event-date, section.tabs-content .events-list .special-events-list .event.special-event .event-date {
+  text-align: left;
+}
+section.tabs-content .events-list .event .event-date span, section.tabs-content .events-list .special-events-list .event.special-event .event-date span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .event-date span, section.tabs-content .events-list .special-events-list .event.special-event .event-date span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+section.tabs-content .events-list .event .event-date span.hebrew, section.tabs-content .events-list .special-events-list .event.special-event .event-date span.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .events-list .event .event-date span.title, section.tabs-content .events-list .special-events-list .event.special-event .event-date span.title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .event-date span.title, section.tabs-content .events-list .special-events-list .event.special-event .event-date span.title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+section.tabs-content .events-list .event .event-date span.title.hebrew, section.tabs-content .events-list .special-events-list .event.special-event .event-date span.title.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+section.tabs-content .events-list .event .entry .title, section.tabs-content .events-list .special-events-list .event.special-event .entry .title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  section.tabs-content .events-list .event .entry .title, section.tabs-content .events-list .special-events-list .event.special-event .entry .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+section.tabs-content .events-list .event .entry .title.hebrew, section.tabs-content .events-list .special-events-list .event.special-event .entry .title.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
 section.page-main.calendar-event {
   padding-top: 0px;
 }
