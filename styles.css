@@ -2804,6 +2804,15 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     direction: rtl;
   }
 }
+.menu-trigger {
+  position: absolute;
+  top: 25px;
+  right: 13px;
+  width: 37px;
+  height: 25px;
+  border: 0px solid red;
+}
+
 .search-container {
   position: relative;
   display: flex;
