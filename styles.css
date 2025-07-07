@@ -3019,8 +3019,8 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   gap: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: #FDFDFD;
-  color: #490E0A !important;
+  background: #F7E9E8;
+  color: #7A150F !important;
   border: none;
 }
 #emergency-bar a.button span, #emergency-bar a.button p {
@@ -3029,14 +3029,14 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #490E0A;
+  color: #7A150F;
   transition: 0.3s;
 }
 #emergency-bar a.button span:hover, #emergency-bar a.button p:hover {
   transition: 0.3s;
 }
 #emergency-bar a.button a, #emergency-bar a.button span {
-  color: #490E0A !important;
+  color: #7A150F !important;
 }
 #emergency-bar a.button:hover {
   background: #1c88ed;
@@ -3066,10 +3066,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   gap: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: #D2E9FF;
-  color: #490E0A !important;
+  background: #FDFDFD;
+  color: #7A150F !important;
   border: none;
-  background-color: #D2E9FF !important;
+  background-color: #FDFDFD !important;
 }
 #emergency-bar a.button:hover span, #emergency-bar a.button:hover p {
   font-family: "Outfit", sans-serif;
@@ -3077,14 +3077,14 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #490E0A;
+  color: #7A150F;
   transition: 0.3s;
 }
 #emergency-bar a.button:hover span:hover, #emergency-bar a.button:hover p:hover {
   transition: 0.3s;
 }
 #emergency-bar a.button:hover a, #emergency-bar a.button:hover span {
-  color: #490E0A !important;
+  color: #7A150F !important;
 }
 #emergency-bar a.button:hover:hover {
   background: #1c88ed;
