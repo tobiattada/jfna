@@ -3103,8 +3103,8 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 #emergency-bar #close-btn {
   position: absolute;
-  top: 5px;
-  right: 10px;
+  top: 25px;
+  right: 30px;
   border: none;
   background: transparent;
   font-size: 1.2em;
