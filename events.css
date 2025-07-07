@@ -3112,10 +3112,10 @@ section.tabs-content .events-list .event .event-date .date-box p span.year {
   line-height: 14px;
   color: #2A2A2A;
 }
-.col-12 .page-title + .events-list .event .event-date .event-date.-multi-day {
+.col-12 .page-title + .events-list .event .event-date.-multi-day {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 10px;
 }
 
 section.tabs-content {
