@@ -2969,7 +2969,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   line-height: 130%;
   letter-spacing: 0%;
   color: #FDFDFD;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 @media (min-width: 1024px) {
@@ -3031,8 +3031,8 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   gap: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: #F7E9E8;
-  color: #7A150F !important;
+  background: #D2E9FF;
+  color: #1E3EAF !important;
   border: none;
 }
 #emergency-bar a.button span, #emergency-bar a.button p {
@@ -3041,14 +3041,14 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #7A150F;
+  color: #1E3EAF;
   transition: 0.3s;
 }
 #emergency-bar a.button span:hover, #emergency-bar a.button p:hover {
   transition: 0.3s;
 }
 #emergency-bar a.button a, #emergency-bar a.button span {
-  color: #7A150F !important;
+  color: #1E3EAF !important;
 }
 #emergency-bar a.button:hover {
   background: #1c88ed;
@@ -3078,7 +3078,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   gap: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: #D2E9FF;
+  background: #FDFDFD;
   color: #1E3EAF !important;
   border: none;
   background-color: #FDFDFD !important;
