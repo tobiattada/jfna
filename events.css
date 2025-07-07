@@ -3322,6 +3322,10 @@ section.tabs-content .events-list .event .entry .title.hebrew, section.tabs-cont
 section.page-main.calendar-event {
   padding-top: 0px;
 }
+section.page-main.calendar-event .post {
+  display: grid;
+  gap: 20px;
+}
 section.page-main.calendar-event .section-template-rows .row .navbar {
   position: absolute;
   top: 0;
