@@ -2893,8 +2893,12 @@ section.tabs-content .events-list .event .event-date .date-box p span.year {
   color: #2A2A2A;
 }
 
-.page-title h2, h3 {
+.page-title h2 {
   text-transform: capitalize;
+}
+
+.page-title h3 {
+  display: none;
 }
 
 .col-12 .page-title + .events-list {
