@@ -2925,36 +2925,31 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   align-items: center;
   grid-template-columns: 1fr;
   gap: 20px;
-  box-sizing: border-box;
-  padding: 30px 20px;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding: 20px 20px;
 }
 @media (min-width: 768px) {
   #emergency-bar {
-    padding: 30px 20px;
+    padding: 20px 20px;
   }
 }
 @media (min-width: 1024px) {
   #emergency-bar {
-    padding: 50px 60px;
+    padding: 20px 60px;
   }
 }
 @media (min-width: 1300px) {
   #emergency-bar {
-    padding: 60px 80px;
+    padding: 20px 60px;
   }
 }
 @media (min-width: 1500px) {
   #emergency-bar {
-    padding: 60px 10%;
+    padding: 20px 10%;
   }
 }
 @media (min-width: 768px) {
   #emergency-bar {
     grid-template-columns: 1fr 5fr;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
   }
 }
 #emergency-bar h6 {
