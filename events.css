@@ -2479,6 +2479,16 @@ section.tabs .date-slider .flexslider .flex-direction-nav li .flex-prev {
 section.tabs .date-slider .flexslider .flex-direction-nav li .flex-next {
   right: -20px;
 }
+section.tabs .date-slider .flex-active-slide {
+  display: grid !important;
+  grid-template-columns: auto auto auto;
+  width: auto !important;
+  float: none !important;
+  align-items: center;
+}
+section.tabs .date-slider .flex-active-slide span {
+  text-align: center;
+}
 section.tabs .date-slider .date-inline {
   border: 0px;
   background: none;
