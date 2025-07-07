@@ -3110,13 +3110,19 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 #emergency-bar #close-btn {
   position: absolute;
-  top: 35px;
-  right: 50px;
+  top: 20px;
+  right: 25px;
   border: none;
   background: transparent;
   font-size: 1.2em;
   cursor: pointer;
   color: white;
+}
+@media (min-width: 768px) {
+  #emergency-bar #close-btn {
+    top: 35px;
+    right: 50px;
+  }
 }
 
 #home-hero .row-has-promo .item-count-1 .component-class-promo {
