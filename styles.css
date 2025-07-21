@@ -7028,6 +7028,127 @@ div.two-videos {
   padding-right: 0px !important;
 }
 
+.search-header .criteria-bar {
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .search-header .criteria-bar {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .search-header .criteria-bar {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .search-header .criteria-bar {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .search-header .criteria-bar {
+    padding: 60px 10%;
+  }
+}
+
+.results-container .row.directory .entry {
+  background: transparent !important;
+  box-sizing: border-box;
+  padding: 30px 20px;
+}
+@media (min-width: 768px) {
+  .results-container .row.directory .entry {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .results-container .row.directory .entry {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .results-container .row.directory .entry {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .results-container .row.directory .entry {
+    padding: 60px 10%;
+  }
+}
+.results-container .row.directory .entry a.title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .results-container .row.directory .entry a.title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.results-container .row.directory .entry a.title.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.results-container .row.directory .entry a.title:hover {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #1c88ed;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .results-container .row.directory .entry a.title:hover {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.results-container .row.directory .entry a.title:hover.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.results-container .row.directory .entry .meta {
+  padding-left: 0px;
+}
+.results-container .row.directory .entry .meta p .date {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+  padding-left: 0px;
+  background: none !important;
+}
+@media (min-width: 1024px) {
+  .results-container .row.directory .entry .meta p .date {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.results-container .row.directory .entry .meta p .date strong, .results-container .row.directory .entry .meta p .date em, .results-container .row.directory .entry .meta p .date b {
+  font-weight: 600;
+  color: #2A2A2A;
+}
+.results-container .row.directory .entry .meta p .date.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+
 .features-4-up {
   box-sizing: border-box;
   padding: 30px 20px;
