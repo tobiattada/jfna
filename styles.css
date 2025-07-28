@@ -11540,7 +11540,7 @@ div.two-videos {
   gap: 1.5625rem;
   /* 25px */
   overflow-y: auto;
-  height: 50rem;
+  height: 40rem;
   /* 800px */
 }
 #fed-finder-wrap #finder-sidebar h3, #fed-finder-wrap #finder-sidebar h4 {
@@ -11565,6 +11565,8 @@ div.two-videos {
   #fed-finder-wrap #finder-sidebar {
     padding: 2.5rem 3.75rem;
     /* 40px 60px */
+    height: 50rem;
+    /* 800px */
   }
 }
 #fed-finder-wrap .fedfinder-search-form {
