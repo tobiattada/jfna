@@ -7035,12 +7035,18 @@ div.two-videos {
 .tabbed-search .search-header .criteria-bar .dropdown .options {
   background-color: #FDFDFD !important;
   width: 200px;
+  left: 0;
+}
+.tabbed-search .search-header .criteria-bar .dropdown .options ul {
+  display: flex;
+  flex-direction: column;
 }
 
 .search-header .criteria-bar {
   box-sizing: border-box;
   padding: 30px 20px;
-  background: transparent !important;
+  background: #ECECEC !important;
+  margin-bottom: 40px;
 }
 @media (min-width: 768px) {
   .search-header .criteria-bar {
@@ -7067,7 +7073,7 @@ div.two-videos {
   color: #2A2A2A;
 }
 .search-header .criteria-bar ul.sort-filter li {
-  float: right;
+  float: left;
 }
 .search-header .criteria-bar ul.sort-filter li span {
   font-family: "Outfit", sans-serif;
@@ -7093,10 +7099,15 @@ div.two-videos {
 }
 .search-header .criteria-bar .shell .row {
   display: flex !important;
-  justify-content: space-between;
+  justify-content: center;
+}
+.search-header .criteria-bar .col-4 {
+  margin-left: 30px;
+  width: 100px;
 }
 .search-header .criteria-bar .col-8 {
   display: flex !important;
+  flex-direction: column;
 }
 .search-header .criteria-bar .field {
   border-radius: 24px;
@@ -7126,8 +7137,7 @@ div.two-videos {
   direction: rtl;
 }
 .search-header .criteria-bar ul.keywords li {
-  border-radius: 20px;
-  background: #27277C;
+  border-radius: 20px !important;
   color: #F5F5F5;
 }
 
