@@ -7171,6 +7171,13 @@ div.two-videos {
   background: #ECECEC;
 }
 
+.entry.search-entry img {
+  max-width: 200px;
+  border-radius: 24px;
+  padding-right: 0px;
+  margin-right: 20px;
+}
+
 .results-container .row.directory .entry {
   background: transparent !important;
   box-sizing: border-box;
