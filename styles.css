@@ -7071,6 +7071,7 @@ div.two-videos {
 .search-header .criteria-bar ul.sort-filter {
   background: transparent;
   color: #2A2A2A;
+  display: flex;
 }
 .search-header .criteria-bar ul.sort-filter li {
   float: left;
@@ -7100,6 +7101,12 @@ div.two-videos {
 .search-header .criteria-bar .shell .row {
   display: flex !important;
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .search-header .criteria-bar .shell .row {
+    flex-direction: row;
+  }
 }
 .search-header .criteria-bar .col-4 {
   margin-left: 30px;
