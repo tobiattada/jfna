@@ -2751,7 +2751,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     bottom: 0;
     background: white;
     z-index: 4000;
-    padding: 80px 20px;
+    padding: 15% 20px;
     box-sizing: border-box;
     justify-content: space-between;
   }
