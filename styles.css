@@ -11251,6 +11251,7 @@ div.two-videos {
 .accordion-widget .accWrap {
   order: 2;
   margin: 1em auto;
+  margin-left: 0;
   overflow-y: scroll;
   /* always shows vertical scrollbar */
   max-height: none;
