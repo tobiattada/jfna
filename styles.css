@@ -7319,6 +7319,40 @@ div.two-videos {
   direction: rtl;
 }
 
+.gettinggrounded h6 b {
+  border: 1px solid #1E3EAF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 8px !important;
+  line-height: 40px;
+  border-radius: 100%;
+}
+.gettinggrounded .form-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.gettinggrounded .sc-cSHVUG {
+  margin-bottom: 20px;
+}
+.gettinggrounded .jotform-form label {
+  font-family: "Outfit", sans-serif;
+}
+.gettinggrounded .check {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.gettinggrounded .jotform-form .check input {
+  width: 20px !important;
+  height: 20px;
+}
+.gettinggrounded .form-footer p a {
+  color: #2A2A2A;
+  font-size: 16px !important;
+}
+
 .features-4-up {
   box-sizing: border-box;
   padding: 30px 20px;
