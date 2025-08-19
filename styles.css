@@ -2750,7 +2750,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     right: 0;
     bottom: 0;
     background: white;
-    z-index: 500000;
+    z-index: 4000;
     padding: 15% 20px;
     box-sizing: border-box;
     justify-content: space-between;
@@ -2763,7 +2763,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     right: 0;
     bottom: 0;
     background: white;
-    z-index: 4001;
+    z-index: 500000;
     width: 100%;
     padding: 60px 20px;
     box-sizing: border-box;
