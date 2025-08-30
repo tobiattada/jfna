@@ -9167,6 +9167,513 @@ div.two-videos {
 .callout .rich-text .button span {
   display: none;
 }
+.callout.reverse {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background-color: #1E3EAF;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .callout.reverse {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .callout.reverse {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .callout.reverse {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .callout.reverse {
+    padding: 60px 10%;
+  }
+}
+.callout.reverse .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.callout.reverse .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.callout.reverse .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #D2E9FF;
+}
+.callout.reverse .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .callout.reverse .rich-text h3 {
+    line-height: 150%;
+  }
+}
+.callout.reverse .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.callout.reverse .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.callout.reverse .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.callout.reverse .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.callout.reverse .rich-text p strong, .callout.reverse .rich-text p em, .callout.reverse .rich-text p b {
+  font-weight: 400;
+  color: #F5F5F5;
+}
+.callout.reverse .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse::before {
+  position: absolute;
+  content: "";
+  background-color: #1c88ed;
+  width: 82%;
+  height: 46%;
+  border-radius: 24px 0 0 24px;
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 7%;
+}
+@media (min-width: 768px) {
+  .callout.reverse::before {
+    width: 42%;
+    height: 90%;
+    border-radius: 24px 0 0 24px;
+    left: auto;
+    right: 0;
+    top: 5%;
+    bottom: auto;
+  }
+}
+.callout.reverse img {
+  margin: 5% 0px;
+}
+.callout.reverse .rich-text h3, .callout.reverse .rich-text p {
+  color: #F5F5F5;
+  text-align: left;
+}
+.callout.reverse .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+.callout.reverse .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .callout.reverse .rich-text h3 {
+    line-height: 150%;
+  }
+}
+.callout.reverse .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #F5F5F5;
+}
+@media (min-width: 1024px) {
+  .callout.reverse .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.callout.reverse .rich-text p strong, .callout.reverse .rich-text p em, .callout.reverse .rich-text p b {
+  font-weight: 400;
+  color: #F5F5F5;
+}
+.callout.reverse .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.reverse .rich-text .button {
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #D2E9FF;
+  color: #1E3EAF !important;
+  border: none;
+}
+.callout.reverse .rich-text .button span, .callout.reverse .rich-text .button p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #1E3EAF;
+  transition: 0.3s;
+}
+.callout.reverse .rich-text .button span:hover, .callout.reverse .rich-text .button p:hover {
+  transition: 0.3s;
+}
+.callout.reverse .rich-text .button a, .callout.reverse .rich-text .button span {
+  color: #1E3EAF !important;
+}
+.callout.reverse .rich-text .button:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.callout.reverse .rich-text .button:hover a, .callout.reverse .rich-text .button:hover span {
+  color: #F5F5F5 !important;
+}
+.callout.reverse .rich-text .button:active {
+  background: #27277C;
+}
+.callout.reverse .rich-text .button span {
+  display: none;
+}
+.callout.bg-pale-blue {
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background-color: #F1F8FF;
+}
+@media (min-width: 768px) {
+  .callout.bg-pale-blue {
+    padding: 30px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue {
+    padding: 50px 60px;
+  }
+}
+@media (min-width: 1300px) {
+  .callout.bg-pale-blue {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1500px) {
+  .callout.bg-pale-blue {
+    padding: 60px 10%;
+  }
+}
+.callout.bg-pale-blue .rich-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text h1 {
+    font-size: 70px;
+    line-height: 91px;
+  }
+}
+.callout.bg-pale-blue .rich-text h1.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue .rich-text h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text h2 {
+    font-size: 60px;
+    line-height: 78px;
+  }
+}
+.callout.bg-pale-blue .rich-text h2.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue .rich-text h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+.callout.bg-pale-blue .rich-text h3.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text h3 {
+    font-size: 45px;
+    line-height: 58.5px;
+  }
+}
+@media (min-width: 1300px) {
+  .callout.bg-pale-blue .rich-text h3 {
+    line-height: 150%;
+  }
+}
+.callout.bg-pale-blue .rich-text h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+.callout.bg-pale-blue .rich-text h4.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue .rich-text h5 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.callout.bg-pale-blue .rich-text h5.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue .rich-text h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #27277C;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text h6 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+.callout.bg-pale-blue .rich-text h6.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue .rich-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.callout.bg-pale-blue .rich-text p strong, .callout.bg-pale-blue .rich-text p em, .callout.bg-pale-blue .rich-text p b {
+  font-weight: 400;
+  color: #2A2A2A;
+}
+.callout.bg-pale-blue .rich-text p.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue .rich-text p.eyebrow {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+}
+@media (min-width: 1024px) {
+  .callout.bg-pale-blue .rich-text p.eyebrow {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.callout.bg-pale-blue .rich-text p.eyebrow strong, .callout.bg-pale-blue .rich-text p.eyebrow em, .callout.bg-pale-blue .rich-text p.eyebrow b {
+  font-weight: 600;
+  color: #1E3EAF;
+}
+.callout.bg-pale-blue .rich-text p.eyebrow.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+.callout.bg-pale-blue::before {
+  background-color: #B9DAF9;
+}
 .callout.dark {
   box-sizing: border-box;
   padding: 30px 20px;
