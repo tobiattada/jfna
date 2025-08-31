@@ -8227,6 +8227,10 @@ div.two-videos {
   background: #27277C;
 }
 
+.form-sub-label-container {
+  width: 100%;
+}
+
 .bg-light.inspo {
   padding-left: 0px !important;
   padding-right: 0px !important;
