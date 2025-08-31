@@ -10502,6 +10502,10 @@ div.two-videos {
   text-align: right;
   direction: rtl;
 }
+.callout .component-class-button {
+  float: left;
+  margin-right: 20px;
+}
 .callout .row {
   display: grid;
   grid-template-columns: 1fr;
