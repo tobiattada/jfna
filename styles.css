@@ -16228,6 +16228,29 @@ div.two-videos {
   gap: 15px;
 }
 
+div.video-loader div.video-list div.vid {
+  display: none;
+  /* hide by default */
+}
+div.video-loader div.video-list div.vid.visible {
+  display: block;
+  /* show visible ones */
+}
+div.video-loader .load-more {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #0077cc;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+div.video-loader .load-more:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
 /* Base styles - scoped to FedFinder */
 #fed-finder-wrap {
   --primary-color: #1c88ed;
