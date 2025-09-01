@@ -16276,8 +16276,9 @@ div.video-loader button.load-more img {
   width: 50px;
 }
 div.video-loader button.load-more:disabled {
-  background: #aaa;
+  background: transparent;
   cursor: not-allowed;
+  color: #D2E9FF;
 }
 
 /* Base styles - scoped to FedFinder */
