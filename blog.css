@@ -211,6 +211,10 @@ p.caption.hebrew {
   direction: rtl;
 }
 
+p a {
+  color: #1E3EAF;
+}
+
 .rich-text h1, .page.page-main h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -405,6 +409,9 @@ p.caption.hebrew {
   font-weight: 600;
   text-align: right;
   direction: rtl;
+}
+.rich-text p a, .page.page-main p a {
+  color: #1E3EAF;
 }
 .rich-text ul li, .page.page-main ul li {
   font-family: "Outfit", sans-serif;
