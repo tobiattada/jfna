@@ -16258,6 +16258,7 @@ div.video-loader button.load-more .label {
   letter-spacing: 0%;
   color: #FDFDFD;
   margin-top: 3px;
+  background: transparent;
 }
 @media (min-width: 1024px) {
   div.video-loader button.load-more .label {
