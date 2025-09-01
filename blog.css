@@ -154,7 +154,7 @@ p {
   }
 }
 p strong, p em, p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 p.hebrew {
@@ -356,7 +356,7 @@ p a {
   }
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
@@ -428,7 +428,7 @@ p a {
   }
 }
 .rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
@@ -2315,7 +2315,7 @@ section.page-main nav.paging ul.right li a {
   }
 }
 section.page-main nav.paging ul.right li a strong, section.page-main nav.paging ul.right li a em, section.page-main nav.paging ul.right li a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main nav.paging ul.right li a.hebrew {
@@ -2340,7 +2340,7 @@ section.page-main nav.paging ul.right li a.current {
   }
 }
 section.page-main nav.paging ul.right li a.current strong, section.page-main nav.paging ul.right li a.current em, section.page-main nav.paging ul.right li a.current b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 section.page-main nav.paging ul.right li a.current.hebrew {
@@ -2453,7 +2453,7 @@ section.page-main .row header.page-title .byline .author, section.page-main .row
   }
 }
 section.page-main .row header.page-title .byline .author strong, section.page-main .row header.page-title .byline .author em, section.page-main .row header.page-title .byline .author b, section.page-main .row header.page-title .byline a strong, section.page-main .row header.page-title .byline a em, section.page-main .row header.page-title .byline a b, section.page-main .row header.page-title .byline address.author strong, section.page-main .row header.page-title .byline address.author em, section.page-main .row header.page-title .byline address.author b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main .row header.page-title .byline .author.hebrew, section.page-main .row header.page-title .byline a.hebrew, section.page-main .row header.page-title .byline address.author.hebrew {
@@ -2532,7 +2532,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   }
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li.hebrew {
@@ -2754,7 +2754,7 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .au
   }
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author b, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a b, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author.hebrew, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a.hebrew, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author.hebrew {

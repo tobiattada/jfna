@@ -247,7 +247,7 @@ p {
   }
 }
 p strong, p em, p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 p.hebrew {
@@ -449,7 +449,7 @@ p a {
   }
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
@@ -521,7 +521,7 @@ p a {
   }
 }
 .rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
@@ -2160,7 +2160,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .footer-navigation .flex-item .flex-item a strong, .footer-navigation .flex-item .flex-item a em, .footer-navigation .flex-item .flex-item a b, .page-footer .jobs a:hover strong, .page-footer .jobs a:hover em, .page-footer .jobs a:hover b, .page-footer .upcoming a:hover strong, .page-footer .upcoming a:hover em, .page-footer .upcoming a:hover b, .page-footer ul.links li a strong, .page-footer ul.links li a em, .page-footer ul.links li a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .footer-navigation .flex-item .flex-item a.hebrew, .page-footer .jobs a:hover.hebrew, .page-footer .upcoming a:hover.hebrew, .page-footer ul.links li a.hebrew {
@@ -2520,7 +2520,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption strong, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption em, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption.hebrew {
@@ -2599,7 +2599,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul li a strong, .nav-menu .nav-item.has-dropdown .dropdown ul li a em, .nav-menu .nav-item.has-dropdown .dropdown ul li a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul li a.hebrew {
@@ -2791,7 +2791,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .search-input strong, .search-input em, .search-input b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .search-input.hebrew {
@@ -2842,7 +2842,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .search-container.active .search-input strong, .search-container.active .search-input em, .search-container.active .search-input b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .search-container.active .search-input.hebrew {
@@ -2924,7 +2924,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 #emergency-bar p strong, #emergency-bar p em, #emergency-bar p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #FDFDFD;
 }
 #emergency-bar p.hebrew {
@@ -4264,7 +4264,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue .rich-text p strong, .bg-primary-blue .rich-text p em, .bg-primary-blue .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .bg-primary-blue .rich-text p.hebrew {
@@ -4438,7 +4438,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue.white-card .rich-text p strong, .bg-primary-blue.white-card .rich-text p em, .bg-primary-blue.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-primary-blue.white-card .rich-text p.hebrew {
@@ -4612,7 +4612,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue.gray-card .rich-text p strong, .bg-primary-blue.gray-card .rich-text p em, .bg-primary-blue.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-primary-blue.gray-card .rich-text p.hebrew {
@@ -4786,7 +4786,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue.lightblue-card .rich-text p strong, .bg-primary-blue.lightblue-card .rich-text p em, .bg-primary-blue.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-primary-blue.lightblue-card .rich-text p.hebrew {
@@ -4986,7 +4986,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue .rich-text p strong, .bg-medium-blue .rich-text p em, .bg-medium-blue .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .bg-medium-blue .rich-text p.hebrew {
@@ -5160,7 +5160,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue.white-card .rich-text p strong, .bg-medium-blue.white-card .rich-text p em, .bg-medium-blue.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-medium-blue.white-card .rich-text p.hebrew {
@@ -5334,7 +5334,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue.gray-card .rich-text p strong, .bg-medium-blue.gray-card .rich-text p em, .bg-medium-blue.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-medium-blue.gray-card .rich-text p.hebrew {
@@ -5508,7 +5508,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue.lightblue-card .rich-text p strong, .bg-medium-blue.lightblue-card .rich-text p em, .bg-medium-blue.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-medium-blue.lightblue-card .rich-text p.hebrew {
@@ -5708,7 +5708,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue .rich-text p strong, .bg-navy-blue .rich-text p em, .bg-navy-blue .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .bg-navy-blue .rich-text p.hebrew {
@@ -5882,7 +5882,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue.white-card .rich-text p strong, .bg-navy-blue.white-card .rich-text p em, .bg-navy-blue.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-navy-blue.white-card .rich-text p.hebrew {
@@ -6056,7 +6056,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue.gray-card .rich-text p strong, .bg-navy-blue.gray-card .rich-text p em, .bg-navy-blue.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-navy-blue.gray-card .rich-text p.hebrew {
@@ -6230,7 +6230,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue.lightblue-card .rich-text p strong, .bg-navy-blue.lightblue-card .rich-text p em, .bg-navy-blue.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-navy-blue.lightblue-card .rich-text p.hebrew {
@@ -6430,7 +6430,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-light-blue .rich-text p strong, .bg-light-blue .rich-text p em, .bg-light-blue .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-light-blue .rich-text p.hebrew {
@@ -6630,7 +6630,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-pale-blue .rich-text p strong, .bg-pale-blue .rich-text p em, .bg-pale-blue .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-pale-blue .rich-text p.hebrew {
@@ -6830,7 +6830,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-light .rich-text p strong, .bg-light .rich-text p em, .bg-light .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-light .rich-text p.hebrew {
@@ -7054,7 +7054,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-white .rich-text p strong, .bg-white .rich-text p em, .bg-white .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-white .rich-text p.hebrew {
@@ -7278,7 +7278,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-gray .rich-text p strong, .bg-gray .rich-text p em, .bg-gray .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-gray .rich-text p.hebrew {
@@ -7502,7 +7502,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-light-gray .rich-text p strong, .bg-light-gray .rich-text p em, .bg-light-gray .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-light-gray .rich-text p.hebrew {
@@ -7726,7 +7726,7 @@ ul.stats-main.col2 li {
   }
 }
 .bg-footer-gray .rich-text p strong, .bg-footer-gray .rich-text p em, .bg-footer-gray .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .bg-footer-gray .rich-text p.hebrew {
@@ -8930,7 +8930,7 @@ div.two-videos {
   }
 }
 .search-header .criteria-bar .field strong, .search-header .criteria-bar .field em, .search-header .criteria-bar .field b {
-  font-weight: 400;
+  font-weight: 600;
   color: #c9c9c9;
 }
 .search-header .criteria-bar .field.hebrew {
@@ -9097,7 +9097,7 @@ div.two-videos {
   }
 }
 .error-page p strong, .error-page p em, .error-page p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #27277C;
 }
 .error-page p.hebrew {
@@ -9622,7 +9622,7 @@ div.two-videos {
   }
 }
 .feature-cards .col-12 .rich-text p strong, .feature-cards .col-12 .rich-text p em, .feature-cards .col-12 .rich-text p b, .feature-cards .col-12 .rich-text p a strong, .feature-cards .col-12 .rich-text p a em, .feature-cards .col-12 .rich-text p a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .feature-cards .col-12 .rich-text p.hebrew, .feature-cards .col-12 .rich-text p a.hebrew {
@@ -9759,7 +9759,7 @@ div.two-videos {
   }
 }
 .component-feature .box .body .text p strong, .component-feature .box .body .text p em, .component-feature .box .body .text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .component-feature .box .body .text p.hebrew {
@@ -9881,7 +9881,7 @@ div.two-videos {
   }
 }
 .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a strong, .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a em, .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a.hebrew {
@@ -9961,7 +9961,7 @@ div.two-videos {
   }
 }
 .feature-posts .row .col-4 p strong, .feature-posts .row .col-4 p em, .feature-posts .row .col-4 p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .feature-posts .row .col-4 p.hebrew {
@@ -10083,7 +10083,7 @@ div.two-videos {
   }
 }
 .feature-posts .home-boxes .box p strong, .feature-posts .home-boxes .box p em, .feature-posts .home-boxes .box p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .feature-posts .home-boxes .box p.hebrew {
@@ -10110,7 +10110,7 @@ div.two-videos {
   }
 }
 .feature-posts .home-boxes .box .text-container .text p a strong, .feature-posts .home-boxes .box .text-container .text p a em, .feature-posts .home-boxes .box .text-container .text p a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .feature-posts .home-boxes .box .text-container .text p a.hebrew {
@@ -10209,7 +10209,7 @@ div.two-videos {
   }
 }
 .feature-posts-manual .row .col-4 p strong, .feature-posts-manual .row .col-4 p em, .feature-posts-manual .row .col-4 p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .feature-posts-manual .row .col-4 p.hebrew {
@@ -10331,7 +10331,7 @@ div.two-videos {
   }
 }
 .feature-posts-manual .home-boxes .box p strong, .feature-posts-manual .home-boxes .box p em, .feature-posts-manual .home-boxes .box p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .feature-posts-manual .home-boxes .box p.hebrew {
@@ -10462,7 +10462,7 @@ div.two-videos {
   }
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p b, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p.hebrew, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a.hebrew {
@@ -10709,7 +10709,7 @@ div.two-videos {
   }
 }
 .callout .rich-text p strong, .callout .rich-text p em, .callout .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .callout .rich-text p.hebrew {
@@ -10883,7 +10883,7 @@ div.two-videos {
   }
 }
 .callout.white-card .rich-text p strong, .callout.white-card .rich-text p em, .callout.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.white-card .rich-text p.hebrew {
@@ -11057,7 +11057,7 @@ div.two-videos {
   }
 }
 .callout.gray-card .rich-text p strong, .callout.gray-card .rich-text p em, .callout.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.gray-card .rich-text p.hebrew {
@@ -11231,7 +11231,7 @@ div.two-videos {
   }
 }
 .callout.lightblue-card .rich-text p strong, .callout.lightblue-card .rich-text p em, .callout.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.lightblue-card .rich-text p.hebrew {
@@ -11528,7 +11528,7 @@ div.two-videos {
   }
 }
 .callout.reverse .rich-text p strong, .callout.reverse .rich-text p em, .callout.reverse .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .callout.reverse .rich-text p.hebrew {
@@ -11702,7 +11702,7 @@ div.two-videos {
   }
 }
 .callout.reverse.white-card .rich-text p strong, .callout.reverse.white-card .rich-text p em, .callout.reverse.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.reverse.white-card .rich-text p.hebrew {
@@ -11876,7 +11876,7 @@ div.two-videos {
   }
 }
 .callout.reverse.gray-card .rich-text p strong, .callout.reverse.gray-card .rich-text p em, .callout.reverse.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.reverse.gray-card .rich-text p.hebrew {
@@ -12050,7 +12050,7 @@ div.two-videos {
   }
 }
 .callout.reverse.lightblue-card .rich-text p strong, .callout.reverse.lightblue-card .rich-text p em, .callout.reverse.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.reverse.lightblue-card .rich-text p.hebrew {
@@ -12346,7 +12346,7 @@ div.two-videos {
   }
 }
 .callout.bg-pale-blue .rich-text p strong, .callout.bg-pale-blue .rich-text p em, .callout.bg-pale-blue .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.bg-pale-blue .rich-text p.hebrew {
@@ -12548,7 +12548,7 @@ div.two-videos {
   }
 }
 .callout.dark .rich-text p strong, .callout.dark .rich-text p em, .callout.dark .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .callout.dark .rich-text p.hebrew {
@@ -12722,7 +12722,7 @@ div.two-videos {
   }
 }
 .callout.dark.white-card .rich-text p strong, .callout.dark.white-card .rich-text p em, .callout.dark.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.dark.white-card .rich-text p.hebrew {
@@ -12896,7 +12896,7 @@ div.two-videos {
   }
 }
 .callout.dark.gray-card .rich-text p strong, .callout.dark.gray-card .rich-text p em, .callout.dark.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.dark.gray-card .rich-text p.hebrew {
@@ -13070,7 +13070,7 @@ div.two-videos {
   }
 }
 .callout.dark.lightblue-card .rich-text p strong, .callout.dark.lightblue-card .rich-text p em, .callout.dark.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.dark.lightblue-card .rich-text p.hebrew {
@@ -13272,7 +13272,7 @@ div.two-videos {
   }
 }
 .callout.darknavy .rich-text p strong, .callout.darknavy .rich-text p em, .callout.darknavy .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .callout.darknavy .rich-text p.hebrew {
@@ -13446,7 +13446,7 @@ div.two-videos {
   }
 }
 .callout.darknavy.white-card .rich-text p strong, .callout.darknavy.white-card .rich-text p em, .callout.darknavy.white-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.darknavy.white-card .rich-text p.hebrew {
@@ -13620,7 +13620,7 @@ div.two-videos {
   }
 }
 .callout.darknavy.gray-card .rich-text p strong, .callout.darknavy.gray-card .rich-text p em, .callout.darknavy.gray-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.darknavy.gray-card .rich-text p.hebrew {
@@ -13794,7 +13794,7 @@ div.two-videos {
   }
 }
 .callout.darknavy.lightblue-card .rich-text p strong, .callout.darknavy.lightblue-card .rich-text p em, .callout.darknavy.lightblue-card .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .callout.darknavy.lightblue-card .rich-text p.hebrew {
@@ -14005,7 +14005,7 @@ div.two-videos {
   }
 }
 .inspo-block.gray .text-side p strong, .inspo-block.gray .text-side p em, .inspo-block.gray .text-side p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .inspo-block.gray .text-side p.hebrew {
@@ -14288,7 +14288,7 @@ div.two-videos {
   }
 }
 .donor-quote .row .col-12 .rich-text p.caption strong, .donor-quote .row .col-12 .rich-text p.caption em, .donor-quote .row .col-12 .rich-text p.caption b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 .donor-quote .row .col-12 .rich-text p.caption.hebrew {
@@ -14668,7 +14668,7 @@ div.two-videos {
   }
 }
 .basic p strong, .basic p em, .basic p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .basic p.hebrew {
@@ -14891,7 +14891,7 @@ div.two-videos {
   }
 }
 .basic .rich-text p strong, .basic .rich-text p em, .basic .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .basic .rich-text p.hebrew {
@@ -15141,7 +15141,7 @@ div.two-videos {
   }
 }
 .basic.bg-primary-blue p strong, .basic.bg-primary-blue p em, .basic.bg-primary-blue p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #FDFDFD;
 }
 .basic.bg-primary-blue p.hebrew {
@@ -15319,7 +15319,7 @@ div.two-videos {
   }
 }
 .basic.gray-card .row .rich-text p strong, .basic.gray-card .row .rich-text p em, .basic.gray-card .row .rich-text p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .basic.gray-card .row .rich-text p.hebrew {
@@ -15727,7 +15727,7 @@ div.two-videos {
   }
 }
 .basic.cards .row .rich-text ul li a strong, .basic.cards .row .rich-text ul li a em, .basic.cards .row .rich-text ul li a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .basic.cards .row .rich-text ul li a.hebrew {
@@ -16035,7 +16035,7 @@ div.two-videos {
   }
 }
 .accordion-widget .accContent p strong, .accordion-widget .accContent p em, .accordion-widget .accContent p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .accordion-widget .accContent p.hebrew {

@@ -154,7 +154,7 @@ p {
   }
 }
 p strong, p em, p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 p.hebrew {
@@ -356,7 +356,7 @@ p a {
   }
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
@@ -428,7 +428,7 @@ p a {
   }
 }
 .rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
@@ -2160,7 +2160,7 @@ section.page-main nav.paging ul.right li a {
   }
 }
 section.page-main nav.paging ul.right li a strong, section.page-main nav.paging ul.right li a em, section.page-main nav.paging ul.right li a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main nav.paging ul.right li a.hebrew {
@@ -2185,7 +2185,7 @@ section.page-main nav.paging ul.right li a.current {
   }
 }
 section.page-main nav.paging ul.right li a.current strong, section.page-main nav.paging ul.right li a.current em, section.page-main nav.paging ul.right li a.current b {
-  font-weight: 400;
+  font-weight: 600;
   color: #F5F5F5;
 }
 section.page-main nav.paging ul.right li a.current.hebrew {

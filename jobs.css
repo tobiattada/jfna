@@ -154,7 +154,7 @@ p {
   }
 }
 p strong, p em, p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 p.hebrew {
@@ -356,7 +356,7 @@ p a {
   }
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
@@ -428,7 +428,7 @@ p a {
   }
 }
 .rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
@@ -1928,7 +1928,7 @@ section.page-main .row header.page-title .byline .author, section.page-main .row
   }
 }
 section.page-main .row header.page-title .byline .author strong, section.page-main .row header.page-title .byline .author em, section.page-main .row header.page-title .byline .author b, section.page-main .row header.page-title .byline a strong, section.page-main .row header.page-title .byline a em, section.page-main .row header.page-title .byline a b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.page-main .row header.page-title .byline .author.hebrew, section.page-main .row header.page-title .byline a.hebrew {
@@ -2800,7 +2800,7 @@ section.career-center-listing .col-8 .post .editor-copy ul li span, section.care
   }
 }
 section.career-center-listing .col-8 .post .editor-copy ul li span strong, section.career-center-listing .col-8 .post .editor-copy ul li span em, section.career-center-listing .col-8 .post .editor-copy ul li span b, section.career-center-listing .col-8 .post .editor-copy p strong, section.career-center-listing .col-8 .post .editor-copy p em, section.career-center-listing .col-8 .post .editor-copy p b, section.career-center-listing .col-8 .post .editor-copy ul li strong, section.career-center-listing .col-8 .post .editor-copy ul li em, section.career-center-listing .col-8 .post .editor-copy ul li b, section.career-center-listing .col-8 .post .editor-copy div strong, section.career-center-listing .col-8 .post .editor-copy div em, section.career-center-listing .col-8 .post .editor-copy div b {
-  font-weight: 400;
+  font-weight: 600;
   color: #2A2A2A;
 }
 section.career-center-listing .col-8 .post .editor-copy ul li span.hebrew, section.career-center-listing .col-8 .post .editor-copy p.hebrew, section.career-center-listing .col-8 .post .editor-copy ul li.hebrew, section.career-center-listing .col-8 .post .editor-copy div.hebrew {
