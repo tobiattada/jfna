@@ -211,10 +211,6 @@ p.caption.hebrew {
   direction: rtl;
 }
 
-p a {
-  color: #1E3EAF;
-}
-
 .rich-text h1, .page.page-main h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -632,7 +628,7 @@ mark {
   background-color: transparent !important;
 }
 
-b mark {
+b mark, mark b {
   color: #1E3EAF !important;
   background-color: transparent !important;
 }
