@@ -632,6 +632,11 @@ mark {
   background-color: transparent !important;
 }
 
+b mark {
+  color: #1E3EAF !important;
+  background-color: transparent !important;
+}
+
 .arrow-link a {
   position: relative;
   content: url('data:image/svg+xml;charset=UTF-8,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon"><path id="icon" d="M17.3938 14.0287L13.5799 17.8533L15.082 19.3554L21.474 12.9633L15.082 6.57129L13.5799 8.07342L17.3938 11.898H4.42859V14.0287H17.3938Z" fill="%231E3EAF"/></g></svg>');
