@@ -247,19 +247,12 @@ p {
   }
 }
 p strong, p em, p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-p a:hover {
-  color: #27277C;
 }
 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -273,15 +266,8 @@ p.large {
   color: #2A2A2A;
 }
 p.large strong, p.large em, p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   p.large {
@@ -314,24 +300,6 @@ p.caption {
 p.caption.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-
-p.bold {
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  color: #1E3EAF !important;
-}
-p.bold strong, p.bold em, p.bold b {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-p.bold.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -477,19 +445,12 @@ p.bold.hebrew {
   }
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.rich-text p a, .page.page-main p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p a:hover, .page.page-main p a:hover {
-  color: #27277C;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -502,15 +463,8 @@ p.bold.hebrew {
   color: #2A2A2A;
 }
 .rich-text p.large strong, .rich-text p.large em, .rich-text p.large b, .page.page-main p.large strong, .page.page-main p.large em, .page.page-main p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.rich-text p.large a, .page.page-main p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p.large a:hover, .page.page-main p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .rich-text p.large, .page.page-main p.large {
@@ -545,40 +499,6 @@ p.bold.hebrew {
   text-align: right;
   direction: rtl;
 }
-.rich-text p.bold, .page.page-main p.bold {
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  color: #1E3EAF !important;
-}
-.rich-text p.bold strong, .rich-text p.bold em, .rich-text p.bold b, .page.page-main p.bold strong, .page.page-main p.bold em, .page.page-main p.bold b {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p.bold.hebrew, .page.page-main p.bold.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
-  text-align: right;
-  direction: rtl;
-}
-.rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  color: #1E3EAF !important;
-}
-.rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p b.hebrew, .rich-text p strong.hebrew, .page.page-main p b.hebrew, .page.page-main p strong.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
-  text-align: right;
-  direction: rtl;
-}
 .rich-text ul li, .page.page-main ul li {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -594,19 +514,12 @@ p.bold.hebrew {
   }
 }
 .rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.rich-text ul li a, .page.page-main ul li a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text ul li a:hover, .page.page-main ul li a:hover {
-  color: #27277C;
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -779,10 +692,9 @@ p.section-header, p.eyebrow {
 
 p.eyebrow {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF !important;
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
@@ -791,12 +703,12 @@ p.eyebrow {
   margin-left: 0px;
 }
 p.eyebrow strong, p.eyebrow em, p.eyebrow b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
 }
 p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2241,19 +2153,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .footer-navigation .flex-item .flex-item a strong, .footer-navigation .flex-item .flex-item a em, .footer-navigation .flex-item .flex-item a b, .page-footer .jobs a:hover strong, .page-footer .jobs a:hover em, .page-footer .jobs a:hover b, .page-footer .upcoming a:hover strong, .page-footer .upcoming a:hover em, .page-footer .upcoming a:hover b, .page-footer ul.links li a strong, .page-footer ul.links li a em, .page-footer ul.links li a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.footer-navigation .flex-item .flex-item a a, .page-footer .jobs a:hover a, .page-footer .upcoming a:hover a, .page-footer ul.links li a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.footer-navigation .flex-item .flex-item a a:hover, .page-footer .jobs a:hover a:hover, .page-footer .upcoming a:hover a:hover, .page-footer ul.links li a a:hover {
-  color: #27277C;
 }
 .footer-navigation .flex-item .flex-item a.hebrew, .page-footer .jobs a:hover.hebrew, .page-footer .upcoming a:hover.hebrew, .page-footer ul.links li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2400,10 +2305,9 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   text-decoration: none;
   padding: 20px 0px;
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF !important;
 }
 @media (min-width: 1300px) {
   .nav-menu .nav-item a {
@@ -2411,12 +2315,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .nav-menu .nav-item a strong, .nav-menu .nav-item a em, .nav-menu .nav-item a b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #2A2A2A;
 }
 .nav-menu .nav-item a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2478,18 +2382,17 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item a.button p {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #F5F5F5;
-  color: #1E3EAF !important;
 }
 .nav-menu .nav-item a.button p strong, .nav-menu .nav-item a.button p em, .nav-menu .nav-item a.button p b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #F5F5F5;
 }
 .nav-menu .nav-item a.button p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2571,18 +2474,17 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF !important;
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b strong, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b em, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #2A2A2A;
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2611,19 +2513,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption strong, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption em, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption a:hover {
-  color: #27277C;
 }
 .nav-menu .nav-item.has-dropdown .dropdown.mega ul li p.caption.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2639,18 +2534,17 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b {
     font-family: "Outfit", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0%;
     color: #2A2A2A;
-    color: #1E3EAF !important;
   }
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b strong, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b em, .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b b {
-    font-weight: 500;
-    color: #1E3EAF;
+    font-weight: 600;
+    color: #2A2A2A;
   }
   .nav-menu .nav-item.has-dropdown .dropdown.mega ul li a b.hebrew {
     font-family: "Noto Sans Hebrew", sans-serif !important;
-    font-weight: 500;
+    font-weight: 600;
     text-align: right;
     direction: rtl;
   }
@@ -2698,19 +2592,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul li a strong, .nav-menu .nav-item.has-dropdown .dropdown ul li a em, .nav-menu .nav-item.has-dropdown .dropdown ul li a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.nav-menu .nav-item.has-dropdown .dropdown ul li a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.nav-menu .nav-item.has-dropdown .dropdown ul li a a:hover {
-  color: #27277C;
 }
 .nav-menu .nav-item.has-dropdown .dropdown ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2731,19 +2618,18 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 @media (min-width: 1024px) {
   .nav-item a.active {
     font-family: "Outfit", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0%;
     color: #1E3EAF;
-    color: #1E3EAF !important;
     border-bottom: 8px solid #1E3EAF;
   }
   .nav-item a.active strong, .nav-item a.active em, .nav-item a.active b {
-    font-weight: 500;
+    font-weight: 600;
     color: #1E3EAF;
   }
   .nav-item a.active.hebrew {
     font-family: "Noto Sans Hebrew", sans-serif !important;
-    font-weight: 500;
+    font-weight: 600;
     text-align: right;
     direction: rtl;
   }
@@ -2898,19 +2784,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .search-input strong, .search-input em, .search-input b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.search-input a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.search-input a:hover {
-  color: #27277C;
 }
 .search-input.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2956,19 +2835,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 .search-container.active .search-input strong, .search-container.active .search-input em, .search-container.active .search-input b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.search-container.active .search-input a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.search-container.active .search-input a:hover {
-  color: #27277C;
 }
 .search-container.active .search-input.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -3045,19 +2917,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 #emergency-bar p strong, #emergency-bar p em, #emergency-bar p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #FDFDFD;
-}
-#emergency-bar p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-#emergency-bar p a:hover {
-  color: #27277C;
 }
 #emergency-bar p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -4103,15 +3968,8 @@ ul.stats-main li p.large {
   color: #FDFDFD;
 }
 ul.stats-main li p.large strong, ul.stats-main li p.large em, ul.stats-main li p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-ul.stats-main li p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-ul.stats-main li p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   ul.stats-main li p.large {
@@ -4399,19 +4257,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue .rich-text p strong, .bg-primary-blue .rich-text p em, .bg-primary-blue .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.bg-primary-blue .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-primary-blue .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-primary-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -4424,15 +4275,8 @@ ul.stats-main.col2 li {
   color: #F5F5F5;
 }
 .bg-primary-blue .rich-text p.large strong, .bg-primary-blue .rich-text p.large em, .bg-primary-blue .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-primary-blue .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-primary-blue .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-primary-blue .rich-text p.large {
@@ -4587,19 +4431,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue.white-card .rich-text p strong, .bg-primary-blue.white-card .rich-text p em, .bg-primary-blue.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-primary-blue.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-primary-blue.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-primary-blue.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -4768,19 +4605,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue.gray-card .rich-text p strong, .bg-primary-blue.gray-card .rich-text p em, .bg-primary-blue.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-primary-blue.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-primary-blue.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-primary-blue.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -4949,19 +4779,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-primary-blue.lightblue-card .rich-text p strong, .bg-primary-blue.lightblue-card .rich-text p em, .bg-primary-blue.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-primary-blue.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-primary-blue.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-primary-blue.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -5156,19 +4979,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue .rich-text p strong, .bg-medium-blue .rich-text p em, .bg-medium-blue .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.bg-medium-blue .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-medium-blue .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-medium-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -5181,15 +4997,8 @@ ul.stats-main.col2 li {
   color: #F5F5F5;
 }
 .bg-medium-blue .rich-text p.large strong, .bg-medium-blue .rich-text p.large em, .bg-medium-blue .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-medium-blue .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-medium-blue .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-medium-blue .rich-text p.large {
@@ -5344,19 +5153,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue.white-card .rich-text p strong, .bg-medium-blue.white-card .rich-text p em, .bg-medium-blue.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-medium-blue.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-medium-blue.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-medium-blue.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -5525,19 +5327,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue.gray-card .rich-text p strong, .bg-medium-blue.gray-card .rich-text p em, .bg-medium-blue.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-medium-blue.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-medium-blue.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-medium-blue.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -5706,19 +5501,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-medium-blue.lightblue-card .rich-text p strong, .bg-medium-blue.lightblue-card .rich-text p em, .bg-medium-blue.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-medium-blue.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-medium-blue.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-medium-blue.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -5913,19 +5701,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue .rich-text p strong, .bg-navy-blue .rich-text p em, .bg-navy-blue .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.bg-navy-blue .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-navy-blue .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-navy-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -5938,15 +5719,8 @@ ul.stats-main.col2 li {
   color: #F5F5F5;
 }
 .bg-navy-blue .rich-text p.large strong, .bg-navy-blue .rich-text p.large em, .bg-navy-blue .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-navy-blue .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-navy-blue .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-navy-blue .rich-text p.large {
@@ -6101,19 +5875,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue.white-card .rich-text p strong, .bg-navy-blue.white-card .rich-text p em, .bg-navy-blue.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-navy-blue.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-navy-blue.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-navy-blue.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -6282,19 +6049,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue.gray-card .rich-text p strong, .bg-navy-blue.gray-card .rich-text p em, .bg-navy-blue.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-navy-blue.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-navy-blue.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-navy-blue.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -6463,19 +6223,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-navy-blue.lightblue-card .rich-text p strong, .bg-navy-blue.lightblue-card .rich-text p em, .bg-navy-blue.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-navy-blue.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-navy-blue.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-navy-blue.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -6670,19 +6423,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-light-blue .rich-text p strong, .bg-light-blue .rich-text p em, .bg-light-blue .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-light-blue .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-light-blue .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-light-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -6695,15 +6441,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-light-blue .rich-text p.large strong, .bg-light-blue .rich-text p.large em, .bg-light-blue .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-light-blue .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-light-blue .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-light-blue .rich-text p.large {
@@ -6884,19 +6623,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-pale-blue .rich-text p strong, .bg-pale-blue .rich-text p em, .bg-pale-blue .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-pale-blue .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-pale-blue .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-pale-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -6909,15 +6641,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-pale-blue .rich-text p.large strong, .bg-pale-blue .rich-text p.large em, .bg-pale-blue .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-pale-blue .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-pale-blue .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-pale-blue .rich-text p.large {
@@ -7098,19 +6823,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-light .rich-text p strong, .bg-light .rich-text p em, .bg-light .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-light .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-light .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-light .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -7123,15 +6841,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-light .rich-text p.large strong, .bg-light .rich-text p.large em, .bg-light .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-light .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-light .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-light .rich-text p.large {
@@ -7336,19 +7047,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-white .rich-text p strong, .bg-white .rich-text p em, .bg-white .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-white .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-white .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-white .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -7361,15 +7065,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-white .rich-text p.large strong, .bg-white .rich-text p.large em, .bg-white .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-white .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-white .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-white .rich-text p.large {
@@ -7574,19 +7271,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-gray .rich-text p strong, .bg-gray .rich-text p em, .bg-gray .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-gray .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-gray .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-gray .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -7599,15 +7289,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-gray .rich-text p.large strong, .bg-gray .rich-text p.large em, .bg-gray .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-gray .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-gray .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-gray .rich-text p.large {
@@ -7812,19 +7495,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-light-gray .rich-text p strong, .bg-light-gray .rich-text p em, .bg-light-gray .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-light-gray .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-light-gray .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-light-gray .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -7837,15 +7513,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-light-gray .rich-text p.large strong, .bg-light-gray .rich-text p.large em, .bg-light-gray .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-light-gray .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-light-gray .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-light-gray .rich-text p.large {
@@ -8050,19 +7719,12 @@ ul.stats-main.col2 li {
   }
 }
 .bg-footer-gray .rich-text p strong, .bg-footer-gray .rich-text p em, .bg-footer-gray .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.bg-footer-gray .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-footer-gray .rich-text p a:hover {
-  color: #27277C;
 }
 .bg-footer-gray .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -8075,15 +7737,8 @@ ul.stats-main.col2 li {
   color: #2A2A2A;
 }
 .bg-footer-gray .rich-text p.large strong, .bg-footer-gray .rich-text p.large em, .bg-footer-gray .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.bg-footer-gray .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-footer-gray .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .bg-footer-gray .rich-text p.large {
@@ -8501,18 +8156,17 @@ ul.stats-main.col2 li {
 }
 .about-us-header .component-promo .promo-text p {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #F5F5F5;
-  color: #1E3EAF !important;
 }
 .about-us-header .component-promo .promo-text p strong, .about-us-header .component-promo .promo-text p em, .about-us-header .component-promo .promo-text p b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #F5F5F5;
 }
 .about-us-header .component-promo .promo-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -8540,18 +8194,17 @@ ul.stats-main.col2 li {
 }
 .about-us-header .component-promo .promo-title p strong {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #F5F5F5;
-  color: #1E3EAF !important;
 }
 .about-us-header .component-promo .promo-title p strong strong, .about-us-header .component-promo .promo-title p strong em, .about-us-header .component-promo .promo-title p strong b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #F5F5F5;
 }
 .about-us-header .component-promo .promo-title p strong.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -9270,19 +8923,12 @@ div.two-videos {
   }
 }
 .search-header .criteria-bar .field strong, .search-header .criteria-bar .field em, .search-header .criteria-bar .field b {
-  font-weight: 500;
+  font-weight: 400;
   color: #c9c9c9;
-}
-.search-header .criteria-bar .field a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.search-header .criteria-bar .field a:hover {
-  color: #27277C;
 }
 .search-header .criteria-bar .field.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -9392,20 +9038,19 @@ div.two-videos {
 }
 .results-container .row.directory .entry .meta p .date {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF !important;
   padding-left: 0px;
   background: none !important;
 }
 .results-container .row.directory .entry .meta p .date strong, .results-container .row.directory .entry .meta p .date em, .results-container .row.directory .entry .meta p .date b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #2A2A2A;
 }
 .results-container .row.directory .entry .meta p .date.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -9445,19 +9090,12 @@ div.two-videos {
   }
 }
 .error-page p strong, .error-page p em, .error-page p b {
-  font-weight: 500;
-  color: #27277C;
-}
-.error-page p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.error-page p a:hover {
+  font-weight: 400;
   color: #27277C;
 }
 .error-page p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -9977,36 +9615,28 @@ div.two-videos {
   }
 }
 .feature-cards .col-12 .rich-text p strong, .feature-cards .col-12 .rich-text p em, .feature-cards .col-12 .rich-text p b, .feature-cards .col-12 .rich-text p a strong, .feature-cards .col-12 .rich-text p a em, .feature-cards .col-12 .rich-text p a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.feature-cards .col-12 .rich-text p a, .feature-cards .col-12 .rich-text p a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.feature-cards .col-12 .rich-text p a:hover, .feature-cards .col-12 .rich-text p a a:hover {
-  color: #27277C;
 }
 .feature-cards .col-12 .rich-text p.hebrew, .feature-cards .col-12 .rich-text p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
 .feature-cards .col-12 .rich-text p b {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF !important;
 }
 .feature-cards .col-12 .rich-text p b strong, .feature-cards .col-12 .rich-text p b em, .feature-cards .col-12 .rich-text p b b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #2A2A2A;
 }
 .feature-cards .col-12 .rich-text p b.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10122,19 +9752,12 @@ div.two-videos {
   }
 }
 .component-feature .box .body .text p strong, .component-feature .box .body .text p em, .component-feature .box .body .text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.component-feature .box .body .text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.component-feature .box .body .text p a:hover {
-  color: #27277C;
 }
 .component-feature .box .body .text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10202,18 +9825,17 @@ div.two-videos {
   position: absolute;
   top: 40px;
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #27277C;
-  color: #1E3EAF !important;
 }
 .component-entry-list .news-list .entry p.meta a::before strong, .component-entry-list .news-list .entry p.meta a::before em, .component-entry-list .news-list .entry p.meta a::before b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #27277C;
 }
 .component-entry-list .news-list .entry p.meta a::before.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10252,19 +9874,12 @@ div.two-videos {
   }
 }
 .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a strong, .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a em, .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a a:hover {
-  color: #27277C;
 }
 .component-entry-list .upcoming.news-list.tidy .entry.news-entry p.meta a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10339,19 +9954,12 @@ div.two-videos {
   }
 }
 .feature-posts .row .col-4 p strong, .feature-posts .row .col-4 p em, .feature-posts .row .col-4 p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.feature-posts .row .col-4 p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.feature-posts .row .col-4 p a:hover {
-  color: #27277C;
 }
 .feature-posts .row .col-4 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10468,19 +10076,12 @@ div.two-videos {
   }
 }
 .feature-posts .home-boxes .box p strong, .feature-posts .home-boxes .box p em, .feature-posts .home-boxes .box p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.feature-posts .home-boxes .box p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.feature-posts .home-boxes .box p a:hover {
-  color: #27277C;
 }
 .feature-posts .home-boxes .box p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10502,19 +10103,12 @@ div.two-videos {
   }
 }
 .feature-posts .home-boxes .box .text-container .text p a strong, .feature-posts .home-boxes .box .text-container .text p a em, .feature-posts .home-boxes .box .text-container .text p a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.feature-posts .home-boxes .box .text-container .text p a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.feature-posts .home-boxes .box .text-container .text p a a:hover {
-  color: #27277C;
 }
 .feature-posts .home-boxes .box .text-container .text p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10608,19 +10202,12 @@ div.two-videos {
   }
 }
 .feature-posts-manual .row .col-4 p strong, .feature-posts-manual .row .col-4 p em, .feature-posts-manual .row .col-4 p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.feature-posts-manual .row .col-4 p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.feature-posts-manual .row .col-4 p a:hover {
-  color: #27277C;
 }
 .feature-posts-manual .row .col-4 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10737,19 +10324,12 @@ div.two-videos {
   }
 }
 .feature-posts-manual .home-boxes .box p strong, .feature-posts-manual .home-boxes .box p em, .feature-posts-manual .home-boxes .box p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.feature-posts-manual .home-boxes .box p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.feature-posts-manual .home-boxes .box p a:hover {
-  color: #27277C;
 }
 .feature-posts-manual .home-boxes .box p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -10875,19 +10455,12 @@ div.two-videos {
   }
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p b, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a strong, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a em, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a:hover, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a a:hover {
-  color: #27277C;
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p.hebrew, .bg-navy-blue.feature-posts .component-feature .home-boxes .box .body .text p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -11129,19 +10702,12 @@ div.two-videos {
   }
 }
 .callout .rich-text p strong, .callout .rich-text p em, .callout .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.callout .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout .rich-text p a:hover {
-  color: #27277C;
 }
 .callout .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -11154,15 +10720,8 @@ div.two-videos {
   color: #F5F5F5;
 }
 .callout .rich-text p.large strong, .callout .rich-text p.large em, .callout .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.callout .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .callout .rich-text p.large {
@@ -11317,19 +10876,12 @@ div.two-videos {
   }
 }
 .callout.white-card .rich-text p strong, .callout.white-card .rich-text p em, .callout.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -11498,19 +11050,12 @@ div.two-videos {
   }
 }
 .callout.gray-card .rich-text p strong, .callout.gray-card .rich-text p em, .callout.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -11679,19 +11224,12 @@ div.two-videos {
   }
 }
 .callout.lightblue-card .rich-text p strong, .callout.lightblue-card .rich-text p em, .callout.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -11983,19 +11521,12 @@ div.two-videos {
   }
 }
 .callout.reverse .rich-text p strong, .callout.reverse .rich-text p em, .callout.reverse .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.callout.reverse .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.reverse .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.reverse .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -12008,15 +11539,8 @@ div.two-videos {
   color: #F5F5F5;
 }
 .callout.reverse .rich-text p.large strong, .callout.reverse .rich-text p.large em, .callout.reverse .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.callout.reverse .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.reverse .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .callout.reverse .rich-text p.large {
@@ -12171,19 +11695,12 @@ div.two-videos {
   }
 }
 .callout.reverse.white-card .rich-text p strong, .callout.reverse.white-card .rich-text p em, .callout.reverse.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.reverse.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.reverse.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.reverse.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -12352,19 +11869,12 @@ div.two-videos {
   }
 }
 .callout.reverse.gray-card .rich-text p strong, .callout.reverse.gray-card .rich-text p em, .callout.reverse.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.reverse.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.reverse.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.reverse.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -12533,19 +12043,12 @@ div.two-videos {
   }
 }
 .callout.reverse.lightblue-card .rich-text p strong, .callout.reverse.lightblue-card .rich-text p em, .callout.reverse.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.reverse.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.reverse.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.reverse.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -12836,19 +12339,12 @@ div.two-videos {
   }
 }
 .callout.bg-pale-blue .rich-text p strong, .callout.bg-pale-blue .rich-text p em, .callout.bg-pale-blue .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.bg-pale-blue .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.bg-pale-blue .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.bg-pale-blue .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -12861,15 +12357,8 @@ div.two-videos {
   color: #2A2A2A;
 }
 .callout.bg-pale-blue .rich-text p.large strong, .callout.bg-pale-blue .rich-text p.large em, .callout.bg-pale-blue .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.callout.bg-pale-blue .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.bg-pale-blue .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .callout.bg-pale-blue .rich-text p.large {
@@ -13052,19 +12541,12 @@ div.two-videos {
   }
 }
 .callout.dark .rich-text p strong, .callout.dark .rich-text p em, .callout.dark .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.callout.dark .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.dark .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.dark .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -13077,15 +12559,8 @@ div.two-videos {
   color: #F5F5F5;
 }
 .callout.dark .rich-text p.large strong, .callout.dark .rich-text p.large em, .callout.dark .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.callout.dark .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.dark .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .callout.dark .rich-text p.large {
@@ -13240,19 +12715,12 @@ div.two-videos {
   }
 }
 .callout.dark.white-card .rich-text p strong, .callout.dark.white-card .rich-text p em, .callout.dark.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.dark.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.dark.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.dark.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -13421,19 +12889,12 @@ div.two-videos {
   }
 }
 .callout.dark.gray-card .rich-text p strong, .callout.dark.gray-card .rich-text p em, .callout.dark.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.dark.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.dark.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.dark.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -13602,19 +13063,12 @@ div.two-videos {
   }
 }
 .callout.dark.lightblue-card .rich-text p strong, .callout.dark.lightblue-card .rich-text p em, .callout.dark.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.dark.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.dark.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.dark.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -13811,19 +13265,12 @@ div.two-videos {
   }
 }
 .callout.darknavy .rich-text p strong, .callout.darknavy .rich-text p em, .callout.darknavy .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.callout.darknavy .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.darknavy .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.darknavy .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -13836,15 +13283,8 @@ div.two-videos {
   color: #F5F5F5;
 }
 .callout.darknavy .rich-text p.large strong, .callout.darknavy .rich-text p.large em, .callout.darknavy .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.callout.darknavy .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.darknavy .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .callout.darknavy .rich-text p.large {
@@ -13999,19 +13439,12 @@ div.two-videos {
   }
 }
 .callout.darknavy.white-card .rich-text p strong, .callout.darknavy.white-card .rich-text p em, .callout.darknavy.white-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.darknavy.white-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.darknavy.white-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.darknavy.white-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -14180,19 +13613,12 @@ div.two-videos {
   }
 }
 .callout.darknavy.gray-card .rich-text p strong, .callout.darknavy.gray-card .rich-text p em, .callout.darknavy.gray-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.darknavy.gray-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.darknavy.gray-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.darknavy.gray-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -14361,19 +13787,12 @@ div.two-videos {
   }
 }
 .callout.darknavy.lightblue-card .rich-text p strong, .callout.darknavy.lightblue-card .rich-text p em, .callout.darknavy.lightblue-card .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.callout.darknavy.lightblue-card .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.callout.darknavy.lightblue-card .rich-text p a:hover {
-  color: #27277C;
 }
 .callout.darknavy.lightblue-card .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -14579,19 +13998,12 @@ div.two-videos {
   }
 }
 .inspo-block.gray .text-side p strong, .inspo-block.gray .text-side p em, .inspo-block.gray .text-side p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.inspo-block.gray .text-side p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.inspo-block.gray .text-side p a:hover {
-  color: #27277C;
 }
 .inspo-block.gray .text-side p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -14604,15 +14016,8 @@ div.two-videos {
   color: #2A2A2A;
 }
 .inspo-block.gray .text-side p.large strong, .inspo-block.gray .text-side p.large em, .inspo-block.gray .text-side p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.inspo-block.gray .text-side p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.inspo-block.gray .text-side p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .inspo-block.gray .text-side p.large {
@@ -14876,19 +14281,12 @@ div.two-videos {
   }
 }
 .donor-quote .row .col-12 .rich-text p.caption strong, .donor-quote .row .col-12 .rich-text p.caption em, .donor-quote .row .col-12 .rich-text p.caption b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-.donor-quote .row .col-12 .rich-text p.caption a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.donor-quote .row .col-12 .rich-text p.caption a:hover {
-  color: #27277C;
 }
 .donor-quote .row .col-12 .rich-text p.caption.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -15263,19 +14661,12 @@ div.two-videos {
   }
 }
 .basic p strong, .basic p em, .basic p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.basic p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic p a:hover {
-  color: #27277C;
 }
 .basic p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -15312,15 +14703,8 @@ div.two-videos {
   color: #2A2A2A;
 }
 .basic p.large strong, .basic p.large em, .basic p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.basic p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic p.large {
@@ -15344,15 +14728,8 @@ div.two-videos {
   font-weight: 600;
 }
 .basic p.large b strong, .basic p.large b em, .basic p.large b b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.basic p.large b a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic p.large b a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic p.large b {
@@ -15507,19 +14884,12 @@ div.two-videos {
   }
 }
 .basic .rich-text p strong, .basic .rich-text p em, .basic .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.basic .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic .rich-text p a:hover {
-  color: #27277C;
 }
 .basic .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -15556,15 +14926,8 @@ div.two-videos {
   color: #2A2A2A;
 }
 .basic .rich-text p.large strong, .basic .rich-text p.large em, .basic .rich-text p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.basic .rich-text p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic .rich-text p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic .rich-text p.large {
@@ -15588,15 +14951,8 @@ div.two-videos {
   font-weight: 600;
 }
 .basic .rich-text p.large b strong, .basic .rich-text p.large b em, .basic .rich-text p.large b b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.basic .rich-text p.large b a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic .rich-text p.large b a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic .rich-text p.large b {
@@ -15778,19 +15134,12 @@ div.two-videos {
   }
 }
 .basic.bg-primary-blue p strong, .basic.bg-primary-blue p em, .basic.bg-primary-blue p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #FDFDFD;
-}
-.basic.bg-primary-blue p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic.bg-primary-blue p a:hover {
-  color: #27277C;
 }
 .basic.bg-primary-blue p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -15827,15 +15176,8 @@ div.two-videos {
   color: #FDFDFD;
 }
 .basic.bg-primary-blue p.large strong, .basic.bg-primary-blue p.large em, .basic.bg-primary-blue p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.basic.bg-primary-blue p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic.bg-primary-blue p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic.bg-primary-blue p.large {
@@ -15859,15 +15201,8 @@ div.two-videos {
   font-weight: 500;
 }
 .basic.bg-primary-blue p.large b strong, .basic.bg-primary-blue p.large b em, .basic.bg-primary-blue p.large b b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.basic.bg-primary-blue p.large b a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic.bg-primary-blue p.large b a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .basic.bg-primary-blue p.large b {
@@ -15977,19 +15312,12 @@ div.two-videos {
   }
 }
 .basic.gray-card .row .rich-text p strong, .basic.gray-card .row .rich-text p em, .basic.gray-card .row .rich-text p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.basic.gray-card .row .rich-text p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic.gray-card .row .rich-text p a:hover {
-  color: #27277C;
 }
 .basic.gray-card .row .rich-text p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -16392,19 +15720,12 @@ div.two-videos {
   }
 }
 .basic.cards .row .rich-text ul li a strong, .basic.cards .row .rich-text ul li a em, .basic.cards .row .rich-text ul li a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.basic.cards .row .rich-text ul li a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.basic.cards .row .rich-text ul li a a:hover {
-  color: #27277C;
 }
 .basic.cards .row .rich-text ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -16707,19 +16028,12 @@ div.two-videos {
   }
 }
 .accordion-widget .accContent p strong, .accordion-widget .accContent p em, .accordion-widget .accContent p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.accordion-widget .accContent p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.accordion-widget .accContent p a:hover {
-  color: #27277C;
 }
 .accordion-widget .accContent p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -17269,18 +16583,17 @@ div#finder-sidebar ul.finder-results > li div.fed-card ul li:first-child {
 }
 div#finder-sidebar ul.finder-results > li div.fed-card ul li a {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF !important;
 }
 div#finder-sidebar ul.finder-results > li div.fed-card ul li a strong, div#finder-sidebar ul.finder-results > li div.fed-card ul li a em, div#finder-sidebar ul.finder-results > li div.fed-card ul li a b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
 }
 div#finder-sidebar ul.finder-results > li div.fed-card ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }

@@ -154,19 +154,12 @@ p {
   }
 }
 p strong, p em, p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-p a:hover {
-  color: #27277C;
 }
 p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -180,15 +173,8 @@ p.large {
   color: #2A2A2A;
 }
 p.large strong, p.large em, p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   p.large {
@@ -221,24 +207,6 @@ p.caption {
 p.caption.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
-  text-align: right;
-  direction: rtl;
-}
-
-p.bold {
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  color: #1E3EAF !important;
-}
-p.bold strong, p.bold em, p.bold b {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-p.bold.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
   text-align: right;
   direction: rtl;
 }
@@ -384,19 +352,12 @@ p.bold.hebrew {
   }
 }
 .rich-text p strong, .rich-text p em, .rich-text p b, .page.page-main p strong, .page.page-main p em, .page.page-main p b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.rich-text p a, .page.page-main p a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p a:hover, .page.page-main p a:hover {
-  color: #27277C;
 }
 .rich-text p.hebrew, .page.page-main p.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -409,15 +370,8 @@ p.bold.hebrew {
   color: #2A2A2A;
 }
 .rich-text p.large strong, .rich-text p.large em, .rich-text p.large b, .page.page-main p.large strong, .page.page-main p.large em, .page.page-main p.large b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
-}
-.rich-text p.large a, .page.page-main p.large a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p.large a:hover, .page.page-main p.large a:hover {
-  color: #27277C;
 }
 @media (min-width: 1024px) {
   .rich-text p.large, .page.page-main p.large {
@@ -452,40 +406,6 @@ p.bold.hebrew {
   text-align: right;
   direction: rtl;
 }
-.rich-text p.bold, .page.page-main p.bold {
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  color: #1E3EAF !important;
-}
-.rich-text p.bold strong, .rich-text p.bold em, .rich-text p.bold b, .page.page-main p.bold strong, .page.page-main p.bold em, .page.page-main p.bold b {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p.bold.hebrew, .page.page-main p.bold.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
-  text-align: right;
-  direction: rtl;
-}
-.rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0%;
-  color: #1E3EAF;
-  color: #1E3EAF !important;
-}
-.rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text p b.hebrew, .rich-text p strong.hebrew, .page.page-main p b.hebrew, .page.page-main p strong.hebrew {
-  font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
-  text-align: right;
-  direction: rtl;
-}
 .rich-text ul li, .page.page-main ul li {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
@@ -501,19 +421,12 @@ p.bold.hebrew {
   }
 }
 .rich-text ul li strong, .rich-text ul li em, .rich-text ul li b, .page.page-main ul li strong, .page.page-main ul li em, .page.page-main ul li b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-.rich-text ul li a, .page.page-main ul li a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-.rich-text ul li a:hover, .page.page-main ul li a:hover {
-  color: #27277C;
 }
 .rich-text ul li.hebrew, .page.page-main ul li.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -686,10 +599,9 @@ p.section-header, p.eyebrow {
 
 p.eyebrow {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF !important;
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
@@ -698,12 +610,12 @@ p.eyebrow {
   margin-left: 0px;
 }
 p.eyebrow strong, p.eyebrow em, p.eyebrow b {
-  font-weight: 500;
+  font-weight: 600;
   color: #1E3EAF;
 }
 p.eyebrow.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2130,20 +2042,19 @@ section.page-main .news .entry .row .col-2 {
 }
 section.page-main .news .entry .row .col-2 .meta p a.date {
   font-family: "Outfit", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF !important;
   background: none;
   padding-left: 0px;
 }
 section.page-main .news .entry .row .col-2 .meta p a.date strong, section.page-main .news .entry .row .col-2 .meta p a.date em, section.page-main .news .entry .row .col-2 .meta p a.date b {
-  font-weight: 500;
-  color: #1E3EAF;
+  font-weight: 600;
+  color: #2A2A2A;
 }
 section.page-main .news .entry .row .col-2 .meta p a.date.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2242,19 +2153,12 @@ section.page-main nav.paging ul.right li a {
   }
 }
 section.page-main nav.paging ul.right li a strong, section.page-main nav.paging ul.right li a em, section.page-main nav.paging ul.right li a b {
-  font-weight: 500;
+  font-weight: 400;
   color: #2A2A2A;
-}
-section.page-main nav.paging ul.right li a a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-section.page-main nav.paging ul.right li a a:hover {
-  color: #27277C;
 }
 section.page-main nav.paging ul.right li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
@@ -2274,19 +2178,12 @@ section.page-main nav.paging ul.right li a.current {
   }
 }
 section.page-main nav.paging ul.right li a.current strong, section.page-main nav.paging ul.right li a.current em, section.page-main nav.paging ul.right li a.current b {
-  font-weight: 500;
+  font-weight: 400;
   color: #F5F5F5;
-}
-section.page-main nav.paging ul.right li a.current a {
-  font-weight: 500;
-  color: #1E3EAF;
-}
-section.page-main nav.paging ul.right li a.current a:hover {
-  color: #27277C;
 }
 section.page-main nav.paging ul.right li a.current.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
-  font-weight: 500;
+  font-weight: 600;
   text-align: right;
   direction: rtl;
 }
