@@ -16236,17 +16236,45 @@ div.video-loader div.video-list div.vid.visible {
   display: block;
   /* show visible ones */
 }
-div.video-loader .load-more {
-  margin: 1rem auto;
+div.video-loader button.load-more {
   display: block;
   padding: 0.5rem 1rem;
   border: none;
-  background: #0077cc;
-  color: white;
   border-radius: 6px;
   cursor: pointer;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
 }
-div.video-loader .load-more:disabled {
+div.video-loader button.load-more .label {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0%;
+  color: #FDFDFD;
+  margin-top: 3px;
+}
+@media (min-width: 1024px) {
+  div.video-loader button.load-more .label {
+    font-size: 15px;
+    line-height: 150%;
+  }
+}
+div.video-loader button.load-more .label.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 600;
+  text-align: right;
+  direction: rtl;
+}
+div.video-loader button.load-more img {
+  width: 50px;
+}
+div.video-loader button.load-more:disabled {
   background: #aaa;
   cursor: not-allowed;
 }
