@@ -225,6 +225,24 @@ p.caption.hebrew {
   direction: rtl;
 }
 
+p.bold {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  color: #1E3EAF;
+}
+p.bold strong, p.bold em, p.bold b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+p.bold.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+
 .rich-text h1, .page.page-main h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -434,10 +452,28 @@ p.caption.hebrew {
   text-align: right;
   direction: rtl;
 }
+.rich-text p.bold, .page.page-main p.bold {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  color: #1E3EAF;
+}
+.rich-text p.bold strong, .rich-text p.bold em, .rich-text p.bold b, .page.page-main p.bold strong, .page.page-main p.bold em, .page.page-main p.bold b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+.rich-text p.bold.hebrew, .page.page-main p.bold.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
 .rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   letter-spacing: 0%;
+  color: #1E3EAF;
   color: #1E3EAF;
 }
 .rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
@@ -652,6 +688,7 @@ p.eyebrow {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   letter-spacing: 0%;
+  color: #1E3EAF;
   color: #1E3EAF;
   display: table;
   padding-bottom: 10px;
@@ -2135,12 +2172,13 @@ section.page-main .news .entry .row .col-2 .meta p a.date {
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
+  color: #1E3EAF;
   background: none;
   padding-left: 0px;
 }
 section.page-main .news .entry .row .col-2 .meta p a.date strong, section.page-main .news .entry .row .col-2 .meta p a.date em, section.page-main .news .entry .row .col-2 .meta p a.date b {
   font-weight: 500;
-  color: #2A2A2A;
+  color: #1E3EAF;
 }
 section.page-main .news .entry .row .col-2 .meta p a.date.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2309,10 +2347,11 @@ section.page-main .news .entry .row .col-5 p a, section.page-main .news .entry .
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
+  color: #1E3EAF;
 }
 section.page-main .news .entry .row .col-5 p a strong, section.page-main .news .entry .row .col-5 p a em, section.page-main .news .entry .row .col-5 p a b, section.page-main .news .entry .row .col-6-mobile p a strong, section.page-main .news .entry .row .col-6-mobile p a em, section.page-main .news .entry .row .col-6-mobile p a b {
   font-weight: 500;
-  color: #2A2A2A;
+  color: #1E3EAF;
 }
 section.page-main .news .entry .row .col-5 p a.hebrew, section.page-main .news .entry .row .col-6-mobile p a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2618,6 +2657,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
+  color: #1E3EAF;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a b {
   font-weight: 500;
@@ -2634,11 +2674,12 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   font-weight: 500;
   letter-spacing: 0%;
   color: #27277C;
+  color: #1E3EAF;
   text-decoration: none;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover b {
   font-weight: 500;
-  color: #27277C;
+  color: #1E3EAF;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2699,11 +2740,12 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
+  color: #1E3EAF;
   line-height: 120%;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span b {
   font-weight: 500;
-  color: #2A2A2A;
+  color: #1E3EAF;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
@@ -2903,6 +2945,7 @@ article p a {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
+  color: #1E3EAF;
   transition: 0.3s;
 }
 article p a strong, article p a em, article p a b {
@@ -3016,11 +3059,12 @@ nav.post-nav {
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
+  color: #1E3EAF;
   padding-left: 0px;
 }
 .tag-page .news .entry p a.date strong, .tag-page .news .entry p a.date em, .tag-page .news .entry p a.date b {
   font-weight: 500;
-  color: #2A2A2A;
+  color: #1E3EAF;
 }
 .tag-page .news .entry p a.date.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;

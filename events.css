@@ -225,6 +225,24 @@ p.caption.hebrew {
   direction: rtl;
 }
 
+p.bold {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  color: #1E3EAF;
+}
+p.bold strong, p.bold em, p.bold b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+p.bold.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
+
 .rich-text h1, .page.page-main h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -434,10 +452,28 @@ p.caption.hebrew {
   text-align: right;
   direction: rtl;
 }
+.rich-text p.bold, .page.page-main p.bold {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+  color: #1E3EAF;
+  color: #1E3EAF;
+}
+.rich-text p.bold strong, .rich-text p.bold em, .rich-text p.bold b, .page.page-main p.bold strong, .page.page-main p.bold em, .page.page-main p.bold b {
+  font-weight: 500;
+  color: #1E3EAF;
+}
+.rich-text p.bold.hebrew, .page.page-main p.bold.hebrew {
+  font-family: "Noto Sans Hebrew", sans-serif !important;
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+}
 .rich-text p b, .rich-text p strong, .page.page-main p b, .page.page-main p strong {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   letter-spacing: 0%;
+  color: #1E3EAF;
   color: #1E3EAF;
 }
 .rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
@@ -652,6 +688,7 @@ p.eyebrow {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   letter-spacing: 0%;
+  color: #1E3EAF;
   color: #1E3EAF;
   display: table;
   padding-bottom: 10px;
@@ -2096,12 +2133,13 @@ section.page-main .news .entry .row .col-2 .meta p a.date {
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
+  color: #1E3EAF;
   background: none;
   padding-left: 0px;
 }
 section.page-main .news .entry .row .col-2 .meta p a.date strong, section.page-main .news .entry .row .col-2 .meta p a.date em, section.page-main .news .entry .row .col-2 .meta p a.date b {
   font-weight: 500;
-  color: #2A2A2A;
+  color: #1E3EAF;
 }
 section.page-main .news .entry .row .col-2 .meta p a.date.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
