@@ -230,7 +230,7 @@ p.bold {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 p.bold strong, p.bold em, p.bold b {
   font-weight: 500;
@@ -457,7 +457,7 @@ p.bold.hebrew {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 .rich-text p.bold strong, .rich-text p.bold em, .rich-text p.bold b, .page.page-main p.bold strong, .page.page-main p.bold em, .page.page-main p.bold b {
   font-weight: 500;
@@ -474,7 +474,7 @@ p.bold.hebrew {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 .rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
   font-weight: 500;
@@ -689,7 +689,7 @@ p.eyebrow {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
@@ -2172,7 +2172,7 @@ section.page-main .news .entry .row .col-2 .meta p a.date {
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   background: none;
   padding-left: 0px;
 }
@@ -2347,7 +2347,7 @@ section.page-main .news .entry .row .col-5 p a, section.page-main .news .entry .
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 section.page-main .news .entry .row .col-5 p a strong, section.page-main .news .entry .row .col-5 p a em, section.page-main .news .entry .row .col-5 p a b, section.page-main .news .entry .row .col-6-mobile p a strong, section.page-main .news .entry .row .col-6-mobile p a em, section.page-main .news .entry .row .col-6-mobile p a b {
   font-weight: 500;
@@ -2657,7 +2657,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a b {
   font-weight: 500;
@@ -2674,7 +2674,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   font-weight: 500;
   letter-spacing: 0%;
   color: #27277C;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   text-decoration: none;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover b {
@@ -2740,7 +2740,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   line-height: 120%;
 }
 section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span b {
@@ -2945,7 +2945,7 @@ article p a {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   transition: 0.3s;
 }
 article p a strong, article p a em, article p a b {
@@ -3059,7 +3059,7 @@ nav.post-nav {
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   padding-left: 0px;
 }
 .tag-page .news .entry p a.date strong, .tag-page .news .entry p a.date em, .tag-page .news .entry p a.date b {

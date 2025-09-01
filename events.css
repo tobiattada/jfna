@@ -230,7 +230,7 @@ p.bold {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 p.bold strong, p.bold em, p.bold b {
   font-weight: 500;
@@ -457,7 +457,7 @@ p.bold.hebrew {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 .rich-text p.bold strong, .rich-text p.bold em, .rich-text p.bold b, .page.page-main p.bold strong, .page.page-main p.bold em, .page.page-main p.bold b {
   font-weight: 500;
@@ -474,7 +474,7 @@ p.bold.hebrew {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
 }
 .rich-text p b strong, .rich-text p b em, .rich-text p b b, .rich-text p strong strong, .rich-text p strong em, .rich-text p strong b, .page.page-main p b strong, .page.page-main p b em, .page.page-main p b b, .page.page-main p strong strong, .page.page-main p strong em, .page.page-main p strong b {
   font-weight: 500;
@@ -689,7 +689,7 @@ p.eyebrow {
   font-weight: 500;
   letter-spacing: 0%;
   color: #1E3EAF;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
@@ -2133,7 +2133,7 @@ section.page-main .news .entry .row .col-2 .meta p a.date {
   font-weight: 500;
   letter-spacing: 0%;
   color: #2A2A2A;
-  color: #1E3EAF;
+  color: #1E3EAF !important;
   background: none;
   padding-left: 0px;
 }
