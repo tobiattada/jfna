@@ -71,3 +71,7 @@
 .our-focus-item .row .col-12 .component-container:first-child {
   order: 2;
 }
+
+.white-card.features.features-2 .row {
+  display: flex;
+}
