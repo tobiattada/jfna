@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p, p.large {
+.nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   direction: rtl !important;
   text-align: right;
