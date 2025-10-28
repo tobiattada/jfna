@@ -52,10 +52,9 @@
   .modals .row {
     grid-template-columns: 1fr 1fr;
   }
-}
-@media (min-width: 1300px) {
-  .modals .row {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  .modals .row .col-3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
 }
 .modals .col-3 .component-class-richtext h5, .modals .col-3 .component-class-richtext p {
