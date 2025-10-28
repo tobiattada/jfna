@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&family=Outfit:wght@100..900&display=swap");
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   direction: rtl !important;
@@ -10,4 +19,11 @@
 .promo-title p strong {
   text-align: right;
   font-family: "Noto Sans Hebrew", sans-serif !important;
+}
+
+@media (min-width: 1024px) {
+  .nav-menu .nav-item.has-dropdown .dropdown {
+    left: auto;
+    right: -15px;
+  }
 }
