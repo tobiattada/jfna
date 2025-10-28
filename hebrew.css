@@ -39,6 +39,11 @@
     text-align: right;
   }
 }
+@media (min-width: 1300px) {
+  .nav-menu .nav-item.has-dropdown .dropdown {
+    right: -30px;
+  }
+}
 @media (min-width: 1024px) {
   .modals .row {
     grid-template-columns: 1fr 1fr;
