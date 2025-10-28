@@ -34,3 +34,10 @@
     text-align: right;
   }
 }
+.our-focus-item .row .col-12 {
+  grid-template-columns: 3fr 2fr;
+  gap: 30px;
+}
+.our-focus-item .row .col-12 .component-container:first-child {
+  order: 2;
+}
