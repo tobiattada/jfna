@@ -12,6 +12,10 @@
   direction: rtl !important;
   text-align: right;
 }
+.nav-menu .nav-item a.eng, h1.eng, h2.eng, h3.eng, h4.eng, h5.eng, h6.eng, p.eng, p.large.eng {
+  font-family: "Outfit", sans-serif;
+  direction: ltr !important;
+}
 
 .promo-title {
   text-align: right;
@@ -24,6 +28,9 @@
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown {
     left: auto;
-    right: -15px;
+    right: -30px;
+  }
+  .nav-menu .nav-item.has-dropdown .dropdown ul {
+    text-align: right;
   }
 }
