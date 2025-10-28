@@ -13,7 +13,7 @@
   text-align: right;
 }
 .nav-menu .nav-item a.eng, h1.eng, h2.eng, h3.eng, h4.eng, h5.eng, h6.eng, p.eng, p.large.eng {
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif !important;
   direction: ltr !important;
 }
 
