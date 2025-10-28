@@ -39,6 +39,16 @@
     text-align: right;
   }
 }
+@media (min-width: 1024px) {
+  .modals .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.modals .col-3 .component-class-richtext h5, .modals .col-3 .component-class-richtext p {
+  text-align: center !important;
+  font-family: "Outfit", sans-serif !important;
+}
+
 .our-focus-item .row .col-12 {
   grid-template-columns: 3fr 2fr;
   gap: 30px;
