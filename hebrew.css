@@ -4,6 +4,9 @@ h1, h2, h3, h4, h5, h6, p, p.large {
   text-align: right;
 }
 
+.promo-title {
+  text-align: right;
+}
 .promo-title p strong {
   text-align: right;
   font-family: "Noto Sans Hebrew", sans-serif !important;
