@@ -44,6 +44,11 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (min-width: 1300px) {
+  .modals .row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .modals .col-3 .component-class-richtext h5, .modals .col-3 .component-class-richtext p {
   text-align: center !important;
   font-family: "Outfit", sans-serif !important;
