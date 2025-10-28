@@ -51,10 +51,8 @@
 @media (min-width: 1024px) {
   .modals .row {
     grid-template-columns: 1fr 1fr;
-  }
-  .modals .row .col-3 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 .modals .col-3 .component-class-richtext h5, .modals .col-3 .component-class-richtext p {
