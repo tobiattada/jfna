@@ -30,6 +30,10 @@
   right: 12px;
 }
 
+.inspo-block .text-side p, .inspo-block .text-side h3, .inspo-block .text-side h4, .inspo-block .text-side h5, .inspo-block .text-side h6, .inspo-block .text-side p.large {
+  text-align: right;
+}
+
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown {
     left: auto;
