@@ -7,12 +7,12 @@
     opacity: 1;
   }
 }
-.nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large {
+.nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large, a, p a {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   direction: rtl !important;
   text-align: right;
 }
-.nav-menu .nav-item a.eng, h1.eng, h2.eng, h3.eng, h4.eng, h5.eng, h6.eng, p.eng, p.large.eng {
+.nav-menu .nav-item a.eng, h1.eng, h2.eng, h3.eng, h4.eng, h5.eng, h6.eng, p.eng, p.large.eng, a.eng, p a.eng {
   font-family: "Outfit", sans-serif !important;
   direction: ltr !important;
 }
@@ -61,6 +61,10 @@
 .modals .col-3 .component-class-richtext h5, .modals .col-3 .component-class-richtext p {
   text-align: center !important;
   font-family: "Outfit", sans-serif !important;
+}
+
+.rich-text .arrow-btn.align-center a::after {
+  transform: rotate(180deg) !important;
 }
 
 .our-focus-item .row .col-12 {
