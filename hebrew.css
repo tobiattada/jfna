@@ -75,3 +75,7 @@
 .white-card.features.features-2 .row {
   display: flex;
 }
+
+footer.page-footer .footer-wrapper .footer-navigation h4 {
+  text-align: left;
+}
