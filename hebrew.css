@@ -79,3 +79,13 @@
 footer.page-footer .footer-wrapper .footer-navigation h4 {
   text-align: left;
 }
+
+.home-boxes .box .body-item {
+  right: 0;
+}
+.home-boxes .box .body-item .body:after {
+  margin-right: 0;
+  margin-left: auto;
+  right: 0px;
+  left: auto;
+}
