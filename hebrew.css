@@ -11,6 +11,13 @@
   display: none;
 }
 
+.navbar__brand {
+  text-align: left;
+}
+.navbar__brand img {
+  width: 75%;
+}
+
 .nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large, a, p a {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   direction: rtl !important;
