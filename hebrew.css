@@ -108,6 +108,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 
 .feature-posts .row {
   display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .feature-posts .row {
+    flex-direction: row;
+  }
 }
 .feature-posts .col-6 {
   width: 100%;
