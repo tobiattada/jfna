@@ -124,7 +124,9 @@ footer.page-footer .footer-wrapper form#subForm {
 }
 
 .partner-col {
-  column-count: 3;
+  column-count: 1;
+  direction: rtl;
+  /* This reverses the column order */
 }
 @media (min-width: 768px) {
   .partner-col {
