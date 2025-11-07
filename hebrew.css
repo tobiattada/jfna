@@ -122,3 +122,21 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 footer.page-footer .footer-wrapper form#subForm {
   flex-direction: row-reverse;
 }
+
+.partner-col {
+  column-count: 3;
+}
+@media (min-width: 768px) {
+  .partner-col {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .partner-col {
+    column-count: 3;
+  }
+}
+.partner-col p {
+  color: #FDFDFD;
+  padding: 10px;
+}
