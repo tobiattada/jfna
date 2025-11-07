@@ -138,7 +138,7 @@ footer.page-footer .footer-wrapper form#subForm {
     column-count: 3;
   }
 }
-.partner-col p {
+.partner-col p, .partner-col p.large {
   padding: 5px 30px;
   color: white !important;
 }
