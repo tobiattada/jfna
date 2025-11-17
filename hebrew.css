@@ -153,5 +153,5 @@ form input {
 }
 
 div.timeline > div h4, div.timeline > div p {
-  text-align: right;
+  text-align: right !important;
 }
