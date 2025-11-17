@@ -116,10 +116,6 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     flex-direction: row;
   }
 }
-.feature-posts .col-6 {
-  width: 100%;
-}
-
 @media (min-width: 1024px) {
   footer.page-footer .footer-wrapper form#subForm {
     flex-direction: row-reverse;
