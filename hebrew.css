@@ -123,6 +123,15 @@ footer.page-footer .footer-wrapper form#subForm {
   flex-direction: row-reverse;
 }
 
+footer.page-footer .footer-wrapper form#subForm button {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+form input {
+  direction: rtl !important;
+}
+
 .partner-col {
   column-count: 1;
   direction: rtl;
@@ -141,4 +150,8 @@ footer.page-footer .footer-wrapper form#subForm {
 .partner-col p, .partner-col p.large {
   padding: 5px 30px;
   color: white !important;
+}
+
+div.timeline > div h4, div.timeline > div p {
+  text-align: right;
 }
