@@ -120,8 +120,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   width: 100%;
 }
 
-footer.page-footer .footer-wrapper form#subForm {
-  flex-direction: row-reverse;
+@media (min-width: 1024px) {
+  footer.page-footer .footer-wrapper form#subForm {
+    flex-direction: row-reverse;
+  }
 }
 
 footer.page-footer .footer-wrapper form#subForm button {
