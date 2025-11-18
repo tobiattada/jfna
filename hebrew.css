@@ -191,3 +191,12 @@ div.timeline > div h4, div.timeline > div p {
 footer.page-footer .footer-wrapper ul.social-links {
   direction: rtl;
 }
+
+.footer-navigation .flex-container > .flex-item .flex-item, .footer-navigation .flex-container > .flex-item {
+  direction: rtl;
+}
+@media (min-width: 1024px) {
+  .footer-navigation .flex-container > .flex-item .flex-item, .footer-navigation .flex-container > .flex-item {
+    direction: ltr;
+  }
+}
