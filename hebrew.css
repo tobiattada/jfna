@@ -206,6 +206,6 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 }
 @media (min-width: 1024px) {
   footer.page-footer .footer-wrapper .footer-navigation h4 {
-    direction: left;
+    text-align: left;
   }
 }
