@@ -200,3 +200,12 @@ footer.page-footer .footer-wrapper ul.social-links {
     direction: ltr;
   }
 }
+
+footer.page-footer .footer-wrapper .footer-navigation h4 {
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  footer.page-footer .footer-wrapper .footer-navigation h4 {
+    direction: left;
+  }
+}
