@@ -33,13 +33,14 @@
   justify-content: flex-end;
   gap: 30px;
   text-align: right;
+  padding: 25% 20px;
 }
 .nav-menu.open .search-input {
   right: 0px;
   left: auto;
 }
 .nav-menu.open .search-container button.search-toggle {
-  left: 47px;
+  left: 77px;
 }
 
 .promo-title {
