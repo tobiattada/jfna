@@ -28,6 +28,13 @@
   direction: ltr !important;
 }
 
+.nav-menu.open {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 30px;
+  text-align: right;
+}
+
 .promo-title {
   text-align: right;
 }
