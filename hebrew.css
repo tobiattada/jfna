@@ -45,6 +45,15 @@
   text-align: right;
 }
 
+.inspo-block.gray .image-side {
+  max-height: 200px;
+}
+@media (min-width: 1024px) {
+  .inspo-block.gray .image-side {
+    max-height: none;
+  }
+}
+
 @media (min-width: 1024px) {
   .nav-menu .nav-item.has-dropdown .dropdown {
     left: auto;
