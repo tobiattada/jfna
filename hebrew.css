@@ -178,3 +178,9 @@ form input {
 div.timeline > div h4, div.timeline > div p {
   text-align: right !important;
 }
+
+.page-footer .footer-section > .footer-column {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
