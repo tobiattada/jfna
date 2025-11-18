@@ -34,6 +34,10 @@
   gap: 30px;
   text-align: right;
 }
+.nav-menu.open .search-input {
+  right: 0px;
+  left: auto;
+}
 
 .promo-title {
   text-align: right;
