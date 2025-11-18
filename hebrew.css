@@ -116,6 +116,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   text-align: left;
 }
 
+footer.page-footer .footer-row.row-has-code .footer-section {
+  justify-content: center;
+}
+
 .home-boxes .box .body-item {
   right: 0;
 }
