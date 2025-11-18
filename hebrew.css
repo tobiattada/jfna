@@ -78,6 +78,7 @@
 }
 .modal-content #modal-body .col-3 .component-class-richtext .rich-text h5 {
   text-align: right !important;
+  margin-left: auto;
 }
 
 .rich-text .arrow-btn.align-center a::after {
