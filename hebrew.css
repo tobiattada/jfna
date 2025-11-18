@@ -76,7 +76,7 @@
     grid-template-areas: "title image" "bio bio";
   }
 }
-.modal-content #modal-body .component-class-richtext .rich-text h5 {
+.modal-content #modal-body .col-3 .component-class-richtext .rich-text h5 {
   text-align: right !important;
 }
 
