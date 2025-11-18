@@ -69,7 +69,6 @@
 }
 .modals .col-3 .component-class-richtext h5, .modals .col-3 .component-class-richtext p {
   text-align: center !important;
-  font-family: "Outfit", sans-serif !important;
 }
 
 .rich-text .arrow-btn.align-center a::after {
