@@ -225,3 +225,30 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     text-align: left;
   }
 }
+
+@media (min-width: 1024px) {
+  .page.page-main div.timeline > div:nth-child(odd) {
+    border-right: 0px solid #1E3EAF;
+    margin-right: 0px;
+    border-left: 2px solid #1E3EAF;
+    margin-left: auto;
+    right: 0px;
+    left: -1px;
+    position: relative;
+  }
+  .page.page-main div.timeline > div:nth-child(odd):not(:first-child):nth-child(odd) {
+    margin-top: -13%;
+  }
+}
+@media (min-width: 1024px) {
+  .page.page-main div.timeline > div:nth-child(even) {
+    border-left: 0px solid #1E3EAF;
+    margin-left: 0px;
+    margin-top: -13%;
+    left: 0px;
+    border-right: 2px solid #1E3EAF;
+    margin-right: auto;
+    right: -1px;
+    position: relative;
+  }
+}
