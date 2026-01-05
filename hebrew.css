@@ -264,3 +264,26 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .modal-content #modal-body .component-class-richtext .rich-text {
   align-items: flex-end;
 }
+
+.modal-content .close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 13%;
+  right: 14%;
+}
+@media (min-width: 768px) {
+  .modal-content .close {
+    top: 13%;
+    right: 10%;
+  }
+}
+@media (min-width: 1024px) {
+  .modal-content .close {
+    top: 13%;
+    right: 10%;
+  }
+}
