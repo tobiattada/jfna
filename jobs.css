@@ -575,7 +575,7 @@ h5.section-header-right {
   margin-left: 0;
 }
 
-.bg-navy-blue h4.section-header-center {
+.bg-navy-blue h4.section-header-center, .bg-navy-blue h4.section-header {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
@@ -1966,52 +1966,52 @@ section.page-main .shell > .row {
     padding: 60px 10%;
   }
 }
-section.page-main .shell > .row:nth-child(2) form.career-center {
+section.page-main .shell > .row form.career-center {
   width: 100%;
   position: relative;
   box-sizing: border-box;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) form.career-center {
+  section.page-main .shell > .row form.career-center {
     border-right: 1px solid #c9c9c9;
     padding-right: 20px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 {
+section.page-main .shell > .row .col-8 {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "filter" "positions" "paging";
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 {
+  section.page-main .shell > .row .col-8 {
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "filter positions" ". paging";
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .positions {
+section.page-main .shell > .row .col-8 .positions {
   grid-area: positions;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 nav.paging {
+section.page-main .shell > .row .col-8 nav.paging {
   grid-area: paging;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 nav.paging ul.right {
+section.page-main .shell > .row .col-8 nav.paging ul.right {
   float: left;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+section.page-main .shell > .row .col-8 .section-template-items {
   grid-area: filter;
   margin-right: 40px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 {
   grid-template-columns: 1fr !important;
   gap: 0px;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 {
+  section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 {
     gap: 20px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -2033,7 +2033,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\
   color: #FDFDFD !important;
   border: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button span, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button p {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button span, section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -2042,23 +2042,23 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\
   color: #FDFDFD;
   transition: 0.3s;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button span:hover, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button p:hover {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button span:hover, section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button p:hover {
   transition: 0.3s;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button a, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button span {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button a, section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button span {
   color: #FDFDFD !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:hover {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:hover {
   background: #1c88ed;
   color: #F5F5F5 !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:hover a, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:hover span {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:hover a, section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:hover span {
   color: #F5F5F5 !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:active {
+section.page-main .shell > .row .col-8 .section-template-items .xl\:grid-cols-12 .search .submit-button:active {
   background: #27277C;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .grid input[name=keyword] {
+section.page-main .shell > .row .col-8 .section-template-items .grid input[name=keyword] {
   padding: 10px 20px 10px 40px;
   border-radius: 24px;
   border: 2px solid #c9c9c9;
@@ -2072,50 +2072,50 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .gri
   margin-bottom: 40px;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .grid input[name=keyword] {
+  section.page-main .shell > .row .col-8 .section-template-items .grid input[name=keyword] {
     font-size: 20px;
     line-height: 26px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .grid input[name=keyword].hebrew {
+section.page-main .shell > .row .col-8 .section-template-items .grid input[name=keyword].hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .search-icon {
+section.page-main .shell > .row .col-8 .section-template-items .search-icon {
   position: absolute;
   left: 10px;
   top: 14px;
   z-index: 20;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 {
+section.page-main .shell > .row .col-8 .section-template-items .col-span-2 {
   grid-column: auto;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2:first-child {
+section.page-main .shell > .row .col-8 .section-template-items .col-span-2:first-child {
   border-bottom: 1px solid #c9c9c9;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2:last-child {
+section.page-main .shell > .row .col-8 .section-template-items .col-span-2:last-child {
   display: flex;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 .select-wrapper {
+section.page-main .shell > .row .col-8 .section-template-items .col-span-2 .select-wrapper {
   display: block;
   height: auto !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 .select-wrapper > p {
+section.page-main .shell > .row .col-8 .section-template-items .col-span-2 .select-wrapper > p {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .col-span-2 .chzn-container-active .chzn-drop {
+section.page-main .shell > .row .col-8 .section-template-items .col-span-2 .chzn-container-active .chzn-drop {
   position: relative;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container-active .chzn-drop {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container-active .chzn-drop {
   position: relative;
   border-bottom: 1px solid #c9c9c9;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container-active .chzn-single {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container-active .chzn-single {
   border-bottom: 0px solid #c9c9c9 !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
+section.page-main .shell > .row .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
   background: transparent;
   box-shadow: none;
   border-bottom: 1px solid #c9c9c9;
@@ -2124,16 +2124,16 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sel
   height: 50px !important;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
+  section.page-main .shell > .row .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
     height: 50px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
+  section.page-main .shell > .row .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single {
     height: 50px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single span {
+section.page-main .shell > .row .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single span {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -2142,12 +2142,12 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sel
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single span {
+  section.page-main .shell > .row .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single span {
     font-size: 16px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single::after {
+section.page-main .shell > .row .col-8 .section-template-items .select-wrapper .chzn-container-single .chzn-single::after {
   position: absolute;
   content: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%206L6%200L12%206L10.6%207.4L6%202.8L1.4%207.4L0%206Z%22%20fill%3D%22black%22/%3E%3C/svg%3E");
   top: 0;
@@ -2159,7 +2159,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sel
   transform-origin: center center;
   /* Default */
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop {
   background: transparent;
   box-shadow: none;
   border: 0px;
@@ -2167,17 +2167,17 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chz
   border-bottom: 1px solid #c9c9c9;
   width: 100%;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .buttons {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop .buttons {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop .checklist {
   max-height: 200px;
   overflow: scroll;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist .custom-checkbox {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop .checklist .custom-checkbox {
   border-radius: 100%;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -2186,12 +2186,12 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chz
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
+  section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop ul li label span {
     font-size: 16px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist-field .button.small input {
+section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop .checklist-field .button.small input {
   background: transparent;
   font-family: "Outfit", sans-serif;
   font-weight: 600;
@@ -2201,12 +2201,12 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chz
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .chzn-container .chzn-drop .checklist-field .button.small input {
+  section.page-main .shell > .row .col-8 .section-template-items .chzn-container .chzn-drop .checklist-field .button.small input {
     font-size: 16px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .reset-search {
+section.page-main .shell > .row .col-8 .section-template-items .reset-search {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -2220,18 +2220,18 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .res
   align-items: center;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .reset-search {
+  section.page-main .shell > .row .col-8 .section-template-items .reset-search {
     font-size: 15px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .reset-search.hebrew {
+section.page-main .shell > .row .col-8 .section-template-items .reset-search.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -2254,7 +2254,7 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sub
   border: none;
   margin-right: 20px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button p {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button span, section.page-main .shell > .row .col-8 .section-template-items .submit-button p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -2263,23 +2263,23 @@ section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .sub
   color: #FDFDFD;
   transition: 0.3s;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span:hover, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button p:hover {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button span:hover, section.page-main .shell > .row .col-8 .section-template-items .submit-button p:hover {
   transition: 0.3s;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button a, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button span {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button a, section.page-main .shell > .row .col-8 .section-template-items .submit-button span {
   color: #FDFDFD !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:hover {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button:hover {
   background: #1c88ed;
   color: #F5F5F5 !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:hover a, section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:hover span {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button:hover a, section.page-main .shell > .row .col-8 .section-template-items .submit-button:hover span {
   color: #F5F5F5 !important;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items .submit-button:active {
+section.page-main .shell > .row .col-8 .section-template-items .submit-button:active {
   background: #27277C;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 {
+section.page-main .shell > .row .col-3 {
   order: 1;
   box-sizing: border-box;
   padding: 30px 20px;
@@ -2288,37 +2288,37 @@ section.page-main .shell > .row:nth-child(2) .col-3 {
   width: 100%;
 }
 @media (min-width: 768px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 60px 10%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget:last-child {
+section.page-main .shell > .row .col-3 .widget:last-child {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget {
+section.page-main .shell > .row .col-3 .widget {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers {
+section.page-main .shell > .row .col-3 .widget .headers {
   margin-bottom: 0px;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
+section.page-main .shell > .row .col-3 .widget .headers li a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -2328,21 +2328,21 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
   font-weight: 600;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
+  section.page-main .shell > .row .col-3 .widget .headers li a {
     font-size: 20px;
     line-height: 26px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a.hebrew {
+section.page-main .shell > .row .col-3 .widget .headers li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a i {
+section.page-main .shell > .row .col-3 .widget .headers li a i {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
+section.page-main .shell > .row .col-3 .widget ul.tags li a {
   background: #F5F5F5;
   padding: 10px 25px;
   border: 1px solid #c9c9c9;
@@ -2355,12 +2355,12 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
+  section.page-main .shell > .row .col-3 .widget ul.tags li a {
     font-size: 16px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
+section.page-main .shell > .row .col-3 .widget ul.tags li a .num {
   display: none;
 }
 

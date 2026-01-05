@@ -668,7 +668,7 @@ h5.section-header-right {
   margin-left: 0;
 }
 
-.bg-navy-blue h4.section-header-center {
+.bg-navy-blue h4.section-header-center, .bg-navy-blue h4.section-header {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;

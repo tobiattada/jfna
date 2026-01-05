@@ -575,7 +575,7 @@ h5.section-header-right {
   margin-left: 0;
 }
 
-.bg-navy-blue h4.section-header-center {
+.bg-navy-blue h4.section-header-center, .bg-navy-blue h4.section-header {
   display: table;
   padding-bottom: 10px;
   margin-left: 0;
@@ -1962,14 +1962,14 @@ section.page-main .shell > .row section, section.page-main .shell > .row aside {
     padding: 60px 10%;
   }
 }
-section.page-main .shell > .row:nth-child(3) {
+section.page-main .shell > .row {
   display: grid;
   padding-top: 0px !important;
 }
-section.page-main .shell > .row:nth-child(3) .col-7 {
+section.page-main .shell > .row .col-7 {
   order: 2;
 }
-section.page-main .shell > .row:nth-child(3) .col-3 {
+section.page-main .shell > .row .col-3 {
   order: 1;
 }
 section.page-main aside {
