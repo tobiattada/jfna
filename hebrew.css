@@ -252,3 +252,15 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     position: relative;
   }
 }
+
+.modal-content #modal-body {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .modal-content #modal-body {
+    grid-template-columns: 1fr auto;
+  }
+}
+.modal-content #modal-body .component-class-richtext .rich-text {
+  align-items: flex-end;
+}
