@@ -139,6 +139,9 @@ footer.page-footer .footer-row.row-has-code .footer-section {
   justify-content: center;
 }
 
+.home-boxes .box {
+  max-width: none;
+}
 .home-boxes .box .body-item {
   right: 0;
 }
