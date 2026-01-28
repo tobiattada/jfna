@@ -131,6 +131,10 @@
   display: flex;
 }
 
+.white-card.features.features-2 .row .page-column {
+  width: auto;
+}
+
 footer.page-footer .footer-wrapper .footer-navigation h4 {
   text-align: left;
 }
