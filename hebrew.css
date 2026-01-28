@@ -272,6 +272,10 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   align-items: flex-end;
 }
 
+.modal-content #modal-body .component-image {
+  margin-left: auto;
+}
+
 .modal-content .close {
   position: absolute;
   top: 15px;
