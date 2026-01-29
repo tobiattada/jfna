@@ -111,10 +111,21 @@
 
 .rich-text .arrow-btn.align-center a::after {
   transform: rotate(180deg) !important;
+  right: 0px;
+}
+@media (min-width: 768px) {
+  .rich-text .arrow-btn.align-center a::after {
+    right: 12px;
+  }
 }
 
 .rich-text .email-btn.align-center a::after {
   transform: scaleX(-1) !important;
+}
+@media (min-width: 768px) {
+  .rich-text .email-btn.align-center a::after {
+    right: 12px;
+  }
 }
 
 @media (min-width: 1024px) {
