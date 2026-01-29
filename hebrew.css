@@ -39,6 +39,24 @@
   }
 }
 
+@media (min-width: 768px) {
+  .menu-trigger {
+    position: absolute;
+    top: 23px;
+    right: 13px;
+    width: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .menu-trigger {
+    position: absolute;
+    top: 21px;
+    right: 51px;
+    width: 40px;
+    height: 35px;
+  }
+}
+
 .nav-menu.open {
   flex-direction: column-reverse;
   justify-content: flex-end;
