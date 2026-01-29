@@ -207,6 +207,10 @@ footer.page-footer .footer-row.row-has-code .footer-section {
   transform: rotate(180deg);
 }
 
+.no-text .home-boxes .box .body-item .body .text {
+  line-height: 0px;
+}
+
 .home-boxes .box .body-item .body .text {
   min-height: 0px !important;
 }
@@ -220,10 +224,6 @@ footer.page-footer .footer-row.row-has-code .footer-section {
     flex-direction: row;
     justify-content: center;
   }
-}
-.bg-navy-blue.feature-posts .component-feature .home-boxes .box {
-  margin: 0px 20px;
-  border: 1px solid #1E3EAF;
 }
 .bg-navy-blue.feature-posts .component-feature .home-boxes .box .image img {
   height: auto;
