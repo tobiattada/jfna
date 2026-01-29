@@ -298,3 +298,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     right: 10%;
   }
 }
+
+.basic.basic-3-col .row .col-4 {
+  box-sizing: border-box;
+}
