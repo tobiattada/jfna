@@ -207,6 +207,10 @@ footer.page-footer .footer-row.row-has-code .footer-section {
   transform: rotate(180deg);
 }
 
+.home-boxes .box .body-item .body .text {
+  min-height: 0px !important;
+}
+
 .feature-posts .row {
   display: flex;
   flex-direction: column;
