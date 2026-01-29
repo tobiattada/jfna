@@ -207,7 +207,7 @@ footer.page-footer .footer-row.row-has-code .footer-section {
   transform: rotate(180deg);
 }
 
-.no-text .component-feature .box .body .text p {
+.no-text .component-feature .box .body .text p, .no-text .home-boxes .box .body-item .body .text p {
   line-height: 0px;
 }
 
