@@ -74,6 +74,20 @@
 .nav-menu.open .search-container button.search-toggle {
   left: 10px;
 }
+@media (min-width: 1024px) {
+  .nav-menu.open .search-input {
+    width: 100%;
+    opacity: 1;
+    padding: 8px 10px 8px 40px;
+    transition: width 0.3s ease;
+    border: 2px solid #1E3EAF;
+    border-radius: 100px;
+    z-index: 10000;
+    position: absolute;
+    right: 0px;
+    left: auto;
+  }
+}
 
 .promo-title {
   text-align: right;
