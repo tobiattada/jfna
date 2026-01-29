@@ -33,6 +33,12 @@
   direction: ltr !important;
 }
 
+@media (min-width: 768px) {
+  .nav-menu.open .nav-item {
+    width: 75%;
+  }
+}
+
 .nav-menu.open {
   flex-direction: column-reverse;
   justify-content: flex-end;
