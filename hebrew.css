@@ -215,6 +215,11 @@ div.timeline > div h4, div.timeline > div p {
   text-align: right !important;
 }
 
+.timeline {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .page-footer .footer-section > .footer-column {
   margin-left: 0;
   margin-right: 0;
