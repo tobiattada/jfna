@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&family=Outfit:wght@100..900&display=swap");
 @keyframes fadeInAnimation {
   0% {
@@ -272,6 +273,22 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 
+/* 🔑 THIS must NOT scroll */
+.modal-content {
+  position: relative;
+  max-height: 80vh;
+  /* limit modal height */
+  padding-top: 50px;
+  /* space for close button */
+  overflow: hidden;
+}
+
+/* 🔑 THIS is the ONLY thing that scrolls */
+#modal-body {
+  max-height: calc(80vh - 50px);
+  overflow-y: auto;
+}
+
 .modal-content #modal-body {
   grid-template-columns: 1fr;
 }
@@ -290,24 +307,21 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 
 .modal-content .close {
   position: absolute;
-  top: 15px;
-  right: 20px;
   font-size: 30px;
   cursor: pointer;
-  position: fixed;
-  top: 13%;
-  right: 14%;
+  top: 20px;
+  left: 20px;
 }
 @media (min-width: 768px) {
   .modal-content .close {
-    top: 13%;
-    right: 10%;
+    top: 20px;
+    left: 20px;
   }
 }
 @media (min-width: 1024px) {
   .modal-content .close {
-    top: 13%;
-    right: 10%;
+    top: 20px;
+    left: 20px;
   }
 }
 
