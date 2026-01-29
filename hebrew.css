@@ -340,3 +340,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     display: inline;
   }
 }
+
+.our-focus-item .row .col-12 .component-container:first-child {
+  order: 0;
+}
+@media (min-width: 768px) {
+  .our-focus-item .row .col-12 .component-container:first-child {
+    order: 1;
+  }
+}
