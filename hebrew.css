@@ -215,6 +215,16 @@ div.timeline > div h4, div.timeline > div p {
   text-align: right !important;
 }
 
+div.timeline > div > div {
+  height: auto !important;
+  aspect-ratio: 4/2;
+}
+div.timeline > div > div img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
 .timeline {
   max-width: 1200px;
   margin: 0 auto;
