@@ -121,6 +121,7 @@
 
 .rich-text .email-btn.align-center a::after {
   transform: scaleX(-1) !important;
+  right: 0px;
 }
 @media (min-width: 768px) {
   .rich-text .email-btn.align-center a::after {
