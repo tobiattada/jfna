@@ -302,3 +302,6 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 .basic.basic-3-col .row .col-4 {
   box-sizing: border-box;
 }
+.basic.basic-3-col .row .col-4.item-count-0 {
+  display: none;
+}
