@@ -359,3 +359,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     order: 1;
   }
 }
+
+.component-promo .desktop-image {
+  display: inline-block;
+}
