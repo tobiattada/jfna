@@ -43,9 +43,12 @@
 .nav-menu.open .search-input {
   right: 0px;
   left: auto;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
 }
 .nav-menu.open .search-container button.search-toggle {
-  left: 77px;
+  left: 10px;
 }
 
 .promo-title {
