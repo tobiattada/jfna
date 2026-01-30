@@ -427,3 +427,9 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
     order: 1;
   }
 }
+
+@media (min-width: 1024px) {
+  .component-promo .desktop-image {
+    display: inline-block;
+  }
+}
