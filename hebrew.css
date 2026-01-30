@@ -39,6 +39,12 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .nav-menu {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
 @media (min-width: 768px) {
   .menu-trigger {
     position: absolute;
