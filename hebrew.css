@@ -74,6 +74,11 @@
   text-align: right;
   padding: 25% 20px;
 }
+@media (min-width: 768px) {
+  .nav-menu.open .has-dropdown .dropdown {
+    display: contents;
+  }
+}
 .nav-menu.open .search-input {
   right: 0px;
   left: auto;
