@@ -44,6 +44,10 @@
     width: 100%;
     justify-content: flex-end;
   }
+
+  .navbar__container {
+    flex-wrap: nowrap;
+  }
 }
 @media (min-width: 768px) {
   .menu-trigger {
