@@ -207,7 +207,7 @@ footer.page-footer .footer-row.row-has-code .footer-section {
   transform: rotate(180deg);
 }
 
-.no-text .component-feature .box .body .text p, .no-text .home-boxes .box .body-item .body .text p {
+.no-text .component-feature .box .body .text p, .no-text .home-boxes .box .body-item .body .text {
   line-height: 0px;
 }
 
@@ -426,8 +426,4 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   .our-focus-item .row .col-12 .component-container:first-child {
     order: 1;
   }
-}
-
-.component-promo .desktop-image {
-  display: inline-block;
 }
