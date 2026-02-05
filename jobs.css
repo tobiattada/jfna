@@ -3197,9 +3197,9 @@ section.page-main .shell.jobs-home-header .row {
   gap: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: #1E3EAF;
-  color: #FDFDFD !important;
-  border: none;
+  background: transparent;
+  color: #1E3EAF !important;
+  border: 3px solid #1E3EAF;
 }
 .job-submit a.cta-btn span, .job-submit a.cta-btn p {
   font-family: "Outfit", sans-serif;
@@ -3207,21 +3207,21 @@ section.page-main .shell.jobs-home-header .row {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #FDFDFD;
+  color: #1E3EAF;
   transition: 0.3s;
 }
 .job-submit a.cta-btn span:hover, .job-submit a.cta-btn p:hover {
   transition: 0.3s;
 }
 .job-submit a.cta-btn a, .job-submit a.cta-btn span {
-  color: #FDFDFD !important;
+  color: #1E3EAF !important;
 }
 .job-submit a.cta-btn:hover {
-  background: #1c88ed;
-  color: #F5F5F5 !important;
+  color: #1c88ed !important;
+  border: 3px solid #1c88ed;
 }
 .job-submit a.cta-btn:hover a, .job-submit a.cta-btn:hover span {
-  color: #F5F5F5 !important;
+  color: #1c88ed !important;
 }
 .job-submit a.cta-btn:active {
   background: #27277C;
