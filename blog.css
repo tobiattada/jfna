@@ -2951,6 +2951,11 @@ nav.post-nav {
 .tag-page .news .entry .row .col-5 .arrow-btn {
   margin-top: 20px;
 }
+.tag-page .shell > .row .col-3 .widget {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
 section.page-main .shell.home-blog-nav .row {
   padding: 0px !important;
