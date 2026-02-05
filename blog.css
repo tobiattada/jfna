@@ -2411,7 +2411,8 @@ section.page-main .row header.page-title {
   padding: 30px 20px;
   margin-bottom: 30px;
   padding-bottom: 0px !important;
-  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 @media (min-width: 768px) {
   section.page-main .row header.page-title {
@@ -2843,7 +2844,7 @@ nav.post-nav {
 }
 
 .tag-page section.page-main .shell {
-  margin-top: 50px !important;
+  margin-top: 50px;
 }
 .tag-page .navbar {
   position: absolute;
