@@ -3457,40 +3457,40 @@ section.page-main.calendar-event .section-template-rows .row .navbar {
   width: 100%;
   left: 0;
 }
-section.page-main.calendar-event .shell .row:first-of-type {
+section.page-main.calendar-event .shell:first-of-type .row {
   background: #1E3EAF;
   margin-top: 70px;
 }
-section.page-main.calendar-event .shell .row:first-of-type > section.col-12 {
+section.page-main.calendar-event .shell:first-of-type .row > section.col-12 {
   padding: 0px;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title {
   display: flex;
   box-sizing: border-box;
   padding: 30px 20px;
   flex-direction: column-reverse;
 }
 @media (min-width: 768px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title {
     padding: 60px 10%;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title h2 {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -3499,24 +3499,24 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title h2 
   color: #FDFDFD;
   padding-left: 0;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title h2.hebrew {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title h2 {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title h2 {
     font-size: 45px;
     line-height: 58.5px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title h2 {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title h2 {
     line-height: 150%;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title h6 {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title h6 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -3526,34 +3526,34 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title h6 
   margin-bottom: 20px;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title h6 {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title h6 {
     font-size: 24px;
     line-height: 32px;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title h6.hebrew {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title h6.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title h6 {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title h6 {
     margin-bottom: 30px;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date {
   position: relative;
   display: flex;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .date-box, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .date-box p {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .date-box, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .date-box p {
   display: flex;
   background: none;
   padding: 0px;
   width: auto;
   border: 0px solid white;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .month, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .day, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .year {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -3566,18 +3566,18 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
   padding-right: 6px;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .month, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .day, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .year {
     font-size: 20px;
     line-height: 26px;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month.hebrew, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day.hebrew, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year.hebrew {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .month.hebrew, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .day.hebrew, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .year.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month span, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day span, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year span {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .month span, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .day span, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .year span {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -3586,21 +3586,21 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
   color: #FDFDFD;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month span, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day span, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year span {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .month span, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .day span, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .year span {
     font-size: 20px;
     line-height: 26px;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .month span.hebrew, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .day span.hebrew, section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date .year span.hebrew {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .month span.hebrew, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .day span.hebrew, section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date .year span.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date.-multi-day {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date.-multi-day {
   display: flex;
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date > span {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date > span {
   color: #FDFDFD;
   margin: 0 10px;
   font-family: "Outfit", sans-serif;
@@ -3611,36 +3611,36 @@ section.page-main.calendar-event .shell .row:first-of-type header.page-title .ev
   color: #FDFDFD;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date > span {
+  section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date > span {
     font-size: 20px;
     line-height: 26px;
   }
 }
-section.page-main.calendar-event .shell .row:first-of-type header.page-title .event-date > span.hebrew {
+section.page-main.calendar-event .shell:first-of-type .row header.page-title .event-date > span.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) {
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 768px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) {
     flex-direction: row;
   }
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .col-8 {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-8 {
   flex: 3;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .col-8 .section-template-items {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-8 .section-template-items {
   padding: 0px;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .col-8 .section-template-items .back-btn {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-8 .section-template-items .back-btn {
   padding: 50px 0px;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-3 {
   flex: 1;
   box-sizing: border-box;
   padding: 30px 20px;
@@ -3649,53 +3649,53 @@ section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
   border-top: 1px solid #c9c9c9;
 }
 @media (min-width: 768px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-3 {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-3 {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-3 {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-3 {
     padding: 60px 10%;
   }
 }
 @media (min-width: 768px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) .col-3 {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .col-3 {
     border-top: 0px;
     border-left: 1px solid #c9c9c9;
     padding-left: 40px !important;
   }
 }
-section.page-main.calendar-event .shell .row:nth-child(2) article.post {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) article.post {
   border-top: 0px;
   width: 90%;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) article.post p {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) article.post p {
   margin-bottom: 0px;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) article.post p a {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) article.post p a {
   color: #1E3EAF;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) article.post p a:hover {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) article.post p a:hover {
   color: #1c88ed;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .event-info {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .event-info {
   border-top: 0px;
   padding-top: 0px;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .event-info .time {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .event-info .time {
   width: auto;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue {
   padding: 12px 24px;
   border-radius: 30px;
   height: auto;
@@ -3718,7 +3718,7 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue 
   border: none;
   display: inline-block;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue span, section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue p {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue span, section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue p {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -3727,26 +3727,26 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue 
   color: #FDFDFD;
   transition: 0.3s;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue span:hover, section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue p:hover {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue span:hover, section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue p:hover {
   transition: 0.3s;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue a, section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue span {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue a, section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue span {
   color: #FDFDFD !important;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue:hover {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue:hover {
   background: #1c88ed;
   color: #F5F5F5 !important;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue:hover a, section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue:hover span {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue:hover a, section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue:hover span {
   color: #F5F5F5 !important;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .cta-btn.blue:active {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .cta-btn.blue:active {
   background: #27277C;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .headers {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .headers {
   display: grid;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .headers li a {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .headers li a {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -3756,18 +3756,18 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .headers li a 
   margin-top: 3px;
 }
 @media (min-width: 1024px) {
-  section.page-main.calendar-event .shell .row:nth-child(2) .widget .headers li a {
+  section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .headers li a {
     font-size: 15px;
     line-height: 150%;
   }
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .headers li a.hebrew {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .headers li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main.calendar-event .shell .row:nth-child(2) .widget .calendar-placeholder {
+section.page-main.calendar-event .shell:first-of-type .row:nth-child(2) .widget .calendar-placeholder {
   display: none;
 }
 
