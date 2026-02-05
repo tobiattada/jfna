@@ -3178,3 +3178,51 @@ section.page-main .shell.jobs-home-nav .row {
 section.page-main .shell.jobs-home-header .row {
   padding: 0px;
 }
+
+.job-submit a.cta-btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  height: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  display: inline-block;
+  margin-right: auto;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #1E3EAF;
+  color: #FDFDFD !important;
+  border: none;
+}
+.job-submit a.cta-btn span, .job-submit a.cta-btn p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FDFDFD;
+  transition: 0.3s;
+}
+.job-submit a.cta-btn span:hover, .job-submit a.cta-btn p:hover {
+  transition: 0.3s;
+}
+.job-submit a.cta-btn a, .job-submit a.cta-btn span {
+  color: #FDFDFD !important;
+}
+.job-submit a.cta-btn:hover {
+  background: #1c88ed;
+  color: #F5F5F5 !important;
+}
+.job-submit a.cta-btn:hover a, .job-submit a.cta-btn:hover span {
+  color: #F5F5F5 !important;
+}
+.job-submit a.cta-btn:active {
+  background: #27277C;
+}
