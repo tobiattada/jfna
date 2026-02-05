@@ -3771,6 +3771,6 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .calendar-plac
   display: none;
 }
 
-.event-home-nav .row {
+section.page-main .shell.event-home-nav .row {
   padding: 0px;
 }
