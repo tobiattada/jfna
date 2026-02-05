@@ -2950,3 +2950,10 @@ nav.post-nav {
 .tag-page .news .entry .row .col-5 .arrow-btn {
   margin-top: 20px;
 }
+
+.home-blog-nav .row {
+  padding: 0px;
+}
+.home-blog-nav .row .col-12 {
+  padding: 0px;
+}
