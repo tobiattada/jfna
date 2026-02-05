@@ -3784,3 +3784,10 @@ section.page-main .shell.event-home-header .row {
 section.page-main .shell.event-home-header .row .col-12 {
   padding: 0px;
 }
+
+section.page-main .calendar-top .shell .row {
+  padding: 0px;
+}
+section.page-main .calendar-top .shell .row .col-7 {
+  padding: 0px;
+}
