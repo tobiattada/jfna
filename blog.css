@@ -2690,6 +2690,7 @@ section.page-main .shell > .row .col-3 .widget {
   align-items: baseline;
   border-bottom: 1px solid #ECECEC;
   padding-bottom: 50px;
+  margin-bottom: 50px;
   flex-direction: column;
   gap: 20px;
 }
