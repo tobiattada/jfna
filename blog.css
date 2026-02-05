@@ -2841,7 +2841,7 @@ nav.post-nav {
   margin: 50px 0;
 }
 
-.tag-page .page-title a {
+.tag-page .page-title p.back {
   margin-top: 70px;
 }
 .tag-page .navbar {
