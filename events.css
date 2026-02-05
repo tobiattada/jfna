@@ -3770,3 +3770,7 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .headers li a.
 section.page-main.calendar-event .shell .row:nth-child(2) .widget .calendar-placeholder {
   display: none;
 }
+
+.event-home-nav .row {
+  padding: 0px;
+}
