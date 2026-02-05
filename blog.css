@@ -2951,9 +2951,9 @@ nav.post-nav {
   margin-top: 20px;
 }
 
-.home-blog-nav .row {
-  padding: 0px;
+section.page-main .shell.home-blog-nav .row {
+  padding: 0px !important;
 }
-.home-blog-nav .row .col-12 {
-  padding: 0px;
+section.page-main .shell.home-blog-nav .row .col-12 {
+  padding: 0px !important;
 }
