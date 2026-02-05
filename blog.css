@@ -2409,10 +2409,8 @@ section.page-main .section-template-rows .feature-posts {
 section.page-main .row header.page-title {
   box-sizing: border-box;
   padding: 30px 20px;
-  margin-bottom: 30px;
   padding-bottom: 0px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding-top: 0px !important;
 }
 @media (min-width: 768px) {
   section.page-main .row header.page-title {
