@@ -2843,7 +2843,7 @@ nav.post-nav {
   margin: 50px 0;
 }
 
-.tag-page .page-main.shell {
+.tag-page section.page-main .shell {
   margin-top: 50px;
 }
 .tag-page .navbar {
