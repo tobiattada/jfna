@@ -3774,3 +3774,13 @@ section.page-main.calendar-event .shell .row:nth-child(2) .widget .calendar-plac
 section.page-main .shell.event-home-nav .row {
   padding: 0px;
 }
+section.page-main .shell.event-home-nav .row .col-12 {
+  padding: 0px;
+}
+
+section.page-main .shell.event-home-header .row {
+  padding: 0px;
+}
+section.page-main .shell.event-home-header .row .col-12 {
+  padding: 0px;
+}
