@@ -2957,3 +2957,7 @@ section.page-main .shell.home-blog-nav .row {
 section.page-main .shell.home-blog-nav .row .col-12 {
   padding: 0px !important;
 }
+
+section.page-main .shell.feature-posts .row {
+  padding: 0px !important;
+}
