@@ -3170,3 +3170,7 @@ section.page-main.career-center-listing .section-template-rows .row .navbar {
   width: 100%;
   left: 0;
 }
+
+section.page-main .shell.jobs-home-nav .row {
+  padding: 0px;
+}
