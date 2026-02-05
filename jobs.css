@@ -3174,3 +3174,7 @@ section.page-main.career-center-listing .section-template-rows .row .navbar {
 section.page-main .shell.jobs-home-nav .row {
   padding: 0px;
 }
+
+section.page-main .shell.jobs-home-header .row {
+  padding: 0px;
+}
