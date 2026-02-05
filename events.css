@@ -3786,5 +3786,6 @@ section.page-main .shell.event-home-header .row .col-12 {
 }
 
 section.page-main .calendar-top .shell .row {
+  margin-top: 50px;
   padding: 0px;
 }
