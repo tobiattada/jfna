@@ -2497,28 +2497,28 @@ section.page-main .shell > .row {
     padding: 60px 10%;
   }
 }
-section.page-main .shell > .row:nth-child(2) {
+section.page-main .shell > .row {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 0px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 {
+section.page-main .shell > .row .col-8 {
   order: 2;
   width: 100%;
   padding: 0px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article {
+section.page-main .shell > .row .col-8 article.article {
   margin: 0 auto;
   display: grid;
   gap: 50px;
   width: 65%;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy {
+section.page-main .shell > .row .col-8 article.article .editor-copy {
   max-width: 650px;
   display: grid;
   margin: 0 auto;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span, section.page-main .shell > .row .col-8 article.article .editor-copy p, section.page-main .shell > .row .col-8 article.article .editor-copy ul li {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2527,64 +2527,64 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   color: #2A2A2A;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li {
+  section.page-main .shell > .row .col-8 article.article .editor-copy ul li span, section.page-main .shell > .row .col-8 article.article .editor-copy p, section.page-main .shell > .row .col-8 article.article .editor-copy ul li {
     font-size: 18px;
     line-height: 27px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li b {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span strong, section.page-main .shell > .row .col-8 article.article .editor-copy ul li span em, section.page-main .shell > .row .col-8 article.article .editor-copy ul li span b, section.page-main .shell > .row .col-8 article.article .editor-copy p strong, section.page-main .shell > .row .col-8 article.article .editor-copy p em, section.page-main .shell > .row .col-8 article.article .editor-copy p b, section.page-main .shell > .row .col-8 article.article .editor-copy ul li strong, section.page-main .shell > .row .col-8 article.article .editor-copy ul li em, section.page-main .shell > .row .col-8 article.article .editor-copy ul li b {
   font-weight: 600;
   color: #2A2A2A;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li.hebrew {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy p.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy ul li.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a, section.page-main .shell > .row .col-8 article.article .editor-copy p a, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   letter-spacing: 0%;
   color: #1E3EAF;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a b {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a strong, section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a em, section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a b, section.page-main .shell > .row .col-8 article.article .editor-copy p a strong, section.page-main .shell > .row .col-8 article.article .editor-copy p a em, section.page-main .shell > .row .col-8 article.article .editor-copy p a b, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a strong, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a em, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a b {
   font-weight: 600;
   color: #1E3EAF;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a.hebrew {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy p a.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a:hover, section.page-main .shell > .row .col-8 article.article .editor-copy p a:hover, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a:hover {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   letter-spacing: 0%;
   color: #27277C;
   text-decoration: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover b {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a:hover strong, section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a:hover em, section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a:hover b, section.page-main .shell > .row .col-8 article.article .editor-copy p a:hover strong, section.page-main .shell > .row .col-8 article.article .editor-copy p a:hover em, section.page-main .shell > .row .col-8 article.article .editor-copy p a:hover b, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a:hover strong, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a:hover em, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a:hover b {
   font-weight: 600;
   color: #27277C;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li span a:hover.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy p a:hover.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li a:hover.hebrew {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li span a:hover.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy p a:hover.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy ul li a:hover.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul {
   margin-left: 10px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li {
   margin-bottom: 10px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy ul li::marker {
+section.page-main .shell > .row .col-8 article.article .editor-copy ul li::marker {
   font-size: 10px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child {
+section.page-main .shell > .row .col-8 article.article .editor-copy > p:first-child {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -2592,23 +2592,23 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   letter-spacing: 0%;
   color: #2A2A2A;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child b {
+section.page-main .shell > .row .col-8 article.article .editor-copy > p:first-child strong, section.page-main .shell > .row .col-8 article.article .editor-copy > p:first-child em, section.page-main .shell > .row .col-8 article.article .editor-copy > p:first-child b {
   font-weight: 600;
   color: #1E3EAF;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child {
+  section.page-main .shell > .row .col-8 article.article .editor-copy > p:first-child {
     font-size: 24px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy > p:first-child.hebrew {
+section.page-main .shell > .row .col-8 article.article .editor-copy > p:first-child.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 400;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote {
+section.page-main .shell > .row .col-8 article.article .editor-copy blockquote {
   background: #ECECEC;
   border-left: 5px solid #c9c9c9;
   display: block;
@@ -2616,50 +2616,50 @@ section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy
   border-radius: 0px;
   padding: 15px 21px;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span {
+section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p span {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   letter-spacing: 0%;
   color: #2A2A2A;
   line-height: 120%;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p b, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span strong, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span em, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span b {
+section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p strong, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p em, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p b, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p span strong, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p span em, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p span b {
   font-weight: 600;
   color: #2A2A2A;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p.hebrew, section.page-main .shell > .row:nth-child(2) .col-8 article.article .editor-copy blockquote p span.hebrew {
+section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p.hebrew, section.page-main .shell > .row .col-8 article.article .editor-copy blockquote p span.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+section.page-main .shell > .row .col-8 .section-template-items {
   max-width: 800px;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 30px 20px;
 }
 @media (min-width: 768px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+  section.page-main .shell > .row .col-8 .section-template-items {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+  section.page-main .shell > .row .col-8 .section-template-items {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+  section.page-main .shell > .row .col-8 .section-template-items {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  section.page-main .shell > .row:nth-child(2) .col-8 .section-template-items {
+  section.page-main .shell > .row .col-8 .section-template-items {
     padding: 60px 10%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 {
+section.page-main .shell > .row .col-3 {
   order: 1;
   box-sizing: border-box;
   padding: 30px 20px;
@@ -2668,26 +2668,26 @@ section.page-main .shell > .row:nth-child(2) .col-3 {
   width: 100%;
 }
 @media (min-width: 768px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 {
+  section.page-main .shell > .row .col-3 {
     padding: 60px 10%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget {
+section.page-main .shell > .row .col-3 .widget {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -2697,21 +2697,21 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget {
   gap: 20px;
 }
 @media (min-width: 768px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 .widget {
+  section.page-main .shell > .row .col-3 .widget {
     flex-direction: row;
     align-items: flex-end;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .buttons {
+section.page-main .shell > .row .col-3 .widget .buttons {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers {
+section.page-main .shell > .row .col-3 .widget .headers {
   margin-bottom: 0px;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li {
+section.page-main .shell > .row .col-3 .widget .headers li {
   margin-bottom: 10px;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
+section.page-main .shell > .row .col-3 .widget .headers li a {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -2721,24 +2721,24 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
   font-weight: 600;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a {
+  section.page-main .shell > .row .col-3 .widget .headers li a {
     font-size: 20px;
     line-height: 26px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a.hebrew {
+section.page-main .shell > .row .col-3 .widget .headers li a.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers li a i {
+section.page-main .shell > .row .col-3 .widget .headers li a i {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline {
+section.page-main .shell > .row .col-3 .widget .headers .byline {
   margin-top: 10px;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author {
+section.page-main .shell > .row .col-3 .widget .headers .byline .author, section.page-main .shell > .row .col-3 .widget .headers .byline a, section.page-main .shell > .row .col-3 .widget .headers .byline address.author {
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2749,22 +2749,22 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .au
   font-weight: 300;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author {
+  section.page-main .shell > .row .col-3 .widget .headers .byline .author, section.page-main .shell > .row .col-3 .widget .headers .byline a, section.page-main .shell > .row .col-3 .widget .headers .byline address.author {
     font-size: 18px;
     line-height: 27px;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author b, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a b, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author strong, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author em, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author b {
+section.page-main .shell > .row .col-3 .widget .headers .byline .author strong, section.page-main .shell > .row .col-3 .widget .headers .byline .author em, section.page-main .shell > .row .col-3 .widget .headers .byline .author b, section.page-main .shell > .row .col-3 .widget .headers .byline a strong, section.page-main .shell > .row .col-3 .widget .headers .byline a em, section.page-main .shell > .row .col-3 .widget .headers .byline a b, section.page-main .shell > .row .col-3 .widget .headers .byline address.author strong, section.page-main .shell > .row .col-3 .widget .headers .byline address.author em, section.page-main .shell > .row .col-3 .widget .headers .byline address.author b {
   font-weight: 600;
   color: #2A2A2A;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline .author.hebrew, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline a.hebrew, section.page-main .shell > .row:nth-child(2) .col-3 .widget .headers .byline address.author.hebrew {
+section.page-main .shell > .row .col-3 .widget .headers .byline .author.hebrew, section.page-main .shell > .row .col-3 .widget .headers .byline a.hebrew, section.page-main .shell > .row .col-3 .widget .headers .byline address.author.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
+section.page-main .shell > .row .col-3 .widget ul.tags li a {
   background: #F5F5F5;
   padding: 10px 25px;
   border: 1px solid #c9c9c9;
@@ -2778,15 +2778,15 @@ section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
   transition: 0.3s;
 }
 @media (min-width: 1024px) {
-  section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a {
+  section.page-main .shell > .row .col-3 .widget ul.tags li a {
     font-size: 16px;
     line-height: 150%;
   }
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a .num {
+section.page-main .shell > .row .col-3 .widget ul.tags li a .num {
   display: none;
 }
-section.page-main .shell > .row:nth-child(2) .col-3 .widget ul.tags li a:hover {
+section.page-main .shell > .row .col-3 .widget ul.tags li a:hover {
   background: #ECECEC;
   transition: 0.3s;
 }
@@ -2855,27 +2855,27 @@ nav.post-nav {
 .tag-page .page-title h3 {
   display: none;
 }
-.tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+.tag-page section.page-main .shell > .row .col-8 {
   box-sizing: border-box;
   padding: 30px 20px;
 }
 @media (min-width: 768px) {
-  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+  .tag-page section.page-main .shell > .row .col-8 {
     padding: 30px 20px;
   }
 }
 @media (min-width: 1024px) {
-  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+  .tag-page section.page-main .shell > .row .col-8 {
     padding: 50px 60px;
   }
 }
 @media (min-width: 1300px) {
-  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+  .tag-page section.page-main .shell > .row .col-8 {
     padding: 60px 80px;
   }
 }
 @media (min-width: 1500px) {
-  .tag-page section.page-main .shell > .row:nth-child(2) .col-8 {
+  .tag-page section.page-main .shell > .row .col-8 {
     padding: 60px 10%;
   }
 }
