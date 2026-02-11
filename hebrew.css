@@ -23,16 +23,6 @@
   max-width: none !important;
 }
 
-@media (min-width: 768px) {
-  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
-    height: 140% !important;
-  }
-}
-@media (min-width: 1024px) {
-  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
-    height: 100% !important;
-  }
-}
 .nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large, a, p a {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   direction: rtl !important;
@@ -462,5 +452,15 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 @media (min-width: 1024px) {
   .component-promo .desktop-image {
     display: inline-block;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
+    height: 140% !important;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
+    height: 140% !important;
   }
 }
