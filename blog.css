@@ -2966,10 +2966,7 @@ section.page-main .shell.home-blog-nav .row .col-12 {
 section.page-main .shell.feature-posts .row {
   padding: 0px !important;
 }
-<<<<<<< Updated upstream
-=======
 
 .widget ul.tags li {
-  display: inline-block !important;
+  text-transform: capitalize !important;
 }
->>>>>>> Stashed changes
