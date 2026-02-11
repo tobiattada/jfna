@@ -455,12 +455,12 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   }
 }
 @media (min-width: 768px) {
-  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
+  .features-3-up .component-class-featuremanual .home-boxes .box ul li img {
     height: 140% !important;
   }
 }
 @media (min-width: 1024px) {
-  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
-    height: 140% !important;
+  .features-3-up .component-class-featuremanual .home-boxes .box ul li img {
+    height: 100% !important;
   }
 }
