@@ -23,6 +23,16 @@
   max-width: none !important;
 }
 
+@media (min-width: 768px) {
+  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
+    height: 140%;
+  }
+}
+@media (min-width: 1024px) {
+  .features-3-up .component-class-featuremanual .home-boxes .box ul li:first-child img {
+    height: 100%;
+  }
+}
 .nav-menu .nav-item a, h1, h2, h3, h4, h5, h6, p, p.large, a, p a {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   direction: rtl !important;
