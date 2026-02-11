@@ -210,6 +210,10 @@ footer.page-footer .footer-row.row-has-code .footer-section {
   justify-content: center;
 }
 
+.footer-navigation .flex-container > .flex-item .flex-item {
+  padding-right: 0px;
+}
+
 .home-boxes .box {
   max-width: none !important;
 }
