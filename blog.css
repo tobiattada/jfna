@@ -2970,3 +2970,6 @@ section.page-main .shell.feature-posts .row {
 .widget ul.tags li {
   text-transform: capitalize !important;
 }
+.widget ul.tags li a {
+  min-width: 20px;
+}
