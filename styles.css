@@ -2171,32 +2171,32 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   direction: rtl;
 }
 
-.footer-card.updated-footer form#subForm {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm {
   display: grid;
   grid-template-area: "email first last zip" "mobile mitzvah consent button";
 }
-.footer-card.updated-footer form#subForm .grid-email {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-email {
   grid-area: email;
 }
-.footer-card.updated-footer form#subForm .grid-first {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-first {
   grid-area: first;
 }
-.footer-card.updated-footer form#subForm .grid-last {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-last {
   grid-area: last;
 }
-.footer-card.updated-footer form#subForm .grid-zip {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-zip {
   grid-area: zip;
 }
-.footer-card.updated-footer form#subForm .grid-number {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-number {
   grid-area: mobile;
 }
-.footer-card.updated-footer form#subForm .grid-mitzvah {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-mitzvah {
   grid-area: mitzvah;
 }
-.footer-card.updated-footer form#subForm .grid-consent {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-consent {
   grid-area: consent;
 }
-.footer-card.updated-footer form#subForm button {
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm button {
   grid-area: button;
 }
 
