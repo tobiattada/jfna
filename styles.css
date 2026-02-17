@@ -2173,6 +2173,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-area: "email first last zip" "mobile mitzvah consent button";
 }
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-email {
