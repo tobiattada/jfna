@@ -2174,7 +2174,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "email first last zip" "mobile mitzvah consent button";
+  grid-template-areas: "email first last zip" "mobile mitzvah consent button" "rates";
 }
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-email {
   grid-area: email;
@@ -2199,6 +2199,19 @@ footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .gri
 }
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm button {
   grid-area: button;
+}
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-rates {
+  grid-area: rates;
+}
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-mitzvah div, footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-consent div {
+  display: flex;
+}
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-mitzvah div input, footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-consent div input {
+  width: 30px;
+}
+footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-number div > span {
+  display: flex;
+  gap: 5px;
 }
 
 .navbar {
