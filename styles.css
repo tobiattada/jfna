@@ -2057,7 +2057,7 @@ footer.page-footer .footer-wrapper form#subForm {
     flex-direction: row;
   }
 }
-footer.page-footer .footer-wrapper form#subForm input {
+footer.page-footer .footer-wrapper form#subForm input, footer.page-footer .footer-wrapper form#subForm select {
   padding: 9px 16px;
   border-radius: 10px;
   border: 2px solid #c9c9c9;
@@ -2071,7 +2071,7 @@ footer.page-footer .footer-wrapper form#subForm input {
   box-sizing: border-box;
 }
 @media (min-width: 1024px) {
-  footer.page-footer .footer-wrapper form#subForm input {
+  footer.page-footer .footer-wrapper form#subForm input, footer.page-footer .footer-wrapper form#subForm select {
     max-width: 280px;
   }
 }
@@ -2174,7 +2174,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-area: "email first last zip" "mobile mitzvah consent button";
+  grid-template-areas: "email first last zip" "mobile mitzvah consent button";
 }
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-email {
   grid-area: email;
