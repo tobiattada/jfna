@@ -2171,32 +2171,32 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
   direction: rtl;
 }
 
-.footer-card.updated-footer form.js-cm-form {
+.footer-card.updated-footer form#subForm {
   display: grid;
   grid-template-area: "email first last zip" "mobile mitzvah consent button";
 }
-.footer-card.updated-footer form .grid-email {
+.footer-card.updated-footer form#subForm .grid-email {
   grid-area: email;
 }
-.footer-card.updated-footer form .grid-first {
+.footer-card.updated-footer form#subForm .grid-first {
   grid-area: first;
 }
-.footer-card.updated-footer form .grid-last {
+.footer-card.updated-footer form#subForm .grid-last {
   grid-area: last;
 }
-.footer-card.updated-footer form .grid-zip {
+.footer-card.updated-footer form#subForm .grid-zip {
   grid-area: zip;
 }
-.footer-card.updated-footer form .grid-number {
+.footer-card.updated-footer form#subForm .grid-number {
   grid-area: mobile;
 }
-.footer-card.updated-footer form .grid-mitzvah {
+.footer-card.updated-footer form#subForm .grid-mitzvah {
   grid-area: mitzvah;
 }
-.footer-card.updated-footer form .grid-consent {
+.footer-card.updated-footer form#subForm .grid-consent {
   grid-area: consent;
 }
-.footer-card.updated-footer form button {
+.footer-card.updated-footer form#subForm button {
   grid-area: button;
 }
 
