@@ -2174,7 +2174,7 @@ footer.page-footer .footer-wrapper .footer-navigation h4 {
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "email first last zip" "mobile mitzvah consent button" "rates";
+  grid-template-areas: "email first last zip" "mobile mitzvah consent button" "rates rates rates rates";
 }
 footer.page-footer .footer-wrapper .footer-card.updated-footer form#subForm .grid-email {
   grid-area: email;
