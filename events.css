@@ -2876,6 +2876,9 @@ section.tabs-content .events-list .event .entry .row .col-3, section.tabs-conten
   width: 100%;
   display: none;
 }
+section.tabs-content .events-list .event.special-event, section.tabs-content .events-list .special-events-list .event.special-event {
+  background: #ECECEC;
+}
 section.tabs-content .events-list .event > .row, section.tabs-content .events-list .special-event > .row, section.tabs-content .events-list .special-events-list .event > .row, section.tabs-content .events-list .special-events-list .special-event > .row {
   background: #FDFDFD;
   border-bottom: 1px solid #c9c9c9;
