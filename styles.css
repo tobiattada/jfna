@@ -750,6 +750,9 @@ body.page-type-privacy section.page-main, body.page-type-terms section.page-main
     padding: 60px 10%;
   }
 }
+body.page-type-privacy section.page-main article p, body.page-type-terms section.page-main article p {
+  margin-bottom: 10px;
+}
 
 body.page-type-error .page-main.error-page h2 {
   font-family: "Outfit", sans-serif;
