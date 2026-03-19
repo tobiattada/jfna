@@ -751,7 +751,7 @@ body.page-type-privacy section.page-main, body.page-type-terms section.page-main
   }
 }
 
-body.page-type-error h2 {
+body.page-type-error .page-main.error-page h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-size: 32px;
@@ -759,20 +759,20 @@ body.page-type-error h2 {
   letter-spacing: 0%;
   color: #1E3EAF;
 }
-body.page-type-error h2.hebrew {
+body.page-type-error .page-main.error-page h2.hebrew {
   font-family: "Noto Sans Hebrew", sans-serif !important;
   font-weight: 600;
   text-align: right;
   direction: rtl;
 }
 @media (min-width: 1024px) {
-  body.page-type-error h2 {
+  body.page-type-error .page-main.error-page h2 {
     font-size: 45px;
     line-height: 58.5px;
   }
 }
 @media (min-width: 1300px) {
-  body.page-type-error h2 {
+  body.page-type-error .page-main.error-page h2 {
     line-height: 150%;
   }
 }
