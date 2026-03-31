@@ -759,6 +759,7 @@ body.page-type-error .page-main.error-page {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 75%;
 }
 body.page-type-error .page-main.error-page br:first-child {
   display: none;
