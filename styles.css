@@ -14492,6 +14492,9 @@ div.two-videos {
   margin-bottom: 0px;
   padding: 0px;
 }
+.donor-quote .row .col-12 .component-image div.has-ratio-image.container-shape--square {
+  overflow: visible !important;
+}
 
 .donor-quote.reverse .row .col-12 {
   padding: 0 20px;
