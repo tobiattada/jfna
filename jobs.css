@@ -3613,6 +3613,12 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
   width: 100%;
   position: relative;
 }
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 {
+  width: 100%;
+}
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 form .user-input-form .flex-field-container .flex-row .chzn-container {
+  width: 97%;
+}
 
 section.page-main.career-center-listing {
   background: #F5F5F5;
