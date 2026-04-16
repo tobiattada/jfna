@@ -3604,6 +3604,15 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
   text-align: right;
   direction: rtl;
 }
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-8 {
+  width: 100%;
+}
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-8 .page-title {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
 
 section.page-main.career-center-listing {
   background: #F5F5F5;
