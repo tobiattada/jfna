@@ -3662,23 +3662,17 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form .field {
   background: #fff;
-  border: 1px solid #8F8F8F;
+  border: 1px solid #c9c9c9;
   border-radius: 24px;
   color: #2A2A2A;
   display: block;
-  font-size: 13px;
-  font-weight: 600;
-  height: 20px;
-  line-height: 20px;
-  margin-right: 0;
-  padding: 15px;
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form .chzn-container-single .chzn-single {
   background: #fff;
   background: none;
-  border: 1px solid #8F8F8F;
+  border: 1px solid #c9c9c9;
   border-radius: 24px;
-  border-top: 1px solid #8F8F8F;
+  border-top: 1px solid #c9c9c9;
   box-shadow: none;
   color: #2A2A2A;
   display: block;
