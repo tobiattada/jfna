@@ -3161,7 +3161,7 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
 .section-career-center.section-career-center-submit.section-id-4164 .page-wrapper {
   box-sizing: border-box;
   padding: 30px 20px;
-  background-color: #FDFDFD;
+  background-color: #F5F5F5;
 }
 @media (min-width: 768px) {
   .section-career-center.section-career-center-submit.section-id-4164 .page-wrapper {
@@ -3385,6 +3385,8 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
   box-sizing: border-box;
   padding: 30px 20px;
   background-color: #FDFDFD;
+  background: #FDFDFD;
+  border-radius: 24px;
 }
 @media (min-width: 768px) {
   .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job {
@@ -3615,6 +3617,9 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 {
   width: 100%;
+}
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form {
+  margin: 0 auto;
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 form .user-input-form .flex-field-container .flex-row .chzn-container {
   width: 97%;
