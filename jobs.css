@@ -3615,11 +3615,28 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
   width: 100%;
   position: relative;
 }
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-8 .page-title h2 {
+  margin-bottom: 30px;
+}
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 {
   width: 100%;
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form {
   margin: 0 auto;
+}
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form label {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2A2A2A;
+}
+@media (min-width: 1024px) {
+  .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form label {
+    font-size: 16px;
+    line-height: 150%;
+  }
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 form .user-input-form .flex-field-container .flex-row .chzn-container {
   width: 97%;
