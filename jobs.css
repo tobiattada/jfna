@@ -3631,12 +3631,32 @@ section.career-center-listing .widget .contact p.hebrew, section.career-center-l
   line-height: 150%;
   letter-spacing: 0%;
   color: #2A2A2A;
+  margin-bottom: 10px;
 }
 @media (min-width: 1024px) {
   .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form label {
     font-size: 16px;
     line-height: 150%;
   }
+}
+.section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 .user-input-form .chzn-container-single .chzn-single {
+  background: #fff;
+  background: none;
+  border: 1px solid #1E3EAF;
+  border-radius: 24px;
+  border-top: 0;
+  box-shadow: none;
+  color: #2A2A2A;
+  display: block;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  padding: 0 0 0 15px;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+  z-index: 5;
 }
 .section-career-center.section-career-center-submit.section-id-4164 .page-main.suggest-job .shell .row .col-10 form .user-input-form .flex-field-container .flex-row .chzn-container {
   width: 97%;
